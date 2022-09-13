@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, /home/eloi/Documents/AC2/prova/codigo/entitatjeje.vhd
+source_file = 1, /home/eloi/Documents/AC2/prova/quartus/db/entitatjeje.cbx.xml
+source_file = 1, /home/eloi/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /home/eloi/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /home/eloi/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /home/eloi/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = entitatjeje
+instance = comp, \s~output\, s~output, entitatjeje, 1
+instance = comp, \csal~output\, csal~output, entitatjeje, 1
+instance = comp, \x~input\, x~input, entitatjeje, 1
+instance = comp, \y~input\, y~input, entitatjeje, 1
+instance = comp, \cen~input\, cen~input, entitatjeje, 1
+instance = comp, \s~0\, s~0, entitatjeje, 1
+instance = comp, \csal~0\, csal~0, entitatjeje, 1
