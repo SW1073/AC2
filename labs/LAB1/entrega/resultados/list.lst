@@ -1,0 +1,11 @@
+         ps   /s1bit/x  /s1bit/xorxy                  
+                /s1bit/y  /s1bit/andxy                
+                /s1bit/cen  /s1bit/andxorxyz          
+                    /s1bit/s                          
+                   /s1bit/csal                        
+          0          0 1 1 U U     U U     U 
+      10000          0 1 1 U U     U 0     U 
+      15000          0 1 1 U U     1 0     U 
+      25000          0 1 1 U U     1 0     1 
+      30000          0 1 1 0 U     1 0     1 
+      40000          0 1 1 0 1     1 0     1 
