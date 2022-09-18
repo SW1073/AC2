@@ -1,0 +1,212 @@
+# do s1bit_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/jafeth/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/jafeth/uni/ac2/lab1/entrega/codigo/s1bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:04:01 on Sep 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/lab1/entrega/codigo/s1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s1bit
+# -- Compiling architecture entrega of s1bit
+# End time: 14:04:01 on Sep 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim rtl_work.s1bit
+# vsim rtl_work.s1bit 
+# Start time: 14:04:05 on Sep 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading rtl_work.s1bit(entrega)
+add wave -r /*
+force -freeze sim:/s1bit/x 0 0
+force -freeze sim:/s1bit/y 0 0
+force -freeze sim:/s1bit/cen 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add list -r /*
+restart
+force s1bit/x 1 0
+force -freeze sim:/s1bit/x 0 0
+force s1bit/y 0 0
+force s1bit/cen 0 0
+run
+run
+run
+run
+run
+run
+restart
+force s1bit/x 0 0
+force s1bit/y 0 0
+force s1bit/cen 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+force s1bit/x 0 0
+force s1bit/y 0 0
+force s1bit/cen 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/s1bit/y 1 0
+force -freeze sim:/s1bit/cen 1 0
+run
+restart
+force s1bit/x 0 0
+force s1bit/y 1 0
+force s1bit/cen 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# End time: 16:22:03 on Sep 18,2022, Elapsed time: 2:17:58
+# Errors: 0, Warnings: 0
