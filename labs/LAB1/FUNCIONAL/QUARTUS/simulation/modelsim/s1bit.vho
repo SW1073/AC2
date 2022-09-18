@@ -1,22 +1,23 @@
--- Copyright (C) 1991-2013 Altera Corporation
--- Your use of Altera Corporation's design tools, logic functions 
--- and other software and tools, and its AMPP partner logic 
+-- Copyright (C) 2020  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and any partner logic 
 -- functions, and any output files from any of the foregoing 
 -- (including device programming or simulation files), and any 
 -- associated documentation or information are expressly subject 
--- to the terms and conditions of the Altera Program License 
--- Subscription Agreement, Altera MegaCore Function License 
--- Agreement, or other applicable license agreement, including, 
--- without limitation, that your use is for the sole purpose of 
--- programming logic devices manufactured by Altera and sold by 
--- Altera or its authorized distributors.  Please refer to the 
--- applicable agreement for further details.
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details, at
+-- https://fpgasoftware.intel.com/eula.
 
 -- VENDOR "Altera"
--- PROGRAM "Quartus II 64-Bit"
--- VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+-- PROGRAM "Quartus Prime"
+-- VERSION "Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition"
 
--- DATE "09/12/2022 20:50:23"
+-- DATE "09/18/2022 18:19:03"
 
 -- 
 -- Device: Altera EP4CGX15BF14C6 Package FBGA169
@@ -31,22 +32,65 @@ LIBRARY IEEE;
 USE CYCLONEIV.CYCLONEIV_COMPONENTS.ALL;
 USE IEEE.STD_LOGIC_1164.ALL;
 
+ENTITY 	hard_block IS
+    PORT (
+	devoe : IN std_logic;
+	devclrn : IN std_logic;
+	devpor : IN std_logic
+	);
+END hard_block;
+
+-- Design Ports Information
+-- ~ALTERA_NCEO~	=>  Location: PIN_N5,	 I/O Standard: 2.5 V,	 Current Strength: 16mA
+-- ~ALTERA_DATA0~	=>  Location: PIN_A5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- ~ALTERA_ASDO~	=>  Location: PIN_B5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- ~ALTERA_NCSO~	=>  Location: PIN_C5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- ~ALTERA_DCLK~	=>  Location: PIN_A4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+ARCHITECTURE structure OF hard_block IS
+SIGNAL gnd : std_logic := '0';
+SIGNAL vcc : std_logic := '1';
+SIGNAL unknown : std_logic := 'X';
+SIGNAL ww_devoe : std_logic;
+SIGNAL ww_devclrn : std_logic;
+SIGNAL ww_devpor : std_logic;
+SIGNAL \~ALTERA_DATA0~~padout\ : std_logic;
+SIGNAL \~ALTERA_ASDO~~padout\ : std_logic;
+SIGNAL \~ALTERA_NCSO~~padout\ : std_logic;
+SIGNAL \~ALTERA_DATA0~~ibuf_o\ : std_logic;
+SIGNAL \~ALTERA_ASDO~~ibuf_o\ : std_logic;
+SIGNAL \~ALTERA_NCSO~~ibuf_o\ : std_logic;
+
+BEGIN
+
+ww_devoe <= devoe;
+ww_devclrn <= devclrn;
+ww_devpor <= devpor;
+END structure;
+
+
+LIBRARY CYCLONEIV;
+LIBRARY IEEE;
+USE CYCLONEIV.CYCLONEIV_COMPONENTS.ALL;
+USE IEEE.STD_LOGIC_1164.ALL;
+
 ENTITY 	s1bit IS
     PORT (
 	x : IN std_logic;
 	y : IN std_logic;
 	cen : IN std_logic;
-	s : OUT std_logic;
-	csal : OUT std_logic
+	s : BUFFER std_logic;
+	csal : BUFFER std_logic
 	);
 END s1bit;
 
 -- Design Ports Information
--- s	=>  Location: PIN_L4,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- csal	=>  Location: PIN_N4,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- x	=>  Location: PIN_N6,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- y	=>  Location: PIN_M6,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- cen	=>  Location: PIN_L5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- s	=>  Location: PIN_J13,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- csal	=>  Location: PIN_G10,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- x	=>  Location: PIN_K13,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- y	=>  Location: PIN_H12,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- cen	=>  Location: PIN_H10,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 ARCHITECTURE structure OF s1bit IS
@@ -67,10 +111,17 @@ SIGNAL ww_csal : std_logic;
 SIGNAL \s~output_o\ : std_logic;
 SIGNAL \csal~output_o\ : std_logic;
 SIGNAL \x~input_o\ : std_logic;
-SIGNAL \y~input_o\ : std_logic;
 SIGNAL \cen~input_o\ : std_logic;
+SIGNAL \y~input_o\ : std_logic;
 SIGNAL \s~0_combout\ : std_logic;
 SIGNAL \csal~0_combout\ : std_logic;
+
+COMPONENT hard_block
+    PORT (
+	devoe : IN std_logic;
+	devclrn : IN std_logic;
+	devpor : IN std_logic);
+END COMPONENT;
 
 BEGIN
 
@@ -82,8 +133,13 @@ csal <= ww_csal;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
+auto_generated_inst : hard_block
+PORT MAP (
+	devoe => ww_devoe,
+	devclrn => ww_devclrn,
+	devpor => ww_devpor);
 
--- Location: IOOBUF_X8_Y0_N9
+-- Location: IOOBUF_X33_Y15_N9
 \s~output\ : cycloneiv_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -95,7 +151,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \s~output_o\);
 
--- Location: IOOBUF_X10_Y0_N9
+-- Location: IOOBUF_X33_Y22_N9
 \csal~output\ : cycloneiv_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -107,7 +163,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \csal~output_o\);
 
--- Location: IOIBUF_X12_Y0_N1
+-- Location: IOIBUF_X33_Y15_N1
 \x~input\ : cycloneiv_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -118,18 +174,7 @@ PORT MAP (
 	i => ww_x,
 	o => \x~input_o\);
 
--- Location: IOIBUF_X12_Y0_N8
-\y~input\ : cycloneiv_io_ibuf
--- pragma translate_off
-GENERIC MAP (
-	bus_hold => "false",
-	simulate_z_as => "z")
--- pragma translate_on
-PORT MAP (
-	i => ww_y,
-	o => \y~input_o\);
-
--- Location: IOIBUF_X14_Y0_N8
+-- Location: IOIBUF_X33_Y14_N1
 \cen~input\ : cycloneiv_io_ibuf
 -- pragma translate_off
 GENERIC MAP (
@@ -140,36 +185,47 @@ PORT MAP (
 	i => ww_cen,
 	o => \cen~input_o\);
 
--- Location: LCCOMB_X12_Y1_N0
+-- Location: IOIBUF_X33_Y14_N8
+\y~input\ : cycloneiv_io_ibuf
+-- pragma translate_off
+GENERIC MAP (
+	bus_hold => "false",
+	simulate_z_as => "z")
+-- pragma translate_on
+PORT MAP (
+	i => ww_y,
+	o => \y~input_o\);
+
+-- Location: LCCOMB_X30_Y17_N24
 \s~0\ : cycloneiv_lcell_comb
 -- Equation(s):
--- \s~0_combout\ = \x~input_o\ $ (\y~input_o\ $ (\cen~input_o\))
+-- \s~0_combout\ = \x~input_o\ $ (\cen~input_o\ $ (\y~input_o\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1001100101100110",
+	lut_mask => "1001011010010110",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \x~input_o\,
-	datab => \y~input_o\,
-	datad => \cen~input_o\,
+	datab => \cen~input_o\,
+	datac => \y~input_o\,
 	combout => \s~0_combout\);
 
--- Location: LCCOMB_X12_Y1_N2
+-- Location: LCCOMB_X30_Y17_N2
 \csal~0\ : cycloneiv_lcell_comb
 -- Equation(s):
--- \csal~0_combout\ = (\x~input_o\ & ((\y~input_o\) # (\cen~input_o\))) # (!\x~input_o\ & (\y~input_o\ & \cen~input_o\))
+-- \csal~0_combout\ = (\x~input_o\ & ((\cen~input_o\) # (\y~input_o\))) # (!\x~input_o\ & (\cen~input_o\ & \y~input_o\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110111010001000",
+	lut_mask => "1110100011101000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	dataa => \x~input_o\,
-	datab => \y~input_o\,
-	datad => \cen~input_o\,
+	datab => \cen~input_o\,
+	datac => \y~input_o\,
 	combout => \csal~0_combout\);
 
 ww_s <= \s~output_o\;
