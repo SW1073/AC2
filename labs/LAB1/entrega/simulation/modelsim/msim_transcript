@@ -6,30 +6,123 @@
 # vmap work rtl_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap work rtl_work 
-# Copying /home/jafeth/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Copying /home/eloi/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {/home/jafeth/uni/ac2/lab1/entrega/codigo/s1bit.vhd}
+# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB1/entrega/codigo/s1bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:04:01 on Sep 18,2022
-# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/lab1/entrega/codigo/s1bit.vhd 
+# Start time: 15:27:37 on Sep 20,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB1/entrega/codigo/s1bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity s1bit
 # -- Compiling architecture entrega of s1bit
-# End time: 14:04:01 on Sep 18,2022, Elapsed time: 0:00:00
+# End time: 15:27:37 on Sep 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vsim rtl_work.s1bit
 # vsim rtl_work.s1bit 
-# Start time: 14:04:05 on Sep 18,2022
+# Start time: 15:30:24 on Sep 20,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading rtl_work.s1bit(entrega)
-add wave -r /*
+add wave  \
+sim:/s1bit/x \
+sim:/s1bit/y \
+sim:/s1bit/cen \
+sim:/s1bit/s \
+sim:/s1bit/csal \
+sim:/s1bit/xorxy \
+sim:/s1bit/andxy \
+sim:/s1bit/andxorxyz \
+sim:/s1bit/retardoxor \
+sim:/s1bit/retardoand \
+sim:/s1bit/retardoor
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/s1bit/x 0 1000
+force -freeze sim:/s1bit/y 1 1000
+force -freeze sim:/s1bit/cen 1 1000
+restart
+noforce sim:/s1bit/x
 force -freeze sim:/s1bit/x 0 0
+force -freeze sim:/s1bit/y 1 0
+force -freeze sim:/s1bit/cen 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/s1bit/x 1 0
+force -freeze sim:/s1bit/y 1 0
+force -freeze sim:/s1bit/cen 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/s1bit/x 1 0
+force -freeze sim:/s1bit/y 1 0
+force -freeze sim:/s1bit/cen 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/s1bit/x 1 0
+force -freeze sim:/s1bit/y 1 0
+force -freeze sim:/s1bit/cen 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/s1bit/x 1 0
 force -freeze sim:/s1bit/y 0 0
 force -freeze sim:/s1bit/cen 0 0
 run
@@ -41,152 +134,210 @@ run
 run
 run
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-add list -r /*
 restart
-force s1bit/x 1 0
-force -freeze sim:/s1bit/x 0 0
-force s1bit/y 0 0
-force s1bit/cen 0 0
-run
-run
-run
-run
-run
-run
-restart
-force s1bit/x 0 0
-force s1bit/y 0 0
-force s1bit/cen 0 0
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-restart
-force s1bit/x 0 0
-force s1bit/y 0 0
-force s1bit/cen 0 0
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
+force -freeze sim:/s1bit/x 1 0
 force -freeze sim:/s1bit/y 1 0
+force -freeze sim:/s1bit/cen 0 0
+force -freeze sim:/s1bit/x 0 50
+force -freeze sim:/s1bit/y 0 50
+force -freeze sim:/s1bit/cen 1 50
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/s1bit/x 1 50
+force -freeze sim:/s1bit/y 1 50
+noforce sim:/s1bit/cen
+force -freeze sim:/s1bit/cen 0 50
+force -freeze sim:/s1bit/x 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/s1bit/x 1 {50 ns}
+force -freeze sim:/s1bit/y 1 {50 ns}
+force -freeze sim:/s1bit/cen 0 {50 ns}
+force -freeze sim:/s1bit/x 0 {50 ns}
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/s1bit/x 1 0
+force -freeze sim:/s1bit/y 1 0
+force -freeze sim:/s1bit/cen 0 0
+force -freeze sim:/s1bit/x 0 {50 ns}
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+force -freeze sim:/s1bit/x 0 0
+force -freeze sim:/s1bit/y 0 0
 force -freeze sim:/s1bit/cen 1 0
-run
-restart
-force s1bit/x 0 0
-force s1bit/y 1 0
-force s1bit/cen 1 0
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
+force -freeze sim:/s1bit/y 1 50
 run
 run
 run
@@ -208,5 +359,29 @@ run
 run
 run
 restart
-# End time: 16:22:03 on Sep 18,2022, Elapsed time: 2:17:58
+force -freeze sim:/s1bit/x 0 0
+force -freeze sim:/s1bit/y 0 0
+force -freeze sim:/s1bit/cen 1 0
+force -freeze sim:/s1bit/y 1 {50 ns}
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 17:19:07 on Sep 20,2022, Elapsed time: 1:48:43
 # Errors: 0, Warnings: 0
