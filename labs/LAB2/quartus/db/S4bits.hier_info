@@ -8,14 +8,14 @@ B[1] => S1bit:S1bit1.y
 B[2] => S1bit:S1bit2.y
 B[3] => S1bit:S1bit3.y
 cen => S1bit:S1bit0.cen
-SUM[0] <= S1bit:S1bit0.s
-SUM[1] <= S1bit:S1bit1.s
-SUM[2] <= S1bit:S1bit2.s
-SUM[3] <= S1bit:S1bit3.s
-csal <= S1bit:S1bit3.csal
+SUM[0] << S1bit:S1bit0.s
+SUM[1] << S1bit:S1bit1.s
+SUM[2] << S1bit:S1bit2.s
+SUM[3] << S1bit:S1bit3.s
+csal << S1bit:S1bit3.csal
 
 
-|S4bits|S1bit:S1bit0
+|S4bits|s1bit:S1bit0
 x => xorxy.IN0
 x => andxy.IN0
 x => andxcen.IN0
@@ -29,7 +29,7 @@ s <= s.DB_MAX_OUTPUT_PORT_TYPE
 csal <= csal.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|S4bits|S1bit:S1bit1
+|S4bits|s1bit:S1bit1
 x => xorxy.IN0
 x => andxy.IN0
 x => andxcen.IN0
@@ -43,7 +43,7 @@ s <= s.DB_MAX_OUTPUT_PORT_TYPE
 csal <= csal.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|S4bits|S1bit:S1bit2
+|S4bits|s1bit:S1bit2
 x => xorxy.IN0
 x => andxy.IN0
 x => andxcen.IN0
@@ -57,7 +57,7 @@ s <= s.DB_MAX_OUTPUT_PORT_TYPE
 csal <= csal.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|S4bits|S1bit:S1bit3
+|S4bits|s1bit:S1bit3
 x => xorxy.IN0
 x => andxy.IN0
 x => andxcen.IN0

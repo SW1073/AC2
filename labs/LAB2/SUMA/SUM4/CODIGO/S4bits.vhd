@@ -36,5 +36,4 @@ begin
 	S1bit2: S1bit port map(x=>A(2), y=>B(2), cen=>c2, csal=>c3, s=>SUM(2));
 	S1bit3: S1bit port map(x=>A(3), y=>B(3), cen=>c3, csal=>c4, s=>SUM(3));
 	csal <= c4;
-end estructural;		
-
+end estructural;

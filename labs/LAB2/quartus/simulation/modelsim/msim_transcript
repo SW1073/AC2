@@ -6,29 +6,39 @@
 # vmap work rtl_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap work rtl_work 
-# Copying /home/jafeth/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Copying /home/eloi/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 09:53:40 on Sep 22,2022
-# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity S4bits
-# -- Compiling architecture estructural of S4bits
-# End time: 09:53:40 on Sep 22,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 09:53:40 on Sep 22,2022
-# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd 
+# Start time: 19:43:25 on Sep 30,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity s1bit
 # -- Compiling architecture flujodatos of s1bit
-# End time: 09:53:40 on Sep 22,2022, Elapsed time: 0:00:00
+# End time: 19:43:25 on Sep 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:43:25 on Sep 30,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity S4bits
+# -- Compiling architecture estructural of S4bits
+# End time: 19:43:25 on Sep 30,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
+vsim rtl_work.s4bits
+# vsim rtl_work.s4bits 
+# Start time: 19:43:55 on Sep 30,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading rtl_work.s4bits(estructural)
+# Loading rtl_work.s1bit(flujodatos)
+# End time: 19:45:45 on Sep 30,2022, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 0
