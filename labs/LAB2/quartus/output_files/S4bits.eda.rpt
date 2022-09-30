@@ -1,5 +1,5 @@
 EDA Netlist Writer report for S4bits
-Fri Sep 30 19:07:45 2022
+Fri Sep 30 19:57:15 2022
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Sep 30 19:07:45 2022 ;
+; EDA Netlist Writer Status ; Successful - Fri Sep 30 19:57:15 2022 ;
 ; Revision Name             ; S4bits                                ;
 ; Top-level Entity Name     ; S4bits                                ;
 ; Family                    ; Cyclone V                             ;
@@ -45,34 +45,34 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------+---------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Settings                                                                                                           ;
-+---------------------------------------------------------------------------------------------------+---------------------------+
-; Option                                                                                            ; Setting                   ;
-+---------------------------------------------------------------------------------------------------+---------------------------+
-; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
-; Generate functional simulation netlist                                                            ; On                        ;
-; Truncate long hierarchy paths                                                                     ; Off                       ;
-; Map illegal HDL characters                                                                        ; Off                       ;
-; Flatten buses into individual nodes                                                               ; Off                       ;
-; Maintain hierarchy                                                                                ; Off                       ;
-; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
-; Enable glitch filtering                                                                           ; Off                       ;
-; Do not write top level VHDL entity                                                                ; Off                       ;
-; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
-; Architecture name in VHDL output netlist                                                          ; structure                 ;
-; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
-; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
-+---------------------------------------------------------------------------------------------------+---------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                        ;
++---------------------------------------------------------------------------------------------------+------------------------+
+; Option                                                                                            ; Setting                ;
++---------------------------------------------------------------------------------------------------+------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (VHDL) ;
+; Generate functional simulation netlist                                                            ; On                     ;
+; Truncate long hierarchy paths                                                                     ; Off                    ;
+; Map illegal HDL characters                                                                        ; Off                    ;
+; Flatten buses into individual nodes                                                               ; Off                    ;
+; Maintain hierarchy                                                                                ; Off                    ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                    ;
+; Enable glitch filtering                                                                           ; Off                    ;
+; Do not write top level VHDL entity                                                                ; Off                    ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                    ;
+; Architecture name in VHDL output netlist                                                          ; structure              ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                    ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                    ;
++---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+-----------------------------------------------------------------------+
-; Simulation Generated Files                                            ;
-+-----------------------------------------------------------------------+
-; Generated Files                                                       ;
-+-----------------------------------------------------------------------+
-; /home/eloi/uni/q5/AC2/labs/LAB2/quartus/simulation/modelsim/S4bits.vo ;
-+-----------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Simulation Generated Files                                                ;
++---------------------------------------------------------------------------+
+; Generated Files                                                           ;
++---------------------------------------------------------------------------+
+; /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/simulation/modelsim/S4bits.vho ;
++---------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -81,13 +81,13 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Fri Sep 30 19:07:44 2022
+    Info: Processing started: Fri Sep 30 19:57:14 2022
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off sumador4bits -c S4bits
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file S4bits.vo in folder "/home/eloi/uni/q5/AC2/labs/LAB2/quartus/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file S4bits.vho in folder "/home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 676 megabytes
-    Info: Processing ended: Fri Sep 30 19:07:45 2022
+    Info: Processing ended: Fri Sep 30 19:57:15 2022
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
