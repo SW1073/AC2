@@ -23,9 +23,9 @@ Ve4K9bZZ4DFPK]zkLl^TR?2
 !s100 T0GWTIb`8V[GL60o[KgGP0
 Z6 OV;C;2020.1;71
 31
-Z7 !s110 1664561663
+Z7 !s110 1664617114
 !i10b 1
-Z8 !s108 1664561662.000000
+Z8 !s108 1664617114.000000
 Z9 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd|
 Z10 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd|
 !i113 1
@@ -66,8 +66,8 @@ R6
 31
 R7
 !i10b 1
-Z16 !s108 1664561663.000000
-Z17 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd|
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd|
 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd|
 !i113 1
 R11
@@ -85,9 +85,9 @@ R6
 31
 R7
 !i10b 1
+R8
 R16
-R17
-Z18 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd|
+Z17 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd|
 !i113 1
 R11
 R12

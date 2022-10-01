@@ -11,30 +11,30 @@
 # 
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:14:22 on Sep 30,2022
+# Start time: 11:38:34 on Oct 01,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity s1bit
 # -- Compiling architecture flujodatos of s1bit
-# End time: 20:14:23 on Sep 30,2022, Elapsed time: 0:00:01
+# End time: 11:38:34 on Oct 01,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:14:23 on Sep 30,2022
+# Start time: 11:38:34 on Oct 01,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity S4bits
 # -- Compiling architecture estructural of S4bits
-# End time: 20:14:23 on Sep 30,2022, Elapsed time: 0:00:00
+# End time: 11:38:34 on Oct 01,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vsim rtl_work.s4bits
 # vsim rtl_work.s4bits 
-# Start time: 20:14:27 on Sep 30,2022
+# Start time: 11:38:50 on Oct 01,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -45,14 +45,16 @@ sim:/s4bits/A \
 sim:/s4bits/B \
 sim:/s4bits/cen \
 sim:/s4bits/SUM \
-sim:/s4bits/csal
-add list  \
-sim:/s4bits/A \
-sim:/s4bits/B \
-sim:/s4bits/cen \
-sim:/s4bits/SUM \
-sim:/s4bits/csal
+sim:/s4bits/csal \
+sim:/s4bits/c1 \
+sim:/s4bits/c2 \
+sim:/s4bits/c3 \
+sim:/s4bits/c4
 force -freeze sim:/s4bits/A 1001 0
+force -freeze sim:/s4bits/B UUUU1100 0
+# Value length (8) does not equal array index length (4).
+# ** UI-Msg: (vsim-4011) Invalid force value: UUUU1100 0.
+# 
 force -freeze sim:/s4bits/B 1100 0
 force -freeze sim:/s4bits/cen 1 0
 run
@@ -69,200 +71,5 @@ run
 run
 run
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-restart
-force -freeze sim:/s4bits/A 1001 0
-force -freeze sim:/s4bits/B 1100 0
-run
-run
-restart
-force -freeze sim:/s4bits/A 1001 0
-force -freeze sim:/s4bits/B 1100 0
-force -freeze sim:/s4bits/cen 1 0
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-restart
-force -freeze sim:/s4bits/A 1001 0
-force -freeze sim:/s4bits/B 1100 0
-force -freeze sim:/s4bits/cen 1 0
-run
-run
-run
-run
-run
-run
-run
+# End time: 12:13:51 on Oct 01,2022, Elapsed time: 0:35:01
+# Errors: 0, Warnings: 0
