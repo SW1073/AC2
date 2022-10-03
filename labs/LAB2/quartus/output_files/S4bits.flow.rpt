@@ -1,5 +1,5 @@
 Flow report for S4bits
-Sat Oct  1 12:24:41 2022
+Mon Oct  3 22:35:09 2022
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Sat Oct  1 12:24:41 2022       ;
+; Flow Status                 ; Successful - Mon Oct  3 22:35:09 2022       ;
 ; Quartus Prime Version       ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name               ; S4bits                                      ;
 ; Top-level Entity Name       ; S4bits                                      ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/01/2022 12:24:31 ;
+; Start date & time ; 10/03/2022 22:35:00 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; S4bits              ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+--------------------------------------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                                              ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+--------------------------------------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 62489538746489.166461987113470                                     ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 62489538746489.166482930017249                                     ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                 ; --            ; --          ; prueba_s4bits                     ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                                                ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                                                ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -105,8 +105,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:10     ; 1.0                     ; 793 MB              ; 00:00:27                           ;
-; Total                  ; 00:00:10     ; --                      ; --                  ; 00:00:27                           ;
+; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 793 MB              ; 00:00:26                           ;
+; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:26                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
