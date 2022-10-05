@@ -11,62 +11,79 @@
 # 
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:35:18 on Oct 03,2022
+# Start time: 19:14:47 on Oct 04,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity s1bit
 # -- Compiling architecture flujodatos of s1bit
-# End time: 22:35:18 on Oct 03,2022, Elapsed time: 0:00:00
+# End time: 19:14:47 on Oct 04,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:35:18 on Oct 03,2022
+# Start time: 19:14:47 on Oct 04,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity S4bits
 # -- Compiling architecture estructural of S4bits
-# End time: 22:35:18 on Oct 03,2022, Elapsed time: 0:00:00
+# End time: 19:14:47 on Oct 04,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:35:18 on Oct 03,2022
+# Start time: 19:14:47 on Oct 04,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity prueba_S4bits
 # -- Compiling architecture prueba of prueba_S4bits
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(30): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(30): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(30): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(30): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(30): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(30): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(30): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(31): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(31): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(31): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(31): Integer literal 100 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(31): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(31): Integer literal 100 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(31): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(32): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(32): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(32): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(32): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(32): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(32): Integer literal 1 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(32): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
-# ** Note: /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd(34): VHDL Compiler exiting
-# End time: 22:35:18 on Oct 03,2022, Elapsed time: 0:00:00
-# Errors: 21, Warnings: 0
-# ** Error: /home/jafeth/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/vcom failed.
-# Error in macro ./S4bits_run_msim_rtl_vhdl.do line 11
-# /home/jafeth/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/vcom failed.
-#     while executing
-# "vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd}"
+# End time: 19:14:47 on Oct 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  prueba_s4bits
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" prueba_s4bits 
+# Start time: 19:14:47 on Oct 04,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.prueba_s4bits(prueba)
+# Loading work.s4bits(estructural)
+# Loading work.s1bit(flujodatos)
+# 
+# do /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/formato_ventanas.do
+# log -r /*
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -divider Entradas
+# add wave -noupdate /prueba_s4bits/A
+# add wave -noupdate /prueba_s4bits/B
+# add wave -noupdate /prueba_s4bits/cen
+# add wave -noupdate -divider Salidas
+# add wave -noupdate /prueba_s4bits/Sum
+# add wave -noupdate /prueba_s4bits/csal
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {0 ps} 0}
+# quietly wave cursor active 0
+# configure wave -namecolwidth 184
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 40000
+# configure wave -gridperiod 80000
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {1296750 ps}
+# run -all
+# End time: 19:14:55 on Oct 04,2022, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0

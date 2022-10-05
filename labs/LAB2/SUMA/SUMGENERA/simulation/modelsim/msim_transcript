@@ -1,0 +1,250 @@
+# do snbits_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/jafeth/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/CODIGO/snbits.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:27:40 on Oct 05,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/CODIGO/snbits.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity snbits
+# -- Compiling architecture estructural of snbits
+# End time: 09:27:40 on Oct 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:27:40 on Oct 05,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity s1bit
+# -- Compiling architecture flujodatos of s1bit
+# End time: 09:27:40 on Oct 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:27:40 on Oct 05,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity prueba_snbits_reloj
+# -- Compiling architecture prueba of prueba_snbits_reloj
+# End time: 09:27:40 on Oct 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  prueba_snbits_reloj
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" prueba_snbits_reloj 
+# Start time: 09:27:40 on Oct 05,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.prueba_snbits_reloj(prueba)
+# Loading work.snbits(estructural)
+# Loading work.s1bit(flujodatos)
+# ** Warning: (vsim-3473) Component instance "sumadoref : Snref" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /prueba_snbits_reloj File: /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd
+# 
+# do /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/PRUEBAS/formato_ventanas.do
+# log -r /*
+# do wave_reloj.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -divider Entradas
+# add wave -noupdate -radix hexadecimal /prueba_snbits_reloj/A
+# add wave -noupdate -radix hexadecimal /prueba_snbits_reloj/B
+# add wave -noupdate -format Literal /prueba_snbits_reloj/cen
+# add wave -noupdate -divider Salidas
+# add wave -noupdate -radix hexadecimal /prueba_snbits_reloj/SUM
+# add wave -noupdate -format Literal /prueba_snbits_reloj/csal
+# add wave -noupdate -divider "Modelo referencia"
+# add wave -noupdate -radix hexadecimal /prueba_snbits_reloj/SUMref
+# add wave -noupdate -format Literal /prueba_snbits_reloj/csalref
+# add wave -noupdate -divider Reloj
+# add wave -noupdate /prueba_snbits_reloj/reloj
+# add wave -noupdate /prueba_snbits_reloj/errores
+# add wave -noupdate -format Literal /prueba_snbits_reloj/final
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {1400000 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 200000
+# configure wave -gridperiod 400000
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {8000 ns}
+# set StdArithNoWarnings 1
+# 1
+# set NumericStdNoWarnings 1
+# 1
+# run -all
+# ** Error: la comprobacion falla
+#    Time: 400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 1200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 1600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 2 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 2400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 2800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 3200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 3600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 4 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 4400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 4800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 5200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 5600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 6 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 6400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 6800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 7200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 7600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 8 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 8400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 8800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 9200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 9600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 10 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 10400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 10800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 11200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 11600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 12 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 12400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 12800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 13200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 13600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 14 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 14400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 14800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 15200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 15600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 16 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 16400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 16800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 17200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 17600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 18 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 18400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 18800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 19200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 19600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 20 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 20400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 20800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 21200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 21600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 22 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 22400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 22800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 23200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 23600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 24 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 24400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 24800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 25200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 25600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 26 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 26400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 26800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 27200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 27600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 28 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Error: la comprobacion falla
+#    Time: 28400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: numero de errores: 0
+#    Time: 28600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# End time: 09:28:12 on Oct 05,2022, Elapsed time: 0:00:32
+# Errors: 71, Warnings: 1

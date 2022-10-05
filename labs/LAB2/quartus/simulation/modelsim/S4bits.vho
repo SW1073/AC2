@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition"
 
--- DATE "09/30/2022 19:57:15"
+-- DATE "10/04/2022 19:01:14"
 
 -- 
 -- Device: Altera 5CGXFC7C7F23C8 Package FBGA484
@@ -39,8 +39,8 @@ ENTITY 	S4bits IS
 	A : IN std_logic_vector(3 DOWNTO 0);
 	B : IN std_logic_vector(3 DOWNTO 0);
 	cen : IN std_logic;
-	SUM : OUT std_logic_vector(3 DOWNTO 0);
-	csal : OUT std_logic
+	SUM : BUFFER std_logic_vector(3 DOWNTO 0);
+	csal : BUFFER std_logic
 	);
 END S4bits;
 
