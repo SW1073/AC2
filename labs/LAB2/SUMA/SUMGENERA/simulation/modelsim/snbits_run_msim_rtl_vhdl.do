@@ -12,4 +12,7 @@ vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/PRUEBAS/p
 
 vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  prueba_snbits_reloj
 
-do /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/PRUEBAS/formato_ventanas.do
+add wave *
+view structure
+view signals
+run -all

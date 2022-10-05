@@ -22,18 +22,23 @@ port (A: in std_logic_vector(3 downto 0);
 	csal: out std_logic);
 end component;				
 
--- senyales inputs	
-signal a, b: std_logic_vector(3 downto 0);
-signal cen: std_logic;
--- senyales outputs
-signal sum : std_logic_vector(3 downto 0);
-signal csal: std_logic;
+-- senyales inputs
+signal A, B, SUM: std_logic_vector(3 downto 0);
+signal cen, csal: std_logic;
 
 begin	
--- instanciacion y estimulos
-	S4bit0: S4bits port map(A=>a, B=>b, cen=>cen, csal=>csal, SUM=>sum);
-	a <= "UUUU", "0000" after 200 ns, "UUUU" after 400 ns, "0000" after 600 ns, "UUUU" after 800 ns, "0000" after 1000 ns, "UUUU" after 1200 ns;
-	b <= "UUUU", "0000" after 200 ns, "UUUU" after 400 ns, "0100" after 600 ns, "UUUU" after 800 ns, "0100" after 1000 ns, "UUUU" after 1200 ns;
-	cen <= 'U', '0' after 200 ns, 'U' after 400 ns, '0' after 600 ns, 'U' after 800 ns, '1' after 1000 ns, 'U' after 1200 ns;
-end prueba;		
+	S4bit0: S4bits port map(A=>A, B=>B, cen=>cen, csal=>csal, SUM=>SUM); 
+	estimulos: process
+		begin
+			A <= x"1";
+			B <= x"2";
+			cen <='0';
+			wait for 200 ns;
+			A <= x"1";
+			B <= x"2";
+			cen <='1';
+			wait for 100 ns;
+			wait;
+end process;
+end prueba;	
 

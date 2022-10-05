@@ -12,7 +12,4 @@ vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRU
 
 vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  prueba_s4bits
 
-add wave *
-view structure
-view signals
-run -all
+do /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/formato_ventanas.do

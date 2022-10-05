@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 d/home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/simulation/modelsim
 Eprueba_s4bits
-Z1 w1664902973
+Z1 w1664989793
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 2
@@ -23,9 +23,9 @@ VS`z:Z0ZHWSE;nJ8Odkf2<0
 !s100 HSJAi_a1Of=Une_1LBVGD3
 Z6 OV;C;2020.1;71
 31
-Z7 !s110 1664903687
+Z7 !s110 1664990233
 !i10b 1
-Z8 !s108 1664903687.000000
+Z8 !s108 1664990233.000000
 Z9 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd|
 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd|
 !i113 1
@@ -36,10 +36,10 @@ R2
 R3
 DEx4 work 13 prueba_s4bits 0 22 S`z:Z0ZHWSE;nJ8Odkf2<0
 !i122 2
-l32
-L14 25
-V;8>5?je>6Z9GRWaoC5^5o1
-!s100 @k_oSzdC;kIEZSd[@OK700
+l29
+L14 30
+Vkz1hL<<4Kic<5>^nB=CoC0
+!s100 Q^1dIH?2>?6f`X@c3BT<:3
 R6
 31
 R7

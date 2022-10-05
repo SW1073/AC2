@@ -11,30 +11,30 @@
 # 
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/CODIGO/snbits.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 09:27:40 on Oct 05,2022
+# Start time: 20:27:16 on Oct 05,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/CODIGO/snbits.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity snbits
 # -- Compiling architecture estructural of snbits
-# End time: 09:27:40 on Oct 05,2022, Elapsed time: 0:00:00
+# End time: 20:27:16 on Oct 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 09:27:40 on Oct 05,2022
+# Start time: 20:27:16 on Oct 05,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity s1bit
 # -- Compiling architecture flujodatos of s1bit
-# End time: 09:27:40 on Oct 05,2022, Elapsed time: 0:00:00
+# End time: 20:27:16 on Oct 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 09:27:40 on Oct 05,2022
+# Start time: 20:27:17 on Oct 05,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -43,12 +43,12 @@
 # -- Loading package MATH_REAL
 # -- Compiling entity prueba_snbits_reloj
 # -- Compiling architecture prueba of prueba_snbits_reloj
-# End time: 09:27:40 on Oct 05,2022, Elapsed time: 0:00:00
+# End time: 20:27:17 on Oct 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  prueba_snbits_reloj
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" prueba_snbits_reloj 
-# Start time: 09:27:40 on Oct 05,2022
+# Start time: 20:27:17 on Oct 05,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -60,191 +60,1041 @@
 # ** Warning: (vsim-3473) Component instance "sumadoref : Snref" is not bound.
 #    Time: 0 ps  Iteration: 0  Instance: /prueba_snbits_reloj File: /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/PRUEBAS/prueba_snbits_reloj.vhd
 # 
-# do /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUMGENERA/PRUEBAS/formato_ventanas.do
-# log -r /*
-# do wave_reloj.do
-# onerror {resume}
-# quietly WaveActivateNextPane {} 0
-# add wave -noupdate -divider Entradas
-# add wave -noupdate -radix hexadecimal /prueba_snbits_reloj/A
-# add wave -noupdate -radix hexadecimal /prueba_snbits_reloj/B
-# add wave -noupdate -format Literal /prueba_snbits_reloj/cen
-# add wave -noupdate -divider Salidas
-# add wave -noupdate -radix hexadecimal /prueba_snbits_reloj/SUM
-# add wave -noupdate -format Literal /prueba_snbits_reloj/csal
-# add wave -noupdate -divider "Modelo referencia"
-# add wave -noupdate -radix hexadecimal /prueba_snbits_reloj/SUMref
-# add wave -noupdate -format Literal /prueba_snbits_reloj/csalref
-# add wave -noupdate -divider Reloj
-# add wave -noupdate /prueba_snbits_reloj/reloj
-# add wave -noupdate /prueba_snbits_reloj/errores
-# add wave -noupdate -format Literal /prueba_snbits_reloj/final
-# TreeUpdate [SetDefaultTree]
-# WaveRestoreCursors {{Cursor 1} {1400000 ps} 0}
-# quietly wave cursor active 1
-# configure wave -namecolwidth 150
-# configure wave -valuecolwidth 100
-# configure wave -justifyvalue left
-# configure wave -signalnamewidth 1
-# configure wave -snapdistance 10
-# configure wave -datasetprefix 0
-# configure wave -rowmargin 4
-# configure wave -childrowmargin 2
-# configure wave -gridoffset 200000
-# configure wave -gridperiod 400000
-# configure wave -griddelta 40
-# configure wave -timeline 0
-# configure wave -timelineunits ns
-# update
-# WaveRestoreZoom {0 ps} {8000 ns}
-# set StdArithNoWarnings 1
-# 1
-# set NumericStdNoWarnings 1
-# 1
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 0  cen:0  0 ps  -9223372036854575807 ps
+#    Time: 0 ps  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 1  cen:0  400000 ps  40000 ps
 #    Time: 400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 2  cen:0  800000 ps  65000 ps
 #    Time: 800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 3  cen:0  1200000 ps  65000 ps
 #    Time: 1200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 4  cen:0  1600000 ps  65000 ps
 #    Time: 1600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 5  cen:0  2000000 ps  65000 ps
 #    Time: 2 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 6  cen:0  2400000 ps  90000 ps
 #    Time: 2400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 7  cen:0  2800000 ps  90000 ps
 #    Time: 2800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 8  cen:0  3200000 ps  50000 ps
 #    Time: 3200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 9  cen:0  3600000 ps  50000 ps
 #    Time: 3600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 10  cen:0  4000000 ps  65000 ps
 #    Time: 4 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 11  cen:0  4400000 ps  65000 ps
 #    Time: 4400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 12  cen:0  4800000 ps  75000 ps
 #    Time: 4800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 13  cen:0  5200000 ps  75000 ps
 #    Time: 5200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 14  cen:0  5600000 ps  100000 ps
 #    Time: 5600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 0  B: 15  cen:0  6000000 ps  100000 ps
 #    Time: 6 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 0  cen:0  6400000 ps  40000 ps
 #    Time: 6400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 1  cen:0  6800000 ps  40000 ps
 #    Time: 6800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 2  cen:0  7200000 ps  65000 ps
 #    Time: 7200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 3  cen:0  7600000 ps  65000 ps
 #    Time: 7600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 4  cen:0  8000000 ps  65000 ps
 #    Time: 8 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 5  cen:0  8400000 ps  65000 ps
 #    Time: 8400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 6  cen:0  8800000 ps  90000 ps
 #    Time: 8800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 7  cen:0  9200000 ps  90000 ps
 #    Time: 9200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 8  cen:0  9600000 ps  50000 ps
 #    Time: 9600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 9  cen:0  10000000 ps  50000 ps
 #    Time: 10 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 10  cen:0  10400000 ps  65000 ps
 #    Time: 10400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 11  cen:0  10800000 ps  65000 ps
 #    Time: 10800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 12  cen:0  11200000 ps  75000 ps
 #    Time: 11200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 13  cen:0  11600000 ps  75000 ps
 #    Time: 11600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 14  cen:0  12000000 ps  100000 ps
 #    Time: 12 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 1  B: 15  cen:0  12400000 ps  100000 ps
 #    Time: 12400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 0  cen:0  12800000 ps  65000 ps
 #    Time: 12800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 1  cen:0  13200000 ps  65000 ps
 #    Time: 13200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 2  cen:0  13600000 ps  40000 ps
 #    Time: 13600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 3  cen:0  14000000 ps  40000 ps
 #    Time: 14 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 4  cen:0  14400000 ps  90000 ps
 #    Time: 14400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 5  cen:0  14800000 ps  90000 ps
 #    Time: 14800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 6  cen:0  15200000 ps  65000 ps
 #    Time: 15200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 7  cen:0  15600000 ps  65000 ps
 #    Time: 15600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 8  cen:0  16000000 ps  65000 ps
 #    Time: 16 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 9  cen:0  16400000 ps  65000 ps
 #    Time: 16400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 10  cen:0  16800000 ps  50000 ps
 #    Time: 16800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 11  cen:0  17200000 ps  50000 ps
 #    Time: 17200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 12  cen:0  17600000 ps  100000 ps
 #    Time: 17600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 13  cen:0  18000000 ps  100000 ps
 #    Time: 18 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 14  cen:0  18400000 ps  75000 ps
 #    Time: 18400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 2  B: 15  cen:0  18800000 ps  75000 ps
 #    Time: 18800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 0  cen:0  19200000 ps  65000 ps
 #    Time: 19200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 1  cen:0  19600000 ps  65000 ps
 #    Time: 19600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 2  cen:0  20000000 ps  40000 ps
 #    Time: 20 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 3  cen:0  20400000 ps  40000 ps
 #    Time: 20400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 4  cen:0  20800000 ps  90000 ps
 #    Time: 20800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 5  cen:0  21200000 ps  90000 ps
 #    Time: 21200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 6  cen:0  21600000 ps  65000 ps
 #    Time: 21600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 7  cen:0  22000000 ps  65000 ps
 #    Time: 22 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 8  cen:0  22400000 ps  65000 ps
 #    Time: 22400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 9  cen:0  22800000 ps  65000 ps
 #    Time: 22800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 10  cen:0  23200000 ps  50000 ps
 #    Time: 23200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 11  cen:0  23600000 ps  50000 ps
 #    Time: 23600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 12  cen:0  24000000 ps  100000 ps
 #    Time: 24 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 13  cen:0  24400000 ps  100000 ps
 #    Time: 24400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 14  cen:0  24800000 ps  75000 ps
 #    Time: 24800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 3  B: 15  cen:0  25200000 ps  75000 ps
 #    Time: 25200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 4  B: 0  cen:0  25600000 ps  65000 ps
 #    Time: 25600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 4  B: 1  cen:0  26000000 ps  65000 ps
 #    Time: 26 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 4  B: 2  cen:0  26400000 ps  90000 ps
 #    Time: 26400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 4  B: 3  cen:0  26800000 ps  90000 ps
 #    Time: 26800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 4  B: 4  cen:0  27200000 ps  40000 ps
 #    Time: 27200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 4  B: 5  cen:0  27600000 ps  40000 ps
 #    Time: 27600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 4  B: 6  cen:0  28000000 ps  65000 ps
 #    Time: 28 us  Iteration: 1  Instance: /prueba_snbits_reloj
-# ** Error: la comprobacion falla
+# ** Note: estimulos A: 4  B: 7  cen:0  28400000 ps  65000 ps
 #    Time: 28400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 8  cen:0  28800000 ps  75000 ps
+#    Time: 28800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 9  cen:0  29200000 ps  75000 ps
+#    Time: 29200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 10  cen:0  29600000 ps  100000 ps
+#    Time: 29600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 11  cen:0  30000000 ps  100000 ps
+#    Time: 30 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 12  cen:0  30400000 ps  50000 ps
+#    Time: 30400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 13  cen:0  30800000 ps  50000 ps
+#    Time: 30800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 14  cen:0  31200000 ps  65000 ps
+#    Time: 31200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 15  cen:0  31600000 ps  65000 ps
+#    Time: 31600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 0  cen:0  32000000 ps  65000 ps
+#    Time: 32 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 1  cen:0  32400000 ps  65000 ps
+#    Time: 32400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 2  cen:0  32800000 ps  90000 ps
+#    Time: 32800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 3  cen:0  33200000 ps  90000 ps
+#    Time: 33200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 4  cen:0  33600000 ps  40000 ps
+#    Time: 33600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 5  cen:0  34000000 ps  40000 ps
+#    Time: 34 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 6  cen:0  34400000 ps  65000 ps
+#    Time: 34400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 7  cen:0  34800000 ps  65000 ps
+#    Time: 34800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 8  cen:0  35200000 ps  75000 ps
+#    Time: 35200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 9  cen:0  35600000 ps  75000 ps
+#    Time: 35600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 10  cen:0  36000000 ps  100000 ps
+#    Time: 36 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 11  cen:0  36400000 ps  100000 ps
+#    Time: 36400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 12  cen:0  36800000 ps  50000 ps
+#    Time: 36800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 13  cen:0  37200000 ps  50000 ps
+#    Time: 37200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 14  cen:0  37600000 ps  65000 ps
+#    Time: 37600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 15  cen:0  38000000 ps  65000 ps
+#    Time: 38 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 0  cen:0  38400000 ps  90000 ps
+#    Time: 38400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 1  cen:0  38800000 ps  90000 ps
+#    Time: 38800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 2  cen:0  39200000 ps  65000 ps
+#    Time: 39200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 3  cen:0  39600000 ps  65000 ps
+#    Time: 39600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 4  cen:0  40000000 ps  65000 ps
+#    Time: 40 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 5  cen:0  40400000 ps  65000 ps
+#    Time: 40400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 6  cen:0  40800000 ps  40000 ps
+#    Time: 40800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 7  cen:0  41200000 ps  40000 ps
+#    Time: 41200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 8  cen:0  41600000 ps  100000 ps
+#    Time: 41600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 9  cen:0  42000000 ps  100000 ps
+#    Time: 42 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 10  cen:0  42400000 ps  75000 ps
+#    Time: 42400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 11  cen:0  42800000 ps  75000 ps
+#    Time: 42800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 12  cen:0  43200000 ps  65000 ps
+#    Time: 43200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 13  cen:0  43600000 ps  65000 ps
+#    Time: 43600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 14  cen:0  44000000 ps  50000 ps
+#    Time: 44 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 15  cen:0  44400000 ps  50000 ps
+#    Time: 44400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 0  cen:0  44800000 ps  90000 ps
+#    Time: 44800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 1  cen:0  45200000 ps  90000 ps
+#    Time: 45200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 2  cen:0  45600000 ps  65000 ps
+#    Time: 45600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 3  cen:0  46000000 ps  65000 ps
+#    Time: 46 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 4  cen:0  46400000 ps  65000 ps
+#    Time: 46400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 5  cen:0  46800000 ps  65000 ps
+#    Time: 46800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 6  cen:0  47200000 ps  40000 ps
+#    Time: 47200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 7  cen:0  47600000 ps  40000 ps
+#    Time: 47600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 8  cen:0  48000000 ps  100000 ps
+#    Time: 48 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 9  cen:0  48400000 ps  100000 ps
+#    Time: 48400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 10  cen:0  48800000 ps  75000 ps
+#    Time: 48800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 11  cen:0  49200000 ps  75000 ps
+#    Time: 49200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 12  cen:0  49600000 ps  65000 ps
+#    Time: 49600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 13  cen:0  50000000 ps  65000 ps
+#    Time: 50 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 14  cen:0  50400000 ps  50000 ps
+#    Time: 50400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 15  cen:0  50800000 ps  50000 ps
+#    Time: 50800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 0  cen:0  51200000 ps  50000 ps
+#    Time: 51200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 1  cen:0  51600000 ps  50000 ps
+#    Time: 51600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 2  cen:0  52000000 ps  65000 ps
+#    Time: 52 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 3  cen:0  52400000 ps  65000 ps
+#    Time: 52400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 4  cen:0  52800000 ps  75000 ps
+#    Time: 52800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 5  cen:0  53200000 ps  75000 ps
+#    Time: 53200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 6  cen:0  53600000 ps  100000 ps
+#    Time: 53600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 7  cen:0  54000000 ps  100000 ps
+#    Time: 54 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 8  cen:0  54400000 ps  40000 ps
+#    Time: 54400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 9  cen:0  54800000 ps  40000 ps
+#    Time: 54800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 10  cen:0  55200000 ps  65000 ps
+#    Time: 55200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 11  cen:0  55600000 ps  65000 ps
+#    Time: 55600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 12  cen:0  56000000 ps  65000 ps
+#    Time: 56 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 13  cen:0  56400000 ps  65000 ps
+#    Time: 56400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 14  cen:0  56800000 ps  90000 ps
+#    Time: 56800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 15  cen:0  57200000 ps  90000 ps
+#    Time: 57200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 0  cen:0  57600000 ps  50000 ps
+#    Time: 57600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 1  cen:0  58000000 ps  50000 ps
+#    Time: 58 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 2  cen:0  58400000 ps  65000 ps
+#    Time: 58400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 3  cen:0  58800000 ps  65000 ps
+#    Time: 58800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 4  cen:0  59200000 ps  75000 ps
+#    Time: 59200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 5  cen:0  59600000 ps  75000 ps
+#    Time: 59600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 6  cen:0  60000000 ps  100000 ps
+#    Time: 60 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 7  cen:0  60400000 ps  100000 ps
+#    Time: 60400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 8  cen:0  60800000 ps  40000 ps
+#    Time: 60800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 9  cen:0  61200000 ps  40000 ps
+#    Time: 61200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 10  cen:0  61600000 ps  65000 ps
+#    Time: 61600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 11  cen:0  62000000 ps  65000 ps
+#    Time: 62 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 12  cen:0  62400000 ps  65000 ps
+#    Time: 62400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 13  cen:0  62800000 ps  65000 ps
+#    Time: 62800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 14  cen:0  63200000 ps  90000 ps
+#    Time: 63200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 15  cen:0  63600000 ps  90000 ps
+#    Time: 63600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 0  cen:0  64000000 ps  65000 ps
+#    Time: 64 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 1  cen:0  64400000 ps  65000 ps
+#    Time: 64400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 2  cen:0  64800000 ps  50000 ps
+#    Time: 64800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 3  cen:0  65200000 ps  50000 ps
+#    Time: 65200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 4  cen:0  65600000 ps  100000 ps
+#    Time: 65600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 5  cen:0  66000000 ps  100000 ps
+#    Time: 66 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 6  cen:0  66400000 ps  75000 ps
+#    Time: 66400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 7  cen:0  66800000 ps  75000 ps
+#    Time: 66800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 8  cen:0  67200000 ps  65000 ps
+#    Time: 67200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 9  cen:0  67600000 ps  65000 ps
+#    Time: 67600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 10  cen:0  68000000 ps  40000 ps
+#    Time: 68 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 11  cen:0  68400000 ps  40000 ps
+#    Time: 68400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 12  cen:0  68800000 ps  90000 ps
+#    Time: 68800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 13  cen:0  69200000 ps  90000 ps
+#    Time: 69200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 14  cen:0  69600000 ps  65000 ps
+#    Time: 69600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 15  cen:0  70000000 ps  65000 ps
+#    Time: 70 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 0  cen:0  70400000 ps  65000 ps
+#    Time: 70400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 1  cen:0  70800000 ps  65000 ps
+#    Time: 70800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 2  cen:0  71200000 ps  50000 ps
+#    Time: 71200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 3  cen:0  71600000 ps  50000 ps
+#    Time: 71600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 4  cen:0  72000000 ps  100000 ps
+#    Time: 72 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 5  cen:0  72400000 ps  100000 ps
+#    Time: 72400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 6  cen:0  72800000 ps  75000 ps
+#    Time: 72800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 7  cen:0  73200000 ps  75000 ps
+#    Time: 73200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 8  cen:0  73600000 ps  65000 ps
+#    Time: 73600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 9  cen:0  74000000 ps  65000 ps
+#    Time: 74 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 10  cen:0  74400000 ps  40000 ps
+#    Time: 74400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 11  cen:0  74800000 ps  40000 ps
+#    Time: 74800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 12  cen:0  75200000 ps  90000 ps
+#    Time: 75200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 13  cen:0  75600000 ps  90000 ps
+#    Time: 75600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 14  cen:0  76000000 ps  65000 ps
+#    Time: 76 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 15  cen:0  76400000 ps  65000 ps
+#    Time: 76400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 0  cen:0  76800000 ps  75000 ps
+#    Time: 76800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 1  cen:0  77200000 ps  75000 ps
+#    Time: 77200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 2  cen:0  77600000 ps  100000 ps
+#    Time: 77600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 3  cen:0  78000000 ps  100000 ps
+#    Time: 78 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 4  cen:0  78400000 ps  50000 ps
+#    Time: 78400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 5  cen:0  78800000 ps  50000 ps
+#    Time: 78800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 6  cen:0  79200000 ps  65000 ps
+#    Time: 79200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 7  cen:0  79600000 ps  65000 ps
+#    Time: 79600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 8  cen:0  80000000 ps  65000 ps
+#    Time: 80 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 9  cen:0  80400000 ps  65000 ps
+#    Time: 80400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 10  cen:0  80800000 ps  90000 ps
+#    Time: 80800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 11  cen:0  81200000 ps  90000 ps
+#    Time: 81200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 12  cen:0  81600000 ps  40000 ps
+#    Time: 81600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 13  cen:0  82000000 ps  40000 ps
+#    Time: 82 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 14  cen:0  82400000 ps  65000 ps
+#    Time: 82400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 15  cen:0  82800000 ps  65000 ps
+#    Time: 82800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 0  cen:0  83200000 ps  75000 ps
+#    Time: 83200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 1  cen:0  83600000 ps  75000 ps
+#    Time: 83600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 2  cen:0  84000000 ps  100000 ps
+#    Time: 84 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 3  cen:0  84400000 ps  100000 ps
+#    Time: 84400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 4  cen:0  84800000 ps  50000 ps
+#    Time: 84800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 5  cen:0  85200000 ps  50000 ps
+#    Time: 85200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 6  cen:0  85600000 ps  65000 ps
+#    Time: 85600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 7  cen:0  86000000 ps  65000 ps
+#    Time: 86 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 8  cen:0  86400000 ps  65000 ps
+#    Time: 86400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 9  cen:0  86800000 ps  65000 ps
+#    Time: 86800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 10  cen:0  87200000 ps  90000 ps
+#    Time: 87200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 11  cen:0  87600000 ps  90000 ps
+#    Time: 87600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 12  cen:0  88000000 ps  40000 ps
+#    Time: 88 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 13  cen:0  88400000 ps  40000 ps
+#    Time: 88400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 14  cen:0  88800000 ps  65000 ps
+#    Time: 88800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 15  cen:0  89200000 ps  65000 ps
+#    Time: 89200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 0  cen:0  89600000 ps  100000 ps
+#    Time: 89600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 1  cen:0  90000000 ps  100000 ps
+#    Time: 90 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 2  cen:0  90400000 ps  75000 ps
+#    Time: 90400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 3  cen:0  90800000 ps  75000 ps
+#    Time: 90800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 4  cen:0  91200000 ps  65000 ps
+#    Time: 91200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 5  cen:0  91600000 ps  65000 ps
+#    Time: 91600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 6  cen:0  92000000 ps  50000 ps
+#    Time: 92 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 7  cen:0  92400000 ps  50000 ps
+#    Time: 92400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 8  cen:0  92800000 ps  90000 ps
+#    Time: 92800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 9  cen:0  93200000 ps  90000 ps
+#    Time: 93200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 10  cen:0  93600000 ps  65000 ps
+#    Time: 93600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 11  cen:0  94000000 ps  65000 ps
+#    Time: 94 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 12  cen:0  94400000 ps  65000 ps
+#    Time: 94400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 13  cen:0  94800000 ps  65000 ps
+#    Time: 94800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 14  cen:0  95200000 ps  40000 ps
+#    Time: 95200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 15  cen:0  95600000 ps  40000 ps
+#    Time: 95600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 0  cen:0  96000000 ps  100000 ps
+#    Time: 96 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 1  cen:0  96400000 ps  100000 ps
+#    Time: 96400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 2  cen:0  96800000 ps  75000 ps
+#    Time: 96800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 3  cen:0  97200000 ps  75000 ps
+#    Time: 97200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 4  cen:0  97600000 ps  65000 ps
+#    Time: 97600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 5  cen:0  98000000 ps  65000 ps
+#    Time: 98 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 6  cen:0  98400000 ps  50000 ps
+#    Time: 98400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 7  cen:0  98800000 ps  50000 ps
+#    Time: 98800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 8  cen:0  99200000 ps  90000 ps
+#    Time: 99200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 9  cen:0  99600000 ps  90000 ps
+#    Time: 99600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 10  cen:0  100000000 ps  65000 ps
+#    Time: 100 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 11  cen:0  100400000 ps  65000 ps
+#    Time: 100400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 12  cen:0  100800000 ps  65000 ps
+#    Time: 100800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 13  cen:0  101200000 ps  65000 ps
+#    Time: 101200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 14  cen:0  101600000 ps  40000 ps
+#    Time: 101600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 15  cen:0  102000000 ps  40000 ps
+#    Time: 102 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 0  cen:1  102400000 ps  40000 ps
+#    Time: 102400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 1  cen:1  102800000 ps  40000 ps
+#    Time: 102800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 2  cen:1  103200000 ps  65000 ps
+#    Time: 103200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 3  cen:1  103600000 ps  65000 ps
+#    Time: 103600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 4  cen:1  104000000 ps  65000 ps
+#    Time: 104 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 5  cen:1  104400000 ps  65000 ps
+#    Time: 104400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 6  cen:1  104800000 ps  90000 ps
+#    Time: 104800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 7  cen:1  105200000 ps  90000 ps
+#    Time: 105200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 8  cen:1  105600000 ps  50000 ps
+#    Time: 105600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 9  cen:1  106000000 ps  50000 ps
+#    Time: 106 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 10  cen:1  106400000 ps  65000 ps
+#    Time: 106400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 11  cen:1  106800000 ps  65000 ps
+#    Time: 106800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 12  cen:1  107200000 ps  75000 ps
+#    Time: 107200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 13  cen:1  107600000 ps  75000 ps
+#    Time: 107600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 14  cen:1  108000000 ps  100000 ps
+#    Time: 108 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 0  B: 15  cen:1  108400000 ps  100000 ps
+#    Time: 108400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 0  cen:1  108800000 ps  40000 ps
+#    Time: 108800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 1  cen:1  109200000 ps  40000 ps
+#    Time: 109200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 2  cen:1  109600000 ps  65000 ps
+#    Time: 109600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 3  cen:1  110000000 ps  65000 ps
+#    Time: 110 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 4  cen:1  110400000 ps  65000 ps
+#    Time: 110400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 5  cen:1  110800000 ps  65000 ps
+#    Time: 110800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 6  cen:1  111200000 ps  90000 ps
+#    Time: 111200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 7  cen:1  111600000 ps  90000 ps
+#    Time: 111600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 8  cen:1  112000000 ps  50000 ps
+#    Time: 112 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 9  cen:1  112400000 ps  50000 ps
+#    Time: 112400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 10  cen:1  112800000 ps  65000 ps
+#    Time: 112800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 11  cen:1  113200000 ps  65000 ps
+#    Time: 113200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 12  cen:1  113600000 ps  75000 ps
+#    Time: 113600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 13  cen:1  114000000 ps  75000 ps
+#    Time: 114 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 14  cen:1  114400000 ps  100000 ps
+#    Time: 114400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 1  B: 15  cen:1  114800000 ps  100000 ps
+#    Time: 114800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 0  cen:1  115200000 ps  65000 ps
+#    Time: 115200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 1  cen:1  115600000 ps  65000 ps
+#    Time: 115600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 2  cen:1  116000000 ps  40000 ps
+#    Time: 116 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 3  cen:1  116400000 ps  40000 ps
+#    Time: 116400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 4  cen:1  116800000 ps  90000 ps
+#    Time: 116800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 5  cen:1  117200000 ps  90000 ps
+#    Time: 117200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 6  cen:1  117600000 ps  65000 ps
+#    Time: 117600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 7  cen:1  118000000 ps  65000 ps
+#    Time: 118 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 8  cen:1  118400000 ps  65000 ps
+#    Time: 118400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 9  cen:1  118800000 ps  65000 ps
+#    Time: 118800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 10  cen:1  119200000 ps  50000 ps
+#    Time: 119200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 11  cen:1  119600000 ps  50000 ps
+#    Time: 119600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 12  cen:1  120000000 ps  100000 ps
+#    Time: 120 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 13  cen:1  120400000 ps  100000 ps
+#    Time: 120400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 14  cen:1  120800000 ps  75000 ps
+#    Time: 120800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 2  B: 15  cen:1  121200000 ps  75000 ps
+#    Time: 121200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 0  cen:1  121600000 ps  65000 ps
+#    Time: 121600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 1  cen:1  122000000 ps  65000 ps
+#    Time: 122 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 2  cen:1  122400000 ps  40000 ps
+#    Time: 122400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 3  cen:1  122800000 ps  40000 ps
+#    Time: 122800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 4  cen:1  123200000 ps  90000 ps
+#    Time: 123200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 5  cen:1  123600000 ps  90000 ps
+#    Time: 123600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 6  cen:1  124000000 ps  65000 ps
+#    Time: 124 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 7  cen:1  124400000 ps  65000 ps
+#    Time: 124400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 8  cen:1  124800000 ps  65000 ps
+#    Time: 124800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 9  cen:1  125200000 ps  65000 ps
+#    Time: 125200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 10  cen:1  125600000 ps  50000 ps
+#    Time: 125600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 11  cen:1  126000000 ps  50000 ps
+#    Time: 126 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 12  cen:1  126400000 ps  100000 ps
+#    Time: 126400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 13  cen:1  126800000 ps  100000 ps
+#    Time: 126800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 14  cen:1  127200000 ps  75000 ps
+#    Time: 127200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 3  B: 15  cen:1  127600000 ps  75000 ps
+#    Time: 127600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 0  cen:1  128000000 ps  65000 ps
+#    Time: 128 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 1  cen:1  128400000 ps  65000 ps
+#    Time: 128400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 2  cen:1  128800000 ps  90000 ps
+#    Time: 128800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 3  cen:1  129200000 ps  90000 ps
+#    Time: 129200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 4  cen:1  129600000 ps  40000 ps
+#    Time: 129600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 5  cen:1  130000000 ps  40000 ps
+#    Time: 130 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 6  cen:1  130400000 ps  65000 ps
+#    Time: 130400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 7  cen:1  130800000 ps  65000 ps
+#    Time: 130800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 8  cen:1  131200000 ps  75000 ps
+#    Time: 131200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 9  cen:1  131600000 ps  75000 ps
+#    Time: 131600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 10  cen:1  132000000 ps  100000 ps
+#    Time: 132 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 11  cen:1  132400000 ps  100000 ps
+#    Time: 132400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 12  cen:1  132800000 ps  50000 ps
+#    Time: 132800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 13  cen:1  133200000 ps  50000 ps
+#    Time: 133200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 14  cen:1  133600000 ps  65000 ps
+#    Time: 133600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 4  B: 15  cen:1  134000000 ps  65000 ps
+#    Time: 134 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 0  cen:1  134400000 ps  65000 ps
+#    Time: 134400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 1  cen:1  134800000 ps  65000 ps
+#    Time: 134800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 2  cen:1  135200000 ps  90000 ps
+#    Time: 135200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 3  cen:1  135600000 ps  90000 ps
+#    Time: 135600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 4  cen:1  136000000 ps  40000 ps
+#    Time: 136 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 5  cen:1  136400000 ps  40000 ps
+#    Time: 136400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 6  cen:1  136800000 ps  65000 ps
+#    Time: 136800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 7  cen:1  137200000 ps  65000 ps
+#    Time: 137200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 8  cen:1  137600000 ps  75000 ps
+#    Time: 137600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 9  cen:1  138000000 ps  75000 ps
+#    Time: 138 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 10  cen:1  138400000 ps  100000 ps
+#    Time: 138400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 11  cen:1  138800000 ps  100000 ps
+#    Time: 138800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 12  cen:1  139200000 ps  50000 ps
+#    Time: 139200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 13  cen:1  139600000 ps  50000 ps
+#    Time: 139600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 14  cen:1  140000000 ps  65000 ps
+#    Time: 140 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 5  B: 15  cen:1  140400000 ps  65000 ps
+#    Time: 140400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 0  cen:1  140800000 ps  90000 ps
+#    Time: 140800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 1  cen:1  141200000 ps  90000 ps
+#    Time: 141200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 2  cen:1  141600000 ps  65000 ps
+#    Time: 141600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 3  cen:1  142000000 ps  65000 ps
+#    Time: 142 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 4  cen:1  142400000 ps  65000 ps
+#    Time: 142400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 5  cen:1  142800000 ps  65000 ps
+#    Time: 142800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 6  cen:1  143200000 ps  40000 ps
+#    Time: 143200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 7  cen:1  143600000 ps  40000 ps
+#    Time: 143600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 8  cen:1  144000000 ps  100000 ps
+#    Time: 144 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 9  cen:1  144400000 ps  100000 ps
+#    Time: 144400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 10  cen:1  144800000 ps  75000 ps
+#    Time: 144800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 11  cen:1  145200000 ps  75000 ps
+#    Time: 145200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 12  cen:1  145600000 ps  65000 ps
+#    Time: 145600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 13  cen:1  146000000 ps  65000 ps
+#    Time: 146 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 14  cen:1  146400000 ps  50000 ps
+#    Time: 146400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 6  B: 15  cen:1  146800000 ps  50000 ps
+#    Time: 146800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 0  cen:1  147200000 ps  90000 ps
+#    Time: 147200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 1  cen:1  147600000 ps  90000 ps
+#    Time: 147600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 2  cen:1  148000000 ps  65000 ps
+#    Time: 148 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 3  cen:1  148400000 ps  65000 ps
+#    Time: 148400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 4  cen:1  148800000 ps  65000 ps
+#    Time: 148800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 5  cen:1  149200000 ps  65000 ps
+#    Time: 149200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 6  cen:1  149600000 ps  40000 ps
+#    Time: 149600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 7  cen:1  150000000 ps  40000 ps
+#    Time: 150 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 8  cen:1  150400000 ps  100000 ps
+#    Time: 150400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 9  cen:1  150800000 ps  100000 ps
+#    Time: 150800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 10  cen:1  151200000 ps  75000 ps
+#    Time: 151200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 11  cen:1  151600000 ps  75000 ps
+#    Time: 151600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 12  cen:1  152000000 ps  65000 ps
+#    Time: 152 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 13  cen:1  152400000 ps  65000 ps
+#    Time: 152400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 14  cen:1  152800000 ps  50000 ps
+#    Time: 152800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 7  B: 15  cen:1  153200000 ps  50000 ps
+#    Time: 153200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 0  cen:1  153600000 ps  50000 ps
+#    Time: 153600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 1  cen:1  154000000 ps  50000 ps
+#    Time: 154 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 2  cen:1  154400000 ps  65000 ps
+#    Time: 154400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 3  cen:1  154800000 ps  65000 ps
+#    Time: 154800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 4  cen:1  155200000 ps  75000 ps
+#    Time: 155200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 5  cen:1  155600000 ps  75000 ps
+#    Time: 155600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 6  cen:1  156000000 ps  100000 ps
+#    Time: 156 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 7  cen:1  156400000 ps  100000 ps
+#    Time: 156400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 8  cen:1  156800000 ps  40000 ps
+#    Time: 156800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 9  cen:1  157200000 ps  40000 ps
+#    Time: 157200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 10  cen:1  157600000 ps  65000 ps
+#    Time: 157600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 11  cen:1  158000000 ps  65000 ps
+#    Time: 158 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 12  cen:1  158400000 ps  65000 ps
+#    Time: 158400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 13  cen:1  158800000 ps  65000 ps
+#    Time: 158800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 14  cen:1  159200000 ps  90000 ps
+#    Time: 159200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 8  B: 15  cen:1  159600000 ps  90000 ps
+#    Time: 159600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 0  cen:1  160000000 ps  50000 ps
+#    Time: 160 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 1  cen:1  160400000 ps  50000 ps
+#    Time: 160400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 2  cen:1  160800000 ps  65000 ps
+#    Time: 160800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 3  cen:1  161200000 ps  65000 ps
+#    Time: 161200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 4  cen:1  161600000 ps  75000 ps
+#    Time: 161600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 5  cen:1  162000000 ps  75000 ps
+#    Time: 162 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 6  cen:1  162400000 ps  100000 ps
+#    Time: 162400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 7  cen:1  162800000 ps  100000 ps
+#    Time: 162800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 8  cen:1  163200000 ps  40000 ps
+#    Time: 163200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 9  cen:1  163600000 ps  40000 ps
+#    Time: 163600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 10  cen:1  164000000 ps  65000 ps
+#    Time: 164 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 11  cen:1  164400000 ps  65000 ps
+#    Time: 164400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 12  cen:1  164800000 ps  65000 ps
+#    Time: 164800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 13  cen:1  165200000 ps  65000 ps
+#    Time: 165200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 14  cen:1  165600000 ps  90000 ps
+#    Time: 165600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 9  B: 15  cen:1  166000000 ps  90000 ps
+#    Time: 166 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 0  cen:1  166400000 ps  65000 ps
+#    Time: 166400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 1  cen:1  166800000 ps  65000 ps
+#    Time: 166800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 2  cen:1  167200000 ps  50000 ps
+#    Time: 167200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 3  cen:1  167600000 ps  50000 ps
+#    Time: 167600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 4  cen:1  168000000 ps  100000 ps
+#    Time: 168 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 5  cen:1  168400000 ps  100000 ps
+#    Time: 168400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 6  cen:1  168800000 ps  75000 ps
+#    Time: 168800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 7  cen:1  169200000 ps  75000 ps
+#    Time: 169200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 8  cen:1  169600000 ps  65000 ps
+#    Time: 169600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 9  cen:1  170000000 ps  65000 ps
+#    Time: 170 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 10  cen:1  170400000 ps  40000 ps
+#    Time: 170400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 11  cen:1  170800000 ps  40000 ps
+#    Time: 170800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 12  cen:1  171200000 ps  90000 ps
+#    Time: 171200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 13  cen:1  171600000 ps  90000 ps
+#    Time: 171600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 14  cen:1  172000000 ps  65000 ps
+#    Time: 172 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 10  B: 15  cen:1  172400000 ps  65000 ps
+#    Time: 172400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 0  cen:1  172800000 ps  65000 ps
+#    Time: 172800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 1  cen:1  173200000 ps  65000 ps
+#    Time: 173200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 2  cen:1  173600000 ps  50000 ps
+#    Time: 173600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 3  cen:1  174000000 ps  50000 ps
+#    Time: 174 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 4  cen:1  174400000 ps  100000 ps
+#    Time: 174400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 5  cen:1  174800000 ps  100000 ps
+#    Time: 174800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 6  cen:1  175200000 ps  75000 ps
+#    Time: 175200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 7  cen:1  175600000 ps  75000 ps
+#    Time: 175600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 8  cen:1  176000000 ps  65000 ps
+#    Time: 176 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 9  cen:1  176400000 ps  65000 ps
+#    Time: 176400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 10  cen:1  176800000 ps  40000 ps
+#    Time: 176800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 11  cen:1  177200000 ps  40000 ps
+#    Time: 177200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 12  cen:1  177600000 ps  90000 ps
+#    Time: 177600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 13  cen:1  178000000 ps  90000 ps
+#    Time: 178 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 14  cen:1  178400000 ps  65000 ps
+#    Time: 178400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 11  B: 15  cen:1  178800000 ps  65000 ps
+#    Time: 178800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 0  cen:1  179200000 ps  75000 ps
+#    Time: 179200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 1  cen:1  179600000 ps  75000 ps
+#    Time: 179600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 2  cen:1  180000000 ps  100000 ps
+#    Time: 180 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 3  cen:1  180400000 ps  100000 ps
+#    Time: 180400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 4  cen:1  180800000 ps  50000 ps
+#    Time: 180800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 5  cen:1  181200000 ps  50000 ps
+#    Time: 181200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 6  cen:1  181600000 ps  65000 ps
+#    Time: 181600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 7  cen:1  182000000 ps  65000 ps
+#    Time: 182 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 8  cen:1  182400000 ps  65000 ps
+#    Time: 182400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 9  cen:1  182800000 ps  65000 ps
+#    Time: 182800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 10  cen:1  183200000 ps  90000 ps
+#    Time: 183200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 11  cen:1  183600000 ps  90000 ps
+#    Time: 183600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 12  cen:1  184000000 ps  40000 ps
+#    Time: 184 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 13  cen:1  184400000 ps  40000 ps
+#    Time: 184400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 14  cen:1  184800000 ps  65000 ps
+#    Time: 184800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 12  B: 15  cen:1  185200000 ps  65000 ps
+#    Time: 185200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 0  cen:1  185600000 ps  75000 ps
+#    Time: 185600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 1  cen:1  186000000 ps  75000 ps
+#    Time: 186 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 2  cen:1  186400000 ps  100000 ps
+#    Time: 186400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 3  cen:1  186800000 ps  100000 ps
+#    Time: 186800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 4  cen:1  187200000 ps  50000 ps
+#    Time: 187200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 5  cen:1  187600000 ps  50000 ps
+#    Time: 187600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 6  cen:1  188000000 ps  65000 ps
+#    Time: 188 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 7  cen:1  188400000 ps  65000 ps
+#    Time: 188400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 8  cen:1  188800000 ps  65000 ps
+#    Time: 188800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 9  cen:1  189200000 ps  65000 ps
+#    Time: 189200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 10  cen:1  189600000 ps  90000 ps
+#    Time: 189600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 11  cen:1  190000000 ps  90000 ps
+#    Time: 190 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 12  cen:1  190400000 ps  40000 ps
+#    Time: 190400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 13  cen:1  190800000 ps  40000 ps
+#    Time: 190800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 14  cen:1  191200000 ps  65000 ps
+#    Time: 191200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 13  B: 15  cen:1  191600000 ps  65000 ps
+#    Time: 191600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 0  cen:1  192000000 ps  100000 ps
+#    Time: 192 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 1  cen:1  192400000 ps  100000 ps
+#    Time: 192400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 2  cen:1  192800000 ps  75000 ps
+#    Time: 192800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 3  cen:1  193200000 ps  75000 ps
+#    Time: 193200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 4  cen:1  193600000 ps  65000 ps
+#    Time: 193600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 5  cen:1  194000000 ps  65000 ps
+#    Time: 194 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 6  cen:1  194400000 ps  50000 ps
+#    Time: 194400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 7  cen:1  194800000 ps  50000 ps
+#    Time: 194800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 8  cen:1  195200000 ps  90000 ps
+#    Time: 195200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 9  cen:1  195600000 ps  90000 ps
+#    Time: 195600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 10  cen:1  196000000 ps  65000 ps
+#    Time: 196 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 11  cen:1  196400000 ps  65000 ps
+#    Time: 196400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 12  cen:1  196800000 ps  65000 ps
+#    Time: 196800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 13  cen:1  197200000 ps  65000 ps
+#    Time: 197200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 14  cen:1  197600000 ps  40000 ps
+#    Time: 197600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 14  B: 15  cen:1  198000000 ps  40000 ps
+#    Time: 198 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 0  cen:1  198400000 ps  100000 ps
+#    Time: 198400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 1  cen:1  198800000 ps  100000 ps
+#    Time: 198800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 2  cen:1  199200000 ps  75000 ps
+#    Time: 199200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 3  cen:1  199600000 ps  75000 ps
+#    Time: 199600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 4  cen:1  200000000 ps  65000 ps
+#    Time: 200 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 5  cen:1  200400000 ps  65000 ps
+#    Time: 200400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 6  cen:1  200800000 ps  50000 ps
+#    Time: 200800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 7  cen:1  201200000 ps  50000 ps
+#    Time: 201200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 8  cen:1  201600000 ps  90000 ps
+#    Time: 201600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 9  cen:1  202000000 ps  90000 ps
+#    Time: 202 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 10  cen:1  202400000 ps  65000 ps
+#    Time: 202400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 11  cen:1  202800000 ps  65000 ps
+#    Time: 202800 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 12  cen:1  203200000 ps  65000 ps
+#    Time: 203200 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 13  cen:1  203600000 ps  65000 ps
+#    Time: 203600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 14  cen:1  204000000 ps  40000 ps
+#    Time: 204 us  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: estimulos A: 15  B: 15  cen:1  204400000 ps  40000 ps
+#    Time: 204400 ns  Iteration: 1  Instance: /prueba_snbits_reloj
 # ** Note: numero de errores: 0
-#    Time: 28600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
-# End time: 09:28:12 on Oct 05,2022, Elapsed time: 0:00:32
-# Errors: 71, Warnings: 1
+#    Time: 204600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: t_minim: 40000 ps
+#    Time: 204600 ns  Iteration: 1  Instance: /prueba_snbits_reloj
+# ** Note: t_max: 100000 ps
+#    Time: 204600 ns  Iteration: 1  Instance: /prueba_snbits_reloj

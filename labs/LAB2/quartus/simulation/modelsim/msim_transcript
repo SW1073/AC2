@@ -11,42 +11,42 @@
 # 
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:14:47 on Oct 04,2022
+# Start time: 19:17:13 on Oct 05,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/COMPONENTES/SUM1BIT/CODIGO/s1bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity s1bit
 # -- Compiling architecture flujodatos of s1bit
-# End time: 19:14:47 on Oct 04,2022, Elapsed time: 0:00:00
+# End time: 19:17:13 on Oct 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:14:47 on Oct 04,2022
+# Start time: 19:17:13 on Oct 05,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/SUMA/SUM4/CODIGO/S4bits.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity S4bits
 # -- Compiling architecture estructural of S4bits
-# End time: 19:14:47 on Oct 04,2022, Elapsed time: 0:00:00
+# End time: 19:17:13 on Oct 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:14:47 on Oct 04,2022
+# Start time: 19:17:13 on Oct 05,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/prueba_s4bits.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity prueba_S4bits
 # -- Compiling architecture prueba of prueba_S4bits
-# End time: 19:14:47 on Oct 04,2022, Elapsed time: 0:00:00
+# End time: 19:17:13 on Oct 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  prueba_s4bits
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" prueba_s4bits 
-# Start time: 19:14:47 on Oct 04,2022
+# Start time: 19:17:13 on Oct 05,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -67,6 +67,8 @@
 # add wave -noupdate /prueba_s4bits/Sum
 # add wave -noupdate /prueba_s4bits/csal
 # TreeUpdate [SetDefaultTree]
+# ** Error: invalid command name ""
+# Executing ONERROR command at macro /home/jafeth/uni/ac2/AC2/labs/LAB2/quartus/../SUMA/SUM4/PRUEBAS/wave.do line 10
 # WaveRestoreCursors {{Cursor 1} {0 ps} 0}
 # quietly wave cursor active 0
 # configure wave -namecolwidth 184
@@ -85,5 +87,5 @@
 # update
 # WaveRestoreZoom {0 ps} {1296750 ps}
 # run -all
-# End time: 19:14:55 on Oct 04,2022, Elapsed time: 0:00:08
-# Errors: 0, Warnings: 0
+# End time: 19:17:34 on Oct 05,2022, Elapsed time: 0:00:21
+# Errors: 1, Warnings: 0
