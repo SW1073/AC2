@@ -1,0 +1,20 @@
+Fitter Status : Successful - Thu Oct  6 13:54:28 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : BR
+Top-level Entity Name : BR
+Family : Cyclone IV GX
+Device : EP4CGX30CF23C6
+Timing Models : Final
+Total logic elements : 385 / 29,440 ( 1 % )
+    Total combinational functions : 385 / 29,440 ( 1 % )
+    Dedicated logic registers : 256 / 29,440 ( < 1 % )
+Total registers : 256
+Total pins : 41 / 307 ( 13 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,105,920 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 160 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 4 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 4 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 4 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 4 ( 0 % )
+Total PLLs : 0 / 6 ( 0 % )

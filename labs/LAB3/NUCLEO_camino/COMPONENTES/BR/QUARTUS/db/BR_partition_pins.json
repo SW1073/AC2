@@ -1,0 +1,173 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LE1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LE1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LE1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LE1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LE1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LE1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LE1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LE1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LE2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LE2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LE2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LE2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LE2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LE2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LE2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LE2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "IDL1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "IDL1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "IDL1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "IDL1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "IDL1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "IDL2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "IDL2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "IDL2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "IDL2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "IDL2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "reloj",
+					"strict" : false
+				},
+				{
+					"name" : "IDE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "IDE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "IDE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "IDE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PE",
+					"strict" : false
+				},
+				{
+					"name" : "IDE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DE[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
