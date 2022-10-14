@@ -1,0 +1,751 @@
+Timing Analyzer report for camino_control
+Fri Oct 14 20:17:29 2022
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 1200mV 85C Model Fmax Summary
+  6. Timing Closure Recommendations
+  7. Slow 1200mV 85C Model Setup Summary
+  8. Slow 1200mV 85C Model Hold Summary
+  9. Slow 1200mV 85C Model Recovery Summary
+ 10. Slow 1200mV 85C Model Removal Summary
+ 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 12. Slow 1200mV 85C Model Setup: 'reloj'
+ 13. Slow 1200mV 85C Model Hold: 'reloj'
+ 14. Slow 1200mV 85C Model Metastability Summary
+ 15. Slow 1200mV 0C Model Fmax Summary
+ 16. Slow 1200mV 0C Model Setup Summary
+ 17. Slow 1200mV 0C Model Hold Summary
+ 18. Slow 1200mV 0C Model Recovery Summary
+ 19. Slow 1200mV 0C Model Removal Summary
+ 20. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 21. Slow 1200mV 0C Model Setup: 'reloj'
+ 22. Slow 1200mV 0C Model Hold: 'reloj'
+ 23. Slow 1200mV 0C Model Metastability Summary
+ 24. Fast 1200mV 0C Model Setup Summary
+ 25. Fast 1200mV 0C Model Hold Summary
+ 26. Fast 1200mV 0C Model Recovery Summary
+ 27. Fast 1200mV 0C Model Removal Summary
+ 28. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 29. Fast 1200mV 0C Model Setup: 'reloj'
+ 30. Fast 1200mV 0C Model Hold: 'reloj'
+ 31. Fast 1200mV 0C Model Metastability Summary
+ 32. Multicorner Timing Analysis Summary
+ 33. Board Trace Model Assignments
+ 34. Input Transition Times
+ 35. Signal Integrity Metrics (Slow 1200mv 0c Model)
+ 36. Signal Integrity Metrics (Slow 1200mv 85c Model)
+ 37. Signal Integrity Metrics (Fast 1200mv 0c Model)
+ 38. Setup Transfers
+ 39. Hold Transfers
+ 40. Report TCCS
+ 41. Report RSKM
+ 42. Unconstrained Paths Summary
+ 43. Clock Status Summary
+ 44. Unconstrained Input Ports
+ 45. Unconstrained Output Ports
+ 46. Unconstrained Input Ports
+ 47. Unconstrained Output Ports
+ 48. Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------------------------+
+; Timing Analyzer Summary                                                     ;
++-----------------------+-----------------------------------------------------+
+; Quartus Prime Version ; Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Timing Analyzer       ; Legacy Timing Analyzer                              ;
+; Revision Name         ; camino_control                                      ;
+; Device Family         ; Cyclone IV GX                                       ;
+; Device Name           ; EP4CGX30CF23C6                                      ;
+; Timing Models         ; Final                                               ;
+; Delay Model           ; Combined                                            ;
+; Rise/Fall Delays      ; Enabled                                             ;
++-----------------------+-----------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 12          ;
+;                            ;             ;
+; Average used               ; 1.04        ;
+; Maximum used               ; 12          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.4%      ;
+;     Processors 3-12        ;   0.4%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                            ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-----------+
+; Clock Name ; Type ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets   ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-----------+
+; reloj      ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { reloj } ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-----------+
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 85C Model Fmax Summary                                                                        ;
++------------+-----------------+------------+---------------------------------------------------------------+
+; Fmax       ; Restricted Fmax ; Clock Name ; Note                                                          ;
++------------+-----------------+------------+---------------------------------------------------------------+
+; 582.75 MHz ; 250.0 MHz       ; reloj      ; limit due to minimum period restriction (max I/O toggle rate) ;
++------------+-----------------+------------+---------------------------------------------------------------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
+----------------------------------
+; Timing Closure Recommendations ;
+----------------------------------
+HTML report is unavailable in plain text report export.
+
+
++-------------------------------------+
+; Slow 1200mV 85C Model Setup Summary ;
++-------+--------+--------------------+
+; Clock ; Slack  ; End Point TNS      ;
++-------+--------+--------------------+
+; reloj ; -0.716 ; -3.327             ;
++-------+--------+--------------------+
+
+
++------------------------------------+
+; Slow 1200mV 85C Model Hold Summary ;
++-------+-------+--------------------+
+; Clock ; Slack ; End Point TNS      ;
++-------+-------+--------------------+
+; reloj ; 0.496 ; 0.000              ;
++-------+-------+--------------------+
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
++---------------------------------------------------+
+; Slow 1200mV 85C Model Minimum Pulse Width Summary ;
++-------+--------+----------------------------------+
+; Clock ; Slack  ; End Point TNS                    ;
++-------+--------+----------------------------------+
+; reloj ; -3.000 ; -9.000                           ;
++-------+--------+----------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 85C Model Setup: 'reloj'                                                                                                                               ;
++--------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack  ; From Node                                ; To Node                                  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+; -0.716 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.421     ; 1.290      ;
+; -0.675 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.596      ;
+; -0.619 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.540      ;
+; -0.588 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.509      ;
+; -0.583 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.504      ;
+; -0.577 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.498      ;
+; -0.537 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.458      ;
+; -0.537 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.458      ;
+; -0.537 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.458      ;
+; -0.537 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.458      ;
+; -0.515 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.436      ;
+; -0.501 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.422      ;
+; -0.472 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.393      ;
+; -0.472 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.393      ;
+; -0.378 ; control:controlDE|registro:contador|s[1] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.299      ;
+; -0.366 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.259      ; 1.620      ;
+; -0.284 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.259      ; 1.538      ;
+; -0.271 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.259      ; 1.525      ;
+; -0.241 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.162      ;
+; -0.204 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.259      ; 1.458      ;
+; -0.169 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.259      ; 1.423      ;
+; -0.100 ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; -0.088     ; 1.007      ;
+; -0.084 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.005      ;
+; -0.069 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 0.990      ;
+; -0.063 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 0.984      ;
+; -0.043 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 0.964      ;
++--------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 85C Model Hold: 'reloj'                                                                                                                               ;
++-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node                                ; To Node                                  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 0.496 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.421      ; 1.074      ;
+; 0.497 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.421      ; 1.075      ;
+; 0.544 ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.088      ; 0.789      ;
+; 0.552 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 0.783      ;
+; 0.553 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 0.784      ;
+; 0.572 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 0.803      ;
+; 0.574 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 0.805      ;
+; 0.590 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.421      ; 1.168      ;
+; 0.608 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.421      ; 1.186      ;
+; 0.671 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.074      ; 0.902      ;
+; 0.753 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.421      ; 1.331      ;
+; 0.790 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.021      ;
+; 0.825 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.056      ;
+; 0.841 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.072      ;
+; 0.841 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.072      ;
+; 0.843 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.074      ;
+; 0.915 ; control:controlDE|registro:contador|s[1] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.146      ;
+; 0.935 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.166      ;
+; 0.953 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.184      ;
+; 1.026 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.257      ;
+; 1.100 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.331      ;
+; 1.100 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.331      ;
+; 1.100 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.331      ;
+; 1.100 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.331      ;
+; 1.149 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.380      ;
+; 1.222 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; -0.259     ; 1.120      ;
++-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
+-----------------------------------------------
+; Slow 1200mV 85C Model Metastability Summary ;
+-----------------------------------------------
+No synchronizer chains to report.
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Fmax Summary                                                                         ;
++------------+-----------------+------------+---------------------------------------------------------------+
+; Fmax       ; Restricted Fmax ; Clock Name ; Note                                                          ;
++------------+-----------------+------------+---------------------------------------------------------------+
+; 651.04 MHz ; 250.0 MHz       ; reloj      ; limit due to minimum period restriction (max I/O toggle rate) ;
++------------+-----------------+------------+---------------------------------------------------------------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++------------------------------------+
+; Slow 1200mV 0C Model Setup Summary ;
++-------+--------+-------------------+
+; Clock ; Slack  ; End Point TNS     ;
++-------+--------+-------------------+
+; reloj ; -0.536 ; -2.332            ;
++-------+--------+-------------------+
+
+
++-----------------------------------+
+; Slow 1200mV 0C Model Hold Summary ;
++-------+-------+-------------------+
+; Clock ; Slack ; End Point TNS     ;
++-------+-------+-------------------+
+; reloj ; 0.443 ; 0.000             ;
++-------+-------+-------------------+
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++--------------------------------------------------+
+; Slow 1200mV 0C Model Minimum Pulse Width Summary ;
++-------+--------+---------------------------------+
+; Clock ; Slack  ; End Point TNS                   ;
++-------+--------+---------------------------------+
+; reloj ; -3.000 ; -9.000                          ;
++-------+--------+---------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Setup: 'reloj'                                                                                                                                ;
++--------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack  ; From Node                                ; To Node                                  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+; -0.536 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.380     ; 1.151      ;
+; -0.483 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.412      ;
+; -0.454 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.383      ;
+; -0.414 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.343      ;
+; -0.404 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.333      ;
+; -0.388 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.317      ;
+; -0.388 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.317      ;
+; -0.388 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.317      ;
+; -0.388 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.317      ;
+; -0.386 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.315      ;
+; -0.347 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.276      ;
+; -0.334 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.263      ;
+; -0.315 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.244      ;
+; -0.314 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.243      ;
+; -0.220 ; control:controlDE|registro:contador|s[1] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.149      ;
+; -0.202 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.236      ; 1.433      ;
+; -0.132 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.236      ; 1.363      ;
+; -0.122 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.236      ; 1.353      ;
+; -0.105 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.034      ;
+; -0.086 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.236      ; 1.317      ;
+; -0.034 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.236      ; 1.265      ;
+; 0.026  ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; -0.078     ; 0.891      ;
+; 0.033  ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 0.896      ;
+; 0.053  ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 0.876      ;
+; 0.054  ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 0.875      ;
+; 0.076  ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 0.853      ;
++--------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Hold: 'reloj'                                                                                                                                ;
++-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node                                ; To Node                                  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 0.443 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.380      ; 0.967      ;
+; 0.446 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.380      ; 0.970      ;
+; 0.491 ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.078      ; 0.713      ;
+; 0.499 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.709      ;
+; 0.500 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.710      ;
+; 0.516 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.726      ;
+; 0.517 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.727      ;
+; 0.525 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.380      ; 1.049      ;
+; 0.538 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.380      ; 1.062      ;
+; 0.596 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.806      ;
+; 0.674 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.380      ; 1.198      ;
+; 0.717 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.927      ;
+; 0.743 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.953      ;
+; 0.749 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.959      ;
+; 0.750 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.960      ;
+; 0.756 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.966      ;
+; 0.830 ; control:controlDE|registro:contador|s[1] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.040      ;
+; 0.832 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.042      ;
+; 0.845 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.055      ;
+; 0.931 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.141      ;
+; 0.988 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.198      ;
+; 0.988 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.198      ;
+; 0.988 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.198      ;
+; 0.988 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.198      ;
+; 1.039 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.249      ;
+; 1.109 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; -0.236     ; 1.017      ;
++-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
+----------------------------------------------
+; Slow 1200mV 0C Model Metastability Summary ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
++------------------------------------+
+; Fast 1200mV 0C Model Setup Summary ;
++-------+-------+--------------------+
+; Clock ; Slack ; End Point TNS      ;
++-------+-------+--------------------+
+; reloj ; 0.048 ; 0.000              ;
++-------+-------+--------------------+
+
+
++-----------------------------------+
+; Fast 1200mV 0C Model Hold Summary ;
++-------+-------+-------------------+
+; Clock ; Slack ; End Point TNS     ;
++-------+-------+-------------------+
+; reloj ; 0.267 ; 0.000             ;
++-------+-------+-------------------+
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++--------------------------------------------------+
+; Fast 1200mV 0C Model Minimum Pulse Width Summary ;
++-------+--------+---------------------------------+
+; Clock ; Slack  ; End Point TNS                   ;
++-------+--------+---------------------------------+
+; reloj ; -3.000 ; -9.099                          ;
++-------+--------+---------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast 1200mV 0C Model Setup: 'reloj'                                                                                                                               ;
++-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node                                ; To Node                                  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 0.048 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.232     ; 0.707      ;
+; 0.062 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.882      ;
+; 0.100 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.844      ;
+; 0.112 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.832      ;
+; 0.116 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.828      ;
+; 0.122 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.822      ;
+; 0.154 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.790      ;
+; 0.156 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.788      ;
+; 0.156 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.788      ;
+; 0.156 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.788      ;
+; 0.156 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.788      ;
+; 0.163 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.781      ;
+; 0.190 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.754      ;
+; 0.190 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.754      ;
+; 0.228 ; control:controlDE|registro:contador|s[1] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.716      ;
+; 0.229 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.138      ; 0.896      ;
+; 0.276 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.138      ; 0.849      ;
+; 0.285 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.138      ; 0.840      ;
+; 0.307 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.637      ;
+; 0.337 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.138      ; 0.788      ;
+; 0.343 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.138      ; 0.782      ;
+; 0.383 ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; -0.051     ; 0.553      ;
+; 0.389 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.555      ;
+; 0.399 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.545      ;
+; 0.401 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.543      ;
+; 0.412 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.532      ;
++-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast 1200mV 0C Model Hold: 'reloj'                                                                                                                                ;
++-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node                                ; To Node                                  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 0.267 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.232      ; 0.583      ;
+; 0.268 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.232      ; 0.584      ;
+; 0.291 ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.051      ; 0.426      ;
+; 0.295 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.422      ;
+; 0.296 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.423      ;
+; 0.307 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.434      ;
+; 0.308 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.435      ;
+; 0.321 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.232      ; 0.637      ;
+; 0.334 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.232      ; 0.650      ;
+; 0.368 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.495      ;
+; 0.409 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.232      ; 0.725      ;
+; 0.417 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.544      ;
+; 0.444 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.571      ;
+; 0.454 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.581      ;
+; 0.454 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.581      ;
+; 0.457 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.584      ;
+; 0.490 ; control:controlDE|registro:contador|s[1] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.617      ;
+; 0.507 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.634      ;
+; 0.520 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.647      ;
+; 0.552 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.679      ;
+; 0.598 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.725      ;
+; 0.598 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.725      ;
+; 0.598 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.725      ;
+; 0.598 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.725      ;
+; 0.624 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.751      ;
+; 0.655 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; -0.138     ; 0.601      ;
++-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
+----------------------------------------------
+; Fast 1200mV 0C Model Metastability Summary ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
++------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                          ;
++------------------+--------+-------+----------+---------+---------------------+
+; Clock            ; Setup  ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+--------+-------+----------+---------+---------------------+
+; Worst-case Slack ; -0.716 ; 0.267 ; N/A      ; N/A     ; -3.000              ;
+;  reloj           ; -0.716 ; 0.267 ; N/A      ; N/A     ; -3.000              ;
+; Design-wide TNS  ; -3.327 ; 0.0   ; 0.0      ; 0.0     ; -9.099              ;
+;  reloj           ; -3.327 ; 0.000 ; N/A      ; N/A     ; -9.099              ;
++------------------+--------+-------+----------+---------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                    ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin           ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; finalop       ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++------------------------------------------------------------------------+
+; Input Transition Times                                                 ;
++---------------------+--------------+-----------------+-----------------+
+; Pin                 ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++---------------------+--------------+-----------------+-----------------+
+; PEini               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; IDEini[0]           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; IDEini[1]           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; IDEini[2]           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; IDEini[3]           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; IDEini[4]           ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DEini[0]            ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DEini[1]            ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DEini[2]            ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DEini[3]            ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DEini[4]            ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DEini[5]            ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DEini[6]            ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; DEini[7]            ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; IDL1ini[0]          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; IDL1ini[1]          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; IDL1ini[2]          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; IDL1ini[3]          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; IDL1ini[4]          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; Pcero               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; reloj               ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ini                 ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO_DATA1~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_NCSO~       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++---------------------+--------------+-----------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; finalop       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.95e-09 V                   ; 2.38 V              ; -0.016 V            ; 0.22 V                               ; 0.025 V                              ; 3.06e-10 s                  ; 3.3e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 5.95e-09 V                  ; 2.38 V             ; -0.016 V           ; 0.22 V                              ; 0.025 V                             ; 3.06e-10 s                 ; 3.3e-10 s                  ; Yes                       ; Yes                       ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 3.99e-09 V                   ; 2.53 V              ; -0.0412 V           ; 0.279 V                              ; 0.088 V                              ; 1.14e-10 s                  ; 2.15e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 3.99e-09 V                  ; 2.53 V             ; -0.0412 V          ; 0.279 V                             ; 0.088 V                             ; 1.14e-10 s                 ; 2.15e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.21e-09 V                   ; 2.38 V              ; -0.0507 V           ; 0.161 V                              ; 0.093 V                              ; 2.91e-10 s                  ; 2.66e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 5.21e-09 V                  ; 2.38 V             ; -0.0507 V          ; 0.161 V                             ; 0.093 V                             ; 2.91e-10 s                 ; 2.66e-10 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; finalop       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-06 V                   ; 2.36 V              ; -0.00724 V          ; 0.107 V                              ; 0.02 V                               ; 4.5e-10 s                   ; 4.25e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-06 V                  ; 2.36 V             ; -0.00724 V         ; 0.107 V                             ; 0.02 V                              ; 4.5e-10 s                  ; 4.25e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 6.99e-07 V                   ; 2.39 V              ; -0.0291 V           ; 0.081 V                              ; 0.039 V                              ; 1.9e-10 s                   ; 2.97e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 6.99e-07 V                  ; 2.39 V             ; -0.0291 V          ; 0.081 V                             ; 0.039 V                             ; 1.9e-10 s                  ; 2.97e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 8.5e-07 V                    ; 2.35 V              ; -0.0159 V           ; 0.081 V                              ; 0.032 V                              ; 4.24e-10 s                  ; 3.5e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 8.5e-07 V                   ; 2.35 V             ; -0.0159 V          ; 0.081 V                             ; 0.032 V                             ; 4.24e-10 s                 ; 3.5e-10 s                  ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; finalop       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.72 V              ; -0.0349 V           ; 0.173 V                              ; 0.1 V                                ; 2.72e-10 s                  ; 2.69e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.72 V             ; -0.0349 V          ; 0.173 V                             ; 0.1 V                               ; 2.72e-10 s                 ; 2.69e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.65e-08 V                   ; 3.12 V              ; -0.147 V            ; 0.571 V                              ; 0.186 V                              ; 8.91e-11 s                  ; 1.76e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.65e-08 V                  ; 3.12 V             ; -0.147 V           ; 0.571 V                             ; 0.186 V                             ; 8.91e-11 s                 ; 1.76e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.26e-08 V                   ; 2.73 V              ; -0.0622 V           ; 0.148 V                              ; 0.088 V                              ; 2.68e-10 s                  ; 2.25e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 3.26e-08 V                  ; 2.73 V             ; -0.0622 V          ; 0.148 V                             ; 0.088 V                             ; 2.68e-10 s                 ; 2.25e-10 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------+
+; Setup Transfers                                                   ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; reloj      ; reloj    ; 28       ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++-------------------------------------------------------------------+
+; Hold Transfers                                                    ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; reloj      ; reloj    ; 28       ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths Summary                    ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 2     ; 2    ;
+; Unconstrained Input Port Paths  ; 8     ; 8    ;
+; Unconstrained Output Ports      ; 1     ; 1    ;
+; Unconstrained Output Port Paths ; 7     ; 7    ;
++---------------------------------+-------+------+
+
+
++-------------------------------------+
+; Clock Status Summary                ;
++--------+-------+------+-------------+
+; Target ; Clock ; Type ; Status      ;
++--------+-------+------+-------------+
+; reloj  ; reloj ; Base ; Constrained ;
++--------+-------+------+-------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; Pcero      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ini        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                          ;
++-------------+---------------------------------------------------------------------------------------+
+; Output Port ; Comment                                                                               ;
++-------------+---------------------------------------------------------------------------------------+
+; finalop     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++-------------+---------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; Pcero      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ini        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                          ;
++-------------+---------------------------------------------------------------------------------------+
+; Output Port ; Comment                                                                               ;
++-------------+---------------------------------------------------------------------------------------+
+; finalop     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++-------------+---------------------------------------------------------------------------------------+
+
+
++--------------------------+
+; Timing Analyzer Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Timing Analyzer
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Fri Oct 14 20:17:27 2022
+Info: Command: quartus_sta camino_control -c camino_control
+Info: qsta_default_script.tcl version: #1
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'camino_control.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332105): Deriving Clocks
+    Info (332105): create_clock -period 1.000 -name reloj reloj
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1200mV 85C Model
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case setup slack is -0.716
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -0.716              -3.327 reloj 
+Info (332146): Worst-case hold slack is 0.496
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.496               0.000 reloj 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -3.000
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -3.000              -9.000 reloj 
+Info: Analyzing Slow 1200mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case setup slack is -0.536
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -0.536              -2.332 reloj 
+Info (332146): Worst-case hold slack is 0.443
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.443               0.000 reloj 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -3.000
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -3.000              -9.000 reloj 
+Info: Analyzing Fast 1200mV 0C Model
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info (332146): Worst-case setup slack is 0.048
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.048               0.000 reloj 
+Info (332146): Worst-case hold slack is 0.267
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.267               0.000 reloj 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case minimum pulse width slack is -3.000
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -3.000              -9.099 reloj 
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 595 megabytes
+    Info: Processing ended: Fri Oct 14 20:17:29 2022
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

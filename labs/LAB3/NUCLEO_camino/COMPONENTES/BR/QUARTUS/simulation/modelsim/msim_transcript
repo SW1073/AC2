@@ -11,28 +11,28 @@
 # 
 # vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:18:29 on Oct 06,2022
+# Start time: 14:38:36 on Oct 14,2022
 # vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_nucleo_pkg
-# End time: 14:18:29 on Oct 06,2022, Elapsed time: 0:00:00
+# End time: 14:38:36 on Oct 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:18:29 on Oct 06,2022
+# Start time: 14:38:36 on Oct 14,2022
 # vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling package cte_tipos_nucleo_pkg
-# End time: 14:18:29 on Oct 06,2022, Elapsed time: 0:00:00
+# End time: 14:38:36 on Oct 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:18:29 on Oct 06,2022
+# Start time: 14:38:36 on Oct 14,2022
 # vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -42,12 +42,12 @@
 # -- Loading package retardos_nucleo_pkg
 # -- Compiling entity BR
 # -- Compiling architecture compor of BR
-# End time: 14:18:29 on Oct 06,2022, Elapsed time: 0:00:00
+# End time: 14:38:36 on Oct 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/procedimientos_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:18:30 on Oct 06,2022
+# Start time: 14:38:36 on Oct 14,2022
 # vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/procedimientos_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -58,11 +58,11 @@
 # -- Compiling package procedimientos_pkg
 # -- Compiling package body procedimientos_pkg
 # -- Loading package procedimientos_pkg
-# End time: 14:18:30 on Oct 06,2022, Elapsed time: 0:00:00
+# End time: 14:38:36 on Oct 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/prueba_BR.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:18:30 on Oct 06,2022
+# Start time: 14:38:36 on Oct 14,2022
 # vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/prueba_BR.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -75,12 +75,12 @@
 # ** Warning: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/prueba_BR.vhd(12): (vcom-1516) Package "STD.ENV" does not exist in this language version.
 # -- Compiling entity prueba_BR
 # -- Compiling architecture prueba of prueba_BR
-# End time: 14:18:30 on Oct 06,2022, Elapsed time: 0:00:00
+# End time: 14:38:36 on Oct 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_BR
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" prueba_BR 
-# Start time: 14:18:30 on Oct 06,2022
+# Start time: 14:38:36 on Oct 14,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -213,5 +213,5 @@
 # lectura registro:     1F, dato:   B2
 # ** Note: Comprobacion finalizada.
 #    Time: 3800 ns  Iteration: 1  Instance: /prueba_br
-# End time: 14:18:45 on Oct 06,2022, Elapsed time: 0:00:15
+# End time: 14:41:15 on Oct 14,2022, Elapsed time: 0:02:39
 # Errors: 0, Warnings: 0

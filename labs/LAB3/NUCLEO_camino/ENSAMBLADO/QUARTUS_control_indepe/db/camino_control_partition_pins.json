@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "finalop",
+					"strict" : false
+				},
+				{
+					"name" : "Pcero",
+					"strict" : false
+				},
+				{
+					"name" : "reloj",
+					"strict" : false
+				},
+				{
+					"name" : "ini",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

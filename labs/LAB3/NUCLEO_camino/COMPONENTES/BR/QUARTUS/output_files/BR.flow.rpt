@@ -1,5 +1,5 @@
 Flow report for BR
-Thu Oct  6 13:54:34 2022
+Fri Oct 14 14:25:44 2022
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Oct  6 13:54:34 2022       ;
+; Flow Status                        ; Successful - Fri Oct 14 14:25:44 2022       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; BR                                          ;
 ; Top-level Entity Name              ; BR                                          ;
@@ -69,7 +69,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/06/2022 13:54:11 ;
+; Start date & time ; 10/14/2022 14:25:22 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; BR                  ;
 +-------------------+---------------------+
@@ -80,7 +80,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                        ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +----------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                  ; 71126639310910.166505725104675         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                  ; 71126639310910.166575032210281         ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME               ; NA                                     ; --            ; --          ; prueba_BR      ;
 ; EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ; ../PRUEBAS/formato_ventanas.do         ; --            ; --          ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; prueba_BR                              ; --            ; --          ; eda_simulation ;
@@ -108,12 +108,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 505 MB              ; 00:00:19                           ;
-; Fitter               ; 00:00:09     ; 1.1                     ; 1744 MB             ; 00:00:15                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 433 MB              ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:02     ; 1.2                     ; 599 MB              ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 668 MB              ; 00:00:00                           ;
-; Total                ; 00:00:20     ; --                      ; --                  ; 00:00:38                           ;
+; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 498 MB              ; 00:00:18                           ;
+; Fitter               ; 00:00:08     ; 1.0                     ; 1740 MB             ; 00:00:14                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 430 MB              ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.2                     ; 610 MB              ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 670 MB              ; 00:00:00                           ;
+; Total                ; 00:00:20     ; --                      ; --                  ; 00:00:35                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

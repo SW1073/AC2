@@ -5,7 +5,7 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.numeric_std.all; 
+use ieee.numeric_std.all;
 use work.cte_tipos_nucleo_pkg.all;
 use work.retardos_nucleo_pkg.all;
 use work.componentes_control_pkg.all;
