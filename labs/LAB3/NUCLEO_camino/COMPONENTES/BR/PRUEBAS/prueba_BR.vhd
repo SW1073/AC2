@@ -53,54 +53,14 @@ begin
 	wait until falling_edge(reloj);
 	escritura(PE, IDE, DE, "00100", "01111111");
 	wait until falling_edge(reloj);
-	escritura(PE, IDE, DE, "00010", "10111111");
+	escritura(PE, IDE, DE, "00001", "00101010");
 	wait until falling_edge(reloj);
-	escritura(PE, IDE, DE, "00001", "11011111");
-	wait until falling_edge(reloj);
-	escritura(PE, IDE, DE, "00000", "11101111");
-	wait until falling_edge(reloj);
-	escritura(PE, IDE, DE, "10000", "11110111");
-	wait until falling_edge(reloj);
-	escritura(PE, IDE, DE, "10000", "11111011");
- 	wait until falling_edge(reloj);
-
--- lecturas en el BR
 
 	lectura(PE, IDL1, "00100");
 	wait until falling_edge(reloj);
 	comprobacion_de_lectura(LE1, "00100", "01111111");
 
-	lectura(PE, IDL1, "00010");
-	wait until falling_edge(reloj);
-	comprobacion_de_lectura(LE1, "00010", "10111111");
 
-	lectura(PE, IDL1, "00001");
-	wait until falling_edge(reloj);
-	comprobacion_de_lectura(LE1, "00001", "11011111");
-
-	lectura(PE, IDL1, "00000");
-	wait until falling_edge(reloj);
-	comprobacion_de_lectura(LE1, "00000", "00000000");-- "00000001");
-
-	lectura(PE, IDL1, "10000");
-	wait until falling_edge(reloj);
-	comprobacion_de_lectura(LE1, "10000", "11111011");
-
-
-	for i in 0 to num_reg-1 loop
-		direccion := std_logic_vector(to_unsigned(i, direccion'length));
-		valor := std_logic_vector(to_unsigned((i+ 13*i) mod 2**tam_camino, valor'length));
-		escritura(PE, IDE, DE, direccion, valor);
-		wait until falling_edge(reloj);
-	end loop;
-
-	for i in 0 to num_reg-1 loop
-		direccion := std_logic_vector(to_unsigned(i, direccion'length));
-		valor := std_logic_vector(to_unsigned((i+ 13*i) mod 2**tam_camino, valor'length));
-		lectura(PE, IDL1, direccion);
-		wait until falling_edge(reloj);
-		comprobacion_de_lectura(LE1, direccion, valor);
-	end loop;
     
 	report "Comprobacion finalizada.";
 	 final := true;

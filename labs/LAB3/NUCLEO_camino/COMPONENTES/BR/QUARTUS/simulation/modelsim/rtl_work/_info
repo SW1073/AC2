@@ -1,0 +1,202 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/simulation/modelsim
+Ebr
+Z1 w1665037867
+Z2 DPx4 work 19 retardos_nucleo_pkg 0 22 Eo3g>>gi1hd?FTaQUKP^m3
+Z3 DPx4 work 20 cte_tipos_nucleo_pkg 0 22 K`HhR`>[>oWI9iTC=L9Tn3
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z7 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd
+Z8 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd
+l0
+L13 1
+V<IK^@R:n4XUec>3Bj_MZ62
+!s100 K96ZX=z2EBO`=VcGVn_T23
+Z9 OV;C;2020.1;71
+31
+Z10 !s110 1665850915
+!i10b 1
+Z11 !s108 1665850915.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd|
+Z13 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Acompor
+R2
+R3
+R4
+R5
+R6
+DEx4 work 2 br 0 22 <IK^@R:n4XUec>3Bj_MZ62
+!i122 2
+l26
+L21 28
+VeC?RCcTmQ0g<;LD@YE@Ha3
+!s100 0F5HCk7lKnoIbPHA9Sea]2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Pcte_tipos_nucleo_pkg
+R4
+R5
+R6
+!i122 1
+R1
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd
+l0
+L10 1
+VK`HhR`>[>oWI9iTC=L9Tn3
+!s100 1cno2XaH;me[gf@hBL_Vk1
+R9
+31
+R10
+!i10b 1
+R11
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd|
+!i113 1
+R14
+R15
+Pprocedimientos_pkg
+R3
+Z16 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R4
+R5
+R6
+!i122 3
+R1
+R0
+Z17 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/procedimientos_pkg.vhd
+Z18 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/procedimientos_pkg.vhd
+l0
+Z19 L14 1
+V=DdCIJP9z_n:Sh^6M1jfT3
+!s100 YkOS5eAHjQY]]nd8OO2fh1
+R9
+31
+b1
+R10
+!i10b 1
+R11
+Z20 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/procedimientos_pkg.vhd|
+Z21 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/procedimientos_pkg.vhd|
+!i113 1
+R14
+R15
+Bbody
+Z22 DPx4 work 18 procedimientos_pkg 0 22 =DdCIJP9z_n:Sh^6M1jfT3
+R3
+R16
+R4
+R5
+R6
+!i122 3
+l0
+L25 1
+V`LU]`DAk]KgV<aAg1791K2
+!s100 _iY@EeWOkbA_06;hR_l_<2
+R9
+31
+R10
+!i10b 1
+R11
+R20
+R21
+!i113 1
+R14
+R15
+Eprueba_br
+Z23 w1665850373
+Z24 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R16
+R22
+R3
+R4
+R5
+R6
+!i122 4
+R0
+Z25 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/prueba_BR.vhd
+Z26 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/prueba_BR.vhd
+l0
+R19
+VgoIdfIoSL75dfaKl<lE_D2
+!s100 zbHB[oc<lH0<UM_JASJS=1
+R9
+31
+R10
+!i10b 1
+R11
+Z27 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/prueba_BR.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/prueba_BR.vhd|
+!i113 1
+R14
+R15
+Aprueba
+R24
+R16
+R22
+R3
+R4
+R5
+R6
+DEx4 work 9 prueba_br 0 22 goIdfIoSL75dfaKl<lE_D2
+!i122 4
+l38
+L19 68
+VURkU20FR[G`=FmGz=m6Md1
+!s100 eRa;6VibXSI[0hfY8YfH31
+R9
+31
+R10
+!i10b 1
+R11
+R27
+Z28 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/QUARTUS/../PRUEBAS/prueba_BR.vhd|
+!i113 1
+R14
+R15
+Pretardos_nucleo_pkg
+R5
+R6
+!i122 0
+R1
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd
+l0
+L9 1
+VEo3g>>gi1hd?FTaQUKP^m3
+!s100 Q`V^A0k9=9Bbh?CGRR:mY1
+R9
+31
+R10
+!i10b 1
+R11
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd|
+!i113 1
+R14
+R15
