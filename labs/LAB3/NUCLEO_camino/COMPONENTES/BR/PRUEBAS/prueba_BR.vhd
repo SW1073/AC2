@@ -53,9 +53,6 @@ begin
 	wait until falling_edge(reloj);
 	escritura(PE, IDE, DE, "00100", "01111111");
 	wait until falling_edge(reloj);
-	escritura(PE, IDE, DE, "00001", "00101010");
-	wait until falling_edge(reloj);
-
 	lectura(PE, IDL1, "00100");
 	wait until falling_edge(reloj);
 	comprobacion_de_lectura(LE1, "00100", "01111111");

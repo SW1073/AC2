@@ -1,0 +1,6 @@
+
+ Contenido del banco de registros. BR
+Num registro decimal
+      contenido  hexadecimal
+   0  00
+   1  XX

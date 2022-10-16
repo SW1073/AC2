@@ -1,5 +1,5 @@
 Flow report for BR
-Sat Oct 15 18:13:04 2022
+Sun Oct 16 21:00:05 2022
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sat Oct 15 18:13:04 2022       ;
+; Flow Status                        ; Successful - Sun Oct 16 21:00:05 2022       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; BR                                          ;
 ; Top-level Entity Name              ; BR                                          ;
@@ -69,7 +69,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/15/2022 18:12:55 ;
+; Start date & time ; 10/16/2022 20:59:55 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; BR                  ;
 +-------------------+---------------------+
@@ -80,7 +80,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                        ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +----------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                  ; 62489538746489.166585037512766         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                  ; 62489538746489.166594679516708         ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME               ; NA                                     ; --            ; --          ; prueba_BR      ;
 ; EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ; ../PRUEBAS/formato_ventanas.do         ; --            ; --          ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; prueba_BR                              ; --            ; --          ; eda_simulation ;
@@ -108,8 +108,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 797 MB              ; 00:00:25                           ;
-; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:25                           ;
+; Analysis & Elaboration ; 00:00:10     ; 1.0                     ; 798 MB              ; 00:00:28                           ;
+; Total                  ; 00:00:10     ; --                      ; --                  ; 00:00:28                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

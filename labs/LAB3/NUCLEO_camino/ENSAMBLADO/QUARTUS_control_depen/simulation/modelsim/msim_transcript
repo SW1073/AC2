@@ -11,39 +11,39 @@
 # 
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:25 on Oct 15,2022
+# Start time: 22:10:00 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_nucleo_pkg
-# End time: 14:06:25 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:00 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:26 on Oct 15,2022
+# Start time: 22:10:00 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling package cte_tipos_nucleo_pkg
-# End time: 14:06:26 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:00 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:26 on Oct 15,2022
+# Start time: 22:10:01 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity multiplexor_1
 # -- Compiling architecture compor of multiplexor_1
-# End time: 14:06:26 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:01 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:26 on Oct 15,2022
+# Start time: 22:10:01 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -52,11 +52,11 @@
 # -- Loading package cte_tipos_nucleo_pkg
 # -- Loading package retardos_nucleo_pkg
 # -- Compiling package componentes_control_pkg
-# End time: 14:06:26 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:01 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:26 on Oct 15,2022
+# Start time: 22:10:01 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -64,11 +64,11 @@
 # -- Loading package NUMERIC_STD
 # -- Loading package cte_tipos_nucleo_pkg
 # -- Compiling package componentes_nucleo_pkg
-# End time: 14:06:26 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:01 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:26 on Oct 15,2022
+# Start time: 22:10:01 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -77,11 +77,11 @@
 # -- Loading package cte_tipos_nucleo_pkg
 # -- Compiling entity multiplexor
 # -- Compiling architecture compor of multiplexor
-# End time: 14:06:26 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:01 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:26 on Oct 15,2022
+# Start time: 22:10:01 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -91,11 +91,11 @@
 # -- Loading package retardos_nucleo_pkg
 # -- Compiling entity BR
 # -- Compiling architecture compor of BR
-# End time: 14:06:26 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:01 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:26 on Oct 15,2022
+# Start time: 22:10:01 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -105,11 +105,11 @@
 # -- Loading package retardos_nucleo_pkg
 # -- Compiling entity sumador
 # -- Compiling architecture behave of sumador
-# End time: 14:06:26 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:01 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:26 on Oct 15,2022
+# Start time: 22:10:01 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -117,11 +117,11 @@
 # -- Loading package retardos_nucleo_pkg
 # -- Compiling entity reg1
 # -- Compiling architecture comportamiento of reg1
-# End time: 14:06:26 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:01 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:26 on Oct 15,2022
+# Start time: 22:10:01 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -129,11 +129,11 @@
 # -- Loading package retardos_nucleo_pkg
 # -- Compiling entity registro
 # -- Compiling architecture comportamiento of registro
-# End time: 14:06:26 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:01 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:26 on Oct 15,2022
+# Start time: 22:10:01 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -143,11 +143,11 @@
 # -- Loading package componentes_nucleo_pkg
 # -- Compiling entity camino_control
 # -- Compiling architecture estructura of camino_control
-# End time: 14:06:26 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:01 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:26 on Oct 15,2022
+# Start time: 22:10:01 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -158,12 +158,12 @@
 # -- Loading package componentes_control_pkg
 # -- Compiling entity control
 # -- Compiling architecture estructura of control
-# End time: 14:06:27 on Oct 15,2022, Elapsed time: 0:00:01
+# End time: 22:10:01 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:27 on Oct 15,2022
+# Start time: 22:10:01 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -175,11 +175,11 @@
 # -- Compiling package impri_BR_pkg
 # -- Compiling package body impri_BR_pkg
 # -- Loading package impri_BR_pkg
-# End time: 14:06:27 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:02 on Oct 16,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:27 on Oct 15,2022
+# Start time: 22:10:02 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -189,11 +189,11 @@
 # -- Compiling package prueba_procedimientos_camino_control_pkg
 # -- Compiling package body prueba_procedimientos_camino_control_pkg
 # -- Loading package prueba_procedimientos_camino_control_pkg
-# End time: 14:06:27 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:02 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:06:27 on Oct 15,2022
+# Start time: 22:10:02 on Oct 16,2022
 # vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -208,12 +208,12 @@
 # -- Compiling entity prueba_camino_control
 # -- Compiling architecture prueba of prueba_camino_control
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd(56): (vcom-1236) Shared variables must be of a protected type.
-# End time: 14:06:27 on Oct 15,2022, Elapsed time: 0:00:00
+# End time: 22:10:02 on Oct 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_camino_control
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" prueba_camino_control 
-# Start time: 14:06:27 on Oct 15,2022
+# Start time: 22:10:02 on Oct 16,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -239,6 +239,16 @@
 # 
 # do /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/formato_ventanas.do
 # log -r /*
+# Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: jafeth  Hostname: debian  ProcessID: 17916
+#           Attempting to use alternate WLF file "./wlftPLEd1o".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftPLEd1o
 # do wave.do
 # onerror {resume}
 # quietly WaveActivateNextPane {} 0
@@ -302,36 +312,13 @@
 # set NumericStdNoWarnings 0
 # 0
 # run -all
-# ** Note: 
 # 
-# Inicializacion del banco de registros. Ciclo: 3
-#    Time: 125 ns  Iteration: 1  Instance: /prueba_camino_control
-# ** Note: 
 # 
-# Inicio de la operacion. Ciclo: 35
-#    Time: 1725 ns  Iteration: 1  Instance: /prueba_camino_control
-# ** Note: 
+#  Contenido del banco de registros. BR
 # 
-# Inicio de la comprobacion de los registros no modificados. Ciclo: 45
-#    Time: 2225 ns  Iteration: 1  Instance: /prueba_camino_control
-# ** Note: 
-# 
-# Inicio de la comprobacion de los registros modificados. Ciclo: 76
-#    Time: 3775 ns  Iteration: 1  Instance: /prueba_camino_control
-# ** Error: error igualdad  10  esperado  36   leido  10
-#    Time: 4275 ns  Iteration: 1  Instance: /prueba_camino_control
-# ** Warning: (vsim-7) Failed to open VHDL file "../../../RESULTADOS_control_indepe/resultados.txt" in r+ mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 4425 ns  Iteration: 2  Instance: /prueba_camino_control
-# ** Fatal: (vsim-7) Failed to open VHDL file "../../../RESULTADOS_control_indepe/resultados.txt" in r+ mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 4425 ns  Iteration: 2  Process: /prueba_camino_control/finalizar File: /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd
-# Fatal error in Subprogram cabecera_BR at /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd line 34
-# 
-# HDL call sequence:
-# Stopped at /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd 34 Subprogram cabecera_BR
-# called from  /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd 91 Subprogram impri_BR
-# called from  /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd 117 Process finalizar
-# 
-# End time: 14:06:36 on Oct 15,2022, Elapsed time: 0:00:09
-# Errors: 2, Warnings: 1
+# Num registro decimal
+#       contenido  hexadecimal
+#    0  00
+#    1  XX
+# End time: 22:11:52 on Oct 16,2022, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 2

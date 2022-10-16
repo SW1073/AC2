@@ -26,9 +26,9 @@ VVSio8cN=4gl2f3FUAe9S]1
 !s100 K96ZX=z2EBO`=VcGVn_T23
 Z10 OV;C;2020.1;71
 33
-Z11 !s110 1665835586
+Z11 !s110 1665951001
 !i10b 1
-Z12 !s108 1665835586.000000
+Z12 !s108 1665951001.000000
 Z13 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd|
 Z14 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd|
 !i113 1
@@ -153,8 +153,8 @@ R12
 R15
 R16
 Econtrol
-R1
-Z23 DPx4 work 23 componentes_control_pkg 0 22 LK3KIM0zn1[RUPKmL7gll2
+Z23 w1665948483
+Z24 DPx4 work 23 componentes_control_pkg 0 22 LK3KIM0zn1[RUPKmL7gll2
 R2
 R3
 R4
@@ -162,15 +162,15 @@ R5
 R6
 !i122 11
 R0
-Z24 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd
-Z25 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd
+Z25 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd
+Z26 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd
 l0
 R9
 VzI1Q:_aIElK0aLFPQYI<;3
 !s100 7G:hO4DFVC_4m[_K0?Bge0
 R10
 33
-Z26 !s110 1665835587
+R11
 !i10b 1
 R12
 Z27 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd|
@@ -179,7 +179,7 @@ Z28 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/c
 R15
 R16
 Aestructura
-R23
+R24
 R2
 R3
 R4
@@ -189,11 +189,11 @@ DEx4 work 7 control 0 22 zI1Q:_aIElK0aLFPQYI<;3
 !i122 11
 l28
 L21 48
-Vzn^EN^Xd[K7UTTBGQ9lZT0
-!s100 Hf;gHnV5^Rig_oA;z`K]b1
+Vo3=K7U^cYjKd2C:XGeNfN0
+!s100 6@nKk35Vz4k9LlF81Xh510
 R10
 33
-R26
+R11
 !i10b 1
 R12
 R27
@@ -216,9 +216,9 @@ V39`=Hz78gC`OS2ETV@2a41
 !s100 1cno2XaH;me[gf@hBL_Vk1
 R10
 33
-R11
+Z30 !s110 1665951000
 !i10b 1
-R12
+Z31 !s108 1665951000.000000
 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd|
 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd|
 !i113 1
@@ -226,16 +226,16 @@ R15
 R16
 Pimpri_br_pkg
 R3
-Z30 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
-Z31 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z32 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+Z33 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 R4
 R5
 R6
 !i122 12
 R1
 R0
-Z32 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd
-Z33 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd
+Z34 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd
+Z35 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd
 l0
 L16 1
 V`1HlOMhDhD<AG@X6Xd[?N3
@@ -243,19 +243,19 @@ V`1HlOMhDhD<AG@X6Xd[?N3
 R10
 33
 b1
-R26
+Z36 !s110 1665951002
 !i10b 1
-Z34 !s108 1665835587.000000
-Z35 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd|
-Z36 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd|
+R12
+Z37 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd|
+Z38 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd|
 !i113 1
 R15
 R16
 Bbody
-Z37 DPx4 work 12 impri_br_pkg 0 22 `1HlOMhDhD<AG@X6Xd[?N3
+Z39 DPx4 work 12 impri_br_pkg 0 22 `1HlOMhDhD<AG@X6Xd[?N3
 R3
-R30
-R31
+R32
+R33
 R4
 R5
 R6
@@ -266,11 +266,11 @@ V5Mo62B[IZ7WD0jXJg[8i_3
 !s100 >27f`J4jz54AQ:2fFA?7N2
 R10
 33
-R26
-!i10b 1
-R34
-R35
 R36
+!i10b 1
+R12
+R37
+R38
 !i113 1
 R15
 R16
@@ -282,8 +282,8 @@ R5
 R6
 !i122 5
 R0
-Z38 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd
-Z39 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd
+Z40 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd
+Z41 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd
 l0
 R29
 V5dD9:`GULDZEPALChL]1m0
@@ -293,8 +293,8 @@ R10
 R11
 !i10b 1
 R12
-Z40 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd|
-Z41 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd|
+Z42 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd|
+Z43 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd|
 !i113 1
 R15
 R16
@@ -314,8 +314,8 @@ R10
 R11
 !i10b 1
 R12
-R40
-R41
+R42
+R43
 !i113 1
 R15
 R16
@@ -325,8 +325,8 @@ R5
 R6
 !i122 2
 R0
-Z42 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd
-Z43 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd
+Z44 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd
+Z45 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd
 l0
 L9 1
 VjH7[0O5mn]0mCK`i8^1O]3
@@ -336,8 +336,8 @@ R10
 R11
 !i10b 1
 R12
-Z44 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd|
-Z45 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd|
+Z46 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd|
+Z47 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd|
 !i113 1
 R15
 R16
@@ -355,46 +355,46 @@ R10
 R11
 !i10b 1
 R12
-R44
-R45
+R46
+R47
 !i113 1
 R15
 R16
 Eprueba_camino_control
-R1
-Z46 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
-R30
-R31
-R37
-Z47 DPx4 work 40 prueba_procedimientos_camino_control_pkg 0 22 M1E>5UeTgF[fYIbnzdciI1
+Z48 w1665950973
+Z49 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R32
+R33
+R39
+Z50 DPx4 work 40 prueba_procedimientos_camino_control_pkg 0 22 M1E>5UeTgF[fYIbnzdciI1
 R3
 R4
 R5
 R6
 !i122 14
 R0
-Z48 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd
-Z49 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd
+Z51 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd
+Z52 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd
 l0
 L15 1
 VIHQ4X?jVkd<2j2]@6J5;g1
 !s100 ^kOXS_X5EeUmC6QR@NMJz1
 R10
 33
-R26
+R36
 !i10b 1
-R34
-Z50 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd|
+Z53 !s108 1665951002.000000
+Z54 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd|
 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd|
 !i113 1
 R15
 R16
 Aprueba
-R46
-R30
-R31
-R37
-R47
+R49
+R32
+R33
+R39
+R50
 R3
 R4
 R5
@@ -403,15 +403,15 @@ DEx4 work 21 prueba_camino_control 0 22 IHQ4X?jVkd<2j2]@6J5;g1
 !i122 14
 l61
 L21 118
-VB5EQ[QGU8^J?[f^T=KB0U3
-!s100 d5di1M6iV==7;jj06DCCT0
+V;UEe@T]969T<LQCW6L@SO3
+!s100 HVdNXSm8kRSmnaJXdVmnT3
 R10
 33
-R26
+R36
 !i10b 1
-R34
-R50
-Z51 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd|
+R53
+R54
+Z55 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd|
 !i113 1
 R15
 R16
@@ -423,8 +423,8 @@ R6
 !i122 13
 R1
 R0
-Z52 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd
-Z53 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd
+Z56 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd
+Z57 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd
 l0
 R22
 VM1E>5UeTgF[fYIbnzdciI1
@@ -432,16 +432,16 @@ VM1E>5UeTgF[fYIbnzdciI1
 R10
 33
 b1
-R26
+R36
 !i10b 1
-R34
-Z54 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd|
-Z55 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd|
+R53
+Z58 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd|
+Z59 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd|
 !i113 1
 R15
 R16
 Bbody
-R47
+R50
 R3
 R4
 R5
@@ -453,11 +453,11 @@ VCKGfcaUz8ZVa`i_NO_n4d0
 !s100 >a2VTa:MlY88B<X64]Kb22
 R10
 33
-R26
+R36
 !i10b 1
-R34
-R54
-R55
+R53
+R58
+R59
 !i113 1
 R15
 R16
@@ -468,8 +468,8 @@ R5
 R6
 !i122 8
 R0
-Z56 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd
-Z57 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd
+Z60 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd
+Z61 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd
 l0
 R29
 V03klTbk^PRebFIAeFVnIC1
@@ -479,8 +479,8 @@ R10
 R11
 !i10b 1
 R12
-Z58 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd|
-Z59 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd|
+Z62 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd|
+Z63 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd|
 !i113 1
 R15
 R16
@@ -499,8 +499,8 @@ R10
 R11
 !i10b 1
 R12
-R58
-R59
+R62
+R63
 !i113 1
 R15
 R16
@@ -511,8 +511,8 @@ R5
 R6
 !i122 9
 R0
-Z60 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd
-Z61 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd
+Z64 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd
+Z65 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd
 l0
 R29
 Vl`3RU@fC9KGaaX7PBHP462
@@ -522,8 +522,8 @@ R10
 R11
 !i10b 1
 R12
-Z62 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd|
-Z63 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd|
+Z66 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd|
+Z67 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd|
 !i113 1
 R15
 R16
@@ -542,8 +542,8 @@ R10
 R11
 !i10b 1
 R12
-R62
-R63
+R66
+R67
 !i113 1
 R15
 R16
@@ -561,9 +561,9 @@ Vk;;H[JKa<jb_RRZnIgHnh1
 !s100 Q`V^A0k9=9Bbh?CGRR:mY1
 R10
 33
-!s110 1665835585
+R30
 !i10b 1
-!s108 1665835585.000000
+R31
 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd|
 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd|
 !i113 1
@@ -578,8 +578,8 @@ R5
 R6
 !i122 7
 R0
-Z64 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd
-Z65 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd
+Z68 8/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd
+Z69 F/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd
 l0
 R9
 V`c0GOh^jVl4?He58La1oL0
@@ -589,8 +589,8 @@ R10
 R11
 !i10b 1
 R12
-Z66 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd|
-Z67 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd|
+Z70 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd|
+Z71 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd|
 !i113 1
 R15
 R16
@@ -611,8 +611,8 @@ R10
 R11
 !i10b 1
 R12
-R66
-R67
+R70
+R71
 !i113 1
 R15
 R16

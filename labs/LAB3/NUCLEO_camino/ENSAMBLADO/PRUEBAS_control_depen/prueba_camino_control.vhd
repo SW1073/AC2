@@ -73,35 +73,35 @@ variable reg_oper1, reg_oper2, reg_resul: integer;
 	report "Puesta a cero";
 	puesta_cero(reloj, Pcero, PEini, DEini, IDEini, IDL1ini, ini);
 
-	report CR &LF & "Inicializacion del banco de registros. Ciclo: " & integer'image(cntciclos);
-	ini_BR(reloj, PEini, DEini, IDEini);
+	--report CR &LF & "Inicializacion del banco de registros. Ciclo: " & integer'image(cntciclos);
+	--ini_BR(reloj, PEini, DEini, IDEini);
 
-	report CR &LF & "Inicio de la operacion. Ciclo: " & integer'image(cntciclos);
-	operacion(reloj, ini, finalop);
+	--report CR &LF & "Inicio de la operacion. Ciclo: " & integer'image(cntciclos);
+	--operacion(reloj, ini, finalop);
 
-	report CR &LF & "Inicio de la comprobacion de los registros no modificados. Ciclo: " & integer'image(cntciclos);
+	--report CR &LF & "Inicio de la comprobacion de los registros no modificados. Ciclo: " & integer'image(cntciclos);
 	primerreg:= 0;
 	ultimoreg:= 9;
 	for i in primerreg to ultimoreg loop    
-		comprobar_reg(i, reloj, IDL1ini, LE1, i);
+		--comprobar_reg(i, reloj, IDL1ini, LE1, i);
 	end loop;
 
 	primerreg:= 11;
 	ultimoreg:= 31;
 	for i in primerreg to ultimoreg loop    
-		comprobar_reg(i, reloj, IDL1ini, LE1, i);
+		--comprobar_reg(i, reloj, IDL1ini, LE1, i);
 	end loop;
 
-	report CR &LF & "Inicio de la comprobacion de los registros modificados. Ciclo: " & integer'image(cntciclos);
+	--report CR &LF & "Inicio de la comprobacion de los registros modificados. Ciclo: " & integer'image(cntciclos);
 
 	primerreg:= 0;
 	ultimoreg:= 8;
 	reg_resul:= 10;
-	comprobar_reg_modificado(primerreg, ultimoreg, reg_resul, reloj, IDL1ini, LE1);
+	--comprobar_reg_modificado(primerreg, ultimoreg, reg_resul, reloj, IDL1ini, LE1);
 
-	wait until rising_edge(reloj); 
-	wait until rising_edge(reloj); 
-	wait until rising_edge(reloj); 
+	--wait until rising_edge(reloj); 
+	--wait until rising_edge(reloj); 
+	--wait until rising_edge(reloj); 
 
 	finaltraza <= '1';
 	wait;
