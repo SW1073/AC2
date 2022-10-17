@@ -1,0 +1,14 @@
+|control
+cabeza[0] => Equal0.IN2
+cabeza[1] => Equal0.IN1
+cabeza[2] => Equal0.IN0
+cola[0] => Equal0.IN5
+cola[1] => Equal0.IN4
+cola[2] => Equal0.IN3
+colaincr[0] => ~NO_FANOUT~
+colaincr[1] => ~NO_FANOUT~
+colaincr[2] => ~NO_FANOUT~
+vacio <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+lleno <= <GND>
+
+
