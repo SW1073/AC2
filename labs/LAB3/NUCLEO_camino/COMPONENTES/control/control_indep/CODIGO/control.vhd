@@ -37,19 +37,19 @@ estadoreg: reg1 port map(reloj => reloj, e => prxestado, s => estado);
 
 contador: registro generic map(tam => tam_secuencia) 
 				port map(reloj => reloj, e => prxcnt, s => cnt);
-	prxcnt <= "01000" when pcero = '1' or estado = '0' else std_logic_vector(unsigned(cnt) - 1);
+				prxcnt <= "01000" when pcero = '1' or estado = '0' else std_logic_vector(unsigned(cnt) - 1);
 
 IdenL1: registro generic map(tam => log_num_reg)
 				port map(reloj => reloj, e => prxIDL1, s => t_IDL1);
-prxIDL1 <= "00000" when pcero = '1' or estado = '0' else std_logic_vector(unsigned(t_IDL1) + 1);
+				prxIDL1 <= "00000" when pcero = '1' or estado = '0' else std_logic_vector(unsigned(t_IDL1) + 1);
 
 IdenL2: registro generic map(tam => log_num_reg)
 				port map(reloj => reloj, e => prxIDL2, s => t_IDL2);
-	prxIDL2 <= "01001" when pcero = '1' or estado = '0' else std_logic_vector(unsigned(t_IDL2) + 1);
+				prxIDL2 <= "01001" when pcero = '1' or estado = '0' else std_logic_vector(unsigned(t_IDL2) + 1);
 
 IdenE: registro generic map(tam => log_num_reg)
 				port map(reloj => reloj, e => prxIDE, s => t_IDE);
-	prxIDE <= "10010" when pcero = '1' or estado = '0' else std_logic_vector(unsigned(t_IDE) + 1);
+				prxIDE <= "10010" when pcero = '1' or estado = '0' else std_logic_vector(unsigned(t_IDE) + 1);
 
 
 	t_finalop <= '0' when pcero = '1' or estado = '0' else

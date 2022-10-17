@@ -22,7 +22,7 @@ IDL1ini[1] => multiplexor:muxIDL.e1[1]
 IDL1ini[2] => multiplexor:muxIDL.e1[2]
 IDL1ini[3] => multiplexor:muxIDL.e1[3]
 IDL1ini[4] => multiplexor:muxIDL.e1[4]
-finalop << control:controlDE.finalop
+finalop <= control:controlDE.finalop
 
 
 |camino_control|multiplexor:muxiniDE
