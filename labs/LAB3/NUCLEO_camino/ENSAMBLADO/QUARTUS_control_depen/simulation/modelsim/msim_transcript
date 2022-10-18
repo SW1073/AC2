@@ -11,39 +11,39 @@
 # 
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:25 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_nucleo_pkg
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:25 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:25 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling package cte_tipos_nucleo_pkg
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:25 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:25 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity multiplexor_1
 # -- Compiling architecture compor of multiplexor_1
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:25 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:25 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -52,11 +52,11 @@
 # -- Loading package cte_tipos_nucleo_pkg
 # -- Loading package retardos_nucleo_pkg
 # -- Compiling package componentes_control_pkg
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:25 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:25 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -64,11 +64,11 @@
 # -- Loading package NUMERIC_STD
 # -- Loading package cte_tipos_nucleo_pkg
 # -- Compiling package componentes_nucleo_pkg
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:25 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:25 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -77,11 +77,11 @@
 # -- Loading package cte_tipos_nucleo_pkg
 # -- Compiling entity multiplexor
 # -- Compiling architecture compor of multiplexor
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:25 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:25 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -91,11 +91,11 @@
 # -- Loading package retardos_nucleo_pkg
 # -- Compiling entity BR
 # -- Compiling architecture compor of BR
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:26 on Oct 18,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:26 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -105,11 +105,11 @@
 # -- Loading package retardos_nucleo_pkg
 # -- Compiling entity sumador
 # -- Compiling architecture behave of sumador
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:26 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:26 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -117,11 +117,11 @@
 # -- Loading package retardos_nucleo_pkg
 # -- Compiling entity reg1
 # -- Compiling architecture comportamiento of reg1
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:26 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:26 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -129,11 +129,11 @@
 # -- Loading package retardos_nucleo_pkg
 # -- Compiling entity registro
 # -- Compiling architecture comportamiento of registro
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:26 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:26 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -143,11 +143,11 @@
 # -- Loading package componentes_nucleo_pkg
 # -- Compiling entity camino_control
 # -- Compiling architecture estructura of camino_control
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:26 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:26 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -158,12 +158,12 @@
 # -- Loading package componentes_control_pkg
 # -- Compiling entity control
 # -- Compiling architecture estructura of control
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:26 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:26 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -175,11 +175,11 @@
 # -- Compiling package impri_BR_pkg
 # -- Compiling package body impri_BR_pkg
 # -- Loading package impri_BR_pkg
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:26 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:26 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -189,11 +189,11 @@
 # -- Compiling package prueba_procedimientos_camino_control_pkg
 # -- Compiling package body prueba_procedimientos_camino_control_pkg
 # -- Loading package prueba_procedimientos_camino_control_pkg
-# End time: 21:05:13 on Oct 14,2022, Elapsed time: 0:00:00
+# End time: 20:54:26 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:05:13 on Oct 14,2022
+# Start time: 20:54:26 on Oct 18,2022
 # vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -208,12 +208,12 @@
 # -- Compiling entity prueba_camino_control
 # -- Compiling architecture prueba of prueba_camino_control
 # ** Warning: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd(56): (vcom-1236) Shared variables must be of a protected type.
-# End time: 21:05:14 on Oct 14,2022, Elapsed time: 0:00:01
+# End time: 20:54:26 on Oct 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_camino_control
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" prueba_camino_control 
-# Start time: 21:05:14 on Oct 14,2022
+# Start time: 20:54:26 on Oct 18,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -273,8 +273,6 @@
 # add wave -noupdate -divider registros
 # add wave -noupdate -radix unsigned -childformat {{/prueba_camino_control/camino_cnt/bancoregistro/mem(0) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(1) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(2) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(3) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(4) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(5) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(6) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(7) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(8) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(9) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(10) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(11) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(12) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(13) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(14) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(15) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(16) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(17) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(18) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(19) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(20) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(21) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(22) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(23) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(24) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(25) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(26) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(27) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(28) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(29) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(30) -radix unsigned} {/prueba_camino_control/camino_cnt/bancoregistro/mem(31) -radix unsigned}} -expand -subitemconfig {/prueba_camino_control/camino_cnt/bancoregistro/mem(0) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(1) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(2) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(3) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(4) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(5) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(6) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(7) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(8) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(9) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(10) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(11) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(12) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(13) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(14) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(15) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(16) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(17) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(18) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(19) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(20) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(21) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(22) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(23) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(24) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(25) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(26) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(27) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(28) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(29) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(30) {-height 16 -radix unsigned} /prueba_camino_control/camino_cnt/bancoregistro/mem(31) {-height 16 -radix unsigned}} /prueba_camino_control/camino_cnt/bancoregistro/mem
 # TreeUpdate [SetDefaultTree]
-# ** Error: invalid command name ""
-# Executing ONERROR command at macro /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/wave.do line 33
 # WaveRestoreCursors {{Cursor 1} {100000 ps} 0}
 # quietly wave cursor active 1
 # configure wave -namecolwidth 443
@@ -307,33 +305,58 @@
 # ** Note: 
 # 
 # Inicializacion del banco de registros. Ciclo: 3
-#    Time: 125 ns  Iteration: 1  Instance: /prueba_camino_control
+#    Time: 100 ns  Iteration: 1  Instance: /prueba_camino_control
 # ** Note: 
 # 
 # Inicio de la operacion. Ciclo: 35
-#    Time: 1725 ns  Iteration: 1  Instance: /prueba_camino_control
+#    Time: 1380 ns  Iteration: 1  Instance: /prueba_camino_control
 # ** Note: 
 # 
 # Inicio de la comprobacion de los registros no modificados. Ciclo: 45
-#    Time: 2225 ns  Iteration: 1  Instance: /prueba_camino_control
+#    Time: 1780 ns  Iteration: 1  Instance: /prueba_camino_control
 # ** Note: 
 # 
 # Inicio de la comprobacion de los registros modificados. Ciclo: 76
-#    Time: 3775 ns  Iteration: 1  Instance: /prueba_camino_control
-# ** Error: error igualdad  10  esperado  36   leido  10
-#    Time: 4275 ns  Iteration: 1  Instance: /prueba_camino_control
-# ** Warning: (vsim-7) Failed to open VHDL file "../../../RESULTADOS_control_indepe/resultados.txt" in r+ mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 4425 ns  Iteration: 2  Instance: /prueba_camino_control
-# ** Fatal: (vsim-7) Failed to open VHDL file "../../../RESULTADOS_control_indepe/resultados.txt" in r+ mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 4425 ns  Iteration: 2  Process: /prueba_camino_control/finalizar File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd
-# Fatal error in Subprogram cabecera_BR at /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd line 34
+#    Time: 3020 ns  Iteration: 1  Instance: /prueba_camino_control
 # 
-# HDL call sequence:
-# Stopped at /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd 34 Subprogram cabecera_BR
-# called from  /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd 91 Subprogram impri_BR
-# called from  /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd 117 Process finalizar
 # 
-# End time: 21:05:23 on Oct 14,2022, Elapsed time: 0:00:09
-# Errors: 3, Warnings: 1
+#  Contenido del banco de registros. BR
+# 
+# Num registro decimal
+#       contenido  hexadecimal
+#    0  00
+#    1  01
+#    2  02
+#    3  03
+#    4  04
+#    5  05
+#    6  06
+#    7  07
+#    8  08
+#    9  09
+#   10  24
+#   11  0B
+#   12  0C
+#   13  0D
+#   14  0E
+#   15  0F
+#   16  10
+#   17  11
+#   18  12
+#   19  13
+#   20  14
+#   21  15
+#   22  16
+#   23  17
+#   24  18
+#   25  19
+#   26  1A
+#   27  1B
+#   28  1C
+#   29  1D
+#   30  1E
+#   31  1F
+# 
+# stdin: <EOF>
+# End time: 21:07:12 on Oct 18,2022, Elapsed time: 0:12:46
+# Errors: 0, Warnings: 0

@@ -26,9 +26,9 @@ VVSio8cN=4gl2f3FUAe9S]1
 !s100 K96ZX=z2EBO`=VcGVn_T23
 Z10 OV;C;2020.1;71
 33
-Z11 !s110 1665774313
+Z11 !s110 1666119266
 !i10b 1
-Z12 !s108 1665774313.000000
+Z12 !s108 1666119265.000000
 Z13 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd|
 Z14 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd|
 !i113 1
@@ -75,9 +75,9 @@ R10
 33
 R11
 !i10b 1
-R12
-Z20 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd|
-Z21 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd|
+Z20 !s108 1666119266.000000
+Z21 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd|
+Z22 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd|
 !i113 1
 R15
 R16
@@ -97,9 +97,9 @@ R10
 33
 R11
 !i10b 1
-R12
 R20
 R21
+R22
 !i113 1
 R15
 R16
@@ -120,7 +120,7 @@ VLK3KIM0zn1[RUPKmL7gll2
 !s100 hm[=FT<:e];Q?fnSH:5E:2
 R10
 33
-R11
+Z23 !s110 1666119265
 !i10b 1
 R12
 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd|
@@ -139,12 +139,12 @@ R0
 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd
 l0
-Z22 L11 1
+Z24 L11 1
 VO98dc=n;K_coi6R0NK;R^3
 !s100 l;ffHjcI2IYPT>;imAd>93
 R10
 33
-R11
+R23
 !i10b 1
 R12
 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd|
@@ -153,8 +153,8 @@ R12
 R15
 R16
 Econtrol
-Z23 w1665771509
-Z24 DPx4 work 23 componentes_control_pkg 0 22 LK3KIM0zn1[RUPKmL7gll2
+Z25 w1666104649
+Z26 DPx4 work 23 componentes_control_pkg 0 22 LK3KIM0zn1[RUPKmL7gll2
 R2
 R3
 R4
@@ -162,8 +162,8 @@ R5
 R6
 !i122 11
 R0
-Z25 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd
-Z26 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd
+Z27 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd
+Z28 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd
 l0
 R9
 VzI1Q:_aIElK0aLFPQYI<;3
@@ -172,14 +172,14 @@ R10
 33
 R11
 !i10b 1
-R12
-Z27 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd|
-Z28 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd|
+R20
+Z29 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd|
+Z30 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd|
 !i113 1
 R15
 R16
 Aestructura
-R24
+R26
 R2
 R3
 R4
@@ -189,15 +189,15 @@ DEx4 work 7 control 0 22 zI1Q:_aIElK0aLFPQYI<;3
 !i122 11
 l28
 L21 48
-Vzn^EN^Xd[K7UTTBGQ9lZT0
-!s100 Hf;gHnV5^Rig_oA;z`K]b1
+V15fU5FGWk8UoE]XKTK^MF2
+!s100 ZMJhCiK;g3?TGSNnE6XTL0
 R10
 33
 R11
 !i10b 1
-R12
-R27
-R28
+R20
+R29
+R30
 !i113 1
 R15
 R16
@@ -211,12 +211,12 @@ R0
 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd
 l0
-Z29 L10 1
+Z31 L10 1
 V39`=Hz78gC`OS2ETV@2a41
 !s100 1cno2XaH;me[gf@hBL_Vk1
 R10
 33
-R11
+R23
 !i10b 1
 R12
 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd|
@@ -226,16 +226,16 @@ R15
 R16
 Pimpri_br_pkg
 R3
-Z30 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
-Z31 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z32 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+Z33 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 R4
 R5
 R6
 !i122 12
-Z32 w1665771541
+Z34 w1665834623
 R0
-Z33 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd
-Z34 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd
+Z35 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd
+Z36 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd
 l0
 L16 1
 V`1HlOMhDhD<AG@X6Xd[?N3
@@ -245,17 +245,17 @@ R10
 b1
 R11
 !i10b 1
-R12
-Z35 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd|
-Z36 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd|
+R20
+Z37 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd|
+Z38 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../../../UTILIDADES_pkg/impri_BR_pkg/impri_BR_pkg.vhd|
 !i113 1
 R15
 R16
 Bbody
-Z37 DPx4 work 12 impri_br_pkg 0 22 `1HlOMhDhD<AG@X6Xd[?N3
+Z39 DPx4 work 12 impri_br_pkg 0 22 `1HlOMhDhD<AG@X6Xd[?N3
 R3
-R30
-R31
+R32
+R33
 R4
 R5
 R6
@@ -268,9 +268,9 @@ R10
 33
 R11
 !i10b 1
-R12
-R35
-R36
+R20
+R37
+R38
 !i113 1
 R15
 R16
@@ -282,19 +282,19 @@ R5
 R6
 !i122 5
 R0
-Z38 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd
-Z39 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd
+Z40 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd
+Z41 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd
 l0
-R29
+R31
 V5dD9:`GULDZEPALChL]1m0
 !s100 MEZT`EeU6m>8g6`E4ZU?k1
 R10
 33
-R11
+R23
 !i10b 1
 R12
-Z40 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd|
-Z41 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd|
+Z42 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd|
+Z43 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd|
 !i113 1
 R15
 R16
@@ -311,11 +311,11 @@ V:F68jPIz90mNzeOOKaFGK1
 !s100 mCZl9hdmk=]_28YEF;VPS2
 R10
 33
-R11
+R23
 !i10b 1
 R12
-R40
-R41
+R42
+R43
 !i113 1
 R15
 R16
@@ -325,19 +325,19 @@ R5
 R6
 !i122 2
 R0
-Z42 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd
-Z43 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd
+Z44 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd
+Z45 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd
 l0
 L9 1
 VjH7[0O5mn]0mCK`i8^1O]3
 !s100 1AAcd4NNfb[VE=f6DceTQ0
 R10
 33
-R11
+R23
 !i10b 1
 R12
-Z44 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd|
-Z45 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd|
+Z46 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd|
+Z47 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd|
 !i113 1
 R15
 R16
@@ -352,54 +352,54 @@ V9VeeE=8M]bWODQJP6PR<n3
 !s100 i^e17h9b?FFIm;NFVE<[d1
 R10
 33
-R11
+R23
 !i10b 1
 R12
-R44
-R45
+R46
+R47
 !i113 1
 R15
 R16
 Eprueba_camino_control
-R1
-Z46 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
-R30
-R31
-R37
-Z47 DPx4 work 40 prueba_procedimientos_camino_control_pkg 0 22 M1E>5UeTgF[fYIbnzdciI1
+Z48 w1666119002
+Z49 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R32
+R33
+R39
+Z50 DPx4 work 40 prueba_procedimientos_camino_control_pkg 0 22 M1E>5UeTgF[fYIbnzdciI1
 R3
 R4
 R5
 R6
 !i122 14
 R0
-Z48 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd
-Z49 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd
+Z51 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd
+Z52 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd
 l0
 L15 1
-VIHQ4X?jVkd<2j2]@6J5;g1
-!s100 ^kOXS_X5EeUmC6QR@NMJz1
+V=12Rco4ToP=iBgKgGOTo41
+!s100 NmJ]T=T1m3n:VV4WD2d?_0
 R10
 33
-Z50 !s110 1665774314
+R11
 !i10b 1
-R12
-Z51 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd|
+R20
+Z53 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd|
 !i113 1
 R15
 R16
 Aprueba
-R46
-R30
-R31
-R37
-R47
+R49
+R32
+R33
+R39
+R50
 R3
 R4
 R5
 R6
-DEx4 work 21 prueba_camino_control 0 22 IHQ4X?jVkd<2j2]@6J5;g1
+DEx4 work 21 prueba_camino_control 0 22 =12Rco4ToP=iBgKgGOTo41
 !i122 14
 l61
 L21 118
@@ -407,11 +407,11 @@ VB5EQ[QGU8^J?[f^T=KB0U3
 !s100 d5di1M6iV==7;jj06DCCT0
 R10
 33
-R50
+R11
 !i10b 1
-R12
-R51
-Z52 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd|
+R20
+R53
+Z54 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../PRUEBAS_control_depen/prueba_camino_control.vhd|
 !i113 1
 R15
 R16
@@ -423,10 +423,10 @@ R6
 !i122 13
 R1
 R0
-Z53 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd
-Z54 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd
+Z55 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd
+Z56 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd
 l0
-R22
+R24
 VM1E>5UeTgF[fYIbnzdciI1
 !s100 j3OSDFK[f8bJcePU8d>a`2
 R10
@@ -434,14 +434,14 @@ R10
 b1
 R11
 !i10b 1
-R12
-Z55 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd|
-Z56 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd|
+R20
+Z57 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd|
+Z58 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/QUARTUS_control_depen/../UTILIDADES_pkg/prueba_procedimientos_camino_control.vhd|
 !i113 1
 R15
 R16
 Bbody
-R47
+R50
 R3
 R4
 R5
@@ -455,9 +455,9 @@ R10
 33
 R11
 !i10b 1
-R12
-R55
-R56
+R20
+R57
+R58
 !i113 1
 R15
 R16
@@ -468,19 +468,19 @@ R5
 R6
 !i122 8
 R0
-Z57 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd
-Z58 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd
+Z59 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd
+Z60 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd
 l0
-R29
+R31
 V03klTbk^PRebFIAeFVnIC1
 !s100 3@gX0hK1MbcEV<HiY^z@U1
 R10
 33
 R11
 !i10b 1
-R12
-Z59 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd|
-Z60 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd|
+R20
+Z61 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd|
+Z62 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd|
 !i113 1
 R15
 R16
@@ -498,9 +498,9 @@ R10
 33
 R11
 !i10b 1
-R12
-R59
-R60
+R20
+R61
+R62
 !i113 1
 R15
 R16
@@ -511,19 +511,19 @@ R5
 R6
 !i122 9
 R0
-Z61 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd
-Z62 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd
+Z63 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd
+Z64 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd
 l0
-R29
+R31
 Vl`3RU@fC9KGaaX7PBHP462
 !s100 8G0Ai0Cm8E^A;EClz?kBH3
 R10
 33
 R11
 !i10b 1
-R12
-Z63 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd|
-Z64 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd|
+R20
+Z65 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd|
+Z66 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd|
 !i113 1
 R15
 R16
@@ -541,9 +541,9 @@ R10
 33
 R11
 !i10b 1
-R12
-R63
-R64
+R20
+R65
+R66
 !i113 1
 R15
 R16
@@ -561,7 +561,7 @@ Vk;;H[JKa<jb_RRZnIgHnh1
 !s100 Q`V^A0k9=9Bbh?CGRR:mY1
 R10
 33
-R11
+R23
 !i10b 1
 R12
 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd|
@@ -578,8 +578,8 @@ R5
 R6
 !i122 7
 R0
-Z65 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd
-Z66 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd
+Z67 8/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd
+Z68 F/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd
 l0
 R9
 V`c0GOh^jVl4?He58La1oL0
@@ -588,9 +588,9 @@ R10
 33
 R11
 !i10b 1
-R12
-Z67 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd|
-Z68 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd|
+R20
+Z69 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd|
+Z70 !s107 /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd|
 !i113 1
 R15
 R16
@@ -610,9 +610,9 @@ R10
 33
 R11
 !i10b 1
-R12
-R67
-R68
+R20
+R69
+R70
 !i113 1
 R15
 R16

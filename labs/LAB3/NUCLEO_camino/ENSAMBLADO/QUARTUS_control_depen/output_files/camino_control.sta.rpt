@@ -1,13 +1,13 @@
-TimeQuest Timing Analyzer report for camino_control
-Mon Oct 17 19:46:28 2022
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Timing Analyzer report for camino_control
+Tue Oct 18 19:54:11 2022
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
 ---------------------
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. TimeQuest Timing Analyzer Summary
+  2. Timing Analyzer Summary
   3. Parallel Compilation
   4. Clocks
   5. Slow 1200mV 85C Model Fmax Summary
@@ -19,107 +19,94 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
  11. Slow 1200mV 85C Model Minimum Pulse Width Summary
  12. Slow 1200mV 85C Model Setup: 'reloj'
  13. Slow 1200mV 85C Model Hold: 'reloj'
- 14. Slow 1200mV 85C Model Minimum Pulse Width: 'reloj'
- 15. Setup Times
- 16. Hold Times
- 17. Clock to Output Times
- 18. Minimum Clock to Output Times
- 19. Propagation Delay
- 20. Minimum Propagation Delay
- 21. Slow 1200mV 85C Model Metastability Report
- 22. Slow 1200mV 0C Model Fmax Summary
- 23. Slow 1200mV 0C Model Setup Summary
- 24. Slow 1200mV 0C Model Hold Summary
- 25. Slow 1200mV 0C Model Recovery Summary
- 26. Slow 1200mV 0C Model Removal Summary
- 27. Slow 1200mV 0C Model Minimum Pulse Width Summary
- 28. Slow 1200mV 0C Model Setup: 'reloj'
- 29. Slow 1200mV 0C Model Hold: 'reloj'
- 30. Slow 1200mV 0C Model Minimum Pulse Width: 'reloj'
- 31. Setup Times
- 32. Hold Times
- 33. Clock to Output Times
- 34. Minimum Clock to Output Times
- 35. Propagation Delay
- 36. Minimum Propagation Delay
- 37. Slow 1200mV 0C Model Metastability Report
- 38. Fast 1200mV 0C Model Setup Summary
- 39. Fast 1200mV 0C Model Hold Summary
- 40. Fast 1200mV 0C Model Recovery Summary
- 41. Fast 1200mV 0C Model Removal Summary
- 42. Fast 1200mV 0C Model Minimum Pulse Width Summary
- 43. Fast 1200mV 0C Model Setup: 'reloj'
- 44. Fast 1200mV 0C Model Hold: 'reloj'
- 45. Fast 1200mV 0C Model Minimum Pulse Width: 'reloj'
- 46. Setup Times
- 47. Hold Times
- 48. Clock to Output Times
- 49. Minimum Clock to Output Times
- 50. Propagation Delay
- 51. Minimum Propagation Delay
- 52. Fast 1200mV 0C Model Metastability Report
- 53. Multicorner Timing Analysis Summary
- 54. Setup Times
- 55. Hold Times
- 56. Clock to Output Times
- 57. Minimum Clock to Output Times
- 58. Progagation Delay
- 59. Minimum Progagation Delay
- 60. Board Trace Model Assignments
- 61. Input Transition Times
- 62. Signal Integrity Metrics (Slow 1200mv 0c Model)
- 63. Signal Integrity Metrics (Slow 1200mv 85c Model)
- 64. Signal Integrity Metrics (Fast 1200mv 0c Model)
- 65. Setup Transfers
- 66. Hold Transfers
- 67. Report TCCS
- 68. Report RSKM
- 69. Unconstrained Paths
- 70. TimeQuest Timing Analyzer Messages
+ 14. Slow 1200mV 85C Model Metastability Summary
+ 15. Slow 1200mV 0C Model Fmax Summary
+ 16. Slow 1200mV 0C Model Setup Summary
+ 17. Slow 1200mV 0C Model Hold Summary
+ 18. Slow 1200mV 0C Model Recovery Summary
+ 19. Slow 1200mV 0C Model Removal Summary
+ 20. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 21. Slow 1200mV 0C Model Setup: 'reloj'
+ 22. Slow 1200mV 0C Model Hold: 'reloj'
+ 23. Slow 1200mV 0C Model Metastability Summary
+ 24. Fast 1200mV 0C Model Setup Summary
+ 25. Fast 1200mV 0C Model Hold Summary
+ 26. Fast 1200mV 0C Model Recovery Summary
+ 27. Fast 1200mV 0C Model Removal Summary
+ 28. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 29. Fast 1200mV 0C Model Setup: 'reloj'
+ 30. Fast 1200mV 0C Model Hold: 'reloj'
+ 31. Fast 1200mV 0C Model Metastability Summary
+ 32. Multicorner Timing Analysis Summary
+ 33. Board Trace Model Assignments
+ 34. Input Transition Times
+ 35. Signal Integrity Metrics (Slow 1200mv 0c Model)
+ 36. Signal Integrity Metrics (Slow 1200mv 85c Model)
+ 37. Signal Integrity Metrics (Fast 1200mv 0c Model)
+ 38. Setup Transfers
+ 39. Hold Transfers
+ 40. Report TCCS
+ 41. Report RSKM
+ 42. Unconstrained Paths Summary
+ 43. Clock Status Summary
+ 44. Unconstrained Input Ports
+ 45. Unconstrained Output Ports
+ 46. Unconstrained Input Ports
+ 47. Unconstrained Output Ports
+ 48. Timing Analyzer Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 
 
 
-+----------------------------------------------------------------------------------------+
-; TimeQuest Timing Analyzer Summary                                                      ;
-+--------------------+-------------------------------------------------------------------+
-; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
-; Revision Name      ; camino_control                                                    ;
-; Device Family      ; Cyclone IV GX                                                     ;
-; Device Name        ; EP4CGX30CF23C6                                                    ;
-; Timing Models      ; Final                                                             ;
-; Delay Model        ; Combined                                                          ;
-; Rise/Fall Delays   ; Enabled                                                           ;
-+--------------------+-------------------------------------------------------------------+
++-----------------------------------------------------------------------------+
+; Timing Analyzer Summary                                                     ;
++-----------------------+-----------------------------------------------------+
+; Quartus Prime Version ; Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Timing Analyzer       ; Legacy Timing Analyzer                              ;
+; Revision Name         ; camino_control                                      ;
+; Device Family         ; Cyclone IV GX                                       ;
+; Device Name           ; EP4CGX30CF23C6                                      ;
+; Timing Models         ; Final                                               ;
+; Delay Model           ; Combined                                            ;
+; Rise/Fall Delays      ; Enabled                                             ;
++-----------------------+-----------------------------------------------------+
 
 
-Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
-+-------------------------------------+
-; Parallel Compilation                ;
-+----------------------------+--------+
-; Processors                 ; Number ;
-+----------------------------+--------+
-; Number detected on machine ; 12     ;
-; Maximum allowed            ; 1      ;
-+----------------------------+--------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 12          ;
+;                            ;             ;
+; Average used               ; 1.03        ;
+; Maximum used               ; 12          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.3%      ;
+;     Processors 3-12        ;   0.3%      ;
++----------------------------+-------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -136,7 +123,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +------------+-----------------+------------+---------------------------------------------------------------+
 ; Fmax       ; Restricted Fmax ; Clock Name ; Note                                                          ;
 +------------+-----------------+------------+---------------------------------------------------------------+
-; 583.43 MHz ; 250.0 MHz       ; reloj      ; limit due to minimum period restriction (max I/O toggle rate) ;
+; 582.75 MHz ; 250.0 MHz       ; reloj      ; limit due to minimum period restriction (max I/O toggle rate) ;
 +------------+-----------------+------------+---------------------------------------------------------------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -152,7 +139,7 @@ HTML report is unavailable in plain text report export.
 +-------+--------+--------------------+
 ; Clock ; Slack  ; End Point TNS      ;
 +-------+--------+--------------------+
-; reloj ; -0.714 ; -3.329             ;
+; reloj ; -0.716 ; -3.327             ;
 +-------+--------+--------------------+
 
 
@@ -191,26 +178,26 @@ No paths to report.
 +--------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
 ; Slack  ; From Node                                ; To Node                                  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +--------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
-; -0.714 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.421     ; 1.288      ;
+; -0.716 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.421     ; 1.290      ;
 ; -0.675 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.596      ;
-; -0.618 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.539      ;
+; -0.619 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.540      ;
 ; -0.588 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.509      ;
 ; -0.583 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.504      ;
 ; -0.577 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.498      ;
-; -0.539 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.460      ;
-; -0.539 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.460      ;
-; -0.539 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.460      ;
-; -0.539 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.460      ;
+; -0.537 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.458      ;
+; -0.537 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.458      ;
+; -0.537 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.458      ;
+; -0.537 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.458      ;
 ; -0.515 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.436      ;
 ; -0.501 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.422      ;
-; -0.473 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.394      ;
 ; -0.472 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.393      ;
+; -0.472 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.393      ;
 ; -0.378 ; control:controlDE|registro:contador|s[1] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.299      ;
 ; -0.366 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.259      ; 1.620      ;
 ; -0.284 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.259      ; 1.538      ;
 ; -0.271 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.259      ; 1.525      ;
-; -0.239 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.160      ;
-; -0.206 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.259      ; 1.460      ;
+; -0.241 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.162      ;
+; -0.204 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.259      ; 1.458      ;
 ; -0.169 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.259      ; 1.423      ;
 ; -0.100 ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; -0.088     ; 1.007      ;
 ; -0.084 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.074     ; 1.005      ;
@@ -234,9 +221,9 @@ No paths to report.
 ; 0.574 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 0.805      ;
 ; 0.590 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.421      ; 1.168      ;
 ; 0.608 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.421      ; 1.186      ;
-; 0.668 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.074      ; 0.899      ;
-; 0.755 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.421      ; 1.333      ;
-; 0.791 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.022      ;
+; 0.671 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.074      ; 0.902      ;
+; 0.753 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.421      ; 1.331      ;
+; 0.790 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.021      ;
 ; 0.825 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.056      ;
 ; 0.841 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.072      ;
 ; 0.841 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.072      ;
@@ -245,121 +232,18 @@ No paths to report.
 ; 0.935 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.166      ;
 ; 0.953 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.184      ;
 ; 1.026 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.257      ;
-; 1.102 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.333      ;
-; 1.102 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.333      ;
-; 1.102 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.333      ;
-; 1.102 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.333      ;
+; 1.100 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.331      ;
+; 1.100 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.331      ;
+; 1.100 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.331      ;
+; 1.100 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.331      ;
 ; 1.149 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.074      ; 1.380      ;
 ; 1.222 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; -0.259     ; 1.120      ;
 +-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------+
-; Slow 1200mV 85C Model Minimum Pulse Width: 'reloj'                                                                        ;
-+--------+--------------+----------------+------------------+-------+------------+------------------------------------------+
-; Slack  ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                                   ;
-+--------+--------------+----------------+------------------+-------+------------+------------------------------------------+
-; -3.000 ; 1.000        ; 4.000          ; Port Rate        ; reloj ; Rise       ; reloj                                    ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|reg1:estadoreg|s       ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[0] ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[1] ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[2] ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[3] ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[4] ;
-; 0.253  ; 0.437        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[4] ;
-; 0.256  ; 0.440        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|reg1:estadoreg|s       ;
-; 0.256  ; 0.440        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[0] ;
-; 0.256  ; 0.440        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[1] ;
-; 0.256  ; 0.440        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[2] ;
-; 0.256  ; 0.440        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[3] ;
-; 0.335  ; 0.335        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; reloj~input|o                            ;
-; 0.342  ; 0.558        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|reg1:estadoreg|s       ;
-; 0.342  ; 0.558        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[0] ;
-; 0.342  ; 0.558        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[1] ;
-; 0.342  ; 0.558        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[2] ;
-; 0.342  ; 0.558        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[3] ;
-; 0.345  ; 0.561        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[4] ;
-; 0.350  ; 0.350        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; reloj~inputclkctrl|inclk[0]              ;
-; 0.350  ; 0.350        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; reloj~inputclkctrl|outclk                ;
-; 0.413  ; 0.413        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[4]|clk              ;
-; 0.416  ; 0.416        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[0]|clk              ;
-; 0.416  ; 0.416        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[1]|clk              ;
-; 0.416  ; 0.416        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[2]|clk              ;
-; 0.416  ; 0.416        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[3]|clk              ;
-; 0.416  ; 0.416        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|estadoreg|s|clk                ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; reloj~input|i                            ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; reloj~input|i                            ;
-; 0.580  ; 0.580        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[0]|clk              ;
-; 0.580  ; 0.580        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[1]|clk              ;
-; 0.580  ; 0.580        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[2]|clk              ;
-; 0.580  ; 0.580        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[3]|clk              ;
-; 0.580  ; 0.580        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|estadoreg|s|clk                ;
-; 0.583  ; 0.583        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[4]|clk              ;
-; 0.649  ; 0.649        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; reloj~inputclkctrl|inclk[0]              ;
-; 0.649  ; 0.649        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; reloj~inputclkctrl|outclk                ;
-; 0.665  ; 0.665        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; reloj~input|o                            ;
-+--------+--------------+----------------+------------------+-------+------------+------------------------------------------+
-
-
-+-----------------------------------------------------------------------+
-; Setup Times                                                           ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Pcero     ; reloj      ; 1.738 ; 2.161 ; Rise       ; reloj           ;
-; ini       ; reloj      ; 1.261 ; 1.683 ; Rise       ; reloj           ;
-+-----------+------------+-------+-------+------------+-----------------+
-
-
-+-------------------------------------------------------------------------+
-; Hold Times                                                              ;
-+-----------+------------+--------+--------+------------+-----------------+
-; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
-+-----------+------------+--------+--------+------------+-----------------+
-; Pcero     ; reloj      ; -0.887 ; -1.351 ; Rise       ; reloj           ;
-; ini       ; reloj      ; -0.830 ; -1.231 ; Rise       ; reloj           ;
-+-----------+------------+--------+--------+------------+-----------------+
-
-
-+-----------------------------------------------------------------------+
-; Clock to Output Times                                                 ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
-+-----------+------------+-------+-------+------------+-----------------+
-; finalop   ; reloj      ; 7.807 ; 7.813 ; Rise       ; reloj           ;
-+-----------+------------+-------+-------+------------+-----------------+
-
-
-+-----------------------------------------------------------------------+
-; Minimum Clock to Output Times                                         ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
-+-----------+------------+-------+-------+------------+-----------------+
-; finalop   ; reloj      ; 7.027 ; 7.063 ; Rise       ; reloj           ;
-+-----------+------------+-------+-------+------------+-----------------+
-
-
-+----------------------------------------------------+
-; Propagation Delay                                  ;
-+------------+-------------+----+-------+-------+----+
-; Input Port ; Output Port ; RR ; RF    ; FR    ; FF ;
-+------------+-------------+----+-------+-------+----+
-; Pcero      ; finalop     ;    ; 7.727 ; 8.122 ;    ;
-+------------+-------------+----+-------+-------+----+
-
-
-+----------------------------------------------------+
-; Minimum Propagation Delay                          ;
-+------------+-------------+----+-------+-------+----+
-; Input Port ; Output Port ; RR ; RF    ; FR    ; FF ;
-+------------+-------------+----+-------+-------+----+
-; Pcero      ; finalop     ;    ; 7.468 ; 7.851 ;    ;
-+------------+-------------+----+-------+-------+----+
-
-
-----------------------------------------------
-; Slow 1200mV 85C Model Metastability Report ;
-----------------------------------------------
+-----------------------------------------------
+; Slow 1200mV 85C Model Metastability Summary ;
+-----------------------------------------------
 No synchronizer chains to report.
 
 
@@ -368,7 +252,7 @@ No synchronizer chains to report.
 +------------+-----------------+------------+---------------------------------------------------------------+
 ; Fmax       ; Restricted Fmax ; Clock Name ; Note                                                          ;
 +------------+-----------------+------------+---------------------------------------------------------------+
-; 650.62 MHz ; 250.0 MHz       ; reloj      ; limit due to minimum period restriction (max I/O toggle rate) ;
+; 651.04 MHz ; 250.0 MHz       ; reloj      ; limit due to minimum period restriction (max I/O toggle rate) ;
 +------------+-----------------+------------+---------------------------------------------------------------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -378,7 +262,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +-------+--------+-------------------+
 ; Clock ; Slack  ; End Point TNS     ;
 +-------+--------+-------------------+
-; reloj ; -0.537 ; -2.337            ;
+; reloj ; -0.536 ; -2.332            ;
 +-------+--------+-------------------+
 
 
@@ -387,7 +271,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +-------+-------+-------------------+
 ; Clock ; Slack ; End Point TNS     ;
 +-------+-------+-------------------+
-; reloj ; 0.442 ; 0.000             ;
+; reloj ; 0.443 ; 0.000             ;
 +-------+-------+-------------------+
 
 
@@ -417,15 +301,15 @@ No paths to report.
 +--------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
 ; Slack  ; From Node                                ; To Node                                  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +--------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
-; -0.537 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.381     ; 1.151      ;
+; -0.536 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.380     ; 1.151      ;
 ; -0.483 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.412      ;
 ; -0.454 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.383      ;
 ; -0.414 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.343      ;
 ; -0.404 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.333      ;
-; -0.390 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.319      ;
-; -0.390 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.319      ;
-; -0.390 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.319      ;
-; -0.390 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.319      ;
+; -0.388 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.317      ;
+; -0.388 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.317      ;
+; -0.388 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.317      ;
+; -0.388 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.317      ;
 ; -0.386 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.315      ;
 ; -0.347 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.276      ;
 ; -0.334 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.263      ;
@@ -435,10 +319,10 @@ No paths to report.
 ; -0.202 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.236      ; 1.433      ;
 ; -0.132 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.236      ; 1.363      ;
 ; -0.122 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.236      ; 1.353      ;
-; -0.104 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.033      ;
-; -0.088 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.236      ; 1.319      ;
+; -0.105 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.066     ; 1.034      ;
+; -0.086 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.236      ; 1.317      ;
 ; -0.034 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.236      ; 1.265      ;
-; 0.025  ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; -0.079     ; 0.891      ;
+; 0.026  ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; -0.078     ; 0.891      ;
 ; 0.033  ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 0.896      ;
 ; 0.053  ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 0.876      ;
 ; 0.054  ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.066     ; 0.875      ;
@@ -451,17 +335,17 @@ No paths to report.
 +-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
 ; Slack ; From Node                                ; To Node                                  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
-; 0.442 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.381      ; 0.967      ;
-; 0.445 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.381      ; 0.970      ;
-; 0.490 ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.079      ; 0.713      ;
+; 0.443 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.380      ; 0.967      ;
+; 0.446 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.380      ; 0.970      ;
+; 0.491 ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.078      ; 0.713      ;
 ; 0.499 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.709      ;
 ; 0.500 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.710      ;
 ; 0.516 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.726      ;
 ; 0.517 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.727      ;
-; 0.524 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.381      ; 1.049      ;
-; 0.537 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.381      ; 1.062      ;
-; 0.594 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.804      ;
-; 0.676 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.381      ; 1.201      ;
+; 0.525 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.380      ; 1.049      ;
+; 0.538 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.380      ; 1.062      ;
+; 0.596 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.806      ;
+; 0.674 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.380      ; 1.198      ;
 ; 0.717 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.927      ;
 ; 0.743 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.953      ;
 ; 0.749 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 0.959      ;
@@ -471,121 +355,18 @@ No paths to report.
 ; 0.832 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.042      ;
 ; 0.845 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.055      ;
 ; 0.931 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.141      ;
-; 0.991 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.201      ;
-; 0.991 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.201      ;
-; 0.991 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.201      ;
-; 0.991 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.201      ;
+; 0.988 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.198      ;
+; 0.988 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.198      ;
+; 0.988 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.198      ;
+; 0.988 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.198      ;
 ; 1.039 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.066      ; 1.249      ;
 ; 1.109 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; -0.236     ; 1.017      ;
 +-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------+
-; Slow 1200mV 0C Model Minimum Pulse Width: 'reloj'                                                                         ;
-+--------+--------------+----------------+------------------+-------+------------+------------------------------------------+
-; Slack  ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                                   ;
-+--------+--------------+----------------+------------------+-------+------------+------------------------------------------+
-; -3.000 ; 1.000        ; 4.000          ; Port Rate        ; reloj ; Rise       ; reloj                                    ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|reg1:estadoreg|s       ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[0] ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[1] ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[2] ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[3] ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[4] ;
-; 0.262  ; 0.446        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|reg1:estadoreg|s       ;
-; 0.262  ; 0.446        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[0] ;
-; 0.262  ; 0.446        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[1] ;
-; 0.262  ; 0.446        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[2] ;
-; 0.262  ; 0.446        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[3] ;
-; 0.266  ; 0.450        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[4] ;
-; 0.331  ; 0.547        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[4] ;
-; 0.335  ; 0.551        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|reg1:estadoreg|s       ;
-; 0.335  ; 0.551        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[0] ;
-; 0.335  ; 0.551        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[1] ;
-; 0.335  ; 0.551        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[2] ;
-; 0.335  ; 0.551        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[3] ;
-; 0.356  ; 0.356        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; reloj~input|o                            ;
-; 0.364  ; 0.364        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; reloj~inputclkctrl|inclk[0]              ;
-; 0.364  ; 0.364        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; reloj~inputclkctrl|outclk                ;
-; 0.422  ; 0.422        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[0]|clk              ;
-; 0.422  ; 0.422        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[1]|clk              ;
-; 0.422  ; 0.422        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[2]|clk              ;
-; 0.422  ; 0.422        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[3]|clk              ;
-; 0.422  ; 0.422        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|estadoreg|s|clk                ;
-; 0.426  ; 0.426        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[4]|clk              ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; reloj~input|i                            ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; reloj~input|i                            ;
-; 0.571  ; 0.571        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[4]|clk              ;
-; 0.575  ; 0.575        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[0]|clk              ;
-; 0.575  ; 0.575        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[1]|clk              ;
-; 0.575  ; 0.575        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[2]|clk              ;
-; 0.575  ; 0.575        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[3]|clk              ;
-; 0.575  ; 0.575        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|estadoreg|s|clk                ;
-; 0.636  ; 0.636        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; reloj~inputclkctrl|inclk[0]              ;
-; 0.636  ; 0.636        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; reloj~inputclkctrl|outclk                ;
-; 0.644  ; 0.644        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; reloj~input|o                            ;
-+--------+--------------+----------------+------------------+-------+------------+------------------------------------------+
-
-
-+-----------------------------------------------------------------------+
-; Setup Times                                                           ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Pcero     ; reloj      ; 1.475 ; 1.824 ; Rise       ; reloj           ;
-; ini       ; reloj      ; 1.042 ; 1.375 ; Rise       ; reloj           ;
-+-----------+------------+-------+-------+------------+-----------------+
-
-
-+-------------------------------------------------------------------------+
-; Hold Times                                                              ;
-+-----------+------------+--------+--------+------------+-----------------+
-; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
-+-----------+------------+--------+--------+------------+-----------------+
-; Pcero     ; reloj      ; -0.708 ; -1.092 ; Rise       ; reloj           ;
-; ini       ; reloj      ; -0.659 ; -0.979 ; Rise       ; reloj           ;
-+-----------+------------+--------+--------+------------+-----------------+
-
-
-+-----------------------------------------------------------------------+
-; Clock to Output Times                                                 ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
-+-----------+------------+-------+-------+------------+-----------------+
-; finalop   ; reloj      ; 6.957 ; 6.980 ; Rise       ; reloj           ;
-+-----------+------------+-------+-------+------------+-----------------+
-
-
-+-----------------------------------------------------------------------+
-; Minimum Clock to Output Times                                         ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
-+-----------+------------+-------+-------+------------+-----------------+
-; finalop   ; reloj      ; 6.268 ; 6.321 ; Rise       ; reloj           ;
-+-----------+------------+-------+-------+------------+-----------------+
-
-
-+----------------------------------------------------+
-; Propagation Delay                                  ;
-+------------+-------------+----+-------+-------+----+
-; Input Port ; Output Port ; RR ; RF    ; FR    ; FF ;
-+------------+-------------+----+-------+-------+----+
-; Pcero      ; finalop     ;    ; 6.817 ; 7.125 ;    ;
-+------------+-------------+----+-------+-------+----+
-
-
-+----------------------------------------------------+
-; Minimum Propagation Delay                          ;
-+------------+-------------+----+-------+-------+----+
-; Input Port ; Output Port ; RR ; RF    ; FR    ; FF ;
-+------------+-------------+----+-------+-------+----+
-; Pcero      ; finalop     ;    ; 6.589 ; 6.890 ;    ;
-+------------+-------------+----+-------+-------+----+
-
-
----------------------------------------------
-; Slow 1200mV 0C Model Metastability Report ;
----------------------------------------------
+----------------------------------------------
+; Slow 1200mV 0C Model Metastability Summary ;
+----------------------------------------------
 No synchronizer chains to report.
 
 
@@ -594,7 +375,7 @@ No synchronizer chains to report.
 +-------+-------+--------------------+
 ; Clock ; Slack ; End Point TNS      ;
 +-------+-------+--------------------+
-; reloj ; 0.049 ; 0.000              ;
+; reloj ; 0.048 ; 0.000              ;
 +-------+-------+--------------------+
 
 
@@ -633,32 +414,32 @@ No paths to report.
 +-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
 ; Slack ; From Node                                ; To Node                                  ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
 +-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
-; 0.049 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.232     ; 0.706      ;
-; 0.061 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.882      ;
-; 0.099 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.844      ;
-; 0.111 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.832      ;
-; 0.115 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.828      ;
-; 0.121 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.822      ;
-; 0.153 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.790      ;
-; 0.154 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.789      ;
-; 0.154 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.789      ;
-; 0.154 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.789      ;
-; 0.154 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.789      ;
-; 0.162 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.781      ;
-; 0.189 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.754      ;
-; 0.189 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.754      ;
-; 0.227 ; control:controlDE|registro:contador|s[1] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.716      ;
-; 0.228 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.137      ; 0.896      ;
-; 0.275 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.137      ; 0.849      ;
-; 0.284 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.137      ; 0.840      ;
-; 0.306 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.637      ;
-; 0.335 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.137      ; 0.789      ;
-; 0.342 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.137      ; 0.782      ;
+; 0.048 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.232     ; 0.707      ;
+; 0.062 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.882      ;
+; 0.100 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.844      ;
+; 0.112 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.832      ;
+; 0.116 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.828      ;
+; 0.122 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.822      ;
+; 0.154 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.790      ;
+; 0.156 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.788      ;
+; 0.156 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.788      ;
+; 0.156 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.788      ;
+; 0.156 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.788      ;
+; 0.163 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.781      ;
+; 0.190 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.754      ;
+; 0.190 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.754      ;
+; 0.228 ; control:controlDE|registro:contador|s[1] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.716      ;
+; 0.229 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.138      ; 0.896      ;
+; 0.276 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.138      ; 0.849      ;
+; 0.285 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.138      ; 0.840      ;
+; 0.307 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.637      ;
+; 0.337 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.138      ; 0.788      ;
+; 0.343 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; 0.138      ; 0.782      ;
 ; 0.383 ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 1.000        ; -0.051     ; 0.553      ;
-; 0.388 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.555      ;
-; 0.398 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.545      ;
-; 0.400 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.543      ;
-; 0.411 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.044     ; 0.532      ;
+; 0.389 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.555      ;
+; 0.399 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.545      ;
+; 0.401 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.543      ;
+; 0.412 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 1.000        ; -0.043     ; 0.532      ;
 +-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
 
 
@@ -669,139 +450,36 @@ No paths to report.
 +-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
 ; 0.267 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.232      ; 0.583      ;
 ; 0.268 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.232      ; 0.584      ;
-; 0.292 ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.051      ; 0.427      ;
-; 0.294 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.422      ;
-; 0.295 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.423      ;
-; 0.306 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.434      ;
-; 0.307 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.435      ;
+; 0.291 ; control:controlDE|registro:contador|s[4] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.051      ; 0.426      ;
+; 0.295 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.422      ;
+; 0.296 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.423      ;
+; 0.307 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.434      ;
+; 0.308 ; control:controlDE|registro:contador|s[3] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.435      ;
 ; 0.321 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.232      ; 0.637      ;
 ; 0.334 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.232      ; 0.650      ;
-; 0.364 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.492      ;
-; 0.411 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.232      ; 0.727      ;
-; 0.416 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.544      ;
-; 0.443 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.571      ;
-; 0.453 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.581      ;
-; 0.453 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.581      ;
-; 0.456 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.584      ;
-; 0.489 ; control:controlDE|registro:contador|s[1] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.617      ;
-; 0.506 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.634      ;
-; 0.519 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.647      ;
-; 0.551 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.679      ;
-; 0.599 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.727      ;
-; 0.599 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.727      ;
-; 0.599 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.727      ;
-; 0.599 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.727      ;
-; 0.623 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.044      ; 0.751      ;
-; 0.653 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; -0.137     ; 0.600      ;
+; 0.368 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.495      ;
+; 0.409 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[4] ; reloj        ; reloj       ; 0.000        ; 0.232      ; 0.725      ;
+; 0.417 ; control:controlDE|registro:contador|s[3] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.544      ;
+; 0.444 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.571      ;
+; 0.454 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.581      ;
+; 0.454 ; control:controlDE|registro:contador|s[2] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.581      ;
+; 0.457 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.584      ;
+; 0.490 ; control:controlDE|registro:contador|s[1] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.617      ;
+; 0.507 ; control:controlDE|registro:contador|s[1] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.634      ;
+; 0.520 ; control:controlDE|registro:contador|s[0] ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.647      ;
+; 0.552 ; control:controlDE|registro:contador|s[0] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.679      ;
+; 0.598 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[3] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.725      ;
+; 0.598 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[2] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.725      ;
+; 0.598 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[1] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.725      ;
+; 0.598 ; control:controlDE|reg1:estadoreg|s       ; control:controlDE|registro:contador|s[0] ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.725      ;
+; 0.624 ; control:controlDE|registro:contador|s[2] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; 0.043      ; 0.751      ;
+; 0.655 ; control:controlDE|registro:contador|s[4] ; control:controlDE|reg1:estadoreg|s       ; reloj        ; reloj       ; 0.000        ; -0.138     ; 0.601      ;
 +-------+------------------------------------------+------------------------------------------+--------------+-------------+--------------+------------+------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------+
-; Fast 1200mV 0C Model Minimum Pulse Width: 'reloj'                                                                         ;
-+--------+--------------+----------------+------------------+-------+------------+------------------------------------------+
-; Slack  ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                                   ;
-+--------+--------------+----------------+------------------+-------+------------+------------------------------------------+
-; -3.000 ; 1.000        ; 4.000          ; Port Rate        ; reloj ; Rise       ; reloj                                    ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|reg1:estadoreg|s       ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[0] ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[1] ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[2] ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[3] ;
-; -1.000 ; 1.000        ; 2.000          ; Min Period       ; reloj ; Rise       ; control:controlDE|registro:contador|s[4] ;
-; -0.029 ; 0.155        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[4] ;
-; -0.014 ; 0.170        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|reg1:estadoreg|s       ;
-; -0.014 ; 0.170        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[0] ;
-; -0.014 ; 0.170        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[1] ;
-; -0.014 ; 0.170        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[2] ;
-; -0.014 ; 0.170        ; 0.184          ; Low Pulse Width  ; reloj ; Rise       ; control:controlDE|registro:contador|s[3] ;
-; 0.121  ; 0.121        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; reloj~input|o                            ;
-; 0.136  ; 0.136        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; reloj~inputclkctrl|inclk[0]              ;
-; 0.136  ; 0.136        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; reloj~inputclkctrl|outclk                ;
-; 0.149  ; 0.149        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[4]|clk              ;
-; 0.164  ; 0.164        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[0]|clk              ;
-; 0.164  ; 0.164        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[1]|clk              ;
-; 0.164  ; 0.164        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[2]|clk              ;
-; 0.164  ; 0.164        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|contador|s[3]|clk              ;
-; 0.164  ; 0.164        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; controlDE|estadoreg|s|clk                ;
-; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; reloj~input|i                            ;
-; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; reloj ; Rise       ; reloj~input|i                            ;
-; 0.614  ; 0.830        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|reg1:estadoreg|s       ;
-; 0.614  ; 0.830        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[0] ;
-; 0.614  ; 0.830        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[1] ;
-; 0.614  ; 0.830        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[2] ;
-; 0.614  ; 0.830        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[3] ;
-; 0.629  ; 0.845        ; 0.216          ; High Pulse Width ; reloj ; Rise       ; control:controlDE|registro:contador|s[4] ;
-; 0.834  ; 0.834        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[0]|clk              ;
-; 0.834  ; 0.834        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[1]|clk              ;
-; 0.834  ; 0.834        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[2]|clk              ;
-; 0.834  ; 0.834        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[3]|clk              ;
-; 0.834  ; 0.834        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|estadoreg|s|clk                ;
-; 0.849  ; 0.849        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; controlDE|contador|s[4]|clk              ;
-; 0.863  ; 0.863        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; reloj~inputclkctrl|inclk[0]              ;
-; 0.863  ; 0.863        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; reloj~inputclkctrl|outclk                ;
-; 0.879  ; 0.879        ; 0.000          ; High Pulse Width ; reloj ; Rise       ; reloj~input|o                            ;
-+--------+--------------+----------------+------------------+-------+------------+------------------------------------------+
-
-
-+-----------------------------------------------------------------------+
-; Setup Times                                                           ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Pcero     ; reloj      ; 0.889 ; 1.452 ; Rise       ; reloj           ;
-; ini       ; reloj      ; 0.621 ; 1.194 ; Rise       ; reloj           ;
-+-----------+------------+-------+-------+------------+-----------------+
-
-
-+-------------------------------------------------------------------------+
-; Hold Times                                                              ;
-+-----------+------------+--------+--------+------------+-----------------+
-; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
-+-----------+------------+--------+--------+------------+-----------------+
-; Pcero     ; reloj      ; -0.419 ; -1.002 ; Rise       ; reloj           ;
-; ini       ; reloj      ; -0.376 ; -0.934 ; Rise       ; reloj           ;
-+-----------+------------+--------+--------+------------+-----------------+
-
-
-+-----------------------------------------------------------------------+
-; Clock to Output Times                                                 ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
-+-----------+------------+-------+-------+------------+-----------------+
-; finalop   ; reloj      ; 4.683 ; 4.634 ; Rise       ; reloj           ;
-+-----------+------------+-------+-------+------------+-----------------+
-
-
-+-----------------------------------------------------------------------+
-; Minimum Clock to Output Times                                         ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
-+-----------+------------+-------+-------+------------+-----------------+
-; finalop   ; reloj      ; 4.242 ; 4.177 ; Rise       ; reloj           ;
-+-----------+------------+-------+-------+------------+-----------------+
-
-
-+----------------------------------------------------+
-; Propagation Delay                                  ;
-+------------+-------------+----+-------+-------+----+
-; Input Port ; Output Port ; RR ; RF    ; FR    ; FF ;
-+------------+-------------+----+-------+-------+----+
-; Pcero      ; finalop     ;    ; 4.516 ; 5.115 ;    ;
-+------------+-------------+----+-------+-------+----+
-
-
-+----------------------------------------------------+
-; Minimum Propagation Delay                          ;
-+------------+-------------+----+-------+-------+----+
-; Input Port ; Output Port ; RR ; RF    ; FR    ; FF ;
-+------------+-------------+----+-------+-------+----+
-; Pcero      ; finalop     ;    ; 4.368 ; 4.955 ;    ;
-+------------+-------------+----+-------+-------+----+
-
-
----------------------------------------------
-; Fast 1200mV 0C Model Metastability Report ;
----------------------------------------------
+----------------------------------------------
+; Fast 1200mV 0C Model Metastability Summary ;
+----------------------------------------------
 No synchronizer chains to report.
 
 
@@ -810,67 +488,11 @@ No synchronizer chains to report.
 +------------------+--------+-------+----------+---------+---------------------+
 ; Clock            ; Setup  ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
 +------------------+--------+-------+----------+---------+---------------------+
-; Worst-case Slack ; -0.714 ; 0.267 ; N/A      ; N/A     ; -3.000              ;
-;  reloj           ; -0.714 ; 0.267 ; N/A      ; N/A     ; -3.000              ;
-; Design-wide TNS  ; -3.329 ; 0.0   ; 0.0      ; 0.0     ; -9.099              ;
-;  reloj           ; -3.329 ; 0.000 ; N/A      ; N/A     ; -9.099              ;
+; Worst-case Slack ; -0.716 ; 0.267 ; N/A      ; N/A     ; -3.000              ;
+;  reloj           ; -0.716 ; 0.267 ; N/A      ; N/A     ; -3.000              ;
+; Design-wide TNS  ; -3.327 ; 0.0   ; 0.0      ; 0.0     ; -9.099              ;
+;  reloj           ; -3.327 ; 0.000 ; N/A      ; N/A     ; -9.099              ;
 +------------------+--------+-------+----------+---------+---------------------+
-
-
-+-----------------------------------------------------------------------+
-; Setup Times                                                           ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Pcero     ; reloj      ; 1.738 ; 2.161 ; Rise       ; reloj           ;
-; ini       ; reloj      ; 1.261 ; 1.683 ; Rise       ; reloj           ;
-+-----------+------------+-------+-------+------------+-----------------+
-
-
-+-------------------------------------------------------------------------+
-; Hold Times                                                              ;
-+-----------+------------+--------+--------+------------+-----------------+
-; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
-+-----------+------------+--------+--------+------------+-----------------+
-; Pcero     ; reloj      ; -0.419 ; -1.002 ; Rise       ; reloj           ;
-; ini       ; reloj      ; -0.376 ; -0.934 ; Rise       ; reloj           ;
-+-----------+------------+--------+--------+------------+-----------------+
-
-
-+-----------------------------------------------------------------------+
-; Clock to Output Times                                                 ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
-+-----------+------------+-------+-------+------------+-----------------+
-; finalop   ; reloj      ; 7.807 ; 7.813 ; Rise       ; reloj           ;
-+-----------+------------+-------+-------+------------+-----------------+
-
-
-+-----------------------------------------------------------------------+
-; Minimum Clock to Output Times                                         ;
-+-----------+------------+-------+-------+------------+-----------------+
-; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
-+-----------+------------+-------+-------+------------+-----------------+
-; finalop   ; reloj      ; 4.242 ; 4.177 ; Rise       ; reloj           ;
-+-----------+------------+-------+-------+------------+-----------------+
-
-
-+----------------------------------------------------+
-; Progagation Delay                                  ;
-+------------+-------------+----+-------+-------+----+
-; Input Port ; Output Port ; RR ; RF    ; FR    ; FF ;
-+------------+-------------+----+-------+-------+----+
-; Pcero      ; finalop     ;    ; 7.727 ; 8.122 ;    ;
-+------------+-------------+----+-------+-------+----+
-
-
-+----------------------------------------------------+
-; Minimum Progagation Delay                          ;
-+------------+-------------+----+-------+-------+----+
-; Input Port ; Output Port ; RR ; RF    ; FR    ; FF ;
-+------------+-------------+----+-------+-------+----+
-; Pcero      ; finalop     ;    ; 4.368 ; 4.955 ;    ;
-+------------+-------------+----+-------+-------+----+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -979,11 +601,11 @@ No dedicated SERDES Transmitter circuitry present in device or used in design
 ---------------
 ; Report RSKM ;
 ---------------
-No dedicated SERDES Receiver circuitry present in device or used in design
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
 
 
 +------------------------------------------------+
-; Unconstrained Paths                            ;
+; Unconstrained Paths Summary                    ;
 +---------------------------------+-------+------+
 ; Property                        ; Setup ; Hold ;
 +---------------------------------+-------+------+
@@ -996,86 +618,133 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 +---------------------------------+-------+------+
 
 
-+------------------------------------+
-; TimeQuest Timing Analyzer Messages ;
-+------------------------------------+
++-------------------------------------+
+; Clock Status Summary                ;
++--------+-------+------+-------------+
+; Target ; Clock ; Type ; Status      ;
++--------+-------+------+-------------+
+; reloj  ; reloj ; Base ; Constrained ;
++--------+-------+------+-------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; Pcero      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ini        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                          ;
++-------------+---------------------------------------------------------------------------------------+
+; Output Port ; Comment                                                                               ;
++-------------+---------------------------------------------------------------------------------------+
+; finalop     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++-------------+---------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; Pcero      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; ini        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                          ;
++-------------+---------------------------------------------------------------------------------------+
+; Output Port ; Comment                                                                               ;
++-------------+---------------------------------------------------------------------------------------+
+; finalop     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++-------------+---------------------------------------------------------------------------------------+
+
+
++--------------------------+
+; Timing Analyzer Messages ;
++--------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
-    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Oct 17 19:46:26 2022
+Info: Running Quartus Prime Timing Analyzer
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Tue Oct 18 19:54:09 2022
 Info: Command: quartus_sta camino_control -c camino_control
 Info: qsta_default_script.tcl version: #1
-Warning (20028): Parallel compilation is not licensed and has been disabled
-Info (21077): Core supply voltage is 1.2V
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
-Critical Warning (332012): Synopsys Design Constraints File file not found: 'camino_control.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'camino_control.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
 Info (332105): Deriving Clocks
     Info (332105): create_clock -period 1.000 -name reloj reloj
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
-Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
-Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1200mV 85C Model
 Critical Warning (332148): Timing requirements not met
-    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
-Info (332146): Worst-case setup slack is -0.714
-    Info (332119):     Slack End Point TNS Clock 
-    Info (332119): ========= ============= =====================
-    Info (332119):    -0.714        -3.329 reloj 
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case setup slack is -0.716
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -0.716              -3.327 reloj 
 Info (332146): Worst-case hold slack is 0.496
-    Info (332119):     Slack End Point TNS Clock 
-    Info (332119): ========= ============= =====================
-    Info (332119):     0.496         0.000 reloj 
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.496               0.000 reloj 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -3.000
-    Info (332119):     Slack End Point TNS Clock 
-    Info (332119): ========= ============= =====================
-    Info (332119):    -3.000        -9.000 reloj 
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -3.000              -9.000 reloj 
 Info: Analyzing Slow 1200mV 0C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
-    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
-Info (332146): Worst-case setup slack is -0.537
-    Info (332119):     Slack End Point TNS Clock 
-    Info (332119): ========= ============= =====================
-    Info (332119):    -0.537        -2.337 reloj 
-Info (332146): Worst-case hold slack is 0.442
-    Info (332119):     Slack End Point TNS Clock 
-    Info (332119): ========= ============= =====================
-    Info (332119):     0.442         0.000 reloj 
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case setup slack is -0.536
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -0.536              -2.332 reloj 
+Info (332146): Worst-case hold slack is 0.443
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.443               0.000 reloj 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -3.000
-    Info (332119):     Slack End Point TNS Clock 
-    Info (332119): ========= ============= =====================
-    Info (332119):    -3.000        -9.000 reloj 
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -3.000              -9.000 reloj 
 Info: Analyzing Fast 1200mV 0C Model
-Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
-Info (332146): Worst-case setup slack is 0.049
-    Info (332119):     Slack End Point TNS Clock 
-    Info (332119): ========= ============= =====================
-    Info (332119):     0.049         0.000 reloj 
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info (332146): Worst-case setup slack is 0.048
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.048               0.000 reloj 
 Info (332146): Worst-case hold slack is 0.267
-    Info (332119):     Slack End Point TNS Clock 
-    Info (332119): ========= ============= =====================
-    Info (332119):     0.267         0.000 reloj 
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.267               0.000 reloj 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Critical Warning (332148): Timing requirements not met
-    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
 Info (332146): Worst-case minimum pulse width slack is -3.000
-    Info (332119):     Slack End Point TNS Clock 
-    Info (332119): ========= ============= =====================
-    Info (332119):    -3.000        -9.099 reloj 
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -3.000              -9.099 reloj 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
-Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4639 megabytes
-    Info: Processing ended: Mon Oct 17 19:46:28 2022
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 595 megabytes
+    Info: Processing ended: Tue Oct 18 19:54:11 2022
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
