@@ -1,5 +1,5 @@
 Analysis & Synthesis report for camino_control
-Wed Oct 19 09:42:32 2022
+Wed Oct 19 20:14:02 2022
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -51,7 +51,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Oct 19 09:42:32 2022       ;
+; Analysis & Synthesis Status        ; Successful - Wed Oct 19 20:14:02 2022       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; camino_control                              ;
 ; Top-level Entity Name              ; camino_control                              ;
@@ -164,37 +164,37 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 8           ;
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 12          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 8           ;
+; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.0%      ;
-;     Processors 3-8         ;   0.0%      ;
+;     Processors 3-12        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                       ;
-+-------------------------------------------------------------------------------+-----------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                                              ; Used in Netlist ; File Type             ; File Name with Absolute Path                                                                                             ; Library ;
-+-------------------------------------------------------------------------------+-----------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------+---------+
-; ../../COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd ; yes             ; User VHDL File        ; /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd ;         ;
-; ../../COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd           ; yes             ; User VHDL File        ; /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd           ;         ;
-; ../../tipos_ctes_pkg/retardos_nucleo_pkg.vhd                                  ; yes             ; User VHDL File        ; /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd                                  ;         ;
-; ../../tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd                                 ; yes             ; User VHDL File        ; /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd                                 ;         ;
-; ../CODIGO/camino_control.vhd                                                  ; yes             ; User VHDL File        ; /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd                                    ;         ;
-; multiplexor.vhd                                                               ; yes             ; Auto-Found VHDL File  ; /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd                        ;         ;
-; multiplexor_1.vhd                                                             ; yes             ; Auto-Found VHDL File  ; /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd                      ;         ;
-; BR.vhd                                                                        ; yes             ; Auto-Found VHDL File  ; /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd                                            ;         ;
-; sumador.vhd                                                                   ; yes             ; Auto-Found VHDL File  ; /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd                                  ;         ;
-; control.vhd                                                                   ; yes             ; Auto-Found VHDL File  ; /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd                    ;         ;
-; reg1.vhd                                                                      ; yes             ; Auto-Found VHDL File  ; /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd               ;         ;
-; registro.vhd                                                                  ; yes             ; Auto-Found VHDL File  ; /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd           ;         ;
-+-------------------------------------------------------------------------------+-----------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                    ;
++-------------------------------------------------------------------------------+-----------------+-----------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                                              ; Used in Netlist ; File Type             ; File Name with Absolute Path                                                                                          ; Library ;
++-------------------------------------------------------------------------------+-----------------+-----------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
+; ../../COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd ;         ;
+; ../../COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd           ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd           ;         ;
+; ../../tipos_ctes_pkg/retardos_nucleo_pkg.vhd                                  ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd                                  ;         ;
+; ../../tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd                                 ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd                                 ;         ;
+; ../CODIGO/camino_control.vhd                                                  ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd                                    ;         ;
+; multiplexor.vhd                                                               ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd                        ;         ;
+; multiplexor_1.vhd                                                             ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd                      ;         ;
+; BR.vhd                                                                        ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd                                            ;         ;
+; sumador.vhd                                                                   ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd                                  ;         ;
+; control.vhd                                                                   ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd                    ;         ;
+; reg1.vhd                                                                      ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd               ;         ;
+; registro.vhd                                                                  ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd           ;         ;
++-------------------------------------------------------------------------------+-----------------+-----------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +----------------------------------------------------------+
@@ -353,7 +353,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -363,82 +363,82 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Wed Oct 19 09:42:17 2022
+    Info: Processing started: Wed Oct 19 20:13:55 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off camino_control -c camino_control
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
-Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd
-    Info (12022): Found design unit 1: componentes_control_pkg File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd Line: 12
-Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd
-    Info (12022): Found design unit 1: componentes_nucleo_pkg File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd Line: 11
-Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd
-    Info (12022): Found design unit 1: retardos_nucleo_pkg File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd Line: 9
-Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd
-    Info (12022): Found design unit 1: cte_tipos_nucleo_pkg File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd Line: 10
-Info (12021): Found 2 design units, including 1 entities, in source file /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd
-    Info (12022): Found design unit 1: camino_control-estructura File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 22
-    Info (12023): Found entity 1: camino_control File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 13
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd
+    Info (12022): Found design unit 1: componentes_control_pkg File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/componentes_control_pkg/componentes_control_pkg.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd
+    Info (12022): Found design unit 1: componentes_nucleo_pkg File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/componentes_nucleo_pkg/componentes_nucleo_pkg.vhd Line: 11
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd
+    Info (12022): Found design unit 1: retardos_nucleo_pkg File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/retardos_nucleo_pkg.vhd Line: 9
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd
+    Info (12022): Found design unit 1: cte_tipos_nucleo_pkg File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/tipos_ctes_pkg/cte_tipos_nucleo_pkg.vhd Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd
+    Info (12022): Found design unit 1: camino_control-estructura File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 22
+    Info (12023): Found entity 1: camino_control File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 13
 Info (12127): Elaborating entity "camino_control" for the top level hierarchy
-Warning (12125): Using design file /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: multiplexor-compor File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd Line: 17
-    Info (12023): Found entity 1: multiplexor File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd Line: 10
-Info (12128): Elaborating entity "multiplexor" for hierarchy "multiplexor:muxiniDE" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 30
-Info (12128): Elaborating entity "multiplexor" for hierarchy "multiplexor:muxiniIDE" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 32
-Warning (12125): Using design file /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: multiplexor_1-compor File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd Line: 15
-    Info (12023): Found entity 1: multiplexor_1 File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd Line: 9
-Info (12128): Elaborating entity "multiplexor_1" for hierarchy "multiplexor_1:mux1ini" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 34
-Warning (12125): Using design file /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: BR-compor File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd Line: 21
-    Info (12023): Found entity 1: BR File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd Line: 13
-Info (12128): Elaborating entity "BR" for hierarchy "BR:bancoregistro" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 39
-Warning (12125): Using design file /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: sumador-behave File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd Line: 18
-    Info (12023): Found entity 1: sumador File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd Line: 13
-Info (12128): Elaborating entity "sumador" for hierarchy "sumador:suma" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 41
-Warning (12125): Using design file /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: control-estructura File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd Line: 21
-    Info (12023): Found entity 1: control File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd Line: 13
-Info (12128): Elaborating entity "control" for hierarchy "control:controlDE" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 43
-Warning (12125): Using design file /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: reg1-comportamiento File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd Line: 16
-    Info (12023): Found entity 1: reg1 File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd Line: 10
-Info (12128): Elaborating entity "reg1" for hierarchy "control:controlDE|reg1:estadoreg" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd Line: 30
-Warning (12125): Using design file /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: registro-comportamiento File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd Line: 17
-    Info (12023): Found entity 1: registro File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd Line: 10
-Info (12128): Elaborating entity "registro" for hierarchy "control:controlDE|registro:contador" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd Line: 36
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: multiplexor-compor File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd Line: 17
+    Info (12023): Found entity 1: multiplexor File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor.vhd Line: 10
+Info (12128): Elaborating entity "multiplexor" for hierarchy "multiplexor:muxiniDE" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 30
+Info (12128): Elaborating entity "multiplexor" for hierarchy "multiplexor:muxiniIDE" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 32
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: multiplexor_1-compor File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd Line: 15
+    Info (12023): Found entity 1: multiplexor_1 File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/multiplexores/CODIGO/multiplexor_1.vhd Line: 9
+Info (12128): Elaborating entity "multiplexor_1" for hierarchy "multiplexor_1:mux1ini" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 34
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: BR-compor File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd Line: 21
+    Info (12023): Found entity 1: BR File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/BR/CODIGO/BR.vhd Line: 13
+Info (12128): Elaborating entity "BR" for hierarchy "BR:bancoregistro" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 39
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: sumador-behave File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd Line: 18
+    Info (12023): Found entity 1: sumador File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/Sumador/CODIGO/sumador.vhd Line: 13
+Info (12128): Elaborating entity "sumador" for hierarchy "sumador:suma" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 41
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: control-estructura File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd Line: 21
+    Info (12023): Found entity 1: control File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd Line: 13
+Info (12128): Elaborating entity "control" for hierarchy "control:controlDE" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 43
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: reg1-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd Line: 16
+    Info (12023): Found entity 1: reg1 File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/reg1.vhd Line: 10
+Info (12128): Elaborating entity "reg1" for hierarchy "control:controlDE|reg1:estadoreg" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd Line: 30
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: registro-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd Line: 17
+    Info (12023): Found entity 1: registro File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/COMPONENTES/registros/CODIGO/registro.vhd Line: 10
+Info (12128): Elaborating entity "registro" for hierarchy "control:controlDE|registro:contador" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/COMPONENTES/control/control_depen/CODIGO/control.vhd Line: 36
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 19 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "PEini" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 15
-    Warning (15610): No output dependent on input pin "IDEini[0]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 16
-    Warning (15610): No output dependent on input pin "IDEini[1]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 16
-    Warning (15610): No output dependent on input pin "IDEini[2]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 16
-    Warning (15610): No output dependent on input pin "IDEini[3]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 16
-    Warning (15610): No output dependent on input pin "IDEini[4]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 16
-    Warning (15610): No output dependent on input pin "DEini[0]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
-    Warning (15610): No output dependent on input pin "DEini[1]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
-    Warning (15610): No output dependent on input pin "DEini[2]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
-    Warning (15610): No output dependent on input pin "DEini[3]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
-    Warning (15610): No output dependent on input pin "DEini[4]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
-    Warning (15610): No output dependent on input pin "DEini[5]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
-    Warning (15610): No output dependent on input pin "DEini[6]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
-    Warning (15610): No output dependent on input pin "DEini[7]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
-    Warning (15610): No output dependent on input pin "IDL1ini[0]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 18
-    Warning (15610): No output dependent on input pin "IDL1ini[1]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 18
-    Warning (15610): No output dependent on input pin "IDL1ini[2]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 18
-    Warning (15610): No output dependent on input pin "IDL1ini[3]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 18
-    Warning (15610): No output dependent on input pin "IDL1ini[4]" File: /home/eloi/Documents/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 18
+    Warning (15610): No output dependent on input pin "PEini" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 15
+    Warning (15610): No output dependent on input pin "IDEini[0]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 16
+    Warning (15610): No output dependent on input pin "IDEini[1]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 16
+    Warning (15610): No output dependent on input pin "IDEini[2]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 16
+    Warning (15610): No output dependent on input pin "IDEini[3]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 16
+    Warning (15610): No output dependent on input pin "IDEini[4]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 16
+    Warning (15610): No output dependent on input pin "DEini[0]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
+    Warning (15610): No output dependent on input pin "DEini[1]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
+    Warning (15610): No output dependent on input pin "DEini[2]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
+    Warning (15610): No output dependent on input pin "DEini[3]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
+    Warning (15610): No output dependent on input pin "DEini[4]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
+    Warning (15610): No output dependent on input pin "DEini[5]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
+    Warning (15610): No output dependent on input pin "DEini[6]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
+    Warning (15610): No output dependent on input pin "DEini[7]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 17
+    Warning (15610): No output dependent on input pin "IDL1ini[0]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 18
+    Warning (15610): No output dependent on input pin "IDL1ini[1]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 18
+    Warning (15610): No output dependent on input pin "IDL1ini[2]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 18
+    Warning (15610): No output dependent on input pin "IDL1ini[3]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 18
+    Warning (15610): No output dependent on input pin "IDL1ini[4]" File: /home/eloi/uni/q5/AC2/labs/LAB3/NUCLEO_camino/ENSAMBLADO/CODIGO/camino_control.vhd Line: 18
 Info (21057): Implemented 35 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 22 input pins
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 12 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 28 warnings
-    Info: Peak virtual memory: 528 megabytes
-    Info: Processing ended: Wed Oct 19 09:42:32 2022
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:39
+    Info: Peak virtual memory: 543 megabytes
+    Info: Processing ended: Wed Oct 19 20:14:02 2022
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:19
 
 
