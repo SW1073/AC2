@@ -23,10 +23,7 @@ signal op1, op2: st_puntero;
 begin
 -- utilice sentencias de asignacion de senyal condicional para las comparaciones
 	
-	op1 <= std_logic_vector(unsigned(cabeza)-1);
-	op2 <= std_logic_vector(unsigned(cabeza) + tam_puntero - 1);
-	
-	lleno <= '1' when (cola = op1 and cola = op2) or (std_logic_vector(unsigned(cola)+1)) = cabeza else '0' after retcontrol;
+	lleno <= '1' when colaincr = cabeza else '0' after retcontrol;
 	vacio <= '1' when cabeza = cola else '0' after retcontrol;
 
 end;

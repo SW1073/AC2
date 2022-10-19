@@ -52,63 +52,82 @@ begin
 	cola <= (others => '0');
 	wait_until_falling_edges(reloj,2);
 	pcero <= '0';
-
+	
+	wait_until_falling_edges(reloj,1);
+	cabeza <= "000";
+	cola <= "010";
+	escritura <= '1';
+	lectura <= '1';		-- CASO 1) lectura y escritura concurrente => cola por delante, leer y escribir a la vez no hace que sean iguales.
+	
+	wait_until_falling_edges(reloj,1);
+	cabeza <= "001";
+	cola <= "011";
+	escritura <= '1';
+	lectura <= '1';		-- CASO 1) lectura y escritura concurrente
+	
 	wait_until_falling_edges(reloj,1);
 	cabeza <= (others => '0');
 	cola <= (others => '0');
 	escritura <= '0';
 	lectura <= '0';		-- vacio
+ 
+	wait_until_falling_edges(reloj,1);
+	cabeza <= (others => '0');
+	cola <= "001";
+	escritura <= '1';
+	lectura <= '0';		-- esta llenando
+	
+	wait_until_falling_edges(reloj,1);
+	cabeza <= (others => '0');
+	cola <= (others => '0');
+	escritura <= '1';
+	lectura <= '0';		-- CASO 2) lleno y escritura pendiente
 
 	wait_until_falling_edges(reloj,1);
 	cabeza <= (others => '0');
-	cola <= (0 => '1' , others => '0'); -- "001"
-	escritura <= '1';
-	lectura <= '0';		-- cambia a llenando
- 
+	cola <= "000";
+	escritura <= '0';
+	lectura <= '1';		-- cambia a vaciando
+
 	wait_until_falling_edges(reloj,1);
 	cabeza <= (others => '0');
 	cola <= (others => '0');
 	escritura <= '0';
-	lectura <= '1';		-- esta llenando (previo) y lectura --> vacio
-
-	wait_until_falling_edges(reloj,1);
-	cabeza <= (others => '0');
-	cola <= (0 => '0' , others => '1'); --"110";
-	escritura <= '1';
-	lectura <= '0';		-- cambia a llenando
-
+	lectura <= '1';		-- CASO 3) vacio y lectura pendiente
+	
 	wait_until_falling_edges(reloj,1);
 	cabeza <= (others => '0');
 	cola <= (others => '0');
-	escritura <= '1';
-	lectura <= '0';		-- llenando y escribe --> lleno
+	escritura <= '0';
+	lectura <= '0';		-- vacio
+	
 
-	cabeza <= (others => '0');
-	for i in 0 to 15 loop
-		varcola := std_logic_vector(to_unsigned(i mod (2**tam_puntero), varcola'length));
-		cola <= varcola;
-		escritura <= '1';
-		lectura <= '0';
-		if i mod 2 = 0 then
-			cabeza <= std_logic_vector(unsigned(cabeza) +1) ;
-			lectura <= '1';
-		end if;
-    	wait_until_falling_edges(reloj,1);
-	end loop;  
+	----cabeza <= (others => '0');
+	--for i in 0 to 15 loop
+		--varcola := std_logic_vector(to_unsigned(i mod (2**tam_puntero), varcola'length));
+		--cola <= varcola;
+		--escritura <= '1';
+		--lectura <= '0';
+		--if i mod 2 = 0 then
+			--cabeza <= std_logic_vector(unsigned(cabeza) +1) ;
+			--lectura <= '1';
+		--end if;
+    	--wait_until_falling_edges(reloj,1);
+	--end loop;  
 
-	cola <= (others => '0');
-	for i in 0 to 15 loop
-		cabeza <= std_logic_vector(to_unsigned(i mod (2**tam_puntero), cabeza'length));
-		escritura <= '0';
-		lectura <= '1';
-		if i mod 2 = 0 then
-			cola <= std_logic_vector(unsigned(cola) +1) ;
-			escritura <= '1';
-		end if;
-    	wait_until_falling_edges(reloj,1);
-	end loop;  
+	--cola <= (others => '0');
+	--for i in 0 to 15 loop
+		--cabeza <= std_logic_vector(to_unsigned(i mod (2**tam_puntero), cabeza'length));
+		--escritura <= '0';
+		--lectura <= '1';
+		--if i mod 2 = 0 then
+			--cola <= std_logic_vector(unsigned(cola) +1) ;
+			--escritura <= '1';
+		--end if;
+    	--wait_until_falling_edges(reloj,1);
+	--end loop;  
 
-    assert FALSE report "Comprobacion finalizada." severity note;
+    --assert FALSE report "Comprobacion finalizada." severity note;
 	 final := true;
     wait;
 end process;

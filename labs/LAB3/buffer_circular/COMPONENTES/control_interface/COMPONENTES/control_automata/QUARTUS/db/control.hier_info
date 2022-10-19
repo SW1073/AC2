@@ -1,0 +1,26 @@
+|control
+reloj => reg_1:estadoreg.reloj
+pcero => prox_estado.IN1
+pcero => prox_estado.OUTPUTSELECT
+cabeza[0] => Equal0.IN2
+cabeza[1] => Equal0.IN1
+cabeza[2] => Equal0.IN0
+cola[0] => Equal0.IN5
+cola[1] => Equal0.IN4
+cola[2] => Equal0.IN3
+escritura => prox_estado.IN1
+escritura => prox_estado.IN1
+escritura => prox_estado.IN0
+lectura => prox_estado.IN1
+lectura => prox_estado.IN1
+lectura => prox_estado.IN1
+vacio << vacio.DB_MAX_OUTPUT_PORT_TYPE
+lleno << lleno.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|control|reg_1:estadoreg
+reloj => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

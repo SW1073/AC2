@@ -1,0 +1,159 @@
+# do control_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/jafeth/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:58:27 on Oct 19,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_buffer_pkg
+# End time: 08:58:27 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:58:27 on Oct 19,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package cte_tipos_buffer_pkg
+# End time: 08:58:27 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/componentes_control_automata_pkg/componentes_control_automata_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:58:27 on Oct 19,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/componentes_control_automata_pkg/componentes_control_automata_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Compiling package componentes_control_automata_pkg
+# End time: 08:58:28 on Oct 19,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/registro_automata/CODIGO/reg_1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:58:28 on Oct 19,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/registro_automata/CODIGO/reg_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package retardos_buffer_pkg
+# -- Compiling entity reg_1
+# -- Compiling architecture compor of reg_1
+# End time: 08:58:28 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control_automata/CODIGO/control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:58:28 on Oct 19,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control_automata/CODIGO/control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package retardos_buffer_pkg
+# -- Loading package componentes_control_automata_pkg
+# -- Compiling entity control
+# -- Compiling architecture estruc of control
+# End time: 08:58:28 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control_automata/QUARTUS/../PRUEBAS/prueba_control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:58:28 on Oct 19,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control_automata/QUARTUS/../PRUEBAS/prueba_control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Compiling entity prueba_control
+# -- Compiling architecture prueba of prueba_control
+# End time: 08:58:28 on Oct 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_control
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" prueba_control 
+# Start time: 08:58:28 on Oct 19,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cte_tipos_buffer_pkg
+# Loading work.prueba_control(prueba)
+# Loading work.retardos_buffer_pkg
+# Loading work.componentes_control_automata_pkg
+# Loading work.control(estruc)
+# Loading work.reg_1(compor)
+# 
+# do /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control_automata/QUARTUS/../PRUEBAS/formato_ventanas.do
+# log -r /*
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /prueba_control/reloj
+# add wave -noupdate /prueba_control/pcero
+# add wave -noupdate /prueba_control/cabeza
+# add wave -noupdate /prueba_control/cola
+# add wave -noupdate /prueba_control/vacio
+# add wave -noupdate /prueba_control/lleno
+# add wave -noupdate /prueba_control/lectura
+# add wave -noupdate /prueba_control/escritura
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {86243 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 199
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 10000
+# configure wave -gridperiod 20000
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {840 ns}
+# run -all
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+add wave  \
+sim:/prueba_control/condi_control/estadoreg/D \
+sim:/prueba_control/condi_control/estadoreg/Q
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"

@@ -1,0 +1,784 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/simulation/modelsim
+Eacceso
+Z1 w1666039081
+Z2 DPx4 work 22 componentes_acceso_pkg 0 22 R2LQN7`bMHSW9iS<D2C7Q1
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx4 work 20 cte_tipos_buffer_pkg 0 22 `W]=6zYUzdjkkF>NW^dI03
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 15
+R0
+Z7 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/CODIGO/acceso.vhd
+Z8 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/CODIGO/acceso.vhd
+l0
+Z9 L12 1
+VU1nkY2:STlNl8Q9WhTLGT1
+!s100 7i01zDTen3?J?O^0k6jCD3
+Z10 OV;C;2020.1;71
+31
+Z11 !s110 1666112024
+!i10b 1
+Z12 !s108 1666112024.000000
+Z13 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/CODIGO/acceso.vhd|
+Z14 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/CODIGO/acceso.vhd|
+!i113 1
+Z15 o-93 -work work
+Z16 tExplicit 1 CvgOpt 0
+Aestruc
+R2
+R3
+R4
+R5
+R6
+DEx4 work 6 acceso 0 22 U1nkY2:STlNl8Q9WhTLGT1
+!i122 15
+l28
+L23 19
+V0oWU_R`V@LCi<56WJiNHb1
+!s100 6i1_<o^eUP>6]C7VAMG`b2
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ebr
+Z17 w1665951286
+Z18 DPx4 work 19 retardos_buffer_pkg 0 22 8iL;OkW9l7kej4KWLB3eE3
+R4
+R3
+R5
+R6
+!i122 7
+R0
+Z19 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/BR/CODIGO/BR.vhd
+Z20 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/BR/CODIGO/BR.vhd
+l0
+Z21 L13 1
+VfbI]]gHOijX>CgP]ULXC<0
+!s100 zDb=lRA2X8=4?4aH<6z[F3
+R10
+31
+Z22 !s110 1666112023
+!i10b 1
+Z23 !s108 1666112023.000000
+Z24 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/BR/CODIGO/BR.vhd|
+Z25 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/BR/CODIGO/BR.vhd|
+!i113 1
+R15
+R16
+Artl
+R18
+R4
+R3
+R5
+R6
+DEx4 work 2 br 0 22 fbI]]gHOijX>CgP]ULXC<0
+!i122 7
+l26
+L22 17
+V^U:oY26?db^;emBkG??j@0
+!s100 j;E=P@Q38@J7;`N9L:1k]3
+R10
+31
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R15
+R16
+Ebuffer_circular
+R17
+Z26 DPx4 work 31 componentes_buffer_circular_pkg 0 22 X[=DBjo5LRK57mD>7Jdak1
+R4
+R3
+R5
+R6
+!i122 13
+R0
+Z27 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/CODIGO/buffer_circular.vhd
+Z28 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/CODIGO/buffer_circular.vhd
+l0
+L14 1
+V_1O=b6Xm]H[<RlKRmR6jm0
+!s100 kmboJLY=^COa3>DD]1MI72
+R10
+31
+R11
+!i10b 1
+R12
+Z29 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/CODIGO/buffer_circular.vhd|
+Z30 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/CODIGO/buffer_circular.vhd|
+!i113 1
+R15
+R16
+Aestructural
+R26
+R4
+R3
+R5
+R6
+DEx4 work 15 buffer_circular 0 22 _1O=b6Xm]H[<RlKRmR6jm0
+!i122 13
+l26
+L22 11
+V<9jM8IinzKe0gS0QM7?]:3
+!s100 fnDH@3Qoo=eHB<hFaNZXU0
+R10
+31
+R11
+!i10b 1
+R12
+R29
+R30
+!i113 1
+R15
+R16
+Ecntbin
+R17
+R18
+R4
+R3
+R5
+R6
+!i122 8
+R0
+Z31 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/cnt_bin/CODIGO/cntbin.vhd
+Z32 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/cnt_bin/CODIGO/cntbin.vhd
+l0
+R21
+V7H]O8Ig@lQRzW7M@1L<O]1
+!s100 I>:V26l]DY8_dZh6[T3gQ2
+R10
+31
+R22
+!i10b 1
+R23
+Z33 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/cnt_bin/CODIGO/cntbin.vhd|
+Z34 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/cnt_bin/CODIGO/cntbin.vhd|
+!i113 1
+R15
+R16
+Acompor
+R18
+R4
+R3
+R5
+R6
+DEx4 work 6 cntbin 0 22 7H]O8Ig@lQRzW7M@1L<O]1
+!i122 8
+l19
+L18 6
+VF_G5[V`_V77UM9`O_N>5o1
+!s100 eENgk:TNnF:<jS^dYU?F52
+R10
+31
+R22
+!i10b 1
+R23
+R33
+R34
+!i113 1
+R15
+R16
+Pcomponentes_acceso_pkg
+R3
+R4
+R5
+R6
+!i122 4
+R17
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/componentes_acceso_pkg/componentes_acceso_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/componentes_acceso_pkg/componentes_acceso_pkg.vhd
+l0
+Z35 L10 1
+VR2LQN7`bMHSW9iS<D2C7Q1
+!s100 o59N2529@nM9ZGLe809090
+R10
+31
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/componentes_acceso_pkg/componentes_acceso_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/componentes_acceso_pkg/componentes_acceso_pkg.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_buffer_circular_pkg
+R3
+R4
+R5
+R6
+!i122 6
+R17
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/componentes_buffer_circular_pkg/componentes_buffer_circular_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/componentes_buffer_circular_pkg/componentes_buffer_circular_pkg.vhd
+l0
+R35
+VX[=DBjo5LRK57mD>7Jdak1
+!s100 bAiZ8`K?1LHJ2Cc>:acl?0
+R10
+31
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/componentes_buffer_circular_pkg/componentes_buffer_circular_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/componentes_buffer_circular_pkg/componentes_buffer_circular_pkg.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_control_interface_pkg
+R3
+R4
+R5
+R6
+!i122 5
+R17
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/componentes_control_interface_pkg/componentes_control_interface_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/componentes_control_interface_pkg/componentes_control_interface_pkg.vhd
+l0
+R35
+VPGzozZ>NEX5b5j]U5BVTz3
+!s100 37jB1EJoSmMkO^];B`R2J3
+R10
+31
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/componentes_control_interface_pkg/componentes_control_interface_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/componentes_control_interface_pkg/componentes_control_interface_pkg.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_prxval_pkg
+R3
+R4
+R5
+R6
+!i122 2
+R17
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/componentes_prxval_pkg/componentes_prxval_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/componentes_prxval_pkg/componentes_prxval_pkg.vhd
+l0
+R35
+VUNjJ:TbfYJ4FTm]]Smca22
+!s100 Hij>3S=QC7`@26bDUYW_?1
+R10
+31
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/componentes_prxval_pkg/componentes_prxval_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/componentes_prxval_pkg/componentes_prxval_pkg.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_puntero_pkg
+R3
+R4
+R5
+R6
+!i122 3
+R17
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/componentes_puntero_pkg/componentes_puntero_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/componentes_puntero_pkg/componentes_puntero_pkg.vhd
+l0
+R35
+Va6A4HVM19Z;iz[kMGUzg_1
+!s100 ?fJV]1:abPZ;of]OHXb<P2
+R10
+31
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/componentes_puntero_pkg/componentes_puntero_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/componentes_puntero_pkg/componentes_puntero_pkg.vhd|
+!i113 1
+R15
+R16
+Econtrol
+Z36 w1666074387
+R18
+R4
+R3
+R5
+R6
+!i122 11
+R0
+Z37 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/CODIGO/control.vhd
+Z38 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/CODIGO/control.vhd
+l0
+R21
+Vacn:>^5QC:jUE5J^86nzZ2
+!s100 74gOKhZQeQh0RUcliLI<V0
+R10
+31
+R11
+!i10b 1
+R12
+Z39 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/CODIGO/control.vhd|
+Z40 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/CODIGO/control.vhd|
+!i113 1
+R15
+R16
+Acompor
+R18
+R4
+R3
+R5
+R6
+DEx4 work 7 control 0 22 acn:>^5QC:jUE5J^86nzZ2
+!i122 11
+l23
+L20 10
+V1z=L8L2hoOWDQXLCKamBm0
+!s100 FoTNn0Y@gW0=VlDG9_VeI2
+R10
+31
+R11
+!i10b 1
+R12
+R39
+R40
+!i113 1
+R15
+R16
+Econtrolinterface
+R17
+Z41 DPx4 work 33 componentes_control_interface_pkg 0 22 PGzozZ>NEX5b5j]U5BVTz3
+R3
+R4
+R5
+R6
+!i122 14
+R0
+Z42 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/ENSAMBLADO/CODIGO/controlinterface.vhd
+Z43 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/ENSAMBLADO/CODIGO/controlinterface.vhd
+l0
+R9
+Vk0KYk`]i[5XJlobWNVWP@0
+!s100 iRh0;=U;0Z[E;TEd]zMe80
+R10
+31
+R11
+!i10b 1
+R12
+Z44 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/ENSAMBLADO/CODIGO/controlinterface.vhd|
+Z45 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/ENSAMBLADO/CODIGO/controlinterface.vhd|
+!i113 1
+R15
+R16
+Aestruc
+R41
+R3
+R4
+R5
+R6
+DEx4 work 16 controlinterface 0 22 k0KYk`]i[5XJlobWNVWP@0
+!i122 14
+l33
+L24 24
+VX<M=_JJn^cUB7E;L69^`E0
+!s100 i?eIRUFmTd@4@VIM_Zdld1
+R10
+31
+R11
+!i10b 1
+R12
+R44
+R45
+!i113 1
+R15
+R16
+Pcte_tipos_buffer_pkg
+R3
+R5
+R6
+!i122 1
+R17
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd
+l0
+R35
+V`W]=6zYUzdjkkF>NW^dI03
+!s100 SE47z[nIAS2@:;C5Gg99X1
+R10
+31
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd|
+!i113 1
+R15
+R16
+Einterface
+R17
+R18
+R5
+R6
+!i122 12
+R0
+Z46 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/interface/CODIGO/interface.vhd
+Z47 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/interface/CODIGO/interface.vhd
+l0
+Z48 L11 1
+VgIN[UQeBWUh5fjY;3=Kmf1
+!s100 DdWUX5MQdNA<E642KoW[f0
+R10
+31
+R11
+!i10b 1
+R12
+Z49 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/interface/CODIGO/interface.vhd|
+Z50 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/interface/CODIGO/interface.vhd|
+!i113 1
+R15
+R16
+Acompor
+R18
+R5
+R6
+DEx4 work 9 interface 0 22 gIN[UQeBWUh5fjY;3=Kmf1
+!i122 12
+l21
+L18 8
+V?GSS542HR15_L8;h:h:i<3
+!s100 PaJbbMHOe1MCYz[_l52Uk1
+R10
+31
+R11
+!i10b 1
+R12
+R49
+R50
+!i113 1
+R15
+R16
+Emux
+R17
+R18
+R3
+R4
+R5
+R6
+!i122 9
+R0
+Z51 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/COMPONENTES/mux/CODIGO/mux.vhd
+Z52 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/COMPONENTES/mux/CODIGO/mux.vhd
+l0
+R9
+VR@Tfe0YnBZlDk?CJ8EiVo2
+!s100 l]B7ZA<0_ToE=5S36SXAi0
+R10
+31
+R22
+!i10b 1
+R23
+Z53 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/COMPONENTES/mux/CODIGO/mux.vhd|
+Z54 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/COMPONENTES/mux/CODIGO/mux.vhd|
+!i113 1
+R15
+R16
+Acompor
+R18
+R3
+R4
+R5
+R6
+DEx4 work 3 mux 0 22 R@Tfe0YnBZlDk?CJ8EiVo2
+!i122 9
+l19
+L18 5
+VT^T@eUEfHE2cBVF@[QLA^3
+!s100 GPFc?0^HaI0D]A3Vz1DX[1
+R10
+31
+R22
+!i10b 1
+R23
+R53
+R54
+!i113 1
+R15
+R16
+Pprocedimientos_prueba_buffer_pkg
+R4
+R3
+R5
+R6
+!i122 18
+R17
+R0
+Z55 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/procedimientos_prueba_buffer_pkg.vhd
+Z56 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/procedimientos_prueba_buffer_pkg.vhd
+l0
+R48
+VGDcBCbodf:;`iboQDV2E?0
+!s100 2R?<Ldaaobzlj4`=lcgU61
+R10
+31
+b1
+R11
+!i10b 1
+R12
+Z57 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/procedimientos_prueba_buffer_pkg.vhd|
+Z58 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/procedimientos_prueba_buffer_pkg.vhd|
+!i113 1
+R15
+R16
+Bbody
+Z59 DPx4 work 32 procedimientos_prueba_buffer_pkg 0 22 GDcBCbodf:;`iboQDV2E?0
+R4
+R3
+R5
+R6
+!i122 18
+l0
+L22 1
+V?h]DRamYgZXX@OCGnMKY91
+!s100 eX7iFJ6[6^fkYUcKZ9=VG2
+R10
+31
+R11
+!i10b 1
+R12
+R57
+R58
+!i113 1
+R15
+R16
+Eprueba_buffer_circular
+R17
+R59
+R4
+R3
+R5
+R6
+!i122 19
+R0
+Z60 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_buffer_circular.vhd
+Z61 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_buffer_circular.vhd
+l0
+R9
+V>G_L;TL^Q2>E7ZeJEkg?S1
+!s100 ]:2IoUG?Q@6jbW]Y6cE9G3
+R10
+31
+R11
+!i10b 1
+R12
+Z62 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_buffer_circular.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_buffer_circular.vhd|
+!i113 1
+R15
+R16
+Aprueba
+R59
+R4
+R3
+R5
+R6
+DEx4 work 22 prueba_buffer_circular 0 22 >G_L;TL^Q2>E7ZeJEkg?S1
+!i122 19
+l39
+L15 136
+V1O@8fkb_V`U:nVVa>hRiN1
+!s100 lZQLA[CU6]kV9=dQb2?D=1
+R10
+31
+R11
+!i10b 1
+R12
+R62
+Z63 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_buffer_circular.vhd|
+!i113 1
+R15
+R16
+Eprxval
+R17
+Z64 DPx4 work 22 componentes_prxval_pkg 0 22 UNjJ:TbfYJ4FTm]]Smca22
+R18
+R3
+R4
+R5
+R6
+!i122 17
+R0
+Z65 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/ENSAMBLADO/CODIGO/prxval.vhd
+Z66 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/ENSAMBLADO/CODIGO/prxval.vhd
+l0
+R21
+V<moJ??5;7Tc;GoDToQC8U2
+!s100 UYWLfJB5LIB0AH9oB^1bS1
+R10
+31
+R11
+!i10b 1
+R12
+Z67 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/ENSAMBLADO/CODIGO/prxval.vhd|
+Z68 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/ENSAMBLADO/CODIGO/prxval.vhd|
+!i113 1
+R15
+R16
+Aestruc
+R64
+R18
+R3
+R4
+R5
+R6
+DEx4 work 6 prxval 0 22 <moJ??5;7Tc;GoDToQC8U2
+!i122 17
+l24
+L19 12
+V=Ci[76@?P`^3;B^E_2d[f3
+!s100 KO52koIY=V@F7XA5N>Y771
+R10
+31
+R11
+!i10b 1
+R12
+R67
+R68
+!i113 1
+R15
+R16
+Epuntero
+R17
+Z69 DPx4 work 23 componentes_puntero_pkg 0 22 a6A4HVM19Z;iz[kMGUzg_1
+R3
+R4
+R5
+R6
+!i122 16
+R0
+Z70 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/ENSAMBLADO/CODIGO/puntero.vhd
+Z71 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/ENSAMBLADO/CODIGO/puntero.vhd
+l0
+R9
+VdIGl:^IeIcS6FGC2<e6NY3
+!s100 aOZ8QGE_BIS2>80CNiicK3
+R10
+31
+R11
+!i10b 1
+R12
+Z72 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/ENSAMBLADO/CODIGO/puntero.vhd|
+Z73 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/ENSAMBLADO/CODIGO/puntero.vhd|
+!i113 1
+R15
+R16
+Aestruc
+R69
+R3
+R4
+R5
+R6
+DEx4 work 7 puntero 0 22 dIGl:^IeIcS6FGC2<e6NY3
+!i122 16
+l23
+L19 17
+VP38FoZ2h;IG6Dnl3N?J6l0
+!s100 X:n^b[lMnK;Bb89[4hDb01
+R10
+31
+R11
+!i10b 1
+R12
+R72
+R73
+!i113 1
+R15
+R16
+Ereg
+R17
+R18
+R3
+R4
+R5
+R6
+!i122 10
+R0
+Z74 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/registro/CODIGO/reg.vhd
+Z75 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/registro/CODIGO/reg.vhd
+l0
+R48
+VoiBFK[4kWke6KNNlXK>;L1
+!s100 E5HPfa8Um7:a5QeAl:noE0
+R10
+31
+R22
+!i10b 1
+R23
+Z76 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/registro/CODIGO/reg.vhd|
+Z77 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/registro/CODIGO/reg.vhd|
+!i113 1
+R15
+R16
+Acompor
+R18
+R3
+R4
+R5
+R6
+DEx4 work 3 reg 0 22 oiBFK[4kWke6KNNlXK>;L1
+!i122 10
+l18
+L17 11
+V7OS=cV`P3Q8J_ndfd3L8C2
+!s100 bm6[>k^g]eJY:cF54nN@@0
+R10
+31
+R22
+!i10b 1
+R23
+R76
+R77
+!i113 1
+R15
+R16
+Pretardos_buffer_pkg
+R5
+R6
+!i122 0
+R17
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd
+l0
+L9 1
+V8iL;OkW9l7kej4KWLB3eE3
+!s100 md89W2fhz?UZ:X_1_P3ML2
+R10
+31
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd|
+!i113 1
+R15
+R16

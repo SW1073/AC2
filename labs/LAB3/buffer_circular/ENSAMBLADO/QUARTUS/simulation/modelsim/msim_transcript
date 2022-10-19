@@ -1,0 +1,482 @@
+# do buffer_circular_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/jafeth/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:43 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_buffer_pkg
+# End time: 18:53:43 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:43 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package cte_tipos_buffer_pkg
+# End time: 18:53:43 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/componentes_prxval_pkg/componentes_prxval_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:43 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/componentes_prxval_pkg/componentes_prxval_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Compiling package componentes_prxval_pkg
+# End time: 18:53:43 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/componentes_puntero_pkg/componentes_puntero_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:43 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/componentes_puntero_pkg/componentes_puntero_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Compiling package componentes_puntero_pkg
+# End time: 18:53:43 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/componentes_acceso_pkg/componentes_acceso_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:43 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/componentes_acceso_pkg/componentes_acceso_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Compiling package componentes_acceso_pkg
+# End time: 18:53:43 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/componentes_control_interface_pkg/componentes_control_interface_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:43 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/componentes_control_interface_pkg/componentes_control_interface_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Compiling package componentes_control_interface_pkg
+# End time: 18:53:43 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/componentes_buffer_circular_pkg/componentes_buffer_circular_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:43 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/componentes_buffer_circular_pkg/componentes_buffer_circular_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Compiling package componentes_buffer_circular_pkg
+# End time: 18:53:43 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/BR/CODIGO/BR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:43 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/BR/CODIGO/BR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package retardos_buffer_pkg
+# -- Compiling entity BR
+# -- Compiling architecture rtl of BR
+# End time: 18:53:43 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/cnt_bin/CODIGO/cntbin.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:43 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/cnt_bin/CODIGO/cntbin.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package retardos_buffer_pkg
+# -- Compiling entity cntbin
+# -- Compiling architecture compor of cntbin
+# End time: 18:53:43 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/COMPONENTES/mux/CODIGO/mux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:43 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/COMPONENTES/mux/CODIGO/mux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package retardos_buffer_pkg
+# -- Compiling entity mux
+# -- Compiling architecture compor of mux
+# End time: 18:53:43 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/registro/CODIGO/reg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:43 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/registro/CODIGO/reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package retardos_buffer_pkg
+# -- Compiling entity reg
+# -- Compiling architecture compor of reg
+# End time: 18:53:43 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/CODIGO/control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:44 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/CODIGO/control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package retardos_buffer_pkg
+# -- Compiling entity control
+# -- Compiling architecture compor of control
+# End time: 18:53:44 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/interface/CODIGO/interface.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:44 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/interface/CODIGO/interface.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package retardos_buffer_pkg
+# -- Compiling entity interface
+# -- Compiling architecture compor of interface
+# End time: 18:53:44 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/CODIGO/buffer_circular.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:44 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/CODIGO/buffer_circular.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package componentes_buffer_circular_pkg
+# -- Compiling entity buffer_circular
+# -- Compiling architecture estructural of buffer_circular
+# End time: 18:53:44 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/ENSAMBLADO/CODIGO/controlinterface.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:44 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/ENSAMBLADO/CODIGO/controlinterface.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package componentes_control_interface_pkg
+# -- Compiling entity controlinterface
+# -- Compiling architecture estruc of controlinterface
+# End time: 18:53:44 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/CODIGO/acceso.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:44 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/CODIGO/acceso.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package componentes_acceso_pkg
+# -- Compiling entity acceso
+# -- Compiling architecture estruc of acceso
+# End time: 18:53:44 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/ENSAMBLADO/CODIGO/puntero.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:44 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/ENSAMBLADO/CODIGO/puntero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package componentes_puntero_pkg
+# -- Compiling entity puntero
+# -- Compiling architecture estruc of puntero
+# End time: 18:53:44 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/ENSAMBLADO/CODIGO/prxval.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:44 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/ENSAMBLADO/CODIGO/prxval.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package retardos_buffer_pkg
+# -- Loading package componentes_prxval_pkg
+# -- Compiling entity prxval
+# -- Compiling architecture estruc of prxval
+# End time: 18:53:44 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/procedimientos_prueba_buffer_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:44 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/procedimientos_prueba_buffer_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Compiling package procedimientos_prueba_buffer_pkg
+# -- Compiling package body procedimientos_prueba_buffer_pkg
+# -- Loading package procedimientos_prueba_buffer_pkg
+# End time: 18:53:44 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_buffer_circular.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:53:44 on Oct 18,2022
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_buffer_circular.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_buffer_pkg
+# -- Loading package procedimientos_prueba_buffer_pkg
+# -- Compiling entity prueba_buffer_circular
+# -- Compiling architecture prueba of prueba_buffer_circular
+# End time: 18:53:44 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_buffer_circular
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" prueba_buffer_circular 
+# Start time: 18:53:44 on Oct 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cte_tipos_buffer_pkg
+# Loading work.procedimientos_prueba_buffer_pkg(body)
+# Loading work.prueba_buffer_circular(prueba)
+# Loading work.componentes_buffer_circular_pkg
+# Loading work.buffer_circular(estructural)
+# Loading work.retardos_buffer_pkg
+# Loading work.br(rtl)
+# Loading work.componentes_control_interface_pkg
+# Loading work.controlinterface(estruc)
+# Loading work.componentes_acceso_pkg
+# Loading work.acceso(estruc)
+# Loading work.componentes_puntero_pkg
+# Loading work.puntero(estruc)
+# Loading work.cntbin(compor)
+# Loading work.componentes_prxval_pkg
+# Loading work.prxval(estruc)
+# Loading work.mux(compor)
+# Loading work.reg(compor)
+# Loading work.control(compor)
+# Loading work.interface(compor)
+# 
+# do /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/ENSAMBLADO/QUARTUS/../PRUEBAS/formato_ventanas.do
+# log -r /*
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /prueba_buffer_circular/cntciclos
+# add wave -noupdate /prueba_buffer_circular/reloj
+# add wave -noupdate /prueba_buffer_circular/pcero
+# add wave -noupdate /prueba_buffer_circular/inicio
+# add wave -noupdate -divider PRODUCTOR
+# add wave -noupdate /prueba_buffer_circular/validoP
+# add wave -noupdate /prueba_buffer_circular/listoB
+# add wave -noupdate -radix hexadecimal /prueba_buffer_circular/datoE
+# add wave -noupdate -divider CONSUMIDOR
+# add wave -noupdate /prueba_buffer_circular/validoB
+# add wave -noupdate /prueba_buffer_circular/listoC
+# add wave -noupdate -radix hexadecimal /prueba_buffer_circular/datoL
+# add wave -noupdate -divider {Salida consumidor}
+# add wave -noupdate -radix hexadecimal /prueba_buffer_circular/valDATcons 
+# add wave -noupdate -radix hexadecimal /prueba_buffer_circular/DATprocesado
+# add wave -noupdate -divider BUFFER_CIRCULAR
+# add wave -noupdate /prueba_buffer_circular/buffercir/buffercontrol/escritura
+# add wave -noupdate -radix hexadecimal /prueba_buffer_circular/buffercir/cola
+# add wave -noupdate /prueba_buffer_circular/buffercir/buffercontrol/lleno
+# add wave -noupdate /prueba_buffer_circular/buffercir/PE
+# add wave -noupdate /prueba_buffer_circular/buffercir/buffercontrol/lectura
+# add wave -noupdate -radix hexadecimal /prueba_buffer_circular/buffercir/cabeza
+# add wave -noupdate /prueba_buffer_circular/buffercir/buffercontrol/vacio
+# add wave -noupdate -divider REGISTROS
+# add wave -noupdate -radix hexadecimal -childformat {{/prueba_buffer_circular/buffercir/bancoregistros/registros(0) -radix hexadecimal} {/prueba_buffer_circular/buffercir/bancoregistros/registros(1) -radix hexadecimal} {/prueba_buffer_circular/buffercir/bancoregistros/registros(2) -radix hexadecimal} {/prueba_buffer_circular/buffercir/bancoregistros/registros(3) -radix hexadecimal} {/prueba_buffer_circular/buffercir/bancoregistros/registros(4) -radix hexadecimal} {/prueba_buffer_circular/buffercir/bancoregistros/registros(5) -radix hexadecimal} {/prueba_buffer_circular/buffercir/bancoregistros/registros(6) -radix hexadecimal} {/prueba_buffer_circular/buffercir/bancoregistros/registros(7) -radix hexadecimal}} -expand -subitemconfig {/prueba_buffer_circular/buffercir/bancoregistros/registros(0) {-height 16 -radix hexadecimal} /prueba_buffer_circular/buffercir/bancoregistros/registros(1) {-height 16 -radix hexadecimal} /prueba_buffer_circular/buffercir/bancoregistros/registros(2) {-height 16 -radix hexadecimal} /prueba_buffer_circular/buffercir/bancoregistros/registros(3) {-height 16 -radix hexadecimal} /prueba_buffer_circular/buffercir/bancoregistros/registros(4) {-height 16 -radix hexadecimal} /prueba_buffer_circular/buffercir/bancoregistros/registros(5) {-height 16 -radix hexadecimal} /prueba_buffer_circular/buffercir/bancoregistros/registros(6) {-height 16 -radix hexadecimal} /prueba_buffer_circular/buffercir/bancoregistros/registros(7) {-height 16 -radix hexadecimal}} /prueba_buffer_circular/buffercir/bancoregistros/registros
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {656144 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 349
+# configure wave -valuecolwidth 40
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 15000
+# configure wave -gridperiod 30000
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {1228500 ps}
+# set StdArithNoWarnings 1
+# 1
+# set NumericStdNoWarnings 1
+# 1
+# run -all
+# ** Note: 
+# 
+# Insercion. Ciclo: 4   Valor: 1
+#    Time: 105 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 5   Valor: 2
+#    Time: 135 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 6   Valor: 3
+#    Time: 165 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 7   Valor: 4
+#    Time: 195 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 8   Valor: 5
+#    Time: 225 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 9   Valor: 6
+#    Time: 255 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 10   Valor: 7
+#    Time: 285 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 13   Valor: 1
+#    Time: 375 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 14   Valor: 8
+#    Time: 405 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 14   Valor: 2
+#    Time: 405 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 15   Valor: 9
+#    Time: 435 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 16   Valor: 3
+#    Time: 465 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 17   Valor: 10
+#    Time: 495 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 17   Valor: 4
+#    Time: 495 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 19   Valor: 5
+#    Time: 555 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 20   Valor: 6
+#    Time: 585 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 22   Valor: 7
+#    Time: 645 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 23   Valor: 8
+#    Time: 675 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 25   Valor: 9
+#    Time: 735 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 26   Valor: 10
+#    Time: 765 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 27   Valor: 11
+#    Time: 795 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 28   Valor: 11
+#    Time: 825 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 29   Valor: 12
+#    Time: 855 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 30   Valor: 12
+#    Time: 885 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 31   Valor: 13
+#    Time: 915 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Extraccion. Ciclo: 32   Valor: 13
+#    Time: 945 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 33   Valor: 14
+#    Time: 975 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# consumidor ha finalizado.
+#    Time: 990 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Insercion. Ciclo: 35   Valor: 15
+#    Time: 1035 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# productor ha finalizado.
+#    Time: 1050 ns  Iteration: 1  Instance: /prueba_buffer_circular
+# ** Note: 
+# 
+# Prueba finalizada.
+#    Time: 1080 ns  Iteration: 0  Instance: /prueba_buffer_circular
+# End time: 18:55:52 on Oct 18,2022, Elapsed time: 0:02:08
+# Errors: 0, Warnings: 0

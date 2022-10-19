@@ -28,13 +28,18 @@ signal prox_estado, estado: std_logic;
 
 begin
 -- instanciacion registro de estado
+	estadoreg: reg_1 port map(reloj => reloj, Q => estado, D => prox_estado);
 
 -- logica proximo estado
---	prox_estado <= '0' when pcero = '1' else
-
+	prox_estado <= vaciando when pcero = '1' else
+						vaciando when (estado = vaciando and (lectura = '1' or (lectura = '1' and escritura = '1'))) else
+						vaciando when estado = llenando and (lectura = '1') else
+						llenando when estado = vaciando and (escritura = '1') else
+						llenando when estado = llenando and (escritura = '1' or (lectura = '1' and escritura = '1'));
+						
 -- utilice sentencias de asignacion de senyal condicional para las comparaciones
 
-	lleno <= '0' after retcontrol;
-	vacio <= '0' after retcontrol;
+	lleno <= '1' when cola = cabeza and estado = llenando else '0' after retcontrol;
+	vacio <= '1' when cola = cabeza and estado = vaciando else '0' after retcontrol;
 
 end;

@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/QUARTUS/simulation/modelsim
+Econtrol
+Z1 w1666074387
+Z2 DPx4 work 19 retardos_buffer_pkg 0 22 8iL;OkW9l7kej4KWLB3eE3
+Z3 DPx4 work 20 cte_tipos_buffer_pkg 0 22 `W]=6zYUzdjkkF>NW^dI03
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z7 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/CODIGO/control.vhd
+Z8 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/CODIGO/control.vhd
+l0
+L13 1
+Vacn:>^5QC:jUE5J^86nzZ2
+!s100 74gOKhZQeQh0RUcliLI<V0
+Z9 OV;C;2020.1;71
+31
+Z10 !s110 1666075988
+!i10b 1
+Z11 !s108 1666075988.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/CODIGO/control.vhd|
+Z13 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/CODIGO/control.vhd|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Acompor
+R2
+R3
+R4
+R5
+R6
+DEx4 work 7 control 0 22 acn:>^5QC:jUE5J^86nzZ2
+!i122 2
+l23
+L20 10
+V1z=L8L2hoOWDQXLCKamBm0
+!s100 FoTNn0Y@gW0=VlDG9_VeI2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Pcte_tipos_buffer_pkg
+R4
+R5
+R6
+!i122 1
+Z16 w1665951286
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd
+l0
+L10 1
+V`W]=6zYUzdjkkF>NW^dI03
+!s100 SE47z[nIAS2@:;C5Gg99X1
+R9
+31
+R10
+!i10b 1
+R11
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/cte_tipos_buffer_pkg.vhd|
+!i113 1
+R14
+R15
+Eprueba_control
+R16
+R2
+R3
+R4
+R5
+R6
+!i122 3
+R0
+Z17 8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/QUARTUS/../PRUEBAS/prueba_control.vhd
+Z18 F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/QUARTUS/../PRUEBAS/prueba_control.vhd
+l0
+L12 1
+V7I`aS?JH>1DLa@5E9_lRQ1
+!s100 S<Me9TU6HHhSV_cY<ZQaT0
+R9
+31
+Z19 !s110 1666075989
+!i10b 1
+Z20 !s108 1666075989.000000
+Z21 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/QUARTUS/../PRUEBAS/prueba_control.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/QUARTUS/../PRUEBAS/prueba_control.vhd|
+!i113 1
+R14
+R15
+Aprueba
+R2
+R3
+R4
+R5
+R6
+DEx4 work 14 prueba_control 0 22 7I`aS?JH>1DLa@5E9_lRQ1
+!i122 3
+l27
+L15 50
+Vm1c]`:13GTE4=kdCiX0KU2
+!s100 ofiXNib>S]KD1hZH@@0c]0
+R9
+31
+R19
+!i10b 1
+R20
+R21
+Z22 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/control/QUARTUS/../PRUEBAS/prueba_control.vhd|
+!i113 1
+R14
+R15
+Pretardos_buffer_pkg
+R5
+R6
+!i122 0
+R16
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd
+l0
+L9 1
+V8iL;OkW9l7kej4KWLB3eE3
+!s100 md89W2fhz?UZ:X_1_P3ML2
+R9
+31
+R10
+!i10b 1
+R11
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/tipos_ctes_pkg/retardos_buffer_pkg.vhd|
+!i113 1
+R14
+R15

@@ -6,16 +6,16 @@ pcero => puntero:puntero_cola.pcero
 escritura => puntero:puntero_cola.condicion
 escritura => PE.DATAIN
 lectura => puntero:puntero_cabeza.condicion
-PE <= escritura.DB_MAX_OUTPUT_PORT_TYPE
-cabeza[0] <= puntero:puntero_cabeza.punt[0]
-cabeza[1] <= puntero:puntero_cabeza.punt[1]
-cabeza[2] <= puntero:puntero_cabeza.punt[2]
-cola[0] <= puntero:puntero_cola.punt[0]
-cola[1] <= puntero:puntero_cola.punt[1]
-cola[2] <= puntero:puntero_cola.punt[2]
-colaincr[0] <= puntero:puntero_cola.puntincr[0]
-colaincr[1] <= puntero:puntero_cola.puntincr[1]
-colaincr[2] <= puntero:puntero_cola.puntincr[2]
+PE << escritura.DB_MAX_OUTPUT_PORT_TYPE
+cabeza[0] << puntero:puntero_cabeza.punt[0]
+cabeza[1] << puntero:puntero_cabeza.punt[1]
+cabeza[2] << puntero:puntero_cabeza.punt[2]
+cola[0] << puntero:puntero_cola.punt[0]
+cola[1] << puntero:puntero_cola.punt[1]
+cola[2] << puntero:puntero_cola.punt[2]
+colaincr[0] << puntero:puntero_cola.puntincr[0]
+colaincr[1] << puntero:puntero_cola.puntincr[1]
+colaincr[2] << puntero:puntero_cola.puntincr[2]
 
 
 |acceso|puntero:puntero_cabeza

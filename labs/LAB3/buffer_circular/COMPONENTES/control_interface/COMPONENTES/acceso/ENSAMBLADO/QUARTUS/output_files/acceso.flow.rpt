@@ -1,5 +1,5 @@
 Flow report for acceso
-Mon Oct 17 21:41:25 2022
+Tue Oct 18 07:55:48 2022
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Oct 17 21:41:25 2022       ;
+; Flow Status                        ; Successful - Tue Oct 18 07:55:48 2022       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; acceso                                      ;
 ; Top-level Entity Name              ; acceso                                      ;
@@ -69,7 +69,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/17/2022 21:41:16 ;
+; Start date & time ; 10/18/2022 07:55:39 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; acceso              ;
 +-------------------+---------------------+
@@ -80,7 +80,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------+-------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                        ; Value                                                                                                 ; Default Value ; Entity Name ; Section Id     ;
 +----------------------------------------+-------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                  ; 62489538746489.166603567642583                                                                        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                  ; 11856944305044.166607253947249                                                                        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME               ; NA                                                                                                    ; --            ; --          ; prueba_acceso  ;
 ; EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ; ../PRUEBAS/formato_ventanas.do                                                                        ; --            ; --          ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; prueba_acceso                                                                                         ; --            ; --          ; eda_simulation ;
@@ -113,8 +113,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:10     ; 1.0                     ; 798 MB              ; 00:00:28                           ;
-; Total                  ; 00:00:10     ; --                      ; --                  ; 00:00:28                           ;
+; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 797 MB              ; 00:00:25                           ;
+; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:25                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

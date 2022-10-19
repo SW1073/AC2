@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 d/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/QUARTUS/simulation/modelsim
 Eacceso
-Z1 w1666035673
+Z1 w1666039081
 Z2 DPx4 work 22 componentes_acceso_pkg 0 22 R2LQN7`bMHSW9iS<D2C7Q1
 Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z4 DPx4 work 20 cte_tipos_buffer_pkg 0 22 `W]=6zYUzdjkkF>NW^dI03
@@ -26,9 +26,9 @@ VU1nkY2:STlNl8Q9WhTLGT1
 !s100 7i01zDTen3?J?O^0k6jCD3
 Z10 OV;C;2020.1;71
 31
-Z11 !s110 1666035691
+Z11 !s110 1666072562
 !i10b 1
-Z12 !s108 1666035691.000000
+Z12 !s108 1666072562.000000
 Z13 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/CODIGO/acceso.vhd|
 Z14 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/CODIGO/acceso.vhd|
 !i113 1
@@ -262,9 +262,9 @@ VX[1LnG0b>f^1:7oadWM8e3
 R10
 31
 b1
-Z32 !s110 1666035692
+Z32 !s110 1666072563
 !i10b 1
-Z33 !s108 1666035692.000000
+Z33 !s108 1666072563.000000
 Z34 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/QUARTUS/../PRUEBAS/procedimientos_prueba_acceso.vhd|
 Z35 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/ENSAMBLADO/QUARTUS/../PRUEBAS/procedimientos_prueba_acceso.vhd|
 !i113 1
@@ -358,7 +358,7 @@ R10
 31
 R32
 !i10b 1
-R33
+R12
 Z44 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/ENSAMBLADO/CODIGO/prxval.vhd|
 Z45 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/COMPONENTES/prxval/ENSAMBLADO/CODIGO/prxval.vhd|
 !i113 1
@@ -381,7 +381,7 @@ R10
 31
 R32
 !i10b 1
-R33
+R12
 R44
 R45
 !i113 1
@@ -404,9 +404,9 @@ VdIGl:^IeIcS6FGC2<e6NY3
 !s100 aOZ8QGE_BIS2>80CNiicK3
 R10
 31
-R32
+R11
 !i10b 1
-R33
+R12
 Z49 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/ENSAMBLADO/CODIGO/puntero.vhd|
 Z50 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB3/buffer_circular/COMPONENTES/control_interface/COMPONENTES/acceso/puntero/ENSAMBLADO/CODIGO/puntero.vhd|
 !i113 1
@@ -426,9 +426,9 @@ VP38FoZ2h;IG6Dnl3N?J6l0
 !s100 X:n^b[lMnK;Bb89[4hDb01
 R10
 31
-R32
+R11
 !i10b 1
-R33
+R12
 R49
 R50
 !i113 1
