@@ -18,7 +18,7 @@ $T_{exe} = N * CPI * tc$
 
 ## CPI
 
-$CPI = \sum_{i=1}^n{\frac{Ni*CPI}{N}} = \sum_{i=1}^n{fi*CPI}$
+$CPI = \sum_{i=1}^n{\frac{Ni * CPI}{N}} = \sum_{i=1}^n{fi * CPI}$
 
 És la suma ponderada (per instruccions) del CPI individual de cada tipus d'intruccions.
 
@@ -29,9 +29,9 @@ $CPI = \sum_{i=1}^n{\frac{Ni*CPI}{N}} = \sum_{i=1}^n{fi*CPI}$
 
 ## MIPS
 
-$MIPS=\frac{N}{N*CPI*tc*10^6} = \frac{f}{CPI*10^6}$
+$MIPS= \frac{N}{N * CPI * tc * 10^6} = \frac{f}{CPI * 10^6}$
 
-Milions d'instruccions per segon.No és comparable el MIPS de dos CPUs amb joc d'instruccions diferent.
+Milions d'instruccions per segon. No és comparable el MIPS de dos CPUs amb joc d'instruccions diferent.
 
 ## Guany (speed-up)
 
@@ -87,7 +87,7 @@ $P_{fuga} = V * I_{fuga}$
 
 ### Potència estàtica de les corrents de curtcircuit
 
-$ P_{cc} = t_{cc} * V * I_{pic} * P_{(0->1)} * f$
+$P_{cc} = t_{cc} * V * I_{pic} * P_{(0->1)} * f$
 
 - **tcc**: temps de curtcircuit (temps en que existei la corrent durant la transició)
 
