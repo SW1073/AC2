@@ -1,0 +1,4 @@
+ROJO: COLA (writes)
+NEGRO: CABEZA (reads)
+
+Cabeza: Contador tiene un retardo de 4ns, y como para poder hacer la comparaci√n solo hace falta la se√al 'cabeza', no se tiene que esperar a nada m√s y tanto la suma como la comparaci√n se hace a la vez.
