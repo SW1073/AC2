@@ -36,33 +36,16 @@ sumalg_M: sumalg port map (opALU => opALU, a => a, b => b, men => men, s => s_su
 slt_M:	slt port map (men => men, s => s_slt);
 	
 -- modifique las senyales de seleccion
-	process(opALU, mx_01, mx_23, mx) is
-	begin
-		case opALU is
-			when ALU_ADD | ALU_SUB =>
-				mx_01 <= '0'; -- don't care
-				mx_23 <= '0';
-				mx <= '0';
-			when ALU_XOR | ALU_OR | ALU_AND =>
-				mx_01 <= '0';
-				mx_23 <= '0'; -- don't care
-				mx <= '1';
-			when ALU_SLL | ALU_SRA | ALU_SRL =>
-				mx_01 <= '1';
-				mx_23 <= '0'; -- don't care
-				mx <= '1';
-			when others =>
-				mx_01 <= '0'; --don't care
-				mx_23 <= '1';
-				mx <= '0';
-		end case;
-	end process;
+	mx_01 <= '0';
+	mx_23 <= '0';
+	mx <= '0';
 	
 -- instanciacion arbol de multiplexores
-	mux_des_log: mx2 port map (d0 => s_logica,  d1 => s_despla , SEL => mx_01, s => s_des_log);
-	mux_slt_sum: mx2 port map (d0 => s_sumalg,  d1 => s_slt    , SEL => mx_23, s => s_slt_sum);
-	mux_final:   mx2 port map (d0 => s_slt_sum, d1 => s_des_log, SEL => mx,    s => t_s      );
-	
+--mux_des_log: mx2 
+--mux_slt_sum: mx2 
+--mux_final:   mx2 
+
 -- salida
-	s <= t_s;
+	s <= (others => '0') after retALU;
+	
 end;

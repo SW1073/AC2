@@ -28,20 +28,8 @@ signal ent, resta: std_logic; -- ent=1/0 dato entero/natural; resta=1/0 resta/su
 
 begin
 --	exprese las senyales de control en funcion de opALU
-	process(opALU, resta, ent) is
-	begin
-		case opALU is
-			when ALU_ADD =>
-				resta <= '0';
-				ent <= '0';
-			when ALU_SUB =>
-				resta <= '1';
-				ent <= '1';
-			when others =>
-				resta <= '0';
-				ent <= '1';
-		end case;
-	end process;
+	resta <= '0';
+	ent <= '0';
 
 --	extension de rango y vectores a sumar
 	an <= '0';
@@ -54,10 +42,8 @@ begin
 	ss <= std_logic_vector(unsigned(aa)+unsigned(bb)+unsigned(cc));
 	
 --	modifique las senyales de salida
-	s <= ss(tam_dat-1 downto 0);
-	
-	-- s <= (others => '0');
-	men <= ss(32);
+	s <= (others => '0');
+	men <= '0';
 	
 
 end;
