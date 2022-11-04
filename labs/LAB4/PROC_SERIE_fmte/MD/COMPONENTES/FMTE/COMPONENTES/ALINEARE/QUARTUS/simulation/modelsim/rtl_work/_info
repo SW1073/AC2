@@ -1,0 +1,236 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/QUARTUS/simulation/modelsim
+Ealineare
+Z1 w1666803315
+Z2 DPx4 work 12 retardos_pkg 0 22 UAzXTYeJ[BaT_LMOoNB7l1
+Z3 DPx4 work 25 cte_tipos_deco_camino_pkg 0 22 g2n;gDL3I`f]<TIY:Q5lL2
+Z4 DPx4 work 20 componentes_fmte_pkg 0 22 c;2QLzR6B?]J]=BZALLVK1
+Z5 DPx4 work 25 tipos_constan_memoria_pkg 0 22 NO1WZ1C0^jalMSBdlTHlM3
+Z6 DPx4 work 17 param_disenyo_pkg 0 22 8Te25YoJ;_<V`[eDlKgZY3
+Z7 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z8 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+R0
+Z11 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd
+Z12 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd
+l0
+L17 1
+Vc7zdD2]65KaDjF`>h_E@>3
+!s100 fVafLAHo?dT8GQAN2FNm?0
+Z13 OV;C;2020.1;71
+31
+Z14 !s110 1667566022
+!i10b 1
+Z15 !s108 1667566022.000000
+Z16 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd|
+Z17 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd|
+!i113 1
+Z18 o-93 -work work
+Z19 tExplicit 1 CvgOpt 0
+Aestructural
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 8 alineare 0 22 c7zdD2]65KaDjF`>h_E@>3
+!i122 5
+l29
+L23 12
+V=DG_;H25AKPh8i6XF7nW`1
+!s100 bi_B10GXT7ERC23g4TFnX3
+R13
+31
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Pcomponentes_fmte_pkg
+R7
+R5
+R8
+R3
+R6
+R9
+R10
+!i122 4
+R1
+R0
+8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/componentes_FMTE_pkg/componentes_FMTE_pkg.vhd
+F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/componentes_FMTE_pkg/componentes_FMTE_pkg.vhd
+l0
+Z20 L13 1
+Vc;2QLzR6B?]J]=BZALLVK1
+!s100 KDW<?zK[UG;UW_U[N`De]3
+R13
+31
+R14
+!i10b 1
+R15
+!s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/componentes_FMTE_pkg/componentes_FMTE_pkg.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/componentes_FMTE_pkg/componentes_FMTE_pkg.vhd|
+!i113 1
+R18
+R19
+Pcte_tipos_deco_camino_pkg
+R8
+R9
+R10
+!i122 1
+R1
+R0
+8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
+F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
+l0
+Z21 L10 1
+Vg2n;gDL3I`f]<TIY:Q5lL2
+!s100 [GoD]im^>bogYHQgbaU8I2
+R13
+31
+R14
+!i10b 1
+R15
+!s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd|
+!i113 1
+R18
+R19
+Pparam_disenyo_pkg
+R9
+R10
+!i122 0
+R1
+R0
+8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd
+F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd
+l0
+L9 1
+V8Te25YoJ;_<V`[eDlKgZY3
+!s100 R04kPolABXkg2:c]Cz1932
+R13
+31
+R14
+!i10b 1
+R15
+!s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd|
+!i113 1
+R18
+R19
+Eprueba_alineare
+R1
+R3
+R6
+R7
+R5
+R8
+R9
+R10
+!i122 6
+R0
+Z22 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/QUARTUS/../PRUEBAS/prueba_alinearE.vhd
+Z23 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/QUARTUS/../PRUEBAS/prueba_alinearE.vhd
+l0
+R21
+V?4jL5De`iTf:em^lol8@Q0
+!s100 F4c1e`1d`_AHKU@M:Zh240
+R13
+31
+R14
+!i10b 1
+R15
+Z24 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/QUARTUS/../PRUEBAS/prueba_alinearE.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/QUARTUS/../PRUEBAS/prueba_alinearE.vhd|
+!i113 1
+R18
+R19
+Acompor
+R3
+R6
+R7
+R5
+R8
+R9
+R10
+DEx4 work 15 prueba_alineare 0 22 ?4jL5De`iTf:em^lol8@Q0
+!i122 6
+l33
+L14 34
+V^jiM7=Y6?S1M_;A96bzB10
+!s100 [0@Iod6]T7m@dJ;f0cD8I0
+R13
+31
+R14
+!i10b 1
+R15
+R24
+Z25 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_fmte/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/QUARTUS/../PRUEBAS/prueba_alinearE.vhd|
+!i113 1
+R18
+R19
+Pretardos_pkg
+R9
+R10
+!i122 2
+R1
+R0
+8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd
+F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd
+l0
+L9 1
+VUAzXTYeJ[BaT_LMOoNB7l1
+!s100 :nkecB:R=cKDH@FQUP0A73
+R13
+31
+R14
+!i10b 1
+R15
+!s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd|
+!i113 1
+R18
+R19
+Ptipos_constan_memoria_pkg
+R6
+R7
+R8
+R9
+R10
+!i122 3
+R1
+R0
+8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd
+F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd
+l0
+R20
+VNO1WZ1C0^jalMSBdlTHlM3
+!s100 cc7c3?P?=5E`B9MF7d3G42
+R13
+31
+R14
+!i10b 1
+R15
+!s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd|
+!i113 1
+R18
+R19
