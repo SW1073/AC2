@@ -37,10 +37,18 @@ begin
 			when ALU_SUB =>
 				resta <= '1';
 				ent <= '1';
+			when ALU_SLT =>
+				resta <= '1';
+				ent <= '0';
+			when ALU_SLTU =>
+				resta <= '1';
+				ent <= '1';
 			when others =>
 				resta <= '0';
-				ent <= '1';
+				ent <= '0';
 		end case;
+		
+		
 	end process;
 
 --	extension de rango y vectores a sumar
@@ -55,9 +63,7 @@ begin
 	
 --	modifique las senyales de salida
 	s <= ss(tam_dat-1 downto 0);
-	
-	-- s <= (others => '0');
-	men <= ss(32);
+	men <= '0';
 	
 
 end;
