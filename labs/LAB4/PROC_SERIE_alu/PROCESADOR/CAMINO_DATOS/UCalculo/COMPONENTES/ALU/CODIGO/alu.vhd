@@ -39,20 +39,16 @@ slt_M:	slt port map (men => men, s => s_slt);
 	process(opALU, mx_01, mx_23, mx) is
 	begin
 		case opALU is
-			when ALU_ADD | ALU_SUB =>
-				mx_01 <= '0'; -- don't care
-				mx_23 <= '0';
-				mx <= '0';
 			when ALU_XOR | ALU_OR | ALU_AND =>
 				mx_01 <= '0';
-				mx_23 <= '0'; -- don't care
 				mx <= '1';
 			when ALU_SLL | ALU_SRA | ALU_SRL =>
 				mx_01 <= '1';
-				mx_23 <= '0'; -- don't care
 				mx <= '1';
-			when others =>
-				mx_01 <= '0'; --don't care
+			when ALU_ADD | ALU_SUB =>
+				mx_23 <= '0';
+				mx <= '0';
+			when others => -- meaning slt/sltu
 				mx_23 <= '1';
 				mx <= '0';
 		end case;

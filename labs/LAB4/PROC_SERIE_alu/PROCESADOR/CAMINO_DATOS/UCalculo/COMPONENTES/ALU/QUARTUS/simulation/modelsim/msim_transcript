@@ -9,51 +9,51 @@
 # Copying /home/eloi/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:58 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd 
+# Start time: 20:54:46 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package riscv32_coop_funct_pkg
-# End time: 18:25:58 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 20:54:46 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:58 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd 
+# Start time: 20:54:46 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_pkg
-# End time: 18:25:58 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 20:54:46 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:58 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd 
+# Start time: 20:54:46 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package param_disenyo_pkg
-# End time: 18:25:58 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 20:54:46 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:58 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd 
+# Start time: 20:54:46 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling package cte_tipos_deco_camino_pkg
-# End time: 18:25:58 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 20:54:46 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:58 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd 
+# Start time: 20:54:46 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -61,12 +61,12 @@
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Loading package riscv32_coop_funct_pkg
 # -- Compiling package cte_tipos_UF_pkg
-# End time: 18:25:59 on Nov 03,2022, Elapsed time: 0:00:01
+# End time: 20:54:46 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/componentes_ALU_pkg.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/componentes_ALU_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:59 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/componentes_ALU_pkg.vhd 
+# Start time: 20:54:46 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/componentes_ALU_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -74,12 +74,12 @@
 # -- Loading package NUMERIC_STD
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Compiling package componentes_ALU_pkg
-# End time: 18:25:59 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 20:54:46 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/mx2.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/mx2.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:59 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/mx2.vhd 
+# Start time: 20:54:46 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/mx2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -88,12 +88,12 @@
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Compiling entity mx2
 # -- Compiling architecture comportamiento of mx2
-# End time: 18:25:59 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 20:54:46 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:59 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd 
+# Start time: 20:54:46 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -106,20 +106,20 @@
 # -- Loading package componentes_ALU_pkg
 # -- Compiling entity alu
 # -- Compiling architecture estruct of alu
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(42): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(42): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(46): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(46): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(46): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(50): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(50): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(50): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# End time: 18:25:59 on Nov 03,2022, Elapsed time: 0:00:00
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(42): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(42): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(42): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(45): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(45): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(45): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(48): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(48): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# End time: 20:54:46 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 8
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:59 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd 
+# Start time: 20:54:47 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -131,15 +131,15 @@
 # -- Loading package retardos_pkg
 # -- Compiling entity despla
 # -- Compiling architecture compor of despla
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd(35): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd(36): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd(37): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# End time: 18:25:59 on Nov 03,2022, Elapsed time: 0:00:00
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd(35): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd(36): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd(37): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# End time: 20:54:47 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 3
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:59 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd 
+# Start time: 20:54:47 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -151,15 +151,15 @@
 # -- Loading package retardos_pkg
 # -- Compiling entity logica
 # -- Compiling architecture compor of logica
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd(28): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd(29): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd(30): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# End time: 18:25:59 on Nov 03,2022, Elapsed time: 0:00:00
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd(28): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd(29): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd(30): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# End time: 20:54:47 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 3
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:59 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd 
+# Start time: 20:54:47 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -171,14 +171,14 @@
 # -- Loading package retardos_pkg
 # -- Compiling entity sumalg
 # -- Compiling architecture compor of sumalg
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd(34): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd(37): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# End time: 18:25:59 on Nov 03,2022, Elapsed time: 0:00:00
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd(34): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd(37): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# End time: 20:54:47 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 2
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:59 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd 
+# Start time: 20:54:47 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -190,13 +190,13 @@
 # -- Loading package retardos_pkg
 # -- Compiling entity slt
 # -- Compiling architecture compor of slt
-# End time: 18:25:59 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 20:54:47 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:59 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd 
+# Start time: 20:54:47 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -208,22 +208,22 @@
 # -- Loading package retardos_pkg
 # -- Compiling entity alu_ref
 # -- Compiling architecture compor of alu_ref
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(36): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(37): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(38): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(44): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(51): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(52): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(53): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(54): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(55): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(56): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# End time: 18:25:59 on Nov 03,2022, Elapsed time: 0:00:00
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(36): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(37): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(38): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(44): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(51): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(52): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(53): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(54): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(55): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(56): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# End time: 20:54:47 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 10
-# vcom -93 -work work {/home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/prueba_alu.vhd}
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/prueba_alu.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:25:59 on Nov 03,2022
-# vcom -reportprogress 300 -93 -work work /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/prueba_alu.vhd 
+# Start time: 20:54:47 on Nov 08,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/prueba_alu.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -234,12 +234,12 @@
 # -- Loading package cte_tipos_UF_pkg
 # -- Compiling entity prueba_alu
 # -- Compiling architecture prueba of prueba_alu
-# End time: 18:25:59 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 20:54:47 on Nov 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_alu
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" prueba_alu 
-# Start time: 18:25:59 on Nov 03,2022
+# Start time: 20:54:47 on Nov 08,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -259,7 +259,7 @@
 # Loading work.mx2(comportamiento)
 # Loading work.alu_ref(compor)
 # 
-# do /home/eloi/Documents/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/formato_ventanas.do
+# do /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/formato_ventanas.do
 # log -r /*
 # if {[batch_mode] == 0} then { do wave.do }
 # transcript off
@@ -2470,5 +2470,17 @@
 #    Time: 1089 us  Iteration: 0  Instance: /prueba_alu
 # ** Note: final
 #    Time: 1197900 ns  Iteration: 0  Instance: /prueba_alu
-# End time: 18:44:26 on Nov 03,2022, Elapsed time: 0:18:27
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 20:58:34 on Nov 08,2022, Elapsed time: 0:03:47
 # Errors: 1090, Warnings: 0

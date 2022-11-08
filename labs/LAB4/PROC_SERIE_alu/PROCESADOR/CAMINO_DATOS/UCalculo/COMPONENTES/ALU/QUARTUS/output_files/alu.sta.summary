@@ -2,4 +2,40 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 1200mV 85C Model Setup 'opALU[0]'
+Slack : -0.582
+TNS   : -1.084
+
+Type  : Slow 1200mV 85C Model Hold 'opALU[0]'
+Slack : -0.343
+TNS   : -0.343
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'opALU[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Setup 'opALU[0]'
+Slack : -0.556
+TNS   : -0.928
+
+Type  : Slow 1200mV 0C Model Hold 'opALU[0]'
+Slack : -0.365
+TNS   : -0.365
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'opALU[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Setup 'opALU[0]'
+Slack : -0.368
+TNS   : -0.368
+
+Type  : Fast 1200mV 0C Model Hold 'opALU[0]'
+Slack : -0.114
+TNS   : -0.176
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'opALU[0]'
+Slack : -3.000
+TNS   : -3.129
+
 ------------------------------------------------------------

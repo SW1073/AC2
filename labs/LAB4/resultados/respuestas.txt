@@ -8,32 +8,34 @@ F7DFF0EF ->
 
 [Exercici 2]
 __CODIGO_C__
-// idea: Si el Msb es 1 en ambos casos, tendremos overflow
-int x,y;
-int desb;
-desb = (x & 0x80000000) && (y & 0x80000000); //asumiendo variables de 4 bytes
-// Pero esto es asumiendo que ambos datos son del mismo tamano, que en el enunciado no nos mencionan nunca
-// Asi que, esta es otra solucion.
 int x,y;
 int desb;
 desb = x > M-1-y;
 //Efectuamos 2 restas, pero en ningun momento hacemos la suma que nos prohiben (de hecho, incluso la comparacion se hace con una resta)
 
 __CODIGO_RISC-V__
-
+subi x1, x
+dec
+cmp
+mv
 
 [Exercici 3]
 ig me meu   instruccion secuenciamiento condicional
-0  0  0
-0  0  1
-0  1  0
-0  1  1
-1  0  0
-1  0  1
-1  1  0
-1  1  1
+0  0  0						x 
+0  0  1						bltu
+0  1  0						blt
+0  1  1						x
+1  0  0						beq
+1  0  1						x
+1  1  0						x
+1  1  1						x
 
 [Exercici 4]
+mx_01	-> (opALU & 0x4) == 0 | opALU == 0x05
+mx_23	-> (opALU & 0x7) != 0
+mx		-> mx_01 == 1 && (opALU & 0x4) != 0
+
+resta 	-> opALU = ALU_SUB = 11000
 
 [Exercici 5]
 
@@ -42,4 +44,3 @@ ig me meu   instruccion secuenciamiento condicional
 [Exercici 7]
 
 [Exercici 8]
-
