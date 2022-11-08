@@ -30,21 +30,6 @@ begin
 --	exprese las senyales de control en funcion de opALU
 	resta <= '0';
 	ent <= '0';
-	
-sumalg_p: process (opALU, a, b)
-begin 
-	case (opALU) is
-		when ALU_ADD =>
-			resta <= '0';
-			ent <= '0';
-		when ALU_SUB =>
-			resta <= '1';
-			ent <= '1';
-		when others =>
-			resta <= '0';
-			ent <= '0';
-		end case;
-end process;
 
 --	extension de rango y vectores a sumar
 	an <= '0';
