@@ -1,5 +1,5 @@
-Analysis & Elaboration report for alu
-Tue Nov  8 22:47:02 2022
+Analysis & Synthesis report for alu
+Wed Nov  9 08:14:51 2022
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -7,10 +7,17 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Elaboration Summary
-  3. Parallel Compilation
-  4. Analysis & Elaboration Settings
-  5. Analysis & Elaboration Messages
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Post-Synthesis Netlist Statistics for Top Partition
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -35,47 +42,31 @@ https://fpgasoftware.intel.com/eula.
 
 
 +----------------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                                   ;
+; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Failed - Tue Nov  8 22:47:02 2022           ;
+; Analysis & Synthesis Status        ; Successful - Wed Nov  9 08:14:51 2022       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; alu                                         ;
 ; Top-level Entity Name              ; alu                                         ;
 ; Family                             ; Cyclone IV GX                               ;
-; Total logic elements               ; N/A until Partition Merge                   ;
-;     Total combinational functions  ; N/A until Partition Merge                   ;
-;     Dedicated logic registers      ; N/A until Partition Merge                   ;
-; Total registers                    ; N/A until Partition Merge                   ;
-; Total pins                         ; N/A until Partition Merge                   ;
-; Total virtual pins                 ; N/A until Partition Merge                   ;
-; Total memory bits                  ; N/A until Partition Merge                   ;
-; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
-; Total GXB Receiver Channel PCS     ; N/A until Partition Merge                   ;
-; Total GXB Receiver Channel PMA     ; N/A until Partition Merge                   ;
-; Total GXB Transmitter Channel PCS  ; N/A until Partition Merge                   ;
-; Total GXB Transmitter Channel PMA  ; N/A until Partition Merge                   ;
-; Total PLLs                         ; N/A until Partition Merge                   ;
+; Total logic elements               ; 586                                         ;
+;     Total combinational functions  ; 586                                         ;
+;     Dedicated logic registers      ; 0                                           ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 101                                         ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total GXB Receiver Channel PCS     ; 0                                           ;
+; Total GXB Receiver Channel PMA     ; 0                                           ;
+; Total GXB Transmitter Channel PCS  ; 0                                           ;
+; Total GXB Transmitter Channel PMA  ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 8           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
-
-
 +------------------------------------------------------------------------------------------------------------+
-; Analysis & Elaboration Settings                                                                            ;
+; Analysis & Synthesis Settings                                                                              ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
@@ -159,14 +150,137 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------+--------------------+--------------------+
 
 
-+---------------------------------+
-; Analysis & Elaboration Messages ;
-+---------------------------------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                                     ;
++------------------------------------------------------------------------------------+-----------------+-----------------------+-----------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                                                   ; Used in Netlist ; File Type             ; File Name with Absolute Path                                                                                                      ; Library ;
++------------------------------------------------------------------------------------+-----------------+-----------------------+-----------------------------------------------------------------------------------------------------------------------------------+---------+
+; ../../../../../../../PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd    ; yes             ; User VHDL File        ; /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd                                     ;         ;
+; ../../../../../../../PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd              ; yes             ; User VHDL File        ; /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd                                               ;         ;
+; ../../../../../../../PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd          ; yes             ; User VHDL File        ; /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd                                           ;         ;
+; ../../../../../../../PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd         ; yes             ; User VHDL File        ; /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd                                          ;         ;
+; ../../../../../../../PROC_SERIE/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd ; yes             ; User VHDL File        ; /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd                                  ;         ;
+; ../CODIGO/componentes_ALU_pkg.vhd                                                  ; yes             ; User VHDL File        ; /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/componentes_ALU_pkg.vhd ;         ;
+; ../CODIGO/alu.vhd                                                                  ; yes             ; User VHDL File        ; /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd                 ;         ;
+; despla.vhd                                                                         ; yes             ; Auto-Found VHDL File  ; /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd              ;         ;
+; logica.vhd                                                                         ; yes             ; Auto-Found VHDL File  ; /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd              ;         ;
+; sumalg.vhd                                                                         ; yes             ; Auto-Found VHDL File  ; /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd              ;         ;
+; slt.vhd                                                                            ; yes             ; Auto-Found VHDL File  ; /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd                 ;         ;
+; mx2.vhd                                                                            ; yes             ; Auto-Found VHDL File  ; /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/mx2.vhd                 ;         ;
++------------------------------------------------------------------------------------+-----------------+-----------------------+-----------------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary ;
++--------------------------+------------------+
+; Resource                 ; Usage            ;
++--------------------------+------------------+
+; I/O pins                 ; 101              ;
+;                          ;                  ;
+; DSP block 9-bit elements ; 0                ;
+;                          ;                  ;
+; Maximum fan-out node     ; b[1]~input       ;
+; Maximum fan-out          ; 89               ;
+; Total fan-out            ; 2201             ;
+; Average fan-out          ; 2.79             ;
++--------------------------+------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                   ;
++----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+----------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name  ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+----------------------+-------------+--------------+
+; |alu                       ; 586 (6)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 101  ; 0            ; |alu                 ; alu         ; work         ;
+;    |despla:despla_M|       ; 251 (251)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |alu|despla:despla_M ; despla      ; work         ;
+;    |mx2:mux_des_log|       ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |alu|mx2:mux_des_log ; mx2         ; work         ;
+;    |mx2:mux_final|         ; 251 (251)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |alu|mx2:mux_final   ; mx2         ; work         ;
+;    |sumalg:sumalg_M|       ; 67 (67)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |alu|sumalg:sumalg_M ; sumalg      ; work         ;
++----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+----------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                              ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------+
+; 23:1               ; 8 bits    ; 120 LEs       ; 48 LEs               ; 72 LEs                 ; No         ; |alu|mx2:mux_final|Selector23 ;
+; 24:1               ; 7 bits    ; 112 LEs       ; 56 LEs               ; 56 LEs                 ; No         ; |alu|mx2:mux_final|Selector11 ;
+; 24:1               ; 4 bits    ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; No         ; |alu|mx2:mux_final|Selector27 ;
+; 25:1               ; 4 bits    ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; No         ; |alu|mx2:mux_final|Selector4  ;
+; 25:1               ; 2 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; No         ; |alu|mx2:mux_final|Selector28 ;
+; 26:1               ; 2 bits    ; 34 LEs        ; 16 LEs               ; 18 LEs                 ; No         ; |alu|mx2:mux_final|Selector2  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 101                         ;
+; cycloneiii_lcell_comb ; 586                         ;
+;     arith             ; 33                          ;
+;         3 data inputs ; 33                          ;
+;     normal            ; 553                         ;
+;         2 data inputs ; 18                          ;
+;         3 data inputs ; 207                         ;
+;         4 data inputs ; 328                         ;
+;                       ;                             ;
+; Max LUT depth         ; 11.00                       ;
+; Average LUT depth     ; 8.27                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:10     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Elaboration
+Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Nov  8 22:46:47 2022
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu -c alu --analysis_and_elaboration
+    Info: Processing started: Wed Nov  9 08:14:32 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu -c alu
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 1 design units, including 0 entities, in source file /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd
@@ -193,13 +307,30 @@ Warning (12125): Using design file /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE
     Info (12022): Found design unit 1: logica-compor File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd Line: 22
     Info (12023): Found entity 1: logica File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd Line: 15
 Info (12128): Elaborating entity "logica" for hierarchy "logica:logica_M" File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd Line: 34
-Error (10500): VHDL syntax error at sumalg.vhd(64) near text "if";  expecting "end", or "(", or an identifier ("if" is a reserved keyword), or a concurrent statement File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd Line: 64
-Error (10500): VHDL syntax error at sumalg.vhd(66) near text "else";  expecting "end", or "(", or an identifier ("else" is a reserved keyword), or a concurrent statement File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd Line: 66
-Error (10500): VHDL syntax error at sumalg.vhd(68) near text "if";  expecting ";", or an identifier ("if" is a reserved keyword), or "architecture" File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd Line: 68
-Error: Quartus Prime Analysis & Elaboration was unsuccessful. 3 errors, 3 warnings
-    Error: Peak virtual memory: 797 megabytes
-    Error: Processing ended: Tue Nov  8 22:47:02 2022
-    Error: Elapsed time: 00:00:15
-    Error: Total CPU time (on all processors): 00:00:43
+Warning (12125): Using design file /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: sumalg-compor File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd Line: 23
+    Info (12023): Found entity 1: sumalg File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd Line: 15
+Info (12128): Elaborating entity "sumalg" for hierarchy "sumalg:sumalg_M" File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd Line: 35
+Warning (10036): Verilog HDL or VHDL warning at sumalg.vhd(27): object "ent" assigned a value but never read File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd Line: 27
+Warning (12125): Using design file /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: slt-compor File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd Line: 20
+    Info (12023): Found entity 1: slt File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd Line: 15
+Info (12128): Elaborating entity "slt" for hierarchy "slt:slt_M" File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd Line: 36
+Warning (12125): Using design file /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/mx2.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mx2-comportamiento File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/mx2.vhd Line: 19
+    Info (12023): Found entity 1: mx2 File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/mx2.vhd Line: 13
+Info (12128): Elaborating entity "mx2" for hierarchy "mx2:mux_des_log" File: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd Line: 66
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 687 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 69 input pins
+    Info (21059): Implemented 32 output pins
+    Info (21061): Implemented 586 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 506 megabytes
+    Info: Processing ended: Wed Nov  9 08:14:51 2022
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:36
 
 

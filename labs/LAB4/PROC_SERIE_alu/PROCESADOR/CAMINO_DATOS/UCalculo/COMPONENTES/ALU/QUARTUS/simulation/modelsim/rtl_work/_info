@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 d/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/simulation/modelsim
 Ealu
-Z1 w1667941278
+Z1 w1667977717
 Z2 DPx4 work 19 componentes_alu_pkg 0 22 86Ij9WdibamLn07iO_Gn20
 Z3 DPx4 work 12 retardos_pkg 0 22 UAzXTYeJ[BaT_LMOoNB7l1
 Z4 DPx4 work 22 riscv32_coop_funct_pkg 0 22 jW?=dRk>GS4KoTiz[hJH30
@@ -30,9 +30,9 @@ VG;_7`9iLZRC>kieEh;Tmg3
 !s100 2h?Y^^ml08>Lmoj@g;N630
 Z13 OV;C;2020.1;71
 31
-Z14 !s110 1667943269
+Z14 !s110 1667982721
 !i10b 1
-Z15 !s108 1667943269.000000
+Z15 !s108 1667982721.000000
 Z16 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd|
 Z17 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd|
 !i113 1
@@ -65,7 +65,7 @@ R17
 R18
 R19
 Ealu_ref
-Z20 w1667942622
+Z20 w1667977968
 R3
 R4
 R5
@@ -84,9 +84,9 @@ VH7=6lFgGSGCifJSYdIEKV0
 !s100 `Zi]=_^WSJhEdO?H0FA>>0
 R13
 31
-Z24 !s110 1667943270
+Z24 !s110 1667982722
 !i10b 1
-Z25 !s108 1667943270.000000
+Z25 !s108 1667982722.000000
 Z26 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd|
 Z27 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd|
 !i113 1
@@ -104,9 +104,9 @@ R10
 DEx4 work 7 alu_ref 0 22 H7=6lFgGSGCifJSYdIEKV0
 !i122 12
 l24
-L22 40
-VUbXo9K?ijdBYdSZmN3WLz0
-!s100 QH?i?]fo5^JVn7FITgI[H0
+L22 39
+V9bfV6>Z>QB^Uj]eH^47JH0
+!s100 mgz^TIn;M?6]5zGYBMN]23
 R13
 31
 R24
@@ -430,9 +430,9 @@ VUAzXTYeJ[BaT_LMOoNB7l1
 !s100 :nkecB:R=cKDH@FQUP0A73
 R13
 31
-Z46 !s110 1667943268
+R14
 !i10b 1
-Z47 !s108 1667943268.000000
+R15
 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd|
 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd|
 !i113 1
@@ -452,9 +452,9 @@ VjW?=dRk>GS4KoTiz[hJH30
 !s100 N2gmASQLGFQga<1WaKe:80
 R13
 31
-R46
+R14
 !i10b 1
-R47
+R15
 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd|
 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd|
 !i113 1
@@ -472,8 +472,8 @@ R9
 R10
 !i122 11
 R0
-Z48 8/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd
-Z49 F/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd
+Z46 8/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd
+Z47 F/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd
 l0
 R23
 V3g?9J4mN;z8AeS1PMRTO_0
@@ -483,8 +483,8 @@ R13
 R24
 !i10b 1
 R15
-Z50 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd|
-Z51 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd|
+Z48 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd|
+Z49 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd|
 !i113 1
 R18
 R19
@@ -508,13 +508,13 @@ R13
 R24
 !i10b 1
 R15
-R50
-R51
+R48
+R49
 !i113 1
 R18
 R19
 Esumalg
-Z52 w1667943204
+Z50 w1667982710
 R3
 R4
 R5
@@ -525,8 +525,8 @@ R9
 R10
 !i122 10
 R0
-Z53 8/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd
-Z54 F/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd
+Z51 8/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd
+Z52 F/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd
 l0
 R23
 VcLb=hbIZYcUFi6d[BF3`73
@@ -536,8 +536,8 @@ R13
 R14
 !i10b 1
 R15
-Z55 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd|
-Z56 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd|
+Z53 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd|
+Z54 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd|
 !i113 1
 R18
 R19
@@ -554,15 +554,15 @@ DEx4 work 6 sumalg 0 22 cLb=hbIZYcUFi6d[BF3`73
 !i122 10
 l29
 L23 45
-V[`lE4M>PLj`9QCM922P>E3
-!s100 USh_HeX<Rb=Tbdg6Oe4EP3
+VlLTWGN3_P?1Q_I6W^CdMz2
+!s100 H20ODgPc<6d]`C]g3]?XY2
 R13
 31
 R14
 !i10b 1
 R15
-R55
-R56
+R53
+R54
 !i113 1
 R18
 R19

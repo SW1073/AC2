@@ -39,21 +39,21 @@ begin
 				ent <= '1';
 			when ALU_SLT =>
 				resta <= '1';
-				ent <= '0';
+				ent <= '1';
 			when ALU_SLTU =>
 				resta <= '1';
-				ent <= '1';
-			when others =>
-				resta <= '0';
 				ent <= '0';
+			when others =>
+				resta <= '1';
+				ent <= '1';
 		end case;
 		
 		
 	end process;
 
 --	extension de rango y vectores a sumar
-	an <= '0';
-	bn <= '0';
+	an <= '1' when a(tam_dat-1) = '1' and ent = '1' else '0';
+	bn <= '1' when b(tam_dat-1) = '1' and ent = '1' else '0';
 	aa <= an & a;
 	bb <= (bn & b) xor (tam_dat downto 0 => resta);
 
@@ -63,7 +63,7 @@ begin
 	
 --	modifique las senyales de salida
 	s <= ss(tam_dat-1 downto 0);
-	men <= '0';
+	men <= (ss(32));
 	
 
 end;

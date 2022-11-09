@@ -47,7 +47,6 @@ begin
 			else
 				s <= (others => '0') after retALU;
 			end if;
-
 		when ALU_AND => s <= a and b after retALU;
 		when ALU_OR  => s <= a or b after retALU;
 		when ALU_XOR => s <= a xor b after retALU;

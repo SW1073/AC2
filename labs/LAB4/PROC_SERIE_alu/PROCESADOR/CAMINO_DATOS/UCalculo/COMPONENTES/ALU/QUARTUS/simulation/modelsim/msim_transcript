@@ -11,48 +11,48 @@
 # 
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:28 on Nov 08,2022
+# Start time: 09:32:01 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package riscv32_coop_funct_pkg
-# End time: 22:34:28 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:01 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:28 on Nov 08,2022
+# Start time: 09:32:01 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_pkg
-# End time: 22:34:28 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:01 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:29 on Nov 08,2022
+# Start time: 09:32:01 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package param_disenyo_pkg
-# End time: 22:34:29 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:01 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:29 on Nov 08,2022
+# Start time: 09:32:01 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling package cte_tipos_deco_camino_pkg
-# End time: 22:34:29 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:01 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:29 on Nov 08,2022
+# Start time: 09:32:01 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -61,11 +61,11 @@
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Loading package riscv32_coop_funct_pkg
 # -- Compiling package cte_tipos_UF_pkg
-# End time: 22:34:29 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:01 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/componentes_ALU_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:29 on Nov 08,2022
+# Start time: 09:32:01 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/componentes_ALU_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -74,11 +74,11 @@
 # -- Loading package NUMERIC_STD
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Compiling package componentes_ALU_pkg
-# End time: 22:34:29 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:01 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/mx2.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:29 on Nov 08,2022
+# Start time: 09:32:01 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/mx2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -88,11 +88,11 @@
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Compiling entity mx2
 # -- Compiling architecture comportamiento of mx2
-# End time: 22:34:29 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:01 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:29 on Nov 08,2022
+# Start time: 09:32:01 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -116,11 +116,11 @@
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(50): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(54): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(54): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# End time: 22:34:29 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:01 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 10
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:29 on Nov 08,2022
+# Start time: 09:32:01 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -136,11 +136,11 @@
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd(35): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd(36): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/despla.vhd(37): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# End time: 22:34:29 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:01 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 3
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:29 on Nov 08,2022
+# Start time: 09:32:01 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -156,11 +156,11 @@
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd(28): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd(29): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/logica.vhd(30): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# End time: 22:34:29 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:01 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 3
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:29 on Nov 08,2022
+# Start time: 09:32:01 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -177,11 +177,11 @@
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd(37): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd(40): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/sumalg.vhd(43): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# End time: 22:34:29 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:01 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 4
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:29 on Nov 08,2022
+# Start time: 09:32:01 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/slt.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -194,12 +194,12 @@
 # -- Loading package retardos_pkg
 # -- Compiling entity slt
 # -- Compiling architecture compor of slt
-# End time: 22:34:30 on Nov 08,2022, Elapsed time: 0:00:01
+# End time: 09:32:02 on Nov 09,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:30 on Nov 08,2022
+# Start time: 09:32:02 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -216,17 +216,17 @@
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(37): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(38): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(44): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(50): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(51): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(52): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(53): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(54): (vcom-1937) Choice in CASE statement alternative must be locally static.
 # ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(55): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/alu_ref.vhd(56): (vcom-1937) Choice in CASE statement alternative must be locally static.
-# End time: 22:34:30 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:02 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 10
 # vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/prueba_alu.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:34:30 on Nov 08,2022
+# Start time: 09:32:02 on Nov 09,2022
 # vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE_alu/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/QUARTUS/../PRUEBAS/prueba_alu.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -238,12 +238,12 @@
 # -- Loading package cte_tipos_UF_pkg
 # -- Compiling entity prueba_alu
 # -- Compiling architecture prueba of prueba_alu
-# End time: 22:34:30 on Nov 08,2022, Elapsed time: 0:00:00
+# End time: 09:32:02 on Nov 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_alu
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" prueba_alu 
-# Start time: 22:34:30 on Nov 08,2022
+# Start time: 09:32:02 on Nov 09,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -278,1094 +278,6 @@
 #    Time: 217800 ns  Iteration: 0  Instance: /prueba_alu
 # ** Note: ALU_SLT 
 #    Time: 326700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 328500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 328600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 328700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 328800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 328900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 329 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 329100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 329200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 329300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 329400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 329500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 329600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 329700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 329800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 329900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 330 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 331800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 331900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 332 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 332100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 332200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 332300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 332400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 332500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 332600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 332700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 332800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 332900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 333 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 333100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 333200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 333300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 335100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 335200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 335300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 335400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 335500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 335600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 335700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 335800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 335900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 336 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 336100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 336200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 336300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 336400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 336500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 336600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 338400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 338500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 338600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 338700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 338800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 338900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 339 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 339100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 339200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 339300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 339400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 339500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 339600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 339700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 339800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 339900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 341700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 341800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 341900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 342 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 342100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 342200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 342300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 342400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 342500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 342600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 342700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 342800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 342900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 343 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 343100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 343200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 345 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 345100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 345200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 345300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 345400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 345500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 345600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 345700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 345800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 345900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 346 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 346100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 346200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 346300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 346400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 346500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 348300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 348400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 348500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 348600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 348700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 348800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 348900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 349 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 349100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 349200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 349300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 349400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 349500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 349600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 349700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 349800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 351600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 351700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 351800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 351900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 352 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 352100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 352200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 352300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 352400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 352500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 352600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 352700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 352800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 352900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 353 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 353100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 354900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 355 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 355100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 355200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 355300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 355400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 355500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 355600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 355700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 355800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 355900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 356 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 356100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 356200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 356300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 356400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 358200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 358300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 358400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 358500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 358600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 358700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 358800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 358900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 359 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 359100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 359200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 359300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 359400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 359500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 359600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 359700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 361500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 361600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 361700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 361800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 361900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 362 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 362100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 362200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 362300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 362400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 362500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 362600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 362700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 362800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 362900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 363 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 364800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 364900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 365 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 365100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 365200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 365300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 365400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 365500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 365600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 365700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 365800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 365900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 366 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 366100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 366200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 366300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 368100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 368200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 368300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 368400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 368500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 368600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 368700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 368800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 368900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 369 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 369100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 369200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 369300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 369400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 369500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 369600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 371400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 371500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 371600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 371700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 371800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 371900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 372 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 372100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 372200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 372300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 372400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 372500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 372600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 372700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 372800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 372900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 374700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 374800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 374900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 375 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 375100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 375200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 375300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 375400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 375500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 375600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 375700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 375800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 375900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 376 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 376100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 376200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 378 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 378100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 378200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 378300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 378400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 378500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 378600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 378700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 378800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 378900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 379 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 379100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 379200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 379300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 379400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 379500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 381300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 381400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 381500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 381600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 381700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 381800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 381900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 382 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 382100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 382200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 382300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 382400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 382500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 382600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 382700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 382800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 382900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 383 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 383100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 383200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 383300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 383400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 383500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 383600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 383700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 383800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 383900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 384 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 384100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 384200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 384300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 384400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 384500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 386200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 386300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 386400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 386500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 386600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 386700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 386800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 386900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 387 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 387100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 387200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 387300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 387400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 387500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 387600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 387700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 387800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 389500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 389600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 389700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 389800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 389900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 390 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 390100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 390200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 390300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 390400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 390500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 390600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 390700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 390800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 390900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 391 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 391100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 392800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 392900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 393 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 393100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 393200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 393300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 393400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 393500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 393600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 393700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 393800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 393900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 394 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 394100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 394200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 394300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 394400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 396100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 396200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 396300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 396400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 396500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 396600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 396700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 396800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 396900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 397 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 397100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 397200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 397300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 397400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 397500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 397600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 397700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 399400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 399500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 399600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 399700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 399800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 399900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 400 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 400100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 400200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 400300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 400400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 400500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 400600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 400700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 400800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 400900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 401 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 402700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 402800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 402900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 403 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 403100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 403200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 403300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 403400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 403500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 403600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 403700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 403800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 403900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 404 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 404100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 404200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 404300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 406 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 406100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 406200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 406300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 406400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 406500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 406600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 406700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 406800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 406900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 407 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 407100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 407200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 407300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 407400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 407500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 407600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 409300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 409400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 409500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 409600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 409700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 409800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 409900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 410 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 410100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 410200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 410300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 410400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 410500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 410600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 410700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 410800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 410900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 412600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 412700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 412800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 412900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 413 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 413100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 413200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 413300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 413400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 413500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 413600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 413700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 413800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 413900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 414 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 414100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 414200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 415900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 416 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 416100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 416200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 416300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 416400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 416500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 416600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 416700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 416800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 416900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 417 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 417100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 417200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 417300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 417400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 417500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 419200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 419300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 419400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 419500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 419600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 419700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 419800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 419900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 420 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 420100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 420200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 420300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 420400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 420500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 420600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 420700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 420800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 422500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 422600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 422700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 422800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 422900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 423 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 423100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 423200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 423300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 423400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 423500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 423600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 423700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 423800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 423900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 424 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 424100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 425800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 425900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 426 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 426100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 426200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 426300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 426400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 426500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 426600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 426700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 426800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 426900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 427 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 427100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 427200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 427300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 427400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 429100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 429200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 429300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 429400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 429500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 429600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 429700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 429800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 429900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 430 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 430100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 430200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 430300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 430400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 430500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 430600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 430700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 432400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 432500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 432600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 432700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 432800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 432900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 433 us  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 433100 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 433200 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 433300 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 433400 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 433500 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 433600 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 433700 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 433800 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 433900 ns  Iteration: 0  Instance: /prueba_alu
-# ** Error: error ALU_SLT 
-#    Time: 434 us  Iteration: 0  Instance: /prueba_alu
 # ** Note: ALU_SLTU
 #    Time: 435600 ns  Iteration: 0  Instance: /prueba_alu
 # ** Note: ALU_XOR 
@@ -1382,5 +294,8 @@
 #    Time: 1089 us  Iteration: 0  Instance: /prueba_alu
 # ** Note: final
 #    Time: 1197900 ns  Iteration: 0  Instance: /prueba_alu
-# End time: 22:36:52 on Nov 08,2022, Elapsed time: 0:02:22
-# Errors: 544, Warnings: 0
+# 
+# stdin: <EOF>
+# WARNING: No extended dataflow license exists
+# End time: 09:32:36 on Nov 09,2022, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 0
