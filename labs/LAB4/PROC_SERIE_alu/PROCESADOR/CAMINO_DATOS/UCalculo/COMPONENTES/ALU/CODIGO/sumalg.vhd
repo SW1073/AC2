@@ -47,8 +47,6 @@ begin
 				resta <= '1';
 				ent <= '1';
 		end case;
-		
-		
 	end process;
 
 --	extension de rango y vectores a sumar
@@ -63,7 +61,7 @@ begin
 	
 --	modifique las senyales de salida
 	s <= ss(tam_dat-1 downto 0);
-	men <= (ss(32));
+	men <= ss(tam_dat);
 	
 
 end;
