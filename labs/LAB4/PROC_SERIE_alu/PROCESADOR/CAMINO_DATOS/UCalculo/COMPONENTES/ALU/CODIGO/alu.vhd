@@ -51,12 +51,8 @@ slt_M:	slt port map (men => men, s => s_slt);
 				mx_23 <= '0';
 				mx <= '0';
 				mx_01 <= '0';
-			when ALU_SLT | ALU_SLTU => -- meaning slt/sltu
+			when others => -- SLT/SLTU
 				mx_23 <= '1';
-				mx <= '0';
-				mx_01 <= '0';
-			when others =>
-				mx_23 <= '0';
 				mx <= '0';
 				mx_01 <= '0';
 		end case;

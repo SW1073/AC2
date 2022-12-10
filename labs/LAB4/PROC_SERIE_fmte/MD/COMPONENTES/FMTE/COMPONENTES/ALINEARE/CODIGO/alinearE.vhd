@@ -25,10 +25,19 @@ architecture estructural of alinearE is
 subtype t_byte is std_logic_vector(tam_byte-1 downto 0);
 
 -- senyales
+------- opMD<1:0> --> tam (byte 01, half 01, word 10)
+------- opMD<3> --> si '1', se escribe.
+signal esc: std_logic;
+signal tam: std_logic_vector(1 downto 0);
+signal , half, word: std_logic_vector(1 downto 0);
 
 begin
 -- instanciacion 
-
+	
+	tam <= opMD(1 downto 0);
+	
+	case 
+	
 	sal <= (others => '0') after retFMTE;
 
 end; 
