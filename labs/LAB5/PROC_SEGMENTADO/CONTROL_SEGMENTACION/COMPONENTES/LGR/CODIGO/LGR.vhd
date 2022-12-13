@@ -20,10 +20,10 @@ architecture comportamiento of LGR is
 
 begin
 
-	bloqCP <= '0' after retLGR;
-	bloqBDL <= '0' after retLGR;
+	bloqCP <= RS after retLGR;
+	bloqBDL <= RID after retLGR;
 
-	inyecDLA <= '0' after retLGR;
-	inyecBDL <= '0' after retLGR;
+	inyecDLA <= RID after retLGR;
+	inyecBDL <= (not RID) and RS after retLGR;
 	
 end comportamiento;

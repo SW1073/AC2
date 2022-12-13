@@ -20,6 +20,6 @@ architecture comportamiento of LDRS is
 
 begin
 
-	RS <= '0' after retLDRS;
+	RS <= (opsecDL(num_opSEC-1) or opsecA(num_opSEC-1)) after retLDRS;
 	
 end comportamiento;

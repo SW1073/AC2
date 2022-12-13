@@ -1,0 +1,554 @@
+# Reading E:/Program Files/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do LIB_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\Program Files\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\Program Files\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_RegDes_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package riscv32_coop_funct_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_cntl_seg_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package cte_tipos_deco_camino_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package param_disenyo_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Compiling package cte_tipos_UF_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Compiling package RegDes_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling package componentes_control_seg_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_n.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RDB_N
+# -- Compiling architecture comportamiento of RDB_N
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_n.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RDI_N
+# -- Compiling architecture comportamiento of RDI_N
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_n.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RD_N
+# -- Compiling architecture comportamiento of RD_N
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RDI_1
+# -- Compiling architecture comportamiento of RDI_1
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RD_1
+# -- Compiling architecture comportamiento of RD_1
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity valreg
+# -- Compiling architecture compor of valreg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity cmp
+# -- Compiling architecture compor of cmp
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LIB
+# -- Compiling architecture estructural of LIB
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/rdecopbropsec.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity RdecoPBRopSEC
+# -- Compiling architecture estructural of RdecoPBRopSEC
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decopbropsec.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package cte_tipos_UF_pkg
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity decoPBRopSEC
+# -- Compiling architecture comportamiento of decoPBRopSEC
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_rd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity ensam_RD
+# -- Compiling architecture estructural of ensam_RD
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity senya_cntlRD
+# -- Compiling architecture estructural of senya_cntlRD
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LDD
+# -- Compiling architecture estructural of LDD
+# ** Warning: [9] C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd(37): (vcom-1013) Initial value of "input_ports1" depends on value of signal "IDL1".
+# 
+# ** Warning: [9] C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd(37): (vcom-1013) Initial value of "input_ports1" depends on value of signal "IDL2".
+# 
+# ** Warning: [9] C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd(38): (vcom-1013) Initial value of "input_ports2" depends on value of signal "rdA".
+# 
+# ** Warning: [9] C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd(38): (vcom-1013) Initial value of "input_ports2" depends on value of signal "rdM".
+# 
+# ** Warning: [9] C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd(38): (vcom-1013) Initial value of "input_ports2" depends on value of signal "rdF".
+# 
+# ** Warning: [9] C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd(38): (vcom-1013) Initial value of "input_ports2" depends on value of signal "rdE".
+# 
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/ldrd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LDRD
+# -- Compiling architecture comportamiento of LDRD
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_rs.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity ensam_RS
+# -- Compiling architecture estructural of ensam_RS
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrs.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity senya_cntlRS
+# -- Compiling architecture estructural of senya_cntlRS
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/ldrs.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LDRS
+# -- Compiling architecture comportamiento of LDRS
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/lgr.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LGR
+# -- Compiling architecture comportamiento of LGR
+# 
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_UF_pkg
+# -- Compiling package codificar_instrucciones_pkg
+# -- Compiling package body codificar_instrucciones_pkg
+# -- Loading package codificar_instrucciones_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package param_disenyo_pkg
+# -- Compiling package imprimir_inst_ascii_pkg
+# -- Compiling package body imprimir_inst_ascii_pkg
+# -- Loading package imprimir_inst_ascii_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package imprimir_inst_ascii_pkg
+# -- Compiling package deco_inst_impri_pkg
+# -- Compiling package body deco_inst_impri_pkg
+# -- Loading package deco_inst_impri_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling package componentes_control_seg_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_cntl_seg_pkg
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andv2
+# -- Compiling architecture comportamiento of andv2
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv1n.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andv1n
+# -- Compiling architecture comportamiento of andv1n
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andv3
+# -- Compiling architecture comportamiento of andv3
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orv2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity orv2
+# -- Compiling architecture comportamiento of orv2
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orvn.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity orvn
+# -- Compiling architecture comportamiento of orvn
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/COMPARADOR/CODIGO/cmp.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity cmp
+# -- Compiling architecture compor of cmp
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LDD_v
+# -- Compiling architecture estructural of LDD_v
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LDRD_v
+# -- Compiling architecture estructural of LDRD_v
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LDRS_v
+# -- Compiling architecture estructural of LDRS_v
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LGR_v
+# -- Compiling architecture estructural of LGR_v
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity ensam_RD_v
+# -- Compiling architecture estructural of ensam_RD_v
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity ensam_RS_v
+# -- Compiling architecture estructural of ensam_RS_v
+# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LIB_v
+# -- Compiling architecture estructural of LIB_v
+# vcom -2008 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package cte_tipos_UF_pkg
+# -- Loading package codificar_instrucciones_pkg
+# -- Loading package imprimir_inst_ascii_pkg
+# -- Loading package deco_inst_impri_pkg
+# -- Compiling entity prueba_LIB
+# -- Compiling architecture comportamiento of prueba_LIB
+# ** Warning: C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd(53): (vcom-1236) Shared variables must be of a protected type.
+# 
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_LIB
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps prueba_LIB 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.cte_tipos_deco_camino_pkg
+# Loading work.param_disenyo_pkg
+# Loading work.riscv32_coop_funct_pkg
+# Loading work.cte_tipos_uf_pkg
+# Loading work.codificar_instrucciones_pkg(body)
+# Loading work.imprimir_inst_ascii_pkg(body)
+# Loading work.deco_inst_impri_pkg(body)
+# Loading work.prueba_lib(comportamiento)
+# Loading work.componentes_control_seg_pkg
+# Loading work.retardos_cntl_seg_pkg
+# Loading work.lib(estructural)
+# Loading work.regdes_pkg
+# Loading work.rdecopbropsec(estructural)
+# Loading work.retardos_regdes_pkg
+# Loading work.rdb_n(comportamiento)
+# Loading work.decopbropsec(comportamiento)
+# Loading work.ensam_rd(estructural)
+# Loading work.senya_cntlrd(estructural)
+# Loading work.rdi_n(comportamiento)
+# Loading work.rd_n(comportamiento)
+# Loading work.rdi_1(comportamiento)
+# Loading work.rd_1(comportamiento)
+# Loading work.valreg(compor)
+# Loading work.ldd(estructural)
+# Loading work.cmp(compor)
+# Loading work.ldrd(comportamiento)
+# Loading work.ensam_rs(estructural)
+# Loading work.senya_cntlrs(estructural)
+# Loading work.ldrs(comportamiento)
+# Loading work.lgr(comportamiento)
+# Loading work.lib_v(estructural)
+# Loading work.ensam_rd_v(estructural)
+# Loading work.ldd_v(estructural)
+# Loading work.andv1n(comportamiento)
+# Loading work.andv3(comportamiento)
+# Loading work.ldrd_v(estructural)
+# Loading work.orv2(comportamiento)
+# Loading work.ensam_rs_v(estructural)
+# Loading work.ldrs_v(estructural)
+# Loading work.lgr_v(estructural)
+# 
+# do C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/formato_ventanas.do
+# ** Error: Cannot open macro file: C:/Users/eloii/OneDrive/UNI
+# Error in macro ./LIB_run_msim_rtl_vhdl.do line 57
+# Cannot open macro file: C:/Users/eloii/OneDrive/UNI
+#     while executing
+# "do C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../P..."
+pwd
+# C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/simulation/modelsim
+transcript on
+log -r /*
+if {[batch_mode] == 0} then { do wave.do }
+# Cannot open macro file: wave.do
+run -all
+# Cicle; Dep L1_AMFE L2_AMFE; RD_RS; bCP_bBDL_iBDL_iDLA
+# sortides esperades, instruccions DL ALU M F ES
+# ** Error: (vsim-7) Failed to open VHDL file "../../../RESULTADOS/resultados_LIB.txt" in r+ mode.
+# 
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Instance: /prueba_lib
+# ** Fatal: (vsim-7) Failed to open VHDL file "../../../RESULTADOS/resultados_LIB.txt" in r+ mode.
+# 
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Process: /prueba_lib/comprova File: C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd
+# Fatal error in Process comprova at C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd line 199
+# 
+# HDL call sequence:
+# Stopped at C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd 199 Process comprova
+# 
+

@@ -1,0 +1,1619 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\eloii\OneDrive\UNI things\UPC FIB\Tercer any\5. Cinqué quatri\AC2\repo-AC2\labs\LAB5\PROC_SEGMENTADO\CONTROL_SEGMENTACION\LIB\QUARTUS\simulation\modelsim
+Eandv1n
+Z1 w1670790906
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\eloii\OneDrive\UNI things\UPC FIB\Tercer any\5. Cinqué quatri\AC2\repo-AC2\labs\LAB5\PROC_SEGMENTADO\CONTROL_SEGMENTACION\LIB\QUARTUS\simulation\modelsim
+Z5 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv1n.vhd
+Z6 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv1n.vhd
+l0
+L10
+V_HijFbVmnG=h<?V0=Oz::0
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1670947288.105000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv1n.vhd|
+Z10 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv1n.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 3<9Ka`D0]McVAe:<BY^KP1
+!i10b 1
+Acomportamiento
+R2
+R3
+DEx4 work 6 andv1n 0 22 _HijFbVmnG=h<?V0=Oz::0
+l17
+L15
+V8@eQM0f[0UHDNb818I8Oc0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 BmFNFd^KM>V7P`Ii5:B7o2
+!i10b 1
+Eandv2
+R1
+R2
+R3
+R4
+Z13 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv2.vhd
+Z14 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv2.vhd
+l0
+L10
+V_ZWJ5K1DFeObUD5a]@8UZ1
+R7
+31
+Z15 !s108 1670947288.009000
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv2.vhd|
+Z17 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv2.vhd|
+R11
+R12
+!s100 IzX21FWJ5W=e7KJT7Jb<02
+!i10b 1
+Acomportamiento
+R2
+R3
+DEx4 work 5 andv2 0 22 _ZWJ5K1DFeObUD5a]@8UZ1
+l17
+L15
+Vl]7lHoP@k0Zjo=:LB?ZiF1
+R7
+31
+R15
+R16
+R17
+R11
+R12
+!s100 8l;:Mz75i?6bkH=cY<9>52
+!i10b 1
+Eandv3
+R1
+R2
+R3
+R4
+Z18 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv3.vhd
+Z19 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv3.vhd
+l0
+L10
+VCWidhOifFIL0E3mP@=iTS0
+R7
+31
+Z20 !s108 1670947288.202000
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv3.vhd|
+Z22 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv3.vhd|
+R11
+R12
+!s100 f9ogzZYD5oW=G0BF:[FFC0
+!i10b 1
+Acomportamiento
+R2
+R3
+DEx4 work 5 andv3 0 22 CWidhOifFIL0E3mP@=iTS0
+l17
+L15
+VE9;_6dLE<<jifRG>hiVNC0
+R7
+31
+R20
+R21
+R22
+R11
+R12
+!s100 zS@S?1Y6ABS`Nh?bTVMK?2
+!i10b 1
+Ecmp
+R1
+Z23 DPx4 work 17 param_disenyo_pkg 0 22 dQO[:VbkRS]1;1_96^i:H0
+R2
+R3
+R4
+Z24 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/COMPARADOR/CODIGO/cmp.vhd
+Z25 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/COMPARADOR/CODIGO/cmp.vhd
+l0
+L11
+VW1j9SkEkPfUhDc[IMKoC92
+R7
+31
+Z26 !s108 1670947288.488000
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/COMPARADOR/CODIGO/cmp.vhd|
+Z28 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/COMPARADOR/CODIGO/cmp.vhd|
+R11
+R12
+!s100 `Fm;]mOBG9cT1lgNbzGg<3
+!i10b 1
+Acompor
+R23
+R2
+R3
+DEx4 work 3 cmp 0 22 W1j9SkEkPfUhDc[IMKoC92
+l20
+L17
+V?2f8K@M`L^]]@:cS`zaIM0
+R7
+31
+R26
+R27
+R28
+R11
+R12
+!s100 bhQzElo7]Xz1Z`TYOUn1H3
+!i10b 1
+Pcodificar_instrucciones_pkg
+Z29 DPx4 work 16 cte_tipos_uf_pkg 0 22 kdDRDaT`aV2L?W5`5:=Ef2
+R23
+Z30 DPx4 work 22 riscv32_coop_funct_pkg 0 22 ;5Xo@eC]DBCLkHZ^SI_gG3
+Z31 DPx4 work 25 cte_tipos_deco_camino_pkg 0 22 h2gDIY<;0M4GQEZ8JLU[;1
+Z32 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+Z33 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+Z34 w1666876761
+R4
+Z35 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd
+Z36 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd
+l0
+L18
+V?][045;7L1TC99VTm5MEo3
+R7
+31
+b1
+Z37 !s108 1670947287.488000
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd|
+Z39 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd|
+R11
+R12
+!s100 bO<zAi[;n_]G8[cbGPeU`3
+!i10b 1
+Bbody
+Z40 DPx4 work 27 codificar_instrucciones_pkg 0 22 ?][045;7L1TC99VTm5MEo3
+R29
+R23
+R30
+R31
+R32
+R33
+R2
+R3
+l0
+L52
+V5jTdgGF2eP`;ZjDERMZWL3
+R7
+31
+R37
+R38
+R39
+R11
+R12
+nbody
+!s100 40P=Q24<DKB8z5GLH2V6D0
+!i10b 1
+Pcomponentes_control_seg_pkg
+R33
+R31
+R23
+R2
+R3
+R1
+R4
+8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd
+FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd
+l0
+L12
+VoS>;6AnRn[<2<;R[gUleI2
+R7
+31
+R11
+R12
+!s100 UIRDnXnbHaBYdjhkI6X^n2
+!i10b 1
+!s108 1670947287.842000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd|
+!s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd|
+Pcte_tipos_deco_camino_pkg
+R33
+R2
+R3
+Z41 w1670790907
+R4
+8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
+FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
+l0
+L10
+Vh2gDIY<;0M4GQEZ8JLU[;1
+R7
+31
+R11
+R12
+!s100 LWMoGeUhi@F]=k277M<360
+!i10b 1
+!s108 1670947285.404000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd|
+!s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd|
+Pcte_tipos_uf_pkg
+R30
+R33
+R31
+R2
+R3
+Z42 w1666876762
+R4
+8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd
+FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd
+l0
+L12
+VkdDRDaT`aV2L?W5`5:=Ef2
+R7
+31
+R11
+R12
+!s100 P^M^710HLOX12LT2A3=fj0
+!i10b 1
+!s108 1670947285.568000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd|
+!s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd|
+Pdeco_inst_impri_pkg
+Z43 DPx4 work 23 imprimir_inst_ascii_pkg 0 22 `mnm`nmK9DUZOBh9dE?]J0
+R23
+R30
+R32
+R33
+R2
+R3
+R34
+R4
+Z44 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd
+Z45 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd
+l0
+L18
+V0R2:FZQF]kF48a5O4@TaC3
+R7
+31
+b1
+Z46 !s108 1670947287.740000
+Z47 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd|
+Z48 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd|
+R11
+R12
+!s100 33HKLV_0llC2A`H6GJC651
+!i10b 1
+Bbody
+Z49 DPx4 work 19 deco_inst_impri_pkg 0 22 0R2:FZQF]kF48a5O4@TaC3
+R43
+R23
+R30
+R32
+R33
+R2
+R3
+l0
+L25
+VJ:jdoRa]72=W156=gGeFZ3
+R7
+31
+R46
+R47
+R48
+R11
+R12
+nbody
+!s100 4hh6NkLJ`=<7DSQQ0]WkE0
+!i10b 1
+Edecopbropsec
+R1
+R23
+R29
+R30
+R31
+R33
+R2
+R3
+R4
+Z50 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decopbropsec.vhd
+Z51 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decopbropsec.vhd
+l0
+L15
+VEWlgcL6P2k8Pm8ATgdnH>3
+R7
+31
+Z52 !s108 1670947286.628000
+Z53 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decopbropsec.vhd|
+Z54 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decopbropsec.vhd|
+R11
+R12
+!s100 R^L?WPg:@DIJm^@NocW[Y0
+!i10b 1
+Acomportamiento
+R23
+R29
+R30
+R31
+R33
+R2
+R3
+DEx4 work 12 decopbropsec 0 22 EWlgcL6P2k8Pm8ATgdnH>3
+l29
+L21
+Vl_;SPdQ43@0QU<6f6Xc[J3
+R7
+31
+R52
+R53
+R54
+R11
+R12
+!s100 PmYB=2Z;5hAS:=X]<oaGH2
+!i10b 1
+Eensam_rd
+R1
+Z55 DPx4 work 21 retardos_cntl_seg_pkg 0 22 kbaJG1dD7;BKICTb9]CN<2
+Z56 DPx4 work 27 componentes_control_seg_pkg 0 22 oS>;6AnRn[<2<;R[gUleI2
+R33
+R31
+R23
+R2
+R3
+R4
+Z57 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_rd.vhd
+Z58 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_rd.vhd
+l0
+L15
+V3[E7jh`A1VGj4SHo=L8YF3
+R7
+31
+Z59 !s108 1670947286.721000
+Z60 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_rd.vhd|
+Z61 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_rd.vhd|
+R11
+R12
+!s100 79`UE]lFLo6KVT3<6_C[d3
+!i10b 1
+Aestructural
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+DEx4 work 8 ensam_rd 0 22 3[E7jh`A1VGj4SHo=L8YF3
+l37
+L23
+Vne8:K4]mn;LQ>5dlUIT6:3
+R7
+31
+R59
+R60
+R61
+R11
+R12
+!s100 UGVnK2gG=;J[a@>OGMIFb0
+!i10b 1
+Eensam_rd_v
+R1
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+R4
+Z62 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD.vhd
+Z63 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD.vhd
+l0
+L14
+Vbc<<>0n>oWDFBFQ`==2@k1
+R7
+31
+Z64 !s108 1670947290.481000
+Z65 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD.vhd|
+Z66 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD.vhd|
+R11
+R12
+!s100 j]mNQ3;9l<FJj7:<JY;`?2
+!i10b 1
+Aestructural
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+DEx4 work 10 ensam_rd_v 0 22 bc<<>0n>oWDFBFQ`==2@k1
+l66
+L22
+V9Y3ek=VVTbkl]S4^6<F^F2
+R7
+31
+R64
+R65
+R66
+R11
+R12
+!s100 kIVQ]>A<ICX@eEQl]a`jV2
+!i10b 1
+Eensam_rs
+R1
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+R4
+Z67 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_rs.vhd
+Z68 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_rs.vhd
+l0
+L15
+VNDed>AXW;6OAJYJaD5Y<g2
+R7
+31
+Z69 !s108 1670947287.098000
+Z70 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_rs.vhd|
+Z71 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_rs.vhd|
+R11
+R12
+!s100 ?V83SRDBb:IX76z1Af5D>2
+!i10b 1
+Aestructural
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+DEx4 work 8 ensam_rs 0 22 NDed>AXW;6OAJYJaD5Y<g2
+l24
+L22
+V9Hd?lOX8Fnd2AV=30z52e0
+R7
+31
+R69
+R70
+R71
+R11
+R12
+!s100 BWE4VDH:T1QRABP6mkl=72
+!i10b 1
+Eensam_rs_v
+R1
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+R4
+Z72 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd
+Z73 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd
+l0
+L14
+VLj;Y_HK_<<`nVGgdSG@a@1
+R7
+31
+Z74 !s108 1670947290.953000
+Z75 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd|
+Z76 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd|
+R11
+R12
+!s100 6PH1j=ZY;Y_;GzhjW<Xlf3
+!i10b 1
+Aestructural
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+DEx4 work 10 ensam_rs_v 0 22 Lj;Y_HK_<<`nVGgdSG@a@1
+l45
+L21
+V;GSLdZ9f]V2N6im06IHz:0
+R7
+31
+R74
+R75
+R76
+R11
+R12
+!s100 YRV_Fb7dghY9kAoH^a2T?3
+!i10b 1
+Pimprimir_inst_ascii_pkg
+R23
+R30
+R32
+R33
+R2
+R3
+R34
+R4
+Z77 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd
+Z78 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd
+l0
+L16
+V`mnm`nmK9DUZOBh9dE?]J0
+R7
+31
+b1
+Z79 !s108 1670947287.629000
+Z80 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd|
+Z81 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd|
+R11
+R12
+!s100 :Za::RiJHXX<ZGG`PBC]M2
+!i10b 1
+Bbody
+R43
+R23
+R30
+R32
+R33
+R2
+R3
+l0
+L30
+VVjl9io6B67[>C]<97b<ND2
+R7
+31
+R79
+R80
+R81
+R11
+R12
+nbody
+!s100 [j4aXG;G5@Id3CHo1A58o3
+!i10b 1
+Eldd
+Z82 w1670947105
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+R4
+Z83 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd
+Z84 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd
+l0
+L14
+VYUn=Uk1I?R0mPQN[6fa:@2
+R7
+31
+Z85 !s108 1670947286.906000
+Z86 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd|
+Z87 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd|
+R11
+R12
+!s100 a=VCFcNCm?hLK:J2zYz270
+!i10b 1
+Aestructural
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+DEx4 work 3 ldd 0 22 YUn=Uk1I?R0mPQN[6fa:@2
+l41
+L24
+VgJlf14SPn^^b5P>lcHcA70
+R7
+31
+R85
+R86
+R87
+R11
+R12
+!s100 4P<AfEMU8UTWM9S;C_6431
+!i10b 1
+Eldd_v
+R1
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+R4
+Z88 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd
+Z89 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd
+l0
+L14
+VmV3a6z@C?fWffa`l4AoX01
+R7
+31
+Z90 !s108 1670947288.575000
+Z91 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd|
+Z92 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd|
+R11
+R12
+!s100 _E3dfMBHlR:Z1zOMUT6^?1
+!i10b 1
+Aestructural
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+DEx4 work 5 ldd_v 0 22 mV3a6z@C?fWffa`l4AoX01
+l41
+L24
+VjcmQFNnl8BecIMIQ6CHlC2
+R7
+31
+R90
+R91
+R92
+R11
+R12
+!s100 XR2QaET0SJZCVIi2ieJAL3
+!i10b 1
+Eldrd
+Z93 w1670865631
+R55
+R33
+R31
+R56
+R23
+R2
+R3
+R4
+Z94 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/ldrd.vhd
+Z95 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/ldrd.vhd
+l0
+L13
+V7N5Nc_8zQhD7e:oalmiLb2
+R7
+31
+Z96 !s108 1670947287.006000
+Z97 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/ldrd.vhd|
+Z98 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/ldrd.vhd|
+R11
+R12
+!s100 hKfeC550e<^<0K>0:m:AN2
+!i10b 1
+Acomportamiento
+R55
+R33
+R31
+R56
+R23
+R2
+R3
+DEx4 work 4 ldrd 0 22 7N5Nc_8zQhD7e:oalmiLb2
+l25
+L20
+VIP7il29EVgK1Dm@R>d;lD2
+R7
+31
+R96
+R97
+R98
+R11
+R12
+!s100 caK0d@kK:`BV9?bOf1TNn3
+!i10b 1
+Eldrd_v
+R1
+R55
+R33
+R31
+R56
+R23
+R2
+R3
+R4
+Z99 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD.vhd
+Z100 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD.vhd
+l0
+L13
+VE[PWgCgPLm4[C]HOJ9^0n1
+R7
+31
+Z101 !s108 1670947289.057000
+Z102 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD.vhd|
+Z103 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD.vhd|
+R11
+R12
+!s100 16MFnZG[z`gSj3HjP[M8[3
+!i10b 1
+Aestructural
+R55
+R33
+R31
+R56
+R23
+R2
+R3
+DEx4 work 6 ldrd_v 0 22 E[PWgCgPLm4[C]HOJ9^0n1
+l1
+L20
+V98I5hE@@g[S8Zz9e=JXhI0
+R7
+31
+R101
+R102
+R103
+R11
+R12
+!s100 9TDNK]h9^9PNNKWjhR_LG3
+!i10b 1
+Eldrs
+Z104 w1670865647
+R55
+R23
+R56
+R33
+R31
+R2
+R3
+R4
+Z105 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/ldrs.vhd
+Z106 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/ldrs.vhd
+l0
+L13
+V>50L7]e^28]fnHCl<b:P:2
+R7
+31
+Z107 !s108 1670947287.285000
+Z108 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/ldrs.vhd|
+Z109 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/ldrs.vhd|
+R11
+R12
+!s100 zVODCZdKJU;?EVC`ZPV_`2
+!i10b 1
+Acomportamiento
+R55
+R23
+R56
+R33
+R31
+R2
+R3
+DEx4 work 4 ldrs 0 22 >50L7]e^28]fnHCl<b:P:2
+l21
+L19
+VRd2iVFmXd3Kij494KO4RZ2
+R7
+31
+R107
+R108
+R109
+R11
+R12
+!s100 F34ciMm6=CV_bc^N@HojI2
+!i10b 1
+Eldrs_v
+R1
+R55
+R23
+R56
+R33
+R31
+R2
+R3
+R4
+Z110 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd
+Z111 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd
+l0
+L13
+VK6J^a:1_QOVn?j]39GXMM0
+R7
+31
+Z112 !s108 1670947289.537000
+Z113 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd|
+Z114 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd|
+R11
+R12
+!s100 b`c8Z:E>64F:dUmIP0dHo0
+!i10b 1
+Aestructural
+R55
+R23
+R56
+R33
+R31
+R2
+R3
+DEx4 work 6 ldrs_v 0 22 K6J^a:1_QOVn?j]39GXMM0
+l1
+L19
+V]jYjZn2FViFXA69D;5Sfb1
+R7
+31
+R112
+R113
+R114
+R11
+R12
+!s100 <6nHa6@Q5ZhfN<2NVclaJ0
+!i10b 1
+Elgr
+Z115 w1670865672
+R55
+R23
+R56
+R33
+R31
+R2
+R3
+R4
+Z116 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/lgr.vhd
+Z117 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/lgr.vhd
+l0
+L13
+V_c7Z^<Z<VK4YcL58ZocmY2
+R7
+31
+Z118 !s108 1670947287.380000
+Z119 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/lgr.vhd|
+Z120 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/lgr.vhd|
+R11
+R12
+!s100 3EIz_HiAK4a3I=CbC>gRZ2
+!i10b 1
+Acomportamiento
+R55
+R23
+R56
+R33
+R31
+R2
+R3
+DEx4 work 3 lgr 0 22 _c7Z^<Z<VK4YcL58ZocmY2
+l21
+L19
+V@O:ho^n=boXLm`MBEH5[60
+R7
+31
+R118
+R119
+R120
+R11
+R12
+!s100 KOH76Y?3E4;o@WjBc>@DX0
+!i10b 1
+Elgr_v
+R1
+R55
+R23
+R56
+R33
+R31
+R2
+R3
+R4
+Z121 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd
+Z122 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd
+l0
+L13
+VTL;^;lSnoW5XbI@e`X9Kd1
+R7
+31
+Z123 !s108 1670947290.001000
+Z124 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd|
+Z125 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd|
+R11
+R12
+!s100 eU6a0NzZTzES@fDD>1blh0
+!i10b 1
+Aestructural
+R55
+R23
+R56
+R33
+R31
+R2
+R3
+DEx4 work 5 lgr_v 0 22 TL;^;lSnoW5XbI@e`X9Kd1
+l22
+L19
+VNVf@<Vo>T6PjgOFSg8G970
+R7
+31
+R123
+R124
+R125
+R11
+R12
+!s100 HRPT2lHGk3EZDR5bZYiIz3
+!i10b 1
+Elib
+R1
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+R4
+Z126 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd
+Z127 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd
+l0
+L15
+V^0X4gE_56W_OeVmRZlA[12
+R7
+31
+Z128 !s108 1670947286.440000
+Z129 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd|
+Z130 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd|
+R11
+R12
+!s100 ^1T3bOOW1;Gi2A9oYS@I53
+!i10b 1
+Aestructural
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+DEx4 work 3 lib 0 22 ^0X4gE_56W_OeVmRZlA[12
+l29
+L21
+VL@6OV4akmn3jIWVW?1D<62
+R7
+31
+R128
+R129
+R130
+R11
+R12
+!s100 Z4HL>k^LF>]IUIC>GcPZT3
+!i10b 1
+Elib_v
+R1
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+R4
+Z131 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB.vhd
+Z132 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB.vhd
+l0
+L14
+V;jjS7?0Xlm:_=?8aTkEdM0
+R7
+31
+Z133 !s108 1670947291.439000
+Z134 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB.vhd|
+Z135 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB.vhd|
+R11
+R12
+!s100 nPJ]EngFk`WYVilz>ihQb0
+!i10b 1
+Aestructural
+R55
+R56
+R33
+R31
+R23
+R2
+R3
+DEx4 work 5 lib_v 0 22 ;jjS7?0Xlm:_=?8aTkEdM0
+l61
+L20
+VJIL^WGY:0gkP9l70:6Ph]2
+R7
+31
+R133
+R134
+R135
+R11
+R12
+!s100 <DJ4C9HGD;0SB8M<dSeZk3
+!i10b 1
+Eorv2
+R1
+R2
+R3
+R4
+Z136 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orv2.vhd
+Z137 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orv2.vhd
+l0
+L10
+VV<VUQ0h@dgZKN0bQ:HcVK2
+R7
+31
+Z138 !s108 1670947288.297000
+Z139 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orv2.vhd|
+Z140 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orv2.vhd|
+R11
+R12
+!s100 z2M@Qoc;^7PAcednJcD?J2
+!i10b 1
+Acomportamiento
+R2
+R3
+DEx4 work 4 orv2 0 22 V<VUQ0h@dgZKN0bQ:HcVK2
+l17
+L15
+V[;HJaI0B3@P2Ho>aIbP3G2
+R7
+31
+R138
+R139
+R140
+R11
+R12
+!s100 >9?Iz2W6jhYIeIb71:36G0
+!i10b 1
+Eorvn
+R1
+R2
+R3
+R4
+Z141 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orvn.vhd
+Z142 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orvn.vhd
+l0
+L10
+VT>fI<BBK`=G6LdS_2g@`e0
+R7
+31
+Z143 !s108 1670947288.393000
+Z144 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orvn.vhd|
+Z145 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orvn.vhd|
+R11
+R12
+!s100 8N7X4XRjzPl];`A3_`:R91
+!i10b 1
+Acomportamiento
+R2
+R3
+DEx4 work 4 orvn 0 22 T>fI<BBK`=G6LdS_2g@`e0
+l17
+L15
+VOFg`NAWP]El`LJbVzhAOP1
+R7
+31
+R143
+R144
+R145
+R11
+R12
+!s100 mgjXYD1=R5RPRP5Egh68j1
+!i10b 1
+Pparam_disenyo_pkg
+R2
+R3
+R42
+R4
+8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd
+FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd
+l0
+L9
+VdQO[:VbkRS]1;1_96^i:H0
+R7
+31
+R11
+R12
+!s100 3R_1M]JfV9Cjd@Th67g]o0
+!i10b 1
+!s108 1670947285.489000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd|
+!s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd|
+Eprueba_lib
+R1
+R43
+R49
+R29
+R30
+R40
+R23
+R31
+R32
+R33
+R2
+R3
+R4
+Z146 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd
+Z147 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd
+l0
+L17
+VoK6@7ScX45h@bG:[7d[kR2
+!s100 GTh7zgM3W6eLRVm[4_3_l0
+R7
+33
+!i10b 1
+Z148 !s108 1670947291.909000
+Z149 !s90 -reportprogress|300|-2008|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd|
+Z150 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd|
+Z151 o-2008 -work work -O0
+R12
+Acomportamiento
+R43
+R49
+R29
+R30
+R40
+R23
+R31
+R32
+R33
+R2
+R3
+DEx4 work 10 prueba_lib 0 22 oK6@7ScX45h@bG:[7d[kR2
+l124
+L20
+VT[X7mZ1VPDN1iZ3469h340
+!s100 f[Nf<ZchclA[Le<J[CGA61
+R7
+33
+!i10b 1
+R148
+R149
+R150
+R151
+R12
+Erd_1
+R1
+Z152 DPx4 work 19 retardos_regdes_pkg 0 22 o9KB=IOC;BXch]EnERG9i3
+R23
+R2
+R3
+R4
+Z153 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_1.vhd
+Z154 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_1.vhd
+l0
+L12
+Vg<;@=ek4EWfXLOW_AD<KE2
+R7
+31
+Z155 !s108 1670947286.167000
+Z156 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_1.vhd|
+Z157 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_1.vhd|
+R11
+R12
+!s100 F1k05m=gJh0PjWcf1B<]00
+!i10b 1
+Acomportamiento
+R152
+R23
+R2
+R3
+DEx4 work 4 rd_1 0 22 g<;@=ek4EWfXLOW_AD<KE2
+l19
+L18
+VKHCY4L5bU]cT8l3D9N94P1
+R7
+31
+R155
+R156
+R157
+R11
+R12
+!s100 B[`A7h^B<98UGD^0lRaQA3
+!i10b 1
+Erd_n
+R1
+R152
+R23
+R2
+R3
+R4
+Z158 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_n.vhd
+Z159 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_n.vhd
+l0
+L12
+VO7RJf^8zM?D7hc;7?0h7i3
+R7
+31
+Z160 !s108 1670947285.993000
+Z161 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_n.vhd|
+Z162 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_n.vhd|
+R11
+R12
+!s100 2DoMWl`YikSEQbQmiZo`T2
+!i10b 1
+Acomportamiento
+R152
+R23
+R2
+R3
+DEx4 work 4 rd_n 0 22 O7RJf^8zM?D7hc;7?0h7i3
+l20
+L19
+V=:J6mSnOMbEljRiHOJ@z@2
+R7
+31
+R160
+R161
+R162
+R11
+R12
+!s100 NbHbEZdGMK`RR<:6j:1<T1
+!i10b 1
+Erdb_n
+R1
+R152
+R23
+R2
+R3
+R4
+Z163 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_n.vhd
+Z164 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_n.vhd
+l0
+L12
+VFbPDdf?NQ6K]oeXRm6]PC2
+R7
+31
+Z165 !s108 1670947285.813000
+Z166 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_n.vhd|
+Z167 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_n.vhd|
+R11
+R12
+!s100 j:PT3gGL24IkU1AHe<QE;0
+!i10b 1
+Acomportamiento
+R152
+R23
+R2
+R3
+DEx4 work 5 rdb_n 0 22 FbPDdf?NQ6K]oeXRm6]PC2
+l20
+L19
+Vmifg8Dm`]dZTc^?17hlSX1
+R7
+31
+R165
+R166
+R167
+R11
+R12
+!s100 =CKYV_M]Z[_3H4`MlJ]JV2
+!i10b 1
+Erdecopbropsec
+R1
+Z168 DPx4 work 10 regdes_pkg 0 22 ldi8l2Qb2EcjVfm2i<:1G1
+R56
+R23
+R31
+R33
+R2
+R3
+R4
+Z169 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/rdecopbropsec.vhd
+Z170 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/rdecopbropsec.vhd
+l0
+L17
+Vzm>CQ1UL@0IJ5@BkYinCS0
+R7
+31
+Z171 !s108 1670947286.532000
+Z172 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/rdecopbropsec.vhd|
+Z173 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/rdecopbropsec.vhd|
+R11
+R12
+!s100 DMl;B;FhfJT`zZ=H[=f8W3
+!i10b 1
+Aestructural
+R168
+R56
+R23
+R31
+R33
+R2
+R3
+DEx4 work 13 rdecopbropsec 0 22 zm>CQ1UL@0IJ5@BkYinCS0
+l27
+L25
+Vcd>e<O8n0<IW^h0Kdm2=G3
+R7
+31
+R171
+R172
+R173
+R11
+R12
+!s100 DZdfbBj`@3H_e@h11a7zD0
+!i10b 1
+Erdi_1
+R1
+R152
+R23
+R2
+R3
+R4
+Z174 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_1.vhd
+Z175 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_1.vhd
+l0
+L12
+VHcEnj2FWc>7AMO1mb?F271
+R7
+31
+Z176 !s108 1670947286.079000
+Z177 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_1.vhd|
+Z178 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_1.vhd|
+R11
+R12
+!s100 kM?Y8=UZ9?FUC^PDP7L4]0
+!i10b 1
+Acomportamiento
+R152
+R23
+R2
+R3
+DEx4 work 5 rdi_1 0 22 HcEnj2FWc>7AMO1mb?F271
+l19
+L18
+VGd[FHA6ojiHnH[dg::Lb81
+R7
+31
+R176
+R177
+R178
+R11
+R12
+!s100 U9>=R@<S9W;keSc?K[XT?1
+!i10b 1
+Erdi_n
+R1
+R152
+R23
+R2
+R3
+R4
+Z179 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_n.vhd
+Z180 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_n.vhd
+l0
+L12
+V`cB@aVZZBQf^`SFEEKBeA1
+R7
+31
+Z181 !s108 1670947285.904000
+Z182 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_n.vhd|
+Z183 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_n.vhd|
+R11
+R12
+!s100 g6JGlH^b@I0a>I;689lO:0
+!i10b 1
+Acomportamiento
+R152
+R23
+R2
+R3
+DEx4 work 5 rdi_n 0 22 `cB@aVZZBQf^`SFEEKBeA1
+l20
+L19
+V<1N?[`dQN>aZQCDW3Sl^k0
+R7
+31
+R181
+R182
+R183
+R11
+R12
+!s100 dcWOh0VEXAVQ5a<UmEMDN2
+!i10b 1
+Pregdes_pkg
+R23
+R2
+R3
+R1
+R4
+8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd
+FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd
+l0
+L11
+Vldi8l2Qb2EcjVfm2i<:1G1
+R7
+31
+R11
+R12
+!s100 NKoelAo_ImT5cD:DjNAU43
+!i10b 1
+!s108 1670947285.652000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd|
+!s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd|
+Pretardos_cntl_seg_pkg
+R2
+R3
+R41
+R4
+8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
+FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
+l0
+L9
+VkbaJG1dD7;BKICTb9]CN<2
+R7
+31
+R11
+R12
+!s100 3<F92iFb;gIB7Q95Nn0]]3
+!i10b 1
+!s108 1670947287.928000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd|
+!s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd|
+Pretardos_regdes_pkg
+R2
+R3
+R41
+R4
+8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
+FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
+l0
+L9
+Vo9KB=IOC;BXch]EnERG9i3
+R7
+31
+R11
+R12
+!s100 4fC79Ahc9XT8IiegUZW3Q1
+!i10b 1
+!s108 1670947285.155000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd|
+!s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd|
+Priscv32_coop_funct_pkg
+R2
+R3
+R42
+R4
+8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd
+FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd
+l0
+L9
+V;5Xo@eC]DBCLkHZ^SI_gG3
+R7
+31
+R11
+R12
+!s100 jD0FZXWb2O>Y@61fTR4?R1
+!i10b 1
+!s108 1670947285.251000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd|
+!s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd|
+Esenya_cntlrd
+R1
+R168
+R55
+R33
+R31
+R23
+R2
+R3
+R4
+Z184 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrd.vhd
+Z185 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrd.vhd
+l0
+L15
+V6VOQHY7k_Ag:=iNaM3Xo;0
+R7
+31
+Z186 !s108 1670947286.816000
+Z187 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrd.vhd|
+Z188 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrd.vhd|
+R11
+R12
+!s100 OzPiOizBn7ZWS168b1Y3J0
+!i10b 1
+Aestructural
+R168
+R55
+R33
+R31
+R23
+R2
+R3
+DEx4 work 12 senya_cntlrd 0 22 6VOQHY7k_Ag:=iNaM3Xo;0
+l28
+L24
+VPEWk;zYfFj6EAg>QL]ZzL0
+R7
+31
+R186
+R187
+R188
+R11
+R12
+!s100 X5fSKgQbml1E;KlCnbOz;2
+!i10b 1
+Esenya_cntlrs
+R1
+R168
+R55
+R33
+R31
+R23
+R2
+R3
+R4
+Z189 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrs.vhd
+Z190 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrs.vhd
+l0
+L14
+Vf8zL^]a5`a>hnU1ikJMKJ2
+R7
+31
+Z191 !s108 1670947287.191000
+Z192 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrs.vhd|
+Z193 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrs.vhd|
+R11
+R12
+!s100 <57i`Ta9__59JRH42a]]50
+!i10b 1
+Aestructural
+R168
+R55
+R33
+R31
+R23
+R2
+R3
+DEx4 work 12 senya_cntlrs 0 22 f8zL^]a5`a>hnU1ikJMKJ2
+l22
+L21
+VbGNhR?DMG7kP@a__dbVi:3
+R7
+31
+R191
+R192
+R193
+R11
+R12
+!s100 _Lh4inkZofOT]:V40]ncL3
+!i10b 1
+Evalreg
+R1
+R23
+R30
+R31
+R33
+R2
+R3
+R4
+Z194 8C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd
+Z195 FC:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd
+l0
+L14
+VJ>M@@IlM^T;1W7jQDP4FJ3
+R7
+31
+Z196 !s108 1670947286.256000
+Z197 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd|
+Z198 !s107 C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd|
+R11
+R12
+!s100 50NzEOB^jJ3mLA^aljLE?1
+!i10b 1
+Acompor
+R23
+R30
+R31
+R33
+R2
+R3
+DEx4 work 6 valreg 0 22 J>M@@IlM^T;1W7jQDP4FJ3
+l21
+L19
+V13<S^kOc68dInGb^aQoBi1
+R7
+31
+R196
+R197
+R198
+R11
+R12
+!s100 Hk[2Q=15J9[TB9B19OdfG3
+!i10b 1

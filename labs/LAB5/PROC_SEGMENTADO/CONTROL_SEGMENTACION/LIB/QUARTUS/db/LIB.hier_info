@@ -629,62 +629,272 @@ valIDL2 <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |LIB|ensam_RD:R_dat|LDD:LDDat
-IDL1[0] => ~NO_FANOUT~
-IDL1[1] => ~NO_FANOUT~
-IDL1[2] => ~NO_FANOUT~
-IDL1[3] => ~NO_FANOUT~
-IDL1[4] => ~NO_FANOUT~
-IDL2[0] => ~NO_FANOUT~
-IDL2[1] => ~NO_FANOUT~
-IDL2[2] => ~NO_FANOUT~
-IDL2[3] => ~NO_FANOUT~
-IDL2[4] => ~NO_FANOUT~
-valIDL1 => ~NO_FANOUT~
-valIDL2 => ~NO_FANOUT~
-rdA[0] => ~NO_FANOUT~
-rdA[1] => ~NO_FANOUT~
-rdA[2] => ~NO_FANOUT~
-rdA[3] => ~NO_FANOUT~
-rdA[4] => ~NO_FANOUT~
-rdM[0] => ~NO_FANOUT~
-rdM[1] => ~NO_FANOUT~
-rdM[2] => ~NO_FANOUT~
-rdM[3] => ~NO_FANOUT~
-rdM[4] => ~NO_FANOUT~
-rdF[0] => ~NO_FANOUT~
-rdF[1] => ~NO_FANOUT~
-rdF[2] => ~NO_FANOUT~
-rdF[3] => ~NO_FANOUT~
-rdF[4] => ~NO_FANOUT~
-rdE[0] => ~NO_FANOUT~
-rdE[1] => ~NO_FANOUT~
-rdE[2] => ~NO_FANOUT~
-rdE[3] => ~NO_FANOUT~
-rdE[4] => ~NO_FANOUT~
-PBRA => ~NO_FANOUT~
-PBRM => ~NO_FANOUT~
-PBRF => ~NO_FANOUT~
-PBRE => ~NO_FANOUT~
-IDL1A <= <GND>
-IDL1M <= <GND>
-IDL1F <= <GND>
-IDL1E <= <GND>
-IDL2A <= <GND>
-IDL2M <= <GND>
-IDL2F <= <GND>
-IDL2E <= <GND>
+IDL1[0] => cmp:not_comp1.a[0]
+IDL1[0] => cmp:comparador:0:comp.a[0]
+IDL1[0] => cmp:comparador:1:comp.a[0]
+IDL1[0] => cmp:comparador:2:comp.a[0]
+IDL1[0] => cmp:comparador:3:comp.a[0]
+IDL1[1] => cmp:not_comp1.a[1]
+IDL1[1] => cmp:comparador:0:comp.a[1]
+IDL1[1] => cmp:comparador:1:comp.a[1]
+IDL1[1] => cmp:comparador:2:comp.a[1]
+IDL1[1] => cmp:comparador:3:comp.a[1]
+IDL1[2] => cmp:not_comp1.a[2]
+IDL1[2] => cmp:comparador:0:comp.a[2]
+IDL1[2] => cmp:comparador:1:comp.a[2]
+IDL1[2] => cmp:comparador:2:comp.a[2]
+IDL1[2] => cmp:comparador:3:comp.a[2]
+IDL1[3] => cmp:not_comp1.a[3]
+IDL1[3] => cmp:comparador:0:comp.a[3]
+IDL1[3] => cmp:comparador:1:comp.a[3]
+IDL1[3] => cmp:comparador:2:comp.a[3]
+IDL1[3] => cmp:comparador:3:comp.a[3]
+IDL1[4] => cmp:not_comp1.a[4]
+IDL1[4] => cmp:comparador:0:comp.a[4]
+IDL1[4] => cmp:comparador:1:comp.a[4]
+IDL1[4] => cmp:comparador:2:comp.a[4]
+IDL1[4] => cmp:comparador:3:comp.a[4]
+IDL2[0] => cmp:not_comp2.a[0]
+IDL2[0] => cmp:comparador:4:comp.a[0]
+IDL2[0] => cmp:comparador:5:comp.a[0]
+IDL2[0] => cmp:comparador:6:comp.a[0]
+IDL2[0] => cmp:comparador:7:comp.a[0]
+IDL2[1] => cmp:not_comp2.a[1]
+IDL2[1] => cmp:comparador:4:comp.a[1]
+IDL2[1] => cmp:comparador:5:comp.a[1]
+IDL2[1] => cmp:comparador:6:comp.a[1]
+IDL2[1] => cmp:comparador:7:comp.a[1]
+IDL2[2] => cmp:not_comp2.a[2]
+IDL2[2] => cmp:comparador:4:comp.a[2]
+IDL2[2] => cmp:comparador:5:comp.a[2]
+IDL2[2] => cmp:comparador:6:comp.a[2]
+IDL2[2] => cmp:comparador:7:comp.a[2]
+IDL2[3] => cmp:not_comp2.a[3]
+IDL2[3] => cmp:comparador:4:comp.a[3]
+IDL2[3] => cmp:comparador:5:comp.a[3]
+IDL2[3] => cmp:comparador:6:comp.a[3]
+IDL2[3] => cmp:comparador:7:comp.a[3]
+IDL2[4] => cmp:not_comp2.a[4]
+IDL2[4] => cmp:comparador:4:comp.a[4]
+IDL2[4] => cmp:comparador:5:comp.a[4]
+IDL2[4] => cmp:comparador:6:comp.a[4]
+IDL2[4] => cmp:comparador:7:comp.a[4]
+valIDL1 => IDL1A.IN1
+valIDL1 => IDL1M.IN1
+valIDL1 => IDL1F.IN1
+valIDL1 => IDL1E.IN1
+valIDL2 => IDL2A.IN1
+valIDL2 => IDL2M.IN1
+valIDL2 => IDL2F.IN1
+valIDL2 => IDL2E.IN1
+rdA[0] => cmp:comparador:0:comp.b[0]
+rdA[0] => cmp:comparador:4:comp.b[0]
+rdA[1] => cmp:comparador:0:comp.b[1]
+rdA[1] => cmp:comparador:4:comp.b[1]
+rdA[2] => cmp:comparador:0:comp.b[2]
+rdA[2] => cmp:comparador:4:comp.b[2]
+rdA[3] => cmp:comparador:0:comp.b[3]
+rdA[3] => cmp:comparador:4:comp.b[3]
+rdA[4] => cmp:comparador:0:comp.b[4]
+rdA[4] => cmp:comparador:4:comp.b[4]
+rdM[0] => cmp:comparador:1:comp.b[0]
+rdM[0] => cmp:comparador:5:comp.b[0]
+rdM[1] => cmp:comparador:1:comp.b[1]
+rdM[1] => cmp:comparador:5:comp.b[1]
+rdM[2] => cmp:comparador:1:comp.b[2]
+rdM[2] => cmp:comparador:5:comp.b[2]
+rdM[3] => cmp:comparador:1:comp.b[3]
+rdM[3] => cmp:comparador:5:comp.b[3]
+rdM[4] => cmp:comparador:1:comp.b[4]
+rdM[4] => cmp:comparador:5:comp.b[4]
+rdF[0] => cmp:comparador:2:comp.b[0]
+rdF[0] => cmp:comparador:6:comp.b[0]
+rdF[1] => cmp:comparador:2:comp.b[1]
+rdF[1] => cmp:comparador:6:comp.b[1]
+rdF[2] => cmp:comparador:2:comp.b[2]
+rdF[2] => cmp:comparador:6:comp.b[2]
+rdF[3] => cmp:comparador:2:comp.b[3]
+rdF[3] => cmp:comparador:6:comp.b[3]
+rdF[4] => cmp:comparador:2:comp.b[4]
+rdF[4] => cmp:comparador:6:comp.b[4]
+rdE[0] => cmp:comparador:3:comp.b[0]
+rdE[0] => cmp:comparador:7:comp.b[0]
+rdE[1] => cmp:comparador:3:comp.b[1]
+rdE[1] => cmp:comparador:7:comp.b[1]
+rdE[2] => cmp:comparador:3:comp.b[2]
+rdE[2] => cmp:comparador:7:comp.b[2]
+rdE[3] => cmp:comparador:3:comp.b[3]
+rdE[3] => cmp:comparador:7:comp.b[3]
+rdE[4] => cmp:comparador:3:comp.b[4]
+rdE[4] => cmp:comparador:7:comp.b[4]
+PBRA => IDL1A.IN1
+PBRA => IDL2A.IN1
+PBRM => IDL1M.IN1
+PBRM => IDL2M.IN1
+PBRF => IDL1F.IN1
+PBRF => IDL2F.IN1
+PBRE => IDL1E.IN1
+PBRE => IDL2E.IN1
+IDL1A <= IDL1A.DB_MAX_OUTPUT_PORT_TYPE
+IDL1M <= IDL1M.DB_MAX_OUTPUT_PORT_TYPE
+IDL1F <= IDL1F.DB_MAX_OUTPUT_PORT_TYPE
+IDL1E <= IDL1E.DB_MAX_OUTPUT_PORT_TYPE
+IDL2A <= IDL2A.DB_MAX_OUTPUT_PORT_TYPE
+IDL2M <= IDL2M.DB_MAX_OUTPUT_PORT_TYPE
+IDL2F <= IDL2F.DB_MAX_OUTPUT_PORT_TYPE
+IDL2E <= IDL2E.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp1
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp2
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:0:comp
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:1:comp
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:2:comp
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:3:comp
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:4:comp
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:5:comp
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:6:comp
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LIB|ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:7:comp
+a[0] => igual[0].IN0
+a[1] => igual[1].IN0
+a[2] => igual[2].IN0
+a[3] => igual[3].IN0
+a[4] => igual[4].IN0
+b[0] => igual[0].IN1
+b[1] => igual[1].IN1
+b[2] => igual[2].IN1
+b[3] => igual[3].IN1
+b[4] => igual[4].IN1
+ig <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |LIB|ensam_RD:R_dat|LDRD:R_dat
-IDL1A => ~NO_FANOUT~
-IDL1M => ~NO_FANOUT~
-IDL1F => ~NO_FANOUT~
-IDL1E => ~NO_FANOUT~
-IDL2A => ~NO_FANOUT~
-IDL2M => ~NO_FANOUT~
-IDL2F => ~NO_FANOUT~
-IDL2E => ~NO_FANOUT~
-RD <= <GND>
+IDL1A => idl1_AM.IN0
+IDL1M => idl1_AM.IN1
+IDL1F => idl1_FE.IN0
+IDL1E => idl1_FE.IN1
+IDL2A => idl2_AM.IN0
+IDL2M => idl2_AM.IN1
+IDL2F => idl2_FE.IN0
+IDL2E => idl2_FE.IN1
+RD <= RD.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |LIB|ensam_RS:R_Sec
@@ -743,20 +953,23 @@ s[3] <= s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 opsecDL[0] => ~NO_FANOUT~
 opsecDL[1] => ~NO_FANOUT~
 opsecDL[2] => ~NO_FANOUT~
-opsecDL[3] => ~NO_FANOUT~
+opsecDL[3] => RS.IN0
 opsecA[0] => ~NO_FANOUT~
 opsecA[1] => ~NO_FANOUT~
 opsecA[2] => ~NO_FANOUT~
-opsecA[3] => ~NO_FANOUT~
-RS <= <GND>
+opsecA[3] => RS.IN1
+RS <= RS.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |LIB|LGR:R_lgr
-RID => ~NO_FANOUT~
-RS => ~NO_FANOUT~
-bloqCP <= <GND>
-bloqBDL <= <GND>
-inyecBDL <= <GND>
-inyecDLA <= <GND>
+RID => bloqBDL.DATAIN
+RID => inyecDLA.DATAIN
+RID => inyecBDL.IN0
+RS => inyecBDL.IN1
+RS => bloqCP.DATAIN
+bloqCP <= RS.DB_MAX_OUTPUT_PORT_TYPE
+bloqBDL <= RID.DB_MAX_OUTPUT_PORT_TYPE
+inyecBDL <= inyecBDL.DB_MAX_OUTPUT_PORT_TYPE
+inyecDLA <= RID.DB_MAX_OUTPUT_PORT_TYPE
 
 
