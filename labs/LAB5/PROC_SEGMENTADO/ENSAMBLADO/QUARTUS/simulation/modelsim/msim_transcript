@@ -1,0 +1,1703 @@
+# do Rproc_MD_MI_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/eloi/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:02 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_cntl_seg_pkg
+# End time: 21:13:02 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:02 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package riscv32_coop_funct_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_even_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_RegDes_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package cte_tipos_deco_camino_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package param_disenyo_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2M
+# -- Compiling architecture comportamiento of mux2M
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/tipos_ctes_MI_pkg/tipos_constan_memoria_I_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/tipos_ctes_MI_pkg/tipos_constan_memoria_I_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Compiling package tipos_constan_memoria_I_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/componentes_secuenciamiento_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/componentes_secuenciamiento_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling package componentes_secuenciamiento_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/Rcomponentes_secuenciamiento_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/Rcomponentes_secuenciamiento_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling package Rcomponentes_secuenciamiento_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/componentes_cam_datos_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/componentes_cam_datos_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling package componentes_cam_datos_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/Rcomponentes_cam_datos_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/Rcomponentes_cam_datos_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling package Rcomponentes_cam_datos_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/componentes_decodificador_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/componentes_decodificador_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling package componentes_decodificador_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rcomponentes_decodificador_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rcomponentes_decodificador_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling package Rcomponentes_decodificador_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Compiling package tipos_constan_memoria_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Compiling package cte_tipos_UF_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling package componentes_control_seg_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Compiling package RegDes_pkg
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_pkg
+# -- Compiling entity RregCP
+# -- Compiling architecture comportamiento of RregCP
+# End time: 21:13:03 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:03 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package retardos_pkg
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity muxIns
+# -- Compiling architecture comportamiento of muxIns
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RDB_DL_N
+# -- Compiling architecture comportamiento of RDB_DL_N
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Compiling entity decocamino
+# -- Compiling architecture comportamiento of decocamino
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity decoopALU
+# -- Compiling architecture comportamiento of decoopALU
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity decoopMD
+# -- Compiling architecture comportamiento of decoopMD
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Compiling entity deco_excep
+# -- Compiling architecture comportamiento of deco_excep
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RDB_N
+# -- Compiling architecture comportamiento of RDB_N
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package retardos_pkg
+# -- Compiling entity FMTD
+# -- Compiling architecture compor of FMTD
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RD_N
+# -- Compiling architecture comportamiento of RD_N
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RDI_1
+# -- Compiling architecture comportamiento of RDI_1
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RD_1
+# -- Compiling architecture comportamiento of RD_1
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_pkg
+# -- Compiling entity BR
+# -- Compiling architecture compor of BR
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RDI_N
+# -- Compiling architecture comportamiento of RDI_N
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package retardos_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling entity mux3
+# -- Compiling architecture comportamiento of mux3
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd(24): (vcom-1563) Choice in selected signal assignment must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd(25): (vcom-1563) Choice in selected signal assignment must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd(26): (vcom-1563) Choice in selected signal assignment must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd(24): (vcom-1322) Selected waveforms choice (generic "sel1") cannot be checked for uniqueness.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd(25): (vcom-1322) Selected waveforms choice (generic "sel2") cannot be checked for uniqueness.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd(26): (vcom-1322) Selected waveforms choice (generic "sel3") cannot be checked for uniqueness.
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package retardos_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling entity mux2
+# -- Compiling architecture comportamiento of mux2
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd(24): (vcom-1563) Choice in selected signal assignment must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd(25): (vcom-1563) Choice in selected signal assignment must be locally static.
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RD_D
+# -- Compiling architecture comportamiento of RD_D
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity cuatro
+# -- Compiling architecture comportamiento of cuatro
+# End time: 21:13:04 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:04 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_pkg
+# -- Compiling entity sumador
+# -- Compiling architecture comportamiento of sumador
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package retardos_pkg
+# -- Compiling entity FMTS
+# -- Compiling architecture compor of FMTS
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package retardos_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling entity muxdirec
+# -- Compiling architecture comportamiento of muxdirec
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd(24): (vcom-1563) Choice in selected signal assignment must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd(25): (vcom-1563) Choice in selected signal assignment must be locally static.
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_secu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_secu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package retardos_pkg
+# -- Compiling entity sum_secu
+# -- Compiling architecture comportamiento of sum_secu
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/acceso_MI/CODIGO/acceso_MI.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/acceso_MI/CODIGO/acceso_MI.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package retardos_even_pkg
+# -- Compiling entity acceso_MI
+# -- Compiling architecture comport of acceso_MI
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ACCESO/CODIGO/acceso_MD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ACCESO/CODIGO/acceso_MD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package retardos_even_pkg
+# -- Compiling entity acceso_MD
+# -- Compiling architecture comport of acceso_MD
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity valreg
+# -- Compiling architecture compor of valreg
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity cmp
+# -- Compiling architecture compor of cmp
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/componentes_MD_pkg/componentes_MD_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/componentes_MD_pkg/componentes_MD_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_pkg
+# -- Compiling package componentes_MD_pkg
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/componentes_MD_pkg/Rcomponentes_MD_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/componentes_MD_pkg/Rcomponentes_MD_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package tipos_constan_memoria_pkg
+# -- Compiling package Rcomponentes_MD_pkg
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/componentes_MI_pkg/Rcomponentes_MI_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/componentes_MI_pkg/Rcomponentes_MI_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package tipos_constan_memoria_I_pkg
+# -- Compiling package Rcomponentes_MI_pkg
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package tipos_constan_memoria_I_pkg
+# -- Compiling package Rcomponentes_proc_MD_MI_pkg
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package param_disenyo_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_I_pkg
+# -- Compiling package inicializa_mem_I_pkg
+# -- Compiling package body inicializa_mem_I_pkg
+# -- Loading package inicializa_mem_I_pkg
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package tipos_constan_memoria_pkg
+# -- Compiling package inicializa_mem_pkg
+# -- Compiling package body inicializa_mem_pkg
+# -- Loading package inicializa_mem_pkg
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package cte_tipos_UF_pkg
+# -- Loading package Rcomponentes_cam_datos_pkg
+# -- Loading package Rcomponentes_decodificador_pkg
+# -- Loading package Rcomponentes_secuenciamiento_pkg
+# -- Compiling entity RDeco_cam_dat_secu
+# -- Compiling architecture estructural of RDeco_cam_dat_secu
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_decodificador_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity Rdecodificador
+# -- Compiling architecture estructural of Rdecodificador
+# End time: 21:13:05 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:05 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_pkg
+# -- Loading package componentes_decodificador_pkg
+# -- Compiling entity decodificador
+# -- Compiling architecture estructural of decodificador
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package cte_tipos_UF_pkg
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity decoopSEC
+# -- Compiling architecture comportamiento of decoopSEC
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package retardos_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package cte_tipos_UF_pkg
+# -- Loading package componentes_cam_datos_pkg
+# -- Loading package Rcomponentes_cam_datos_pkg
+# -- Compiling entity Rcamino_datos
+# -- Compiling architecture estructural of Rcamino_datos
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_cam_datos_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity RFMTD
+# -- Compiling architecture estructural of RFMTD
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_cam_datos_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity RBR
+# -- Compiling architecture compor of RBR
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package retardos_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_cam_datos_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity RmL1
+# -- Compiling architecture estructural of RmL1
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package retardos_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_cam_datos_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity RmL2
+# -- Compiling architecture estructural of RmL2
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_cam_datos_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity Ralu
+# -- Compiling architecture compor of Ralu
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package cte_tipos_UF_pkg
+# -- Loading package retardos_pkg
+# -- Compiling entity alu
+# -- Compiling architecture compor of alu
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(36): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(37): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(38): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(44): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(51): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(52): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(53): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(54): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(55): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd(56): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 10
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package retardos_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package RegDes_pkg
+# -- Loading package componentes_cam_datos_pkg
+# -- Compiling entity RmES
+# -- Compiling architecture estructural of RmES
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package cte_tipos_UF_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_secuenciamiento_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity RDECS
+# -- Compiling architecture estructural of RDECS
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package cte_tipos_UF_pkg
+# -- Loading package retardos_pkg
+# -- Compiling entity DECS
+# -- Compiling architecture comporta of DECS
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd(30): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd(34): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd(38): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd(42): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd(46): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd(50): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd(54): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd(56): (vcom-1937) Choice in CASE statement alternative must be locally static.
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_secuenciamiento_pkg
+# -- Loading package Rcomponentes_secuenciamiento_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity Rcamino_secuen
+# -- Compiling architecture estructural of Rcamino_secuen
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_secuenciamiento_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity RFMTS
+# -- Compiling architecture estructural of RFMTS
+# End time: 21:13:06 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:06 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_secuenciamiento_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity Rmuxdirec
+# -- Compiling architecture estructural of Rmuxdirec
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_secuenciamiento_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity Rsum_secu
+# -- Compiling architecture estructural of Rsum_secu
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/Reval.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/Reval.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package cte_tipos_UF_pkg
+# -- Loading package componentes_secuenciamiento_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity Reval
+# -- Compiling architecture estructural of Reval
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package cte_tipos_UF_pkg
+# -- Loading package retardos_pkg
+# -- Compiling entity eval
+# -- Compiling architecture comport of eval
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_secuenciamiento_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity RmuxmSIC
+# -- Compiling architecture estructural of RmuxmSIC
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_secuenciamiento_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity Rmxsecseg
+# -- Compiling architecture estructural of Rmxsecseg
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package tipos_constan_memoria_pkg
+# -- Compiling entity sel_byte
+# -- Compiling architecture estructura of sel_byte
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Compiling entity FMTL_sel_signo
+# -- Compiling architecture comportamiento of FMTL_sel_signo
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LIB
+# -- Compiling architecture estructural of LIB
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity RdecoPBRopSEC
+# -- Compiling architecture estructural of RdecoPBRopSEC
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package cte_tipos_UF_pkg
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity decoPBRopSEC
+# -- Compiling architecture comportamiento of decoPBRopSEC
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity ensam_RD
+# -- Compiling architecture estructural of ensam_RD
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity senya_cntlRD
+# -- Compiling architecture estructural of senya_cntlRD
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LDD
+# -- Compiling architecture estructural of LDD
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/LDRD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/LDRD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LDRD
+# -- Compiling architecture comportamiento of LDRD
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity ensam_RS
+# -- Compiling architecture estructural of ensam_RS
+# End time: 21:13:07 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:07 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity senya_cntlRS
+# -- Compiling architecture estructural of senya_cntlRS
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LDRS
+# -- Compiling architecture comportamiento of LDRS
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Loading package retardos_cntl_seg_pkg
+# -- Compiling entity LGR
+# -- Compiling architecture comportamiento of LGR
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package tipos_constan_memoria_I_pkg
+# -- Loading package Rcomponentes_proc_MD_MI_pkg
+# -- Loading package componentes_control_seg_pkg
+# -- Compiling entity Rproc_MD_MI
+# -- Compiling architecture estructural of Rproc_MD_MI
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package tipos_constan_memoria_I_pkg
+# -- Loading package Rcomponentes_MI_pkg
+# -- Compiling entity Rcam_MEM_INST_INY_Pcero
+# -- Compiling architecture estructural of Rcam_MEM_INST_INY_Pcero
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_I_pkg
+# -- Loading package retardos_pkg
+# -- Loading package Rcomponentes_MI_pkg
+# -- Compiling entity Rcam_MEM_INST
+# -- Compiling architecture estruc of Rcam_MEM_INST
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_I_pkg
+# -- Loading package retardos_pkg
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
+# -- Loading package inicializa_mem_I_pkg
+# -- Compiling entity RMI
+# -- Compiling architecture rtl of RMI
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package retardos_pkg
+# -- Loading package Rcomponentes_MD_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity Rcam_MEM_DATOS
+# -- Compiling architecture estruc of Rcam_MEM_DATOS
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package componentes_MD_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity RFMTE
+# -- Compiling architecture estructural of RFMTE
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package retardos_pkg
+# -- Loading package componentes_MD_pkg
+# -- Compiling entity FMTE
+# -- Compiling architecture estructural of FMTE
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_MD_pkg
+# -- Compiling entity alinearE
+# -- Compiling architecture estructura of alinearE
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package retardos_pkg
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
+# -- Loading package inicializa_mem_pkg
+# -- Compiling entity RMD
+# -- Compiling architecture rtl of RMD
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package componentes_MD_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity RFMTL
+# -- Compiling architecture estructural of RFMTL
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package retardos_pkg
+# -- Loading package componentes_MD_pkg
+# -- Compiling entity FMTL
+# -- Compiling architecture estructural of FMTL
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/ALINEAR/CODIGO/alinear.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/ALINEAR/CODIGO/alinear.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package componentes_MD_pkg
+# -- Compiling entity alinear
+# -- Compiling architecture estructural of alinear
+# End time: 21:13:08 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:08 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package NUMERIC_STD
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package componentes_MD_pkg
+# -- Compiling entity FMTL_extsig
+# -- Compiling architecture estructural of FMTL_extsig
+# End time: 21:13:09 on Dec 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:09 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package retardos_even_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package componentes_MD_pkg
+# -- Loading package RegDes_pkg
+# -- Compiling entity Racceso_MD
+# -- Compiling architecture estructural of Racceso_MD
+# End time: 21:13:09 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:09 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package param_disenyo_pkg
+# -- Compiling package imprimir_inst_ascii_pkg
+# -- Compiling package body imprimir_inst_ascii_pkg
+# -- Loading package imprimir_inst_ascii_pkg
+# End time: 21:13:09 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:09 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package param_disenyo_pkg
+# -- Loading package imprimir_inst_ascii_pkg
+# -- Compiling package deco_inst_impri_pkg
+# -- Compiling package body deco_inst_impri_pkg
+# -- Loading package deco_inst_impri_pkg
+# End time: 21:13:09 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/impri_traza_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:09 on Dec 13,2022
+# vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/impri_traza_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package tipos_constan_memoria_I_pkg
+# -- Loading package imprimir_inst_ascii_pkg
+# -- Loading package deco_inst_impri_pkg
+# -- Compiling package impri_traza_pkg
+# -- Compiling package body impri_traza_pkg
+# -- Loading package impri_traza_pkg
+# End time: 21:13:09 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:09 on Dec 13,2022
+# vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package std_logic_textio
+# -- Loading package param_disenyo_pkg
+# -- Compiling package impri_BR_pkg
+# -- Compiling package body impri_BR_pkg
+# -- Loading package impri_BR_pkg
+# End time: 21:13:09 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:09 on Dec 13,2022
+# vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package std_logic_textio
+# -- Loading package param_disenyo_pkg
+# -- Loading package tipos_constan_memoria_pkg
+# -- Compiling package impri_memoria_D_pkg
+# -- Compiling package body impri_memoria_D_pkg
+# -- Loading package impri_memoria_D_pkg
+# End time: 21:13:09 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:09 on Dec 13,2022
+# vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package std_logic_textio
+# -- Loading package param_disenyo_pkg
+# -- Loading package tipos_constan_memoria_I_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package imprimir_inst_ascii_pkg
+# -- Loading package deco_inst_impri_pkg
+# -- Compiling package impri_memoria_I_pkg
+# -- Compiling package body impri_memoria_I_pkg
+# -- Loading package impri_memoria_I_pkg
+# End time: 21:13:09 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:13:09 on Dec 13,2022
+# vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Loading package param_disenyo_pkg
+# -- Loading package cte_tipos_deco_camino_pkg
+# -- Loading package riscv32_coop_funct_pkg
+# -- Loading package MATH_REAL
+# -- Loading package tipos_constan_memoria_pkg
+# -- Loading package tipos_constan_memoria_I_pkg
+# -- Loading package impri_memoria_D_pkg
+# -- Loading package imprimir_inst_ascii_pkg
+# -- Loading package deco_inst_impri_pkg
+# -- Loading package impri_memoria_I_pkg
+# -- Loading package impri_BR_pkg
+# -- Loading package impri_traza_pkg
+# -- Compiling entity prueba_Rproc_MD_MI
+# -- Compiling architecture comportamiento of prueba_Rproc_MD_MI
+# ** Error: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI.vhd(315): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
+# ** Error: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI.vhd(315): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
+# ** Note: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI.vhd(324): VHDL Compiler exiting
+# End time: 21:13:09 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /home/eloi/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./Rproc_MD_MI_run_msim_rtl_vhdl.do line 115
+# /home/eloi/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI.vhd}"

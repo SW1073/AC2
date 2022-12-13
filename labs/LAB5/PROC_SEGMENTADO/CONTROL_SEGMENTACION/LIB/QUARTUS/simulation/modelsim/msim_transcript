@@ -1,48 +1,69 @@
-# Reading E:/Program Files/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
-# do LIB_run_msim_rtl_vhdl.do 
+# do LIB_run_msim_rtl_vhdl.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
 # vlib rtl_work
 # vmap work rtl_work
-# Copying E:\Program Files\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/eloi/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
-# ** Warning: Copied E:\Program Files\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
-#          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:56 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_RegDes_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:56 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:56 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package riscv32_coop_funct_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:56 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:56 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_cntl_seg_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:56 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:56 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling package cte_tipos_deco_camino_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:56 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:56 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package param_disenyo_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:56 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:56 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -50,15 +71,23 @@
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Loading package riscv32_coop_funct_pkg
 # -- Compiling package cte_tipos_UF_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:56 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:56 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package param_disenyo_pkg
 # -- Compiling package RegDes_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:56 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:56 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -66,8 +95,12 @@
 # -- Loading package NUMERIC_STD
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Compiling package componentes_control_seg_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_n.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:56 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -75,8 +108,12 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RDB_N
 # -- Compiling architecture comportamiento of RDB_N
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_n.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -84,8 +121,12 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RDI_N
 # -- Compiling architecture comportamiento of RDI_N
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_n.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -93,8 +134,12 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RD_N
 # -- Compiling architecture comportamiento of RD_N
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_1.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -102,8 +147,12 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RDI_1
 # -- Compiling architecture comportamiento of RDI_1
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_1.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -111,8 +160,12 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RD_1
 # -- Compiling architecture comportamiento of RD_1
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -122,16 +175,24 @@
 # -- Loading package param_disenyo_pkg
 # -- Compiling entity valreg
 # -- Compiling architecture compor of valreg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package param_disenyo_pkg
 # -- Compiling entity cmp
 # -- Compiling architecture compor of cmp
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -142,8 +203,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LIB
 # -- Compiling architecture estructural of LIB
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/rdecopbropsec.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -154,8 +219,12 @@
 # -- Loading package RegDes_pkg
 # -- Compiling entity RdecoPBRopSEC
 # -- Compiling architecture estructural of RdecoPBRopSEC
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decopbropsec.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -166,8 +235,12 @@
 # -- Loading package param_disenyo_pkg
 # -- Compiling entity decoPBRopSEC
 # -- Compiling architecture comportamiento of decoPBRopSEC
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_rd.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -178,8 +251,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity ensam_RD
 # -- Compiling architecture estructural of ensam_RD
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrd.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -190,8 +267,12 @@
 # -- Loading package RegDes_pkg
 # -- Compiling entity senya_cntlRD
 # -- Compiling architecture estructural of senya_cntlRD
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -202,20 +283,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LDD
 # -- Compiling architecture estructural of LDD
-# ** Warning: [9] C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd(37): (vcom-1013) Initial value of "input_ports1" depends on value of signal "IDL1".
-# 
-# ** Warning: [9] C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd(37): (vcom-1013) Initial value of "input_ports1" depends on value of signal "IDL2".
-# 
-# ** Warning: [9] C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd(38): (vcom-1013) Initial value of "input_ports2" depends on value of signal "rdA".
-# 
-# ** Warning: [9] C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd(38): (vcom-1013) Initial value of "input_ports2" depends on value of signal "rdM".
-# 
-# ** Warning: [9] C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd(38): (vcom-1013) Initial value of "input_ports2" depends on value of signal "rdF".
-# 
-# ** Warning: [9] C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd(38): (vcom-1013) Initial value of "input_ports2" depends on value of signal "rdE".
-# 
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/ldrd.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/LDRD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/LDRD.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -226,8 +299,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LDRD
 # -- Compiling architecture comportamiento of LDRD
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_rs.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -238,8 +315,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity ensam_RS
 # -- Compiling architecture estructural of ensam_RS
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrs.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -250,8 +331,12 @@
 # -- Loading package RegDes_pkg
 # -- Compiling entity senya_cntlRS
 # -- Compiling architecture estructural of senya_cntlRS
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/ldrs.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -262,8 +347,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LDRS
 # -- Compiling architecture comportamiento of LDRS
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/lgr.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:57 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:57 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -274,9 +363,13 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LGR
 # -- Compiling architecture comportamiento of LGR
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
 # 
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -289,8 +382,12 @@
 # -- Compiling package codificar_instrucciones_pkg
 # -- Compiling package body codificar_instrucciones_pkg
 # -- Loading package codificar_instrucciones_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -301,8 +398,12 @@
 # -- Compiling package imprimir_inst_ascii_pkg
 # -- Compiling package body imprimir_inst_ascii_pkg
 # -- Loading package imprimir_inst_ascii_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -314,8 +415,12 @@
 # -- Compiling package deco_inst_impri_pkg
 # -- Compiling package body deco_inst_impri_pkg
 # -- Loading package deco_inst_impri_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -323,57 +428,89 @@
 # -- Loading package NUMERIC_STD
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Compiling package componentes_control_seg_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../../tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_cntl_seg_pkg
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv2.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity andv2
 # -- Compiling architecture comportamiento of andv2
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv1n.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv1n.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv1n.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity andv1n
 # -- Compiling architecture comportamiento of andv1n
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv3.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/andv3.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity andv3
 # -- Compiling architecture comportamiento of andv3
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orv2.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orv2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orv2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity orv2
 # -- Compiling architecture comportamiento of orv2
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orvn.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orvn.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/PUERTAS/CODIGO/orvn.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity orvn
 # -- Compiling architecture comportamiento of orvn
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/COMPARADOR/CODIGO/cmp.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/COMPARADOR/CODIGO/cmp.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../../COMPONENTES/COMPARADOR/CODIGO/cmp.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package param_disenyo_pkg
 # -- Compiling entity cmp
 # -- Compiling architecture compor of cmp
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -384,8 +521,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LDD_v
 # -- Compiling architecture estructural of LDD_v
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -396,8 +537,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LDRD_v
 # -- Compiling architecture estructural of LDRD_v
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -408,8 +553,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LDRS_v
 # -- Compiling architecture estructural of LDRS_v
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -420,8 +569,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LGR_v
 # -- Compiling architecture estructural of LGR_v
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -432,8 +585,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity ensam_RD_v
 # -- Compiling architecture estructural of ensam_RD_v
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:58 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:58 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -444,8 +601,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity ensam_RS_v
 # -- Compiling architecture estructural of ensam_RS_v
-# vcom -93 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:59 on Dec 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:59 on Dec 13,2022
+# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -456,8 +617,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LIB_v
 # -- Compiling architecture estructural of LIB_v
-# vcom -2008 -work work {C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# End time: 19:30:59 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:30:59 on Dec 13,2022
+# vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -472,11 +637,13 @@
 # -- Loading package deco_inst_impri_pkg
 # -- Compiling entity prueba_LIB
 # -- Compiling architecture comportamiento of prueba_LIB
-# ** Warning: C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd(53): (vcom-1236) Shared variables must be of a protected type.
-# 
+# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd(53): (vcom-1236) Shared variables must be of a protected type.
+# End time: 19:30:59 on Dec 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_LIB
-# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps prueba_LIB 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" prueba_LIB 
+# Start time: 19:30:59 on Dec 13,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -523,32 +690,178 @@
 # Loading work.ldrs_v(estructural)
 # Loading work.lgr_v(estructural)
 # 
-# do C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/formato_ventanas.do
-# ** Error: Cannot open macro file: C:/Users/eloii/OneDrive/UNI
-# Error in macro ./LIB_run_msim_rtl_vhdl.do line 57
-# Cannot open macro file: C:/Users/eloii/OneDrive/UNI
-#     while executing
-# "do C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../P..."
-pwd
-# C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/simulation/modelsim
-transcript on
-log -r /*
-if {[batch_mode] == 0} then { do wave.do }
-# Cannot open macro file: wave.do
-run -all
+# do /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/formato_ventanas.do
+# transcript on
+# log -r /*
+# if {[batch_mode] == 0} then { do wave.do }
+# onerror {resume}
+# transcript off
+# run -all
 # Cicle; Dep L1_AMFE L2_AMFE; RD_RS; bCP_bBDL_iBDL_iDLA
 # sortides esperades, instruccions DL ALU M F ES
-# ** Error: (vsim-7) Failed to open VHDL file "../../../RESULTADOS/resultados_LIB.txt" in r+ mode.
+# 2   0000 0000 00 0000      add x3 , x1 , x2      addi x0 , x0 , x000     XXX     XXX     XXX
+# esp 0000 0000 00 0000 
 # 
-# No such file or directory. (errno = ENOENT)
-#    Time: 0 ps  Iteration: 0  Instance: /prueba_lib
-# ** Fatal: (vsim-7) Failed to open VHDL file "../../../RESULTADOS/resultados_LIB.txt" in r+ mode.
+# 3   1000 0000 10 1101      add x11, x3 , x10      add x3 , x1 , x2      addi x0 , x0 , x000     XXX     XXX
+# esp 1XXX 0000 10 1101 
 # 
-# No such file or directory. (errno = ENOENT)
-#    Time: 0 ps  Iteration: 0  Process: /prueba_lib/comprova File: C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd
-# Fatal error in Process comprova at C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd line 199
+# 4   0100 0000 10 1101      add x11, x3 , x10     addi x0 , x0 , x000     add x3 , x1 , x2      addi x0 , x0 , x000     XXX
+# esp 01XX 0000 10 1101 
 # 
-# HDL call sequence:
-# Stopped at C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/QUARTUS/../PRUEBAS/prueba_LIB.vhd 199 Process comprova
+# 5   0010 0000 10 1101      add x11, x3 , x10     addi x0 , x0 , x000    addi x0 , x0 , x000     add x3 , x1 , x2      addi x0 , x0 , x000
+# esp 001X 0000 10 1101 
 # 
-
+# 6   0001 0000 10 1101      add x11, x3 , x10     addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000     add x3 , x1 , x2  
+# esp 0001 0000 10 1101 
+# 
+# 7   0000 0000 00 0000      add x11, x3 , x10     addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 8   0000 0000 00 0000      add x3 , x1 , x2       add x11, x3 , x10     addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 9   0000 1000 10 1101      add x11, x10, x3       add x3 , x1 , x2       add x11, x3 , x10     addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 1XXX 10 1101 
+# 
+# 10  0000 0100 10 1101      add x11, x10, x3      addi x0 , x0 , x000     add x3 , x1 , x2       add x11, x3 , x10     addi x0 , x0 , x000
+# esp 0000 01XX 10 1101 
+# 
+# 11  0000 0010 10 1101      add x11, x10, x3      addi x0 , x0 , x000    addi x0 , x0 , x000     add x3 , x1 , x2       add x11, x3 , x10 
+# esp 0000 001X 10 1101 
+# 
+# 12  0000 0001 10 1101      add x11, x10, x3      addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000     add x3 , x1 , x2  
+# esp 0000 0001 10 1101 
+# 
+# 13  0000 0000 00 0000      add x11, x10, x3      addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 14  0000 0000 00 0000      add x0 , x1 , x2       add x11, x10, x3      addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 15  0000 0000 00 0000      add x0 , x0 , x10      add x0 , x1 , x2       add x11, x10, x3      addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 16  0000 0000 00 0000      add x0 , x0 , x10      add x0 , x0 , x10      add x0 , x1 , x2       add x11, x10, x3      addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 17  0000 0000 00 0000      add x0 , x0 , x10      add x0 , x0 , x10      add x0 , x0 , x10      add x0 , x1 , x2       add x11, x10, x3  
+# esp 0000 0000 00 0000 
+# 
+# 18  0000 0000 00 0000      add x0 , x0 , x10      add x0 , x0 , x10      add x0 , x0 , x10      add x0 , x0 , x10      add x0 , x1 , x2  
+# esp 0000 0000 00 0000 
+# 
+# 19  0000 0000 00 0000      add x0 , x1 , x2       add x0 , x0 , x10      add x0 , x0 , x10      add x0 , x0 , x10      add x0 , x0 , x10 
+# esp 0000 0000 00 0000 
+# 
+# 20  0000 0000 00 0000      add x0 , x10, x0       add x0 , x1 , x2       add x0 , x0 , x10      add x0 , x0 , x10      add x0 , x0 , x10 
+# esp 0000 0000 00 0000 
+# 
+# 21  0000 0000 00 0000      add x0 , x10, x0       add x0 , x10, x0       add x0 , x1 , x2       add x0 , x0 , x10      add x0 , x0 , x10 
+# esp 0000 0000 00 0000 
+# 
+# 22  0000 0000 00 0000      add x0 , x10, x0       add x0 , x10, x0       add x0 , x10, x0       add x0 , x1 , x2       add x0 , x0 , x10 
+# esp 0000 0000 00 0000 
+# 
+# 23  0000 0000 00 0000      add x0 , x10, x0       add x0 , x10, x0       add x0 , x10, x0       add x0 , x10, x0       add x0 , x1 , x2  
+# esp 0000 0000 00 0000 
+# 
+# 24  0000 0000 00 0000      add x3 , x1 , x2       add x0 , x10, x0       add x0 , x10, x0       add x0 , x10, x0       add x0 , x10, x0  
+# esp 0000 0000 00 0000 
+# 
+# 25  0000 1000 11 1101      beq x17, x3 , x00B     add x3 , x1 , x2       add x0 , x10, x0       add x0 , x10, x0       add x0 , x10, x0  
+# esp 0000 1XXX 11 1101 
+# 
+# 26  0000 0100 11 1101      beq x17, x3 , x00B    addi x0 , x0 , x000     add x3 , x1 , x2       add x0 , x10, x0       add x0 , x10, x0  
+# esp 0000 01XX 11 1101 
+# 
+# 27  0000 0010 11 1101      beq x17, x3 , x00B    addi x0 , x0 , x000    addi x0 , x0 , x000     add x3 , x1 , x2       add x0 , x10, x0  
+# esp 0000 001X 11 1101 
+# 
+# 28  0000 0001 11 1101      beq x17, x3 , x00B    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000     add x3 , x1 , x2  
+# esp 0000 0001 11 1101 
+# 
+# 29  0000 0000 01 0010      beq x17, x3 , x00B    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 01 0010 
+# 
+# 30  0000 0000 01 0010     addi x0 , x0 , x000     beq x17, x3 , x00B    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 01 0010 
+# 
+# 31  0000 0000 00 0000     addi x0 , x0 , x000    addi x0 , x0 , x000     beq x17, x3 , x00B    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 32  0000 0000 00 0000      add x3 , x1 , x2      addi x0 , x0 , x000    addi x0 , x0 , x000     beq x17, x3 , x00B    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 33  1000 0000 11 1101      beq x3 , x17, x00B     add x3 , x1 , x2      addi x0 , x0 , x000    addi x0 , x0 , x000     beq x17, x3 , x00B
+# esp 1XXX 0000 11 1101 
+# 
+# 34  0100 0000 11 1101      beq x3 , x17, x00B    addi x0 , x0 , x000     add x3 , x1 , x2      addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 01XX 0000 11 1101 
+# 
+# 35  0010 0000 11 1101      beq x3 , x17, x00B    addi x0 , x0 , x000    addi x0 , x0 , x000     add x3 , x1 , x2      addi x0 , x0 , x000
+# esp 001X 0000 11 1101 
+# 
+# 36  0001 0000 11 1101      beq x3 , x17, x00B    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000     add x3 , x1 , x2  
+# esp 0001 0000 11 1101 
+# 
+# 37  0000 0000 01 0010      beq x3 , x17, x00B    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 01 0010 
+# 
+# 38  0000 0000 01 0010     addi x0 , x0 , x000     beq x3 , x17, x00B    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 01 0010 
+# 
+# 39  0000 0000 00 0000     addi x0 , x0 , x000    addi x0 , x0 , x000     beq x3 , x17, x00B    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 40  0000 0000 00 0000       lw x1 , x000(x2 )    addi x0 , x0 , x000    addi x0 , x0 , x000     beq x3 , x17, x00B    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 41  1000 0000 11 1101     jalr x3 , x000(x1 )      lw x1 , x000(x2 )    addi x0 , x0 , x000    addi x0 , x0 , x000     beq x3 , x17, x00B
+# esp 1XXX 0000 11 1101 
+# 
+# 42  0100 0000 11 1101     jalr x3 , x000(x1 )    addi x0 , x0 , x000      lw x1 , x000(x2 )    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 01XX 0000 11 1101 
+# 
+# 43  0010 0000 11 1101     jalr x3 , x000(x1 )    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x1 , x000(x2 )    addi x0 , x0 , x000
+# esp 001X 0000 11 1101 
+# 
+# 44  0001 0000 11 1101     jalr x3 , x000(x1 )    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000      lw x1 , x000(x2 )
+# esp 0001 0000 11 1101 
+# 
+# 45  0000 0000 01 0010     jalr x3 , x000(x1 )    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 01 0010 
+# 
+# 46  0000 0000 01 0010     addi x0 , x0 , x000    jalr x3 , x000(x1 )    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 01 0010 
+# 
+# 47  0000 0000 00 0000     addi x0 , x0 , x000    addi x0 , x0 , x000    jalr x3 , x000(x1 )    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 48  0010 0000 10 1101      add x1 , x3 , x2      addi x0 , x0 , x000    addi x0 , x0 , x000    jalr x3 , x000(x1 )    addi x0 , x0 , x000
+# esp 001X 0000 10 1101 
+# 
+# 49  0001 0000 10 1101      add x1 , x3 , x2      addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000    jalr x3 , x000(x1 )
+# esp 0001 0000 10 1101 
+# 
+# 50  0000 0000 00 0000      add x1 , x3 , x2      addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 51  0000 0000 00 0000           ebreak            add x1 , x3 , x2      addi x0 , x0 , x000    addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 52  0000 0000 00 0000           ebreak                 ebreak            add x1 , x3 , x2      addi x0 , x0 , x000    addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 53  0000 0000 00 0000           ebreak                 ebreak                 ebreak            add x1 , x3 , x2      addi x0 , x0 , x000
+# esp 0000 0000 00 0000 
+# 
+# 54  0000 0000 00 0000           ebreak                 ebreak                 ebreak                 ebreak            add x1 , x3 , x2  
+# esp 0000 0000 00 0000 
+# 
+# 55  0000 0000 00 0000           ebreak                 ebreak                 ebreak                 ebreak                 ebreak       
+# esp 0000 0000 00 0000 
+# 
+# 
+# stdin: <EOF>
+# End time: 19:50:17 on Dec 13,2022, Elapsed time: 0:19:18
+# Errors: 0, Warnings: 0

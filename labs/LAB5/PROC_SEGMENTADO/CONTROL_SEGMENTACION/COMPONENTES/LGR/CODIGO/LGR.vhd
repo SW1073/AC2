@@ -20,7 +20,7 @@ architecture comportamiento of LGR is
 
 begin
 
-	bloqCP <= RS after retLGR;
+	bloqCP <= RID after retLGR;
 	bloqBDL <= RID after retLGR;
 
 	inyecDLA <= RID after retLGR;

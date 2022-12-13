@@ -1,6 +1,6 @@
 Analysis & Synthesis report for LIB
-Tue Dec 13 16:59:30 2022
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Tue Dec 13 19:29:56 2022
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
 ---------------------
@@ -21,195 +21,203 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
  13. Parameter Settings for User Entity Instance: ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDE7_rd
  14. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:not_comp1
  15. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:not_comp2
- 16. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:0:comp
- 17. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:1:comp
- 18. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:2:comp
- 19. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:3:comp
- 20. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:4:comp
- 21. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:5:comp
- 22. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:6:comp
- 23. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:7:comp
+ 16. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp1
+ 17. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp2
+ 18. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp3
+ 19. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp4
+ 20. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp5
+ 21. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp6
+ 22. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp7
+ 23. Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp8
  24. Parameter Settings for User Entity Instance: ensam_RS:R_Sec|senya_cntlRS:senyales_cntl|RDI_N:RDA4_opsec
  25. Port Connectivity Checks: "ensam_RD:R_dat|LDD:LDDat|cmp:not_comp2"
  26. Port Connectivity Checks: "ensam_RD:R_dat|LDD:LDDat|cmp:not_comp1"
- 27. Elapsed Time Per Partition
- 28. Analysis & Synthesis Messages
+ 27. Post-Synthesis Netlist Statistics for Top Partition
+ 28. Elapsed Time Per Partition
+ 29. Analysis & Synthesis Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 
 
 
-+--------------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                         ;
-+------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Dec 13 16:59:30 2022           ;
-; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
-; Revision Name                      ; LIB                                             ;
-; Top-level Entity Name              ; LIB                                             ;
-; Family                             ; Cyclone IV GX                                   ;
-; Total logic elements               ; 93                                              ;
-;     Total combinational functions  ; 53                                              ;
-;     Dedicated logic registers      ; 47                                              ;
-; Total registers                    ; 47                                              ;
-; Total pins                         ; 40                                              ;
-; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0                                               ;
-; Embedded Multiplier 9-bit elements ; 0                                               ;
-; Total GXB Receiver Channel PCS     ; 0                                               ;
-; Total GXB Receiver Channel PMA     ; 0                                               ;
-; Total GXB Transmitter Channel PCS  ; 0                                               ;
-; Total GXB Transmitter Channel PMA  ; 0                                               ;
-; Total PLLs                         ; 0                                               ;
-+------------------------------------+-------------------------------------------------+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue Dec 13 19:29:56 2022       ;
+; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                      ; LIB                                         ;
+; Top-level Entity Name              ; LIB                                         ;
+; Family                             ; Cyclone IV GX                               ;
+; Total logic elements               ; 92                                          ;
+;     Total combinational functions  ; 52                                          ;
+;     Dedicated logic registers      ; 47                                          ;
+; Total registers                    ; 47                                          ;
+; Total pins                         ; 40                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total GXB Receiver Channel PCS     ; 0                                           ;
+; Total GXB Receiver Channel PMA     ; 0                                           ;
+; Total GXB Transmitter Channel PCS  ; 0                                           ;
+; Total GXB Transmitter Channel PMA  ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                        ;
-+----------------------------------------------------------------------------+--------------------+--------------------+
-; Option                                                                     ; Setting            ; Default Value      ;
-+----------------------------------------------------------------------------+--------------------+--------------------+
-; Device                                                                     ; EP4CGX30CF23C6     ;                    ;
-; Top-level entity name                                                      ; LIB                ; LIB                ;
-; Family name                                                                ; Cyclone IV GX      ; Cyclone V          ;
-; Use smart compilation                                                      ; Off                ; Off                ;
-; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
-; Enable compact report table                                                ; Off                ; Off                ;
-; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
-; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
-; Preserve fewer node names                                                  ; On                 ; On                 ;
-; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
-; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
-; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
-; State Machine Processing                                                   ; Auto               ; Auto               ;
-; Safe State Machine                                                         ; Off                ; Off                ;
-; Extract Verilog State Machines                                             ; On                 ; On                 ;
-; Extract VHDL State Machines                                                ; On                 ; On                 ;
-; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
-; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
-; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
-; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
-; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
-; Parallel Synthesis                                                         ; On                 ; On                 ;
-; DSP Block Balancing                                                        ; Auto               ; Auto               ;
-; NOT Gate Push-Back                                                         ; On                 ; On                 ;
-; Power-Up Don't Care                                                        ; On                 ; On                 ;
-; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
-; Remove Duplicate Registers                                                 ; On                 ; On                 ;
-; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
-; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
-; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
-; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
-; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
-; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
-; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
-; Optimization Technique                                                     ; Balanced           ; Balanced           ;
-; Carry Chain Length                                                         ; 70                 ; 70                 ;
-; Auto Carry Chains                                                          ; On                 ; On                 ;
-; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
-; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
-; Auto ROM Replacement                                                       ; On                 ; On                 ;
-; Auto RAM Replacement                                                       ; On                 ; On                 ;
-; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
-; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
-; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
-; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
-; Strict RAM Replacement                                                     ; Off                ; Off                ;
-; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
-; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
-; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
-; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
-; Auto Resource Sharing                                                      ; Off                ; Off                ;
-; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
-; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
-; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
-; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
-; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
-; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
-; Report Parameter Settings                                                  ; On                 ; On                 ;
-; Report Source Assignments                                                  ; On                 ; On                 ;
-; Report Connectivity Checks                                                 ; On                 ; On                 ;
-; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
-; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
-; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
-; HDL message level                                                          ; Level2             ; Level2             ;
-; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
-; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
-; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
-; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
-; Clock MUX Protection                                                       ; On                 ; On                 ;
-; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
-; Block Design Naming                                                        ; Auto               ; Auto               ;
-; SDC constraint protection                                                  ; Off                ; Off                ;
-; Synthesis Effort                                                           ; Auto               ; Auto               ;
-; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
-; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
-; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
-; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
-; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
-; Synthesis Seed                                                             ; 1                  ; 1                  ;
-+----------------------------------------------------------------------------+--------------------+--------------------+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CGX30CF23C6     ;                    ;
+; Top-level entity name                                            ; LIB                ; LIB                ;
+; Family name                                                      ; Cyclone IV GX      ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
 
 
-Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
-+-------------------------------------+
-; Parallel Compilation                ;
-+----------------------------+--------+
-; Processors                 ; Number ;
-+----------------------------+--------+
-; Number detected on machine ; 12     ;
-; Maximum allowed            ; 1      ;
-+----------------------------+--------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 32          ;
+; Maximum allowed            ; 12          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 12          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-12        ;   0.0%      ;
++----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                                                                                           ;
-+--------------------------------------------------------------------------------+-----------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                                               ; Used in Netlist ; File Type             ; File Name with Absolute Path                                                                                                                                                                ; Library ;
-+--------------------------------------------------------------------------------+-----------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; ../../../../../LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd       ; yes             ; User VHDL File        ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd                                          ;         ;
-; ../../../tipos_constantes_pkg/retardos_RegDes_pkg.vhd                          ; yes             ; User VHDL File        ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd                                  ;         ;
-; ../../../../../LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd ; yes             ; User VHDL File        ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd                                    ;         ;
-; ../../../REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd                          ; yes             ; User VHDL File        ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd                                  ;         ;
-; ../../componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd                 ; yes             ; User VHDL File        ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd ;         ;
-; ../../../tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd                        ; yes             ; User VHDL File        ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd                                ;         ;
-; ../../../tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd                    ; yes             ; User VHDL File        ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd                            ;         ;
-; ../../../../../LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd      ; yes             ; User VHDL File        ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd                                         ;         ;
-; ../CODIGO/LIB.vhd                                                              ; yes             ; User VHDL File        ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd                                       ;         ;
-; rdecopbropsec.vhd                                                              ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/rdecopbropsec.vhd      ;         ;
-; rdb_n.vhd                                                                      ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdb_n.vhd                                           ;         ;
-; decopbropsec.vhd                                                               ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decopbropsec.vhd       ;         ;
-; ensam_rd.vhd                                                                   ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_rd.vhd                 ;         ;
-; senya_cntlrd.vhd                                                               ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrd.vhd        ;         ;
-; rdi_n.vhd                                                                      ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_n.vhd                                           ;         ;
-; rd_n.vhd                                                                       ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_n.vhd                                            ;         ;
-; rdi_1.vhd                                                                      ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rdi_1.vhd                                           ;         ;
-; rd_1.vhd                                                                       ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/rd_1.vhd                                            ;         ;
-; valreg.vhd                                                                     ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd                 ;         ;
-; ldd.vhd                                                                        ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/ldd.vhd                           ;         ;
-; cmp.vhd                                                                        ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd                    ;         ;
-; ldrd.vhd                                                                       ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/ldrd.vhd                         ;         ;
-; ensam_rs.vhd                                                                   ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_rs.vhd                 ;         ;
-; senya_cntlrs.vhd                                                               ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlrs.vhd        ;         ;
-; ldrs.vhd                                                                       ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/ldrs.vhd                         ;         ;
-; lgr.vhd                                                                        ; yes             ; Auto-Found VHDL File  ; C:/Users/eloii/OneDrive/UNI things/UPC FIB/Tercer any/5. Cinqué quatri/AC2/repo-AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/lgr.vhd                           ;         ;
-+--------------------------------------------------------------------------------+-----------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                             ;
++--------------------------------------------------------------------------------+-----------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                                               ; Used in Netlist ; File Type             ; File Name with Absolute Path                                                                                                  ; Library ;
++--------------------------------------------------------------------------------+-----------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------+---------+
+; ../../../../../LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd       ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd                                          ;         ;
+; ../../../tipos_constantes_pkg/retardos_RegDes_pkg.vhd                          ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd                                  ;         ;
+; ../../../../../LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd                                    ;         ;
+; ../../../REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd                          ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd                                  ;         ;
+; ../../componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd                 ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd ;         ;
+; ../../../tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd                        ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd                                ;         ;
+; ../../../tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd                    ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd                            ;         ;
+; ../../../../../LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd      ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd                                         ;         ;
+; ../CODIGO/LIB.vhd                                                              ; yes             ; User VHDL File        ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd                                       ;         ;
+; RdecoPBRopSEC.vhd                                                              ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd      ;         ;
+; RDB_N.vhd                                                                      ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd                                           ;         ;
+; decoPBRopSEC.vhd                                                               ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd       ;         ;
+; ensam_RD.vhd                                                                   ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd                 ;         ;
+; senya_cntlRD.vhd                                                               ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd        ;         ;
+; RDI_N.vhd                                                                      ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd                                           ;         ;
+; RD_N.vhd                                                                       ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd                                            ;         ;
+; RDI_1.vhd                                                                      ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd                                           ;         ;
+; RD_1.vhd                                                                       ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd                                            ;         ;
+; valreg.vhd                                                                     ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd                 ;         ;
+; LDD.vhd                                                                        ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd                           ;         ;
+; cmp.vhd                                                                        ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd                    ;         ;
+; LDRD.vhd                                                                       ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/LDRD.vhd                         ;         ;
+; ensam_RS.vhd                                                                   ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd                 ;         ;
+; senya_cntlRS.vhd                                                               ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd        ;         ;
+; LDRS.vhd                                                                       ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd                         ;         ;
+; LGR.vhd                                                                        ; yes             ; Auto-Found VHDL File  ; /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd                           ;         ;
++--------------------------------------------------------------------------------+-----------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------+
@@ -218,44 +226,45 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Resource                 ; Usage            ;
 +--------------------------+------------------+
 ; I/O pins                 ; 40               ;
+;                          ;                  ;
 ; DSP block 9-bit elements ; 0                ;
+;                          ;                  ;
 ; Maximum fan-out node     ; reloj~input      ;
 ; Maximum fan-out          ; 47               ;
-; Total fan-out            ; 400              ;
-; Average fan-out          ; 2.22             ;
+; Total fan-out            ; 399              ;
+; Average fan-out          ; 2.23             ;
 +--------------------------+------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                         ;
-+------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------+--------------+
-; Compilation Hierarchy Node         ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                             ; Library Name ;
-+------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------+--------------+
-; |LIB                               ; 53 (0)            ; 47 (0)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 40   ; 0            ; |LIB                                                            ; work         ;
-;    |LGR:R_lgr|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|LGR:R_lgr                                                  ; work         ;
-;    |RdecoPBRopSEC:R_decPBRSEC|     ; 1 (0)             ; 22 (0)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|RdecoPBRopSEC:R_decPBRSEC                                  ; work         ;
-;       |RDB_N:RDDL3_instrucDL|      ; 0 (0)             ; 22 (22)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|RdecoPBRopSEC:R_decPBRSEC|RDB_N:RDDL3_instrucDL            ; work         ;
-;       |decoPBRopSEC:decPBRSEC|     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|RdecoPBRopSEC:R_decPBRSEC|decoPBRopSEC:decPBRSEC           ; work         ;
-;    |ensam_RD:R_dat|                ; 49 (0)            ; 24 (0)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat                                             ; work         ;
-;       |LDD:LDDat|                  ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|LDD:LDDat                                   ; work         ;
-;          |cmp:not_comp1|           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp1                     ; work         ;
-;          |cmp:not_comp2|           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp2                     ; work         ;
-;       |LDRD:R_dat|                 ; 34 (34)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|LDRD:R_dat                                  ; work         ;
-;       |senya_cntlRD:senyales_cntl| ; 11 (0)            ; 24 (0)       ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl                  ; work         ;
-;          |RDI_1:RDA4_pbr|          ; 6 (6)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RDI_1:RDA4_pbr   ; work         ;
-;          |RDI_N:RDA4_rd|           ; 5 (5)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RDI_N:RDA4_rd    ; work         ;
-;          |RD_1:RD6_pbr|            ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_1:RD6_pbr     ; work         ;
-;          |RD_1:RDE7_pbr|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_1:RDE7_pbr    ; work         ;
-;          |RD_1:RDM5_pbr|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_1:RDM5_pbr    ; work         ;
-;          |RD_N:RD6_rd|             ; 0 (0)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RD6_rd      ; work         ;
-;          |RD_N:RDE7_rd|            ; 0 (0)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDE7_rd     ; work         ;
-;          |RD_N:RDM5_rd|            ; 0 (0)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDM5_rd     ; work         ;
-;       |valreg:genvalreg|           ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|valreg:genvalreg                            ; work         ;
-;    |ensam_RS:R_Sec|                ; 2 (0)             ; 1 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RS:R_Sec                                             ; work         ;
-;       |LDRS:R_sec|                 ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RS:R_Sec|LDRS:R_sec                                  ; work         ;
-;       |senya_cntlRS:senyales_cntl| ; 1 (0)             ; 1 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RS:R_Sec|senya_cntlRS:senyales_cntl                  ; work         ;
-;          |RDI_N:RDA4_opsec|        ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RS:R_Sec|senya_cntlRS:senyales_cntl|RDI_N:RDA4_opsec ; work         ;
-+------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                        ;
++------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------+---------------+--------------+
+; Compilation Hierarchy Node         ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                             ; Entity Name   ; Library Name ;
++------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------+---------------+--------------+
+; |LIB                               ; 52 (0)              ; 47 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0         ; 40   ; 0            ; |LIB                                                            ; LIB           ; work         ;
+;    |LGR:R_lgr|                     ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|LGR:R_lgr                                                  ; LGR           ; work         ;
+;    |RdecoPBRopSEC:R_decPBRSEC|     ; 1 (0)               ; 22 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|RdecoPBRopSEC:R_decPBRSEC                                  ; RdecoPBRopSEC ; work         ;
+;       |RDB_N:RDDL3_instrucDL|      ; 0 (0)               ; 22 (22)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|RdecoPBRopSEC:R_decPBRSEC|RDB_N:RDDL3_instrucDL            ; RDB_N         ; work         ;
+;       |decoPBRopSEC:decPBRSEC|     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|RdecoPBRopSEC:R_decPBRSEC|decoPBRopSEC:decPBRSEC           ; decoPBRopSEC  ; work         ;
+;    |ensam_RD:R_dat|                ; 47 (0)              ; 24 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat                                             ; ensam_RD      ; work         ;
+;       |LDD:LDDat|                  ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|LDD:LDDat                                   ; LDD           ; work         ;
+;          |cmp:not_comp1|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp1                     ; cmp           ; work         ;
+;          |cmp:not_comp2|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp2                     ; cmp           ; work         ;
+;       |LDRD:R_dat|                 ; 33 (33)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|LDRD:R_dat                                  ; LDRD          ; work         ;
+;       |senya_cntlRD:senyales_cntl| ; 10 (0)              ; 24 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl                  ; senya_cntlRD  ; work         ;
+;          |RDI_1:RDA4_pbr|          ; 5 (5)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RDI_1:RDA4_pbr   ; RDI_1         ; work         ;
+;          |RDI_N:RDA4_rd|           ; 5 (5)               ; 5 (5)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RDI_N:RDA4_rd    ; RDI_N         ; work         ;
+;          |RD_1:RD6_pbr|            ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_1:RD6_pbr     ; RD_1          ; work         ;
+;          |RD_1:RDE7_pbr|           ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_1:RDE7_pbr    ; RD_1          ; work         ;
+;          |RD_1:RDM5_pbr|           ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_1:RDM5_pbr    ; RD_1          ; work         ;
+;          |RD_N:RD6_rd|             ; 0 (0)               ; 5 (5)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RD6_rd      ; RD_N          ; work         ;
+;          |RD_N:RDE7_rd|            ; 0 (0)               ; 5 (5)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDE7_rd     ; RD_N          ; work         ;
+;          |RD_N:RDM5_rd|            ; 0 (0)               ; 5 (5)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDM5_rd     ; RD_N          ; work         ;
+;       |valreg:genvalreg|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RD:R_dat|valreg:genvalreg                            ; valreg        ; work         ;
+;    |ensam_RS:R_Sec|                ; 1 (0)               ; 1 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RS:R_Sec                                             ; ensam_RS      ; work         ;
+;       |senya_cntlRS:senyales_cntl| ; 1 (0)               ; 1 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RS:R_Sec|senya_cntlRS:senyales_cntl                  ; senya_cntlRS  ; work         ;
+;          |RDI_N:RDA4_opsec|        ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |LIB|ensam_RS:R_Sec|senya_cntlRS:senyales_cntl|RDI_N:RDA4_opsec ; RDI_N         ; work         ;
++------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------+---------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -344,83 +353,83 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:0:comp ;
-+----------------+-------+---------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                ;
-+----------------+-------+---------------------------------------------------------------------+
-; tam            ; 5     ; Signed Integer                                                      ;
-+----------------+-------+---------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp1 ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:1:comp ;
-+----------------+-------+---------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                ;
-+----------------+-------+---------------------------------------------------------------------+
-; tam            ; 5     ; Signed Integer                                                      ;
-+----------------+-------+---------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp2 ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:2:comp ;
-+----------------+-------+---------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                ;
-+----------------+-------+---------------------------------------------------------------------+
-; tam            ; 5     ; Signed Integer                                                      ;
-+----------------+-------+---------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp3 ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:3:comp ;
-+----------------+-------+---------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                ;
-+----------------+-------+---------------------------------------------------------------------+
-; tam            ; 5     ; Signed Integer                                                      ;
-+----------------+-------+---------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp4 ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:4:comp ;
-+----------------+-------+---------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                ;
-+----------------+-------+---------------------------------------------------------------------+
-; tam            ; 5     ; Signed Integer                                                      ;
-+----------------+-------+---------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp5 ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:5:comp ;
-+----------------+-------+---------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                ;
-+----------------+-------+---------------------------------------------------------------------+
-; tam            ; 5     ; Signed Integer                                                      ;
-+----------------+-------+---------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp6 ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:6:comp ;
-+----------------+-------+---------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                ;
-+----------------+-------+---------------------------------------------------------------------+
-; tam            ; 5     ; Signed Integer                                                      ;
-+----------------+-------+---------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp7 ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:\comparador:7:comp ;
-+----------------+-------+---------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                ;
-+----------------+-------+---------------------------------------------------------------------+
-; tam            ; 5     ; Signed Integer                                                      ;
-+----------------+-------+---------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensam_RD:R_dat|LDD:LDDat|cmp:comp8 ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -452,6 +461,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+------------------------------------------+
 
 
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 40                          ;
+; cycloneiii_ff         ; 47                          ;
+;     CLR               ; 25                          ;
+;     ENA CLR           ; 22                          ;
+; cycloneiii_lcell_comb ; 52                          ;
+;     normal            ; 52                          ;
+;         2 data inputs ; 6                           ;
+;         3 data inputs ; 4                           ;
+;         4 data inputs ; 42                          ;
+;                       ;                             ;
+; Max LUT depth         ; 6.00                        ;
+; Average LUT depth     ; 3.58                        ;
++-----------------------+-----------------------------+
+
+
 +-------------------------------+
 ; Elapsed Time Per Partition    ;
 +----------------+--------------+
@@ -465,125 +494,124 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 64-Bit Analysis & Synthesis
-    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Dec 13 16:59:28 2022
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Tue Dec 13 19:29:48 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off LIB -c LIB
-Warning (20028): Parallel compilation is not licensed and has been disabled
-Info (12021): Found 1 design units, including 0 entities, in source file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab4/proc_serie/tipos_constantes_pkg/cte_tipos_uf_pkg.vhd
-    Info (12022): Found design unit 1: cte_tipos_UF_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/tipos_constantes_pkg/retardos_regdes_pkg.vhd
-    Info (12022): Found design unit 1: retardos_RegDes_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab4/proc_serie/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd
-    Info (12022): Found design unit 1: riscv32_coop_funct_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/registro_desacoplo/regdes_pkg/regdes_pkg.vhd
-    Info (12022): Found design unit 1: RegDes_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd
-    Info (12022): Found design unit 1: componentes_control_seg_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
-    Info (12022): Found design unit 1: retardos_cntl_seg_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
-    Info (12022): Found design unit 1: cte_tipos_deco_camino_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab4/proc_serie/tipos_constantes_pkg/param_disenyo_pkg.vhd
-    Info (12022): Found design unit 1: param_disenyo_pkg
-Info (12021): Found 2 design units, including 1 entities, in source file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/lib/codigo/lib.vhd
-    Info (12022): Found design unit 1: LIB-estructural
-    Info (12023): Found entity 1: LIB
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd
+    Info (12022): Found design unit 1: cte_tipos_UF_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
+    Info (12022): Found design unit 1: retardos_RegDes_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd Line: 9
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd
+    Info (12022): Found design unit 1: riscv32_coop_funct_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd Line: 9
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd
+    Info (12022): Found design unit 1: RegDes_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd Line: 11
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd
+    Info (12022): Found design unit 1: componentes_control_seg_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
+    Info (12022): Found design unit 1: retardos_cntl_seg_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd Line: 9
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
+    Info (12022): Found design unit 1: cte_tipos_deco_camino_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd Line: 10
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd
+    Info (12022): Found design unit 1: param_disenyo_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd Line: 9
+Info (12021): Found 2 design units, including 1 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd
+    Info (12022): Found design unit 1: LIB-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 21
+    Info (12023): Found entity 1: LIB File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 15
 Info (12127): Elaborating entity "LIB" for the top level hierarchy
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes/deco_pbr_opsec/codigo/rdecopbropsec.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: RdecoPBRopSEC-estructural
-    Info (12023): Found entity 1: RdecoPBRopSEC
-Info (12128): Elaborating entity "RdecoPBRopSEC" for hierarchy "RdecoPBRopSEC:R_decPBRSEC"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/registro_desacoplo/codigo/rdb_n.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: RDB_N-comportamiento
-    Info (12023): Found entity 1: RDB_N
-Info (12128): Elaborating entity "RDB_N" for hierarchy "RdecoPBRopSEC:R_decPBRSEC|RDB_N:RDDL3_instrucDL"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes/deco_pbr_opsec/codigo/decopbropsec.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: decoPBRopSEC-comportamiento
-    Info (12023): Found entity 1: decoPBRopSEC
-Info (12128): Elaborating entity "decoPBRopSEC" for hierarchy "RdecoPBRopSEC:R_decPBRSEC|decoPBRopSEC:decPBRSEC"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes/ensam_rd/codigo/ensam_rd.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: ensam_RD-estructural
-    Info (12023): Found entity 1: ensam_RD
-Info (12128): Elaborating entity "ensam_RD" for hierarchy "ensam_RD:R_dat"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes/senyales_cntl/codigo/senya_cntlrd.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: senya_cntlRD-estructural
-    Info (12023): Found entity 1: senya_cntlRD
-Info (12128): Elaborating entity "senya_cntlRD" for hierarchy "ensam_RD:R_dat|senya_cntlRD:senyales_cntl"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/registro_desacoplo/codigo/rdi_n.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: RDI_N-comportamiento
-    Info (12023): Found entity 1: RDI_N
-Info (12128): Elaborating entity "RDI_N" for hierarchy "ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RDI_N:RDA4_rd"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/registro_desacoplo/codigo/rd_n.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: RD_N-comportamiento
-    Info (12023): Found entity 1: RD_N
-Info (12128): Elaborating entity "RD_N" for hierarchy "ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDM5_rd"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/registro_desacoplo/codigo/rdi_1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: RDI_1-comportamiento
-    Info (12023): Found entity 1: RDI_1
-Info (12128): Elaborating entity "RDI_1" for hierarchy "ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RDI_1:RDA4_pbr"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/registro_desacoplo/codigo/rd_1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: RD_1-comportamiento
-    Info (12023): Found entity 1: RD_1
-Info (12128): Elaborating entity "RD_1" for hierarchy "ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_1:RDM5_pbr"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes/validacion/codigo/valreg.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: valreg-compor
-    Info (12023): Found entity 1: valreg
-Info (12128): Elaborating entity "valreg" for hierarchy "ensam_RD:R_dat|valreg:genvalreg"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes/ldd/codigo/ldd.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: LDD-estructural
-    Info (12023): Found entity 1: LDD
-Info (12128): Elaborating entity "LDD" for hierarchy "ensam_RD:R_dat|LDD:LDDat"
-Warning (10540): VHDL Signal Declaration warning at ldd.vhd(26): used explicit default value for signal "cero" because signal was never assigned a value
-Warning (10540): VHDL Signal Declaration warning at ldd.vhd(37): used explicit default value for signal "input_ports1" because signal was never assigned a value
-Warning (10540): VHDL Signal Declaration warning at ldd.vhd(38): used explicit default value for signal "input_ports2" because signal was never assigned a value
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes/comparador/codigo/cmp.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: cmp-compor
-    Info (12023): Found entity 1: cmp
-Info (12128): Elaborating entity "cmp" for hierarchy "ensam_RD:R_dat|LDD:LDDat|cmp:not_comp1"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes/ldrd/codigo/ldrd.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: LDRD-comportamiento
-    Info (12023): Found entity 1: LDRD
-Info (12128): Elaborating entity "LDRD" for hierarchy "ensam_RD:R_dat|LDRD:R_dat"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes/ensam_rs/codigo/ensam_rs.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: ensam_RS-estructural
-    Info (12023): Found entity 1: ensam_RS
-Info (12128): Elaborating entity "ensam_RS" for hierarchy "ensam_RS:R_Sec"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes/senyales_cntl/codigo/senya_cntlrs.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: senya_cntlRS-estructural
-    Info (12023): Found entity 1: senya_cntlRS
-Info (12128): Elaborating entity "senya_cntlRS" for hierarchy "ensam_RS:R_Sec|senya_cntlRS:senyales_cntl"
-Info (12128): Elaborating entity "RDI_N" for hierarchy "ensam_RS:R_Sec|senya_cntlRS:senyales_cntl|RDI_N:RDA4_opsec"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes/ldrs/codigo/ldrs.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: LDRS-comportamiento
-    Info (12023): Found entity 1: LDRS
-Info (12128): Elaborating entity "LDRS" for hierarchy "ensam_RS:R_Sec|LDRS:R_sec"
-Warning (12125): Using design file /users/eloii/onedrive/uni things/upc fib/tercer any/5. cinqué quatri/ac2/repo-ac2/labs/lab5/proc_segmentado/control_segmentacion/componentes/lgr/codigo/lgr.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info (12022): Found design unit 1: LGR-comportamiento
-    Info (12023): Found entity 1: LGR
-Info (12128): Elaborating entity "LGR" for hierarchy "LGR:R_lgr"
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RdecoPBRopSEC-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd Line: 25
+    Info (12023): Found entity 1: RdecoPBRopSEC File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd Line: 17
+Info (12128): Elaborating entity "RdecoPBRopSEC" for hierarchy "RdecoPBRopSEC:R_decPBRSEC" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 30
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RDB_N-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd Line: 19
+    Info (12023): Found entity 1: RDB_N File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd Line: 12
+Info (12128): Elaborating entity "RDB_N" for hierarchy "RdecoPBRopSEC:R_decPBRSEC|RDB_N:RDDL3_instrucDL" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd Line: 29
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: decoPBRopSEC-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd Line: 21
+    Info (12023): Found entity 1: decoPBRopSEC File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd Line: 15
+Info (12128): Elaborating entity "decoPBRopSEC" for hierarchy "RdecoPBRopSEC:R_decPBRSEC|decoPBRopSEC:decPBRSEC" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd Line: 32
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: ensam_RD-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd Line: 23
+    Info (12023): Found entity 1: ensam_RD File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd Line: 15
+Info (12128): Elaborating entity "ensam_RD" for hierarchy "ensam_RD:R_dat" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 33
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: senya_cntlRD-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd Line: 24
+    Info (12023): Found entity 1: senya_cntlRD File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd Line: 15
+Info (12128): Elaborating entity "senya_cntlRD" for hierarchy "ensam_RD:R_dat|senya_cntlRD:senyales_cntl" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd Line: 39
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RDI_N-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd Line: 19
+    Info (12023): Found entity 1: RDI_N File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd Line: 12
+Info (12128): Elaborating entity "RDI_N" for hierarchy "ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RDI_N:RDA4_rd" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd Line: 30
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RD_N-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd Line: 19
+    Info (12023): Found entity 1: RD_N File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd Line: 12
+Info (12128): Elaborating entity "RD_N" for hierarchy "ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDM5_rd" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd Line: 32
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RDI_1-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd Line: 18
+    Info (12023): Found entity 1: RDI_1 File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd Line: 12
+Info (12128): Elaborating entity "RDI_1" for hierarchy "ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RDI_1:RDA4_pbr" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd Line: 42
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RD_1-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd Line: 18
+    Info (12023): Found entity 1: RD_1 File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd Line: 12
+Info (12128): Elaborating entity "RD_1" for hierarchy "ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_1:RDM5_pbr" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd Line: 43
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: valreg-compor File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd Line: 19
+    Info (12023): Found entity 1: valreg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd Line: 14
+Info (12128): Elaborating entity "valreg" for hierarchy "ensam_RD:R_dat|valreg:genvalreg" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd Line: 42
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: LDD-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd Line: 92
+    Info (12023): Found entity 1: LDD File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd Line: 82
+Info (12128): Elaborating entity "LDD" for hierarchy "ensam_RD:R_dat|LDD:LDDat" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd Line: 44
+Warning (10540): VHDL Signal Declaration warning at LDD.vhd(95): used explicit default value for signal "cero" because signal was never assigned a value File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd Line: 95
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: cmp-compor File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd Line: 17
+    Info (12023): Found entity 1: cmp File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd Line: 11
+Info (12128): Elaborating entity "cmp" for hierarchy "ensam_RD:R_dat|LDD:LDDat|cmp:not_comp1" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd Line: 103
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/LDRD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: LDRD-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/LDRD.vhd Line: 20
+    Info (12023): Found entity 1: LDRD File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/LDRD.vhd Line: 13
+Info (12128): Elaborating entity "LDRD" for hierarchy "ensam_RD:R_dat|LDRD:R_dat" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd Line: 48
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: ensam_RS-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd Line: 22
+    Info (12023): Found entity 1: ensam_RS File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd Line: 15
+Info (12128): Elaborating entity "ensam_RS" for hierarchy "ensam_RS:R_Sec" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 35
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: senya_cntlRS-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd Line: 21
+    Info (12023): Found entity 1: senya_cntlRS File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd Line: 14
+Info (12128): Elaborating entity "senya_cntlRS" for hierarchy "ensam_RS:R_Sec|senya_cntlRS:senyales_cntl" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd Line: 26
+Info (12128): Elaborating entity "RDI_N" for hierarchy "ensam_RS:R_Sec|senya_cntlRS:senyales_cntl|RDI_N:RDA4_opsec" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd Line: 24
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: LDRS-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd Line: 19
+    Info (12023): Found entity 1: LDRS File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd Line: 13
+Info (12128): Elaborating entity "LDRS" for hierarchy "ensam_RS:R_Sec|LDRS:R_sec" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd Line: 28
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: LGR-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd Line: 19
+    Info (12023): Found entity 1: LGR File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd Line: 13
+Info (12128): Elaborating entity "LGR" for hierarchy "LGR:R_lgr" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 37
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 10 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "instruc[12]"
-    Warning (15610): No output dependent on input pin "instruc[13]"
-    Warning (15610): No output dependent on input pin "instruc[14]"
-    Warning (15610): No output dependent on input pin "instruc[25]"
-    Warning (15610): No output dependent on input pin "instruc[26]"
-    Warning (15610): No output dependent on input pin "instruc[27]"
-    Warning (15610): No output dependent on input pin "instruc[28]"
-    Warning (15610): No output dependent on input pin "instruc[29]"
-    Warning (15610): No output dependent on input pin "instruc[30]"
-    Warning (15610): No output dependent on input pin "instruc[31]"
-Info (21057): Implemented 133 device resources after synthesis - the final resource count might be different
+    Warning (15610): No output dependent on input pin "instruc[12]" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 17
+    Warning (15610): No output dependent on input pin "instruc[13]" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 17
+    Warning (15610): No output dependent on input pin "instruc[14]" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 17
+    Warning (15610): No output dependent on input pin "instruc[25]" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 17
+    Warning (15610): No output dependent on input pin "instruc[26]" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 17
+    Warning (15610): No output dependent on input pin "instruc[27]" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 17
+    Warning (15610): No output dependent on input pin "instruc[28]" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 17
+    Warning (15610): No output dependent on input pin "instruc[29]" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 17
+    Warning (15610): No output dependent on input pin "instruc[30]" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 17
+    Warning (15610): No output dependent on input pin "instruc[31]" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 17
+Info (21057): Implemented 132 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 36 input pins
     Info (21059): Implemented 4 output pins
-    Info (21061): Implemented 93 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 32 warnings
-    Info: Peak virtual memory: 4680 megabytes
-    Info: Processing ended: Tue Dec 13 16:59:30 2022
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:03
+    Info (21061): Implemented 92 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 30 warnings
+    Info: Peak virtual memory: 552 megabytes
+    Info: Processing ended: Tue Dec 13 19:29:56 2022
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:21
 
 

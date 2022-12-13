@@ -1,12 +1,12 @@
-Fitter Status : Successful - Tue Dec 13 16:59:44 2022
-Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Fitter Status : Successful - Tue Dec 13 19:30:07 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Revision Name : LIB
 Top-level Entity Name : LIB
 Family : Cyclone IV GX
 Device : EP4CGX30CF23C6
 Timing Models : Final
-Total logic elements : 64 / 29,440 ( < 1 % )
-    Total combinational functions : 53 / 29,440 ( < 1 % )
+Total logic elements : 66 / 29,440 ( < 1 % )
+    Total combinational functions : 52 / 29,440 ( < 1 % )
     Dedicated logic registers : 47 / 29,440 ( < 1 % )
 Total registers : 47
 Total pins : 40 / 307 ( 13 % )

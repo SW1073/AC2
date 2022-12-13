@@ -24,7 +24,7 @@ use work.impri_traza_pkg.all;
 
 entity prueba_Rproc_MD_MI is 
     generic (periodo_reloj: time := 80 ns;
-			pasoapaso: boolean := true; --false;
+			pasoapaso: boolean := false; --true;
 			imprimir_traza: boolean:= true;
 			imprimir_MD: boolean:= true;
 			imprimir_MI: boolean:= true;
@@ -291,6 +291,8 @@ begin
 		write (l, string("Fichero resultados: " & string(fichero)));
 		writeline (output, l);
 	end if;
+	write (l, string("HOLA ESTO ES UNA PRUEBA QUE GRACIOSO XD" & string(fichero)));
+	writeline (output, l);
 end process;
 
 relojeje: process  is
@@ -309,7 +311,16 @@ begin
 	wait for periodo_reloj - periodo_reloj/2;
 end process relojeje;
 
-end;
 
+relojaja: process(reloj) is
+variable n_instr: integer := 0;
+-- variable n_instr_seq: integer := 0;
+begin
+	wait until reloj'event and reloj ='1';
+	n_instr := n_instr + 1;
+	wait;
+end process;
+
+end;
 
 

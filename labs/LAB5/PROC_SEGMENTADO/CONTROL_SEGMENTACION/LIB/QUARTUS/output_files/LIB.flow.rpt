@@ -1,6 +1,6 @@
 Flow report for LIB
-Tue Dec 13 16:59:53 2022
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Tue Dec 13 19:30:13 2022
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
 ---------------------
@@ -21,46 +21,47 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2013 Altera Corporation
-Your use of Altera Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, Altera MegaCore Function License 
-Agreement, or other applicable license agreement, including, 
-without limitation, that your use is for the sole purpose of 
-programming logic devices manufactured by Altera and sold by 
-Altera or its authorized distributors.  Please refer to the 
-applicable agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 
 
 
-+--------------------------------------------------------------------------------------+
-; Flow Summary                                                                         ;
-+------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Tue Dec 13 16:59:53 2022           ;
-; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
-; Revision Name                      ; LIB                                             ;
-; Top-level Entity Name              ; LIB                                             ;
-; Family                             ; Cyclone IV GX                                   ;
-; Device                             ; EP4CGX30CF23C6                                  ;
-; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 64 / 29,440 ( < 1 % )                           ;
-;     Total combinational functions  ; 53 / 29,440 ( < 1 % )                           ;
-;     Dedicated logic registers      ; 47 / 29,440 ( < 1 % )                           ;
-; Total registers                    ; 47                                              ;
-; Total pins                         ; 40 / 307 ( 13 % )                               ;
-; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0 / 1,105,920 ( 0 % )                           ;
-; Embedded Multiplier 9-bit elements ; 0 / 160 ( 0 % )                                 ;
-; Total GXB Receiver Channel PCS     ; 0 / 4 ( 0 % )                                   ;
-; Total GXB Receiver Channel PMA     ; 0 / 4 ( 0 % )                                   ;
-; Total GXB Transmitter Channel PCS  ; 0 / 4 ( 0 % )                                   ;
-; Total GXB Transmitter Channel PMA  ; 0 / 4 ( 0 % )                                   ;
-; Total PLLs                         ; 0 / 6 ( 0 % )                                   ;
-+------------------------------------+-------------------------------------------------+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Tue Dec 13 19:30:13 2022       ;
+; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                      ; LIB                                         ;
+; Top-level Entity Name              ; LIB                                         ;
+; Family                             ; Cyclone IV GX                               ;
+; Device                             ; EP4CGX30CF23C6                              ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 66 / 29,440 ( < 1 % )                       ;
+;     Total combinational functions  ; 52 / 29,440 ( < 1 % )                       ;
+;     Dedicated logic registers      ; 47 / 29,440 ( < 1 % )                       ;
+; Total registers                    ; 47                                          ;
+; Total pins                         ; 40 / 307 ( 13 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 1,105,920 ( 0 % )                       ;
+; Embedded Multiplier 9-bit elements ; 0 / 160 ( 0 % )                             ;
+; Total GXB Receiver Channel PCS     ; 0 / 4 ( 0 % )                               ;
+; Total GXB Receiver Channel PMA     ; 0 / 4 ( 0 % )                               ;
+; Total GXB Transmitter Channel PCS  ; 0 / 4 ( 0 % )                               ;
+; Total GXB Transmitter Channel PMA  ; 0 / 4 ( 0 % )                               ;
+; Total PLLs                         ; 0 / 6 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -68,7 +69,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/13/2022 16:59:28 ;
+; Start date & time ; 12/13/2022 19:29:48 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; LIB                 ;
 +-------------------+---------------------+
@@ -79,7 +80,7 @@ applicable agreement for further details.
 +----------------------------------------+---------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                        ; Value                                                                                                   ; Default Value ; Entity Name ; Section Id     ;
 +----------------------------------------+---------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                  ; 71126639310910.167094716805620                                                                          ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                  ; 71126639310910.167095618859447                                                                          ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME               ; NA                                                                                                      ; --            ; --          ; prueba_LIB     ;
 ; EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ; ../PRUEBAS/formato_ventanas.do                                                                          ; --            ; --          ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; prueba_LIB                                                                                              ; --            ; --          ; eda_simulation ;
@@ -111,9 +112,9 @@ applicable agreement for further details.
 ; MAX_CORE_JUNCTION_TEMP                 ; 85                                                                                                      ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP                 ; 0                                                                                                       ; --            ; --          ; --             ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE            ; 1.2V                                                                                                    ; --            ; --          ; --             ;
-; PARTITION_COLOR                        ; 16764057                                                                                                ; --            ; --          ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL    ; PLACEMENT_AND_ROUTING                                                                                   ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE                 ; SOURCE                                                                                                  ; --            ; --          ; Top            ;
+; PARTITION_COLOR                        ; -- (Not supported for targeted family)                                                                  ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL    ; -- (Not supported for targeted family)                                                                  ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE                 ; -- (Not supported for targeted family)                                                                  ; --            ; --          ; Top            ;
 ; POWER_BOARD_THERMAL_MODEL              ; None (CONSERVATIVE)                                                                                     ; --            ; --          ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION          ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                                   ; --            ; --          ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY               ; output_files                                                                                            ; --            ; --          ; --             ;
@@ -132,31 +133,31 @@ applicable agreement for further details.
 +----------------------------------------+---------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                             ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4672 MB             ; 00:00:03                           ;
-; Fitter                    ; 00:00:13     ; 1.0                     ; 5072 MB             ; 00:00:12                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 4604 MB             ; 00:00:03                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4642 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4560 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:22     ; --                      ; --                  ; 00:00:20                           ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 552 MB              ; 00:00:21                           ;
+; Fitter               ; 00:00:10     ; 1.0                     ; 1739 MB             ; 00:00:17                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 429 MB              ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:01     ; 1.1                     ; 606 MB              ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 668 MB              ; 00:00:00                           ;
+; Total                ; 00:00:21     ; --                      ; --                  ; 00:00:41                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                        ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-KR0AC8B  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; DESKTOP-KR0AC8B  ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; DESKTOP-KR0AC8B  ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-KR0AC8B  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-KR0AC8B  ; Windows 7 ; 6.2        ; x86_64         ;
-+---------------------------+------------------+-----------+------------+----------------+
++------------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                                ;
++----------------------+------------------+------------------+------------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name          ; OS Version       ; Processor type ;
++----------------------+------------------+------------------+------------------+----------------+
+; Analysis & Synthesis ; el01pc           ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
+; Fitter               ; el01pc           ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
+; Assembler            ; el01pc           ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
+; Timing Analyzer      ; el01pc           ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
+; EDA Netlist Writer   ; el01pc           ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
++----------------------+------------------+------------------+------------------+----------------+
 
 
 ------------
