@@ -48,6 +48,18 @@ file S: text;
 signal reloj: std_logic;
 signal ciclo: integer:= 0;
 
+-- ====================== AREA PARA VARIABLES "GLOBALES" ====================== --
+signal n_instr: integer := 0;
+signal ciclos_perdidos_RD: integer := 0;
+signal ciclos_perdidos_RS: integer := 0;
+
+signal current_RD_seguits: integer := 0;
+signal DD_1_cicle: integer := 0;
+signal DD_2_cicle: integer := 0;
+signal DD_3_cicle: integer := 0;
+signal DD_4_cicle: integer := 0;
+
+-- ============================================================================ --
 signal s_cp1: tipo_direc_inst;
 signal s_proxCP: tam_dat_camino;
 
@@ -291,8 +303,39 @@ begin
 		write (l, string("Fichero resultados: " & string(fichero)));
 		writeline (output, l);
 	end if;
-	write (l, string("HOLA ESTO ES UNA PRUEBA QUE GRACIOSO XD" & string(fichero)));
+	
+	write (l, string("INSTRUCCIONES EJECUTADAS : " & integer'image(n_instr)));
 	writeline (output, l);
+	
+	-- ================================ OUTPUT DELS RESULTATS ================================ --
+	write (l, string("CICLOS TOTALES DE LA EJECUCION: " & integer'image(ciclo)));
+	writeline (output, l);
+	
+	write (l, string("INSTRUCCIONES DE SECUENCIAMIENTO: " & integer'image(ciclos_perdidos_RS / 2)));
+	writeline (output, l); -- Com que cada RS dura 2 cicles unicament, si fem RS/2 tenim les instruccions de seq.
+	
+	write (l, string("CICLOS PERDIDOS POR RIESGO DE DATOS: " & integer'image(ciclos_perdidos_RD)));
+	writeline (output, l);
+	
+	write (l, string("CICLOS PERDIDOS POR RIESGO DE SECUENCIAMIENTO: " & integer'image(ciclos_perdidos_RS)));
+	writeline (output, l);
+	
+	write (l, string("CPI ( /1000 ): " & integer'image((ciclo * 1000) / n_instr))); -- No es float, pero casi.
+	writeline (output, l);
+	
+	write (l, string("DEPENNDENCIAS DE DATOS CON 1 CICLO DE BLOQUEO: " & integer'image(DD_1_cicle)));
+	writeline (output, l);
+	
+	write (l, string("DEPENNDENCIAS DE DATOS CON 2 CICLOS DE BLOQUEO: " & integer'image(DD_2_cicle)));
+	writeline (output, l);
+	
+	write (l, string("DEPENNDENCIAS DE DATOS CON 3 CICLOS DE BLOQUEO: " & integer'image(DD_3_cicle)));
+	writeline (output, l);
+	
+	write (l, string("DEPENNDENCIAS DE DATOS CON 4 CICLOS DE BLOQUEO: " & integer'image(DD_4_cicle)));
+	writeline (output, l);
+	-- ======================================================================================== --
+	
 end process;
 
 relojeje: process  is
@@ -312,14 +355,33 @@ begin
 end process relojeje;
 
 
-relojaja: process(reloj) is
-variable n_instr: integer := 0;
--- variable n_instr_seq: integer := 0;
+-- ================================ EL PROCESS EN SI ================================ --
+relojaja: process is
 begin
-	wait until reloj'event and reloj ='1';
-	n_instr := n_instr + 1;
-	wait;
-end process;
+	wait until reloj'event and reloj = '1';
+	if s_RID = '0' then
+		if s_RS = '0' then -- Cicles sense bloquejos, per tant on comencem una nova instruccio en aquestos.
+			n_instr <= n_instr + 1;
+		else -- risc de sequenciament
+			ciclos_perdidos_RS <= ciclos_perdidos_RS + 1;
+		end if;
+	end if;
+	
+	-- risc de dades
+	if s_RID = '1' then
+		ciclos_perdidos_RD <= ciclos_perdidos_RD + 1;
+		current_RD_seguits <= current_RD_seguits + 1;
+	else
+		current_RD_seguits <= 0;
+		case current_RD_seguits is
+			when 1 => DD_1_cicle <= DD_1_cicle + 1;
+			when 2 => DD_2_cicle <= DD_2_cicle + 1;
+			when 3 => DD_3_cicle <= DD_3_cicle + 1;
+			when 4 => DD_4_cicle <= DD_4_cicle + 1;
+			when others => report "Sense riscos de dades (?)";
+		end case;
+	end if;
+end process relojaja;
 
 end;
 
