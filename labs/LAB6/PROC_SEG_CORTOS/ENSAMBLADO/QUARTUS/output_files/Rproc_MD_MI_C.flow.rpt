@@ -1,5 +1,5 @@
 Flow report for Rproc_MD_MI_C
-Tue Jan  3 21:18:13 2023
+Thu Jan  5 14:43:23 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,26 +41,26 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Jan  3 21:18:13 2023       ;
+; Flow Status                        ; Successful - Thu Jan  5 14:43:23 2023       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; Rproc_MD_MI_C                               ;
 ; Top-level Entity Name              ; Rproc_MD_MI_C                               ;
 ; Family                             ; Cyclone IV GX                               ;
 ; Device                             ; EP4CGX30CF23C6                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 37 / 29,440 ( < 1 % )                       ;
-;     Total combinational functions  ; 37 / 29,440 ( < 1 % )                       ;
-;     Dedicated logic registers      ; 31 / 29,440 ( < 1 % )                       ;
-; Total registers                    ; 31                                          ;
-; Total pins                         ; 3 / 307 ( < 1 % )                           ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0 / 1,105,920 ( 0 % )                       ;
-; Embedded Multiplier 9-bit elements ; 0 / 160 ( 0 % )                             ;
-; Total GXB Receiver Channel PCS     ; 0 / 4 ( 0 % )                               ;
-; Total GXB Receiver Channel PMA     ; 0 / 4 ( 0 % )                               ;
-; Total GXB Transmitter Channel PCS  ; 0 / 4 ( 0 % )                               ;
-; Total GXB Transmitter Channel PMA  ; 0 / 4 ( 0 % )                               ;
-; Total PLLs                         ; 0 / 6 ( 0 % )                               ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total GXB Receiver Channel PCS     ; N/A until Partition Merge                   ;
+; Total GXB Receiver Channel PMA     ; N/A until Partition Merge                   ;
+; Total GXB Transmitter Channel PCS  ; N/A until Partition Merge                   ;
+; Total GXB Transmitter Channel PMA  ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -69,7 +69,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/03/2023 21:17:47 ;
+; Start date & time ; 01/05/2023 14:43:14 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Rproc_MD_MI_C       ;
 +-------------------+---------------------+
@@ -80,7 +80,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------+----------------------------------------------------------------------------------------------------+---------------+-------------+----------------------+
 ; Assignment Name                        ; Value                                                                                              ; Default Value ; Entity Name ; Section Id           ;
 +----------------------------------------+----------------------------------------------------------------------------------------------------+---------------+-------------+----------------------+
-; COMPILER_SIGNATURE_ID                  ; 71126639310910.167277706739102                                                                     ; --            ; --          ; --                   ;
+; COMPILER_SIGNATURE_ID                  ; 71126639310910.167292619411135                                                                     ; --            ; --          ; --                   ;
 ; EDA_DESIGN_INSTANCE_NAME               ; NA                                                                                                 ; --            ; --          ; prueba_Rproc_MD_MI_C ;
 ; EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ; ../PRUEBAS/formato_ventanas.do                                                                     ; --            ; --          ; eda_simulation       ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; prueba_Rproc_MD_MI_C                                                                               ; --            ; --          ; eda_simulation       ;
@@ -171,41 +171,29 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------+----------------------------------------------------------------------------------------------------+---------------+-------------+----------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 579 MB              ; 00:00:23                           ;
-; Fitter               ; 00:00:08     ; 1.0                     ; 1743 MB             ; 00:00:15                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 428 MB              ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:01     ; 1.0                     ; 596 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 668 MB              ; 00:00:00                           ;
-; Total                ; 00:00:23     ; --                      ; --                  ; 00:00:41                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 826 MB              ; 00:00:21                           ;
+; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:21                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                                ;
-+----------------------+------------------+------------------+------------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name          ; OS Version       ; Processor type ;
-+----------------------+------------------+------------------+------------------+----------------+
-; Analysis & Synthesis ; el01pc           ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
-; Fitter               ; el01pc           ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
-; Assembler            ; el01pc           ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
-; Timing Analyzer      ; el01pc           ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
-; EDA Netlist Writer   ; el01pc           ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
-+----------------------+------------------+------------------+------------------+----------------+
++--------------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                                  ;
++------------------------+------------------+------------------+------------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name          ; OS Version       ; Processor type ;
++------------------------+------------------+------------------+------------------+----------------+
+; Analysis & Elaboration ; el01pc           ; Debian GNU/Linux ; Debian GNU/Linux ; x86_64         ;
++------------------------+------------------+------------------+------------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off Rproc_MD_MI_C -c Rproc_MD_MI_C
-quartus_fit --read_settings_files=off --write_settings_files=off Rproc_MD_MI_C -c Rproc_MD_MI_C
-quartus_asm --read_settings_files=off --write_settings_files=off Rproc_MD_MI_C -c Rproc_MD_MI_C
-quartus_sta Rproc_MD_MI_C -c Rproc_MD_MI_C
-quartus_eda --read_settings_files=off --write_settings_files=off Rproc_MD_MI_C -c Rproc_MD_MI_C
+quartus_map --read_settings_files=on --write_settings_files=off Rproc_MD_MI_C -c Rproc_MD_MI_C --analysis_and_elaboration
 
 
 
