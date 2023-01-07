@@ -1,0 +1,166 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI_PreSal/ENSAMBLADO/QUARTUS/simulation/modelsim
+Pcte_tipos_deco_camino_pkg
+DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 6
+Z3 w1670948078
+R0
+8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
+F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
+l0
+L10 1
+VnW:lN^;bmch`G9@`fzPW:1
+!s100 cAz4o3O`2Ph8^EzYnmARo3
+Z4 OV;C;2020.1;71
+31
+Z5 !s110 1673110554
+!i10b 1
+Z6 !s108 1673110554.000000
+!s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd|
+!i113 1
+Z7 o-93 -work work
+Z8 tExplicit 1 CvgOpt 0
+Pretardos_cntl_seg_c_pkg
+R1
+R2
+!i122 1
+w1534675090
+R0
+8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd
+F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd
+l0
+L9 1
+VS=8R^cDTCdWo[NIdP_XA_1
+!s100 OoIRN:jEm`2?4^Ue>;CbR0
+R4
+31
+R5
+!i10b 1
+R6
+!s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd|
+!i113 1
+R7
+R8
+Pretardos_cntl_seg_pkg
+R1
+R2
+!i122 0
+R3
+R0
+8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
+F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
+l0
+L9 1
+VLHlVB3l36icZCao4V?bMR1
+!s100 gc@7;zYHzO^Y_W>k<mngL1
+R4
+31
+R5
+!i10b 1
+R6
+!s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd|
+!i113 1
+R7
+R8
+Pretardos_even_pkg
+R1
+R2
+!i122 4
+Z9 w1666803315
+R0
+8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd
+F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd
+l0
+L9 1
+V^E2AS0^mVDngGh0T>D19@0
+!s100 h7LodFD6l8>4jXSfK`=5b0
+R4
+31
+R5
+!i10b 1
+R6
+!s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd|
+!i113 1
+R7
+R8
+Pretardos_pkg
+R1
+R2
+!i122 3
+R9
+R0
+8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd
+F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd
+l0
+L9 1
+VUAzXTYeJ[BaT_LMOoNB7l1
+!s100 :nkecB:R=cKDH@FQUP0A73
+R4
+31
+R5
+!i10b 1
+R6
+!s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd|
+!i113 1
+R7
+R8
+Pretardos_regdes_pkg
+R1
+R2
+!i122 5
+R3
+R0
+8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
+F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
+l0
+L9 1
+V6@6QTXaf2g][;TlBQeGj80
+!s100 TRE>;HVlkd]:_U;MK18HP1
+R4
+31
+R5
+!i10b 1
+R6
+!s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd|
+!i113 1
+R7
+R8
+Priscv32_coop_funct_pkg
+R1
+R2
+!i122 2
+R9
+R0
+8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd
+F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd
+l0
+L9 1
+VjW?=dRk>GS4KoTiz[hJH30
+!s100 N2gmASQLGFQga<1WaKe:80
+R4
+31
+R5
+!i10b 1
+R6
+!s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd|
+!s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd|
+!i113 1
+R7
+R8

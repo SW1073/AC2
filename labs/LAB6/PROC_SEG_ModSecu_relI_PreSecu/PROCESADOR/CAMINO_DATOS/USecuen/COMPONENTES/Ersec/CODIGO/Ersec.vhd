@@ -21,6 +21,14 @@ signal op_SEC: std_logic;
 -- modifique el codigo
 
 begin
-	op_SEC <= opSEC(3) and (not opSEC(2)) and opSEC(1) and opSEC(0);
+	-- opSEC == 1011 -> estamos en un JALx
+	-- opSEC == 1xxx -> estamos
+
+	-- ErPre AND (BR or JALR) [and not JAL]
+	
+	-- op_SEC <= opSEC(3) and (not opSEC(2)) and opSEC(1) and opSEC(0);
+	op_SEC <= ((opsec(3) and opsec(2)) or (opsec(1) or opsec(0))) and ErPre;
+	
+	
 	msecuseg <= op_SEC;
 end;

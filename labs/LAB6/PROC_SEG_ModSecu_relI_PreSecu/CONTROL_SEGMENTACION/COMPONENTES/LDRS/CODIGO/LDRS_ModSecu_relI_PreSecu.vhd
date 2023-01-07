@@ -22,6 +22,7 @@ architecture comportamiento of LDRS_ModSecu_relI_PreSecu is
 
 begin
 
-	RS <= '0' after retLDRS;
+	RS <= opsecA(3) or opsecDL(3) or SInCond or SCond or SCondA after retLDRS;
+	-- RS <= '0' after retLDRS;
 	
 end comportamiento;
