@@ -18,5 +18,6 @@ end ErrelI;
 
 architecture comporta of ErrelI is
 begin
-	s_mrelI <= mxrelI;
+
+	s_mrelI <= mxrelI and ErPre;
 end;

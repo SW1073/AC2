@@ -19,10 +19,10 @@ architecture compor of LGR_PreSecu is
 
 begin
 
-	bloqCP <= '0' after retLGR; 
-	bloqBDL <= '0' after retLGR;
+	bloqCP <= RID after retLGR; 
+	bloqBDL <= RID after retLGR;
 
-	inyecDLA <= '0' after retLGR;
-	inyecBDL <= '0' after retLGR;
+	inyecDLA <= RID or ErPre after retLGR;
+	inyecBDL <= (RID and RS) or ErPre after retLGR;
 	
 end;

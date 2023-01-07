@@ -25,7 +25,7 @@ use work.Rimpri_traza_C_pkg.all;
 
 entity prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu is 
     generic (periodo_reloj: time := 80 ns;
-			pasoapaso: boolean := true; --false;
+			pasoapaso: boolean := false; --false;
 			imprimir_traza: boolean:= true;
 			imprimir_MD: boolean:= true;
 			imprimir_MI: boolean:= true;

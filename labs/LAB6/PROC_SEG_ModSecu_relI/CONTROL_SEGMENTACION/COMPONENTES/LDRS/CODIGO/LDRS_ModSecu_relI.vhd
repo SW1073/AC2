@@ -21,6 +21,6 @@ architecture comportamiento of LDRS_ModSecu_relI is
 
 begin
 
-	RS <= '0' after retLDRS;
+	RS <= (opsecDL(3) or opsecA(3)) or SInCond after retLDRS;
 	
 end comportamiento;
