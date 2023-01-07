@@ -9,7 +9,7 @@ Pcero => Rcam_MEM_INST_INY_Pcero:Mem_INST.Pcero
 Pcero => RDeco_cam_dat_secu:procesa.pcero
 Pcero => Rcam_MEM_DATOS:Mem_DATOS.pcero
 Pcero => LIB:logica_LIB.pcero
-parar << parar.DB_MAX_OUTPUT_PORT_TYPE
+parar <= parar.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Rproc_MD_MI|RregCP:regis_CP
