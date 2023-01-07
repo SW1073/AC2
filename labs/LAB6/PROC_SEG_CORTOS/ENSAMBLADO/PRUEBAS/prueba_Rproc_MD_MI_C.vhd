@@ -345,9 +345,6 @@ begin
 	write (l, string("CICLOS TOTALES DE LA EJECUCION: " & integer'image(ciclo)));
 	writeline (output, l);
 	
-	write (l, string("INSTRUCCIONES DE SECUENCIAMIENTO: " & integer'image(ciclos_perdidos_RS / 2)));
-	writeline (output, l); -- Com que cada RS dura 2 cicles unicament, si fem RS/2 tenim les instruccions de seq.
-	
 	write (l, string("CICLOS PERDIDOS POR RIESGO DE DATOS: " & integer'image(ciclos_perdidos_RD)));
 	writeline (output, l);
 	
@@ -369,7 +366,7 @@ begin
 	write (l, string("DEPENNDENCIAS DE DATOS CON 4 CICLOS DE BLOQUEO: " & integer'image(DD_4_cicle)));
 	writeline (output, l);
 	-- ======================================================================================== --
-	
+
 end process;
 
 relojeje: process  is
