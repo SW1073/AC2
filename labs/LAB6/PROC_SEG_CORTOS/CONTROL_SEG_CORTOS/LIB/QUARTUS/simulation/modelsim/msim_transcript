@@ -6,74 +6,74 @@
 # vmap work rtl_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap work rtl_work 
-# Copying /home/eloi/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Copying /home/jafeth/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:38 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd 
+# Start time: 20:46:02 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_RegDes_pkg
-# End time: 21:39:38 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:02 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:38 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd 
+# Start time: 20:46:02 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package riscv32_coop_funct_pkg
-# End time: 21:39:38 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:02 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:38 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd 
+# Start time: 20:46:02 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_cntl_seg_pkg
-# End time: 21:39:38 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:02 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:38 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd 
+# Start time: 20:46:02 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_cntl_seg_C_pkg
-# End time: 21:39:38 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:02 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd 
+# Start time: 20:46:02 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling package cte_tipos_deco_camino_pkg
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:02 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd 
+# Start time: 20:46:02 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package param_disenyo_pkg
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:02 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd 
+# Start time: 20:46:02 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -81,23 +81,23 @@
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Loading package riscv32_coop_funct_pkg
 # -- Compiling package cte_tipos_UF_pkg
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:02 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd 
+# Start time: 20:46:02 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package param_disenyo_pkg
 # -- Compiling package RegDes_pkg
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:02 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd 
+# Start time: 20:46:02 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -105,12 +105,12 @@
 # -- Loading package NUMERIC_STD
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Compiling package componentes_control_seg_pkg
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:02 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/componentes_cntl_seg_pkg/componentes_control_seg_C_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/componentes_cntl_seg_pkg/componentes_control_seg_C_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/componentes_cntl_seg_pkg/componentes_control_seg_C_pkg.vhd 
+# Start time: 20:46:02 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/componentes_cntl_seg_pkg/componentes_control_seg_C_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -118,12 +118,12 @@
 # -- Loading package NUMERIC_STD
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Compiling package componentes_control_seg_C_pkg
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:03 on Jan 10,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd 
+# Start time: 20:46:03 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -131,12 +131,12 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RDB_N
 # -- Compiling architecture comportamiento of RDB_N
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:03 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd 
+# Start time: 20:46:03 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -144,12 +144,12 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RDI_N
 # -- Compiling architecture comportamiento of RDI_N
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:03 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd 
+# Start time: 20:46:03 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -157,12 +157,12 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RD_N
 # -- Compiling architecture comportamiento of RD_N
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:03 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd 
+# Start time: 20:46:03 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -170,12 +170,12 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RDI_1
 # -- Compiling architecture comportamiento of RDI_1
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:03 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd 
+# Start time: 20:46:03 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -183,12 +183,12 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RD_1
 # -- Compiling architecture comportamiento of RD_1
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:03 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd 
+# Start time: 20:46:03 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -198,24 +198,24 @@
 # -- Loading package param_disenyo_pkg
 # -- Compiling entity valreg
 # -- Compiling architecture compor of valreg
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:03 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd 
+# Start time: 20:46:03 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package param_disenyo_pkg
 # -- Compiling entity cmp
 # -- Compiling architecture compor of cmp
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:03 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd 
+# Start time: 20:46:03 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -225,12 +225,12 @@
 # -- Loading package param_disenyo_pkg
 # -- Compiling entity inst_latproh
 # -- Compiling architecture compor of inst_latproh
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:03 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd 
+# Start time: 20:46:03 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -238,12 +238,12 @@
 # -- Loading package retardos_cntl_seg_C_pkg
 # -- Compiling entity LDRD_C
 # -- Compiling architecture comportamiento of LDRD_C
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:03 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C.vhd 
+# Start time: 20:46:03 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -255,12 +255,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LIB_C
 # -- Compiling architecture estructural of LIB_C
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:03 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd 
+# Start time: 20:46:03 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -271,12 +271,12 @@
 # -- Loading package RegDes_pkg
 # -- Compiling entity RdecoPBRopSEC
 # -- Compiling architecture estructural of RdecoPBRopSEC
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:04 on Jan 10,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:39 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd 
+# Start time: 20:46:04 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -287,12 +287,12 @@
 # -- Loading package param_disenyo_pkg
 # -- Compiling entity decoPBRopSEC
 # -- Compiling architecture comportamiento of decoPBRopSEC
-# End time: 21:39:39 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:04 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd 
+# Start time: 20:46:04 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -304,12 +304,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity ensam_RD_C
 # -- Compiling architecture estructural of ensam_RD_C
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:04 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd 
+# Start time: 20:46:04 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -320,12 +320,12 @@
 # -- Loading package RegDes_pkg
 # -- Compiling entity senya_cntlRD
 # -- Compiling architecture estructural of senya_cntlRD
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:04 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd 
+# Start time: 20:46:04 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -336,12 +336,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LDD
 # -- Compiling architecture estructural of LDD
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:04 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd 
+# Start time: 20:46:04 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -350,12 +350,12 @@
 # -- Loading package RegDes_pkg
 # -- Compiling entity latproh
 # -- Compiling architecture estruc of latproh
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:04 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd 
+# Start time: 20:46:04 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -364,12 +364,12 @@
 # -- Loading package retardos_cntl_seg_C_pkg
 # -- Compiling entity LDC
 # -- Compiling architecture estructural of LDC
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:04 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd 
+# Start time: 20:46:04 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -380,12 +380,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity ensam_RS
 # -- Compiling architecture estructural of ensam_RS
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:04 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd 
+# Start time: 20:46:04 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -396,12 +396,12 @@
 # -- Loading package RegDes_pkg
 # -- Compiling entity senya_cntlRS
 # -- Compiling architecture estructural of senya_cntlRS
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:04 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd 
+# Start time: 20:46:04 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -412,12 +412,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LDRS
 # -- Compiling architecture comportamiento of LDRS
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:04 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd 
+# Start time: 20:46:04 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -428,13 +428,13 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LGR
 # -- Compiling architecture comportamiento of LGR
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:04 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd 
+# Start time: 20:46:04 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -442,89 +442,89 @@
 # -- Loading package NUMERIC_STD
 # -- Loading package cte_tipos_deco_camino_pkg
 # -- Compiling package componentes_control_seg_pkg
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:05 on Jan 10,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd 
+# Start time: 20:46:05 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_cntl_seg_pkg
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:05 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv2.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv2.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv2.vhd 
+# Start time: 20:46:05 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity andv2
 # -- Compiling architecture comportamiento of andv2
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:05 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv1n.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv1n.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv1n.vhd 
+# Start time: 20:46:05 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv1n.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity andv1n
 # -- Compiling architecture comportamiento of andv1n
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:05 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv3.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv3.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv3.vhd 
+# Start time: 20:46:05 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv3.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity andv3
 # -- Compiling architecture comportamiento of andv3
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:05 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orv2.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orv2.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orv2.vhd 
+# Start time: 20:46:05 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orv2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity orv2
 # -- Compiling architecture comportamiento of orv2
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:05 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orvn.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orvn.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orvn.vhd 
+# Start time: 20:46:05 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orvn.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity orvn
 # -- Compiling architecture comportamiento of orvn
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:05 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd 
+# Start time: 20:46:05 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package param_disenyo_pkg
 # -- Compiling entity cmp
 # -- Compiling architecture compor of cmp
-# End time: 21:39:40 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:05 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_latproh.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_latproh.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:40 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_latproh.vhd 
+# Start time: 20:46:05 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_latproh.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -533,12 +533,12 @@
 # -- Loading package RegDes_pkg
 # -- Compiling entity latproh_v
 # -- Compiling architecture estructural of latproh_v
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:01
+# End time: 20:46:05 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDC.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDC.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:41 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDC.vhd 
+# Start time: 20:46:05 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -547,12 +547,12 @@
 # -- Loading package retardos_cntl_seg_C_pkg
 # -- Compiling entity LDC_v
 # -- Compiling architecture estructural of LDC_v
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:05 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:41 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd 
+# Start time: 20:46:05 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -563,12 +563,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LDD_v
 # -- Compiling architecture estructural of LDD_v
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:05 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD_C.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD_C.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:41 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD_C.vhd 
+# Start time: 20:46:05 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD_C.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -576,12 +576,12 @@
 # -- Loading package retardos_cntl_seg_C_pkg
 # -- Compiling entity LDRD_C_v
 # -- Compiling architecture estructural of LDRD_C_v
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:06 on Jan 10,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:41 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd 
+# Start time: 20:46:06 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -592,12 +592,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LDRS_v
 # -- Compiling architecture estructural of LDRS_v
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:06 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:41 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd 
+# Start time: 20:46:06 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -608,12 +608,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LGR_v
 # -- Compiling architecture estructural of LGR_v
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:06 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD_C.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD_C.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:41 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD_C.vhd 
+# Start time: 20:46:06 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD_C.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -625,12 +625,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity ensam_RD_C_v
 # -- Compiling architecture estructural of ensam_RD_C_v
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:06 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:41 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd 
+# Start time: 20:46:06 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -641,12 +641,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity ensam_RS_v
 # -- Compiling architecture estructural of ensam_RS_v
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:06 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB_C.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB_C.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:41 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB_C.vhd 
+# Start time: 20:46:06 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB_C.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -657,12 +657,12 @@
 # -- Loading package retardos_cntl_seg_pkg
 # -- Compiling entity LIB_C_v
 # -- Compiling architecture estructural of LIB_C_v
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:06 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:41 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd 
+# Start time: 20:46:06 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -675,12 +675,12 @@
 # -- Compiling package codificar_instrucciones_pkg
 # -- Compiling package body codificar_instrucciones_pkg
 # -- Loading package codificar_instrucciones_pkg
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:06 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:41 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd 
+# Start time: 20:46:06 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -691,12 +691,12 @@
 # -- Compiling package imprimir_inst_ascii_pkg
 # -- Compiling package body imprimir_inst_ascii_pkg
 # -- Loading package imprimir_inst_ascii_pkg
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:06 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd}
+# vcom -93 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:41 on Jan 03,2023
-# vcom -reportprogress 300 -93 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd 
+# Start time: 20:46:06 on Jan 10,2023
+# vcom -reportprogress 300 -93 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -708,12 +708,12 @@
 # -- Compiling package deco_inst_impri_pkg
 # -- Compiling package body deco_inst_impri_pkg
 # -- Loading package deco_inst_impri_pkg
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:00
+# End time: 20:46:06 on Jan 10,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -2008 -work work {/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/prueba_LIB_C.vhd}
+# vcom -2008 -work work {/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/prueba_LIB_C.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:39:41 on Jan 03,2023
-# vcom -reportprogress 300 -2008 -work work /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/prueba_LIB_C.vhd 
+# Start time: 20:46:06 on Jan 10,2023
+# vcom -reportprogress 300 -2008 -work work /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/prueba_LIB_C.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -728,13 +728,13 @@
 # -- Loading package deco_inst_impri_pkg
 # -- Compiling entity prueba_LIB_C
 # -- Compiling architecture comportamiento of prueba_LIB_C
-# ** Warning: /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/prueba_LIB_C.vhd(63): (vcom-1236) Shared variables must be of a protected type.
-# End time: 21:39:41 on Jan 03,2023, Elapsed time: 0:00:00
+# ** Warning: /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/prueba_LIB_C.vhd(63): (vcom-1236) Shared variables must be of a protected type.
+# End time: 20:46:07 on Jan 10,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 1
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_LIB_C
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" prueba_LIB_C 
-# Start time: 21:39:41 on Jan 03,2023
+# Start time: 20:46:07 on Jan 10,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -788,7 +788,7 @@
 # Loading work.orv2(comportamiento)
 # Loading work.lgr_v(estructural)
 # 
-# do /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/formato_ventanas.do
+# do /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/formato_ventanas.do
 # transcript on
 # log -r /*
 # if {[batch_mode] == 0} then { do wave.do }
@@ -850,6 +850,8 @@
 # add wave -noupdate /prueba_lib_c/logica_LIB/R_Sec/senyales_cntl/opsec
 # add wave -noupdate /prueba_lib_c/logica_LIB/R_Sec/senyales_cntl/opsecA
 # TreeUpdate [SetDefaultTree]
+# ** Error: invalid command name ""
+# Executing ONERROR command at macro /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/wave.do line 58
 # WaveRestoreCursors {{Cursor 1} {1320000 ps} 0}
 # quietly wave cursor active 1
 # configure wave -namecolwidth 368
@@ -1047,5 +1049,5 @@
 # 60  0000 0000 0000 0000 00 00 0000           ebreak                 ebreak                 ebreak                 ebreak                 ebreak       
 # esp 0000 0000 0000 0000 00 00 0000 
 # 
-# End time: 21:52:23 on Jan 03,2023, Elapsed time: 0:12:42
-# Errors: 0, Warnings: 0
+# End time: 20:46:30 on Jan 10,2023, Elapsed time: 0:00:23
+# Errors: 1, Warnings: 0

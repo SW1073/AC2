@@ -13244,12 +13244,12 @@ s[3] <= s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Rproc_MD_MI_C_ModSecu_relI_PreSecu|RDeco_cam_dat_secu_C_ModSecu_relI_PreSecu:procesa|Rcamino_secuen_C_ModSecu_relI_PreSecu:cam_secuen|RErsec:R_Ersec|Ersec:R_Ersec
-opSEC[0] => op_SEC.IN0
-opSEC[1] => op_SEC.IN1
-opSEC[2] => op_SEC.IN0
+opSEC[0] => op_JMP.IN0
+opSEC[1] => op_JMP.IN1
+opSEC[2] => op_JMP.IN1
 opSEC[3] => op_SEC.IN1
-ErPre => op_SEC.IN1
-msecuseg <= op_SEC.DB_MAX_OUTPUT_PORT_TYPE
+ErPre => msecuseg.IN1
+msecuseg <= msecuseg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Rproc_MD_MI_C_ModSecu_relI_PreSecu|RDeco_cam_dat_secu_C_ModSecu_relI_PreSecu:procesa|Rcamino_secuen_C_ModSecu_relI_PreSecu:cam_secuen|muxdirec:mxsecseg
