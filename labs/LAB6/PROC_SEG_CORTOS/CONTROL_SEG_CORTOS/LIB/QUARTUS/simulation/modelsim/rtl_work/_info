@@ -1,0 +1,2134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/simulation/modelsim
+Eandv1n
+Z1 w1671005418
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 34
+R0
+Z4 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv1n.vhd
+Z5 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv1n.vhd
+l0
+Z6 L10 1
+V]5WS8k;I;HeG8ADn7`lc91
+!s100 oW=O08OjQc0i28S_l77kz1
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1673379965
+!i10b 1
+Z9 !s108 1673379965.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv1n.vhd|
+Z11 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv1n.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Acomportamiento
+R2
+R3
+DEx4 work 6 andv1n 0 22 ]5WS8k;I;HeG8ADn7`lc91
+!i122 34
+l17
+Z14 L15 5
+V>Laaon?U<^FK?0V<SWcgB2
+!s100 YjK2^of1UHJI_AYY[KZGb1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eandv2
+R1
+R2
+R3
+!i122 33
+R0
+Z15 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv2.vhd
+Z16 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv2.vhd
+l0
+R6
+VQIzVecHbLhd1Wz?BbCGDN0
+!s100 OPckPg4IQJZDPCTGj[TGi0
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv2.vhd|
+Z18 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv2.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R2
+R3
+DEx4 work 5 andv2 0 22 QIzVecHbLhd1Wz?BbCGDN0
+!i122 33
+l17
+R14
+VOT4No`WRhGWj[jlhgc^V13
+!s100 HF2h@_oe]J?DClDfPiiFK0
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Eandv3
+R1
+R2
+R3
+!i122 35
+R0
+Z19 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv3.vhd
+Z20 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv3.vhd
+l0
+R6
+V<PaUWi;`gZ;l>;7BQQz:_3
+!s100 XRVGQ9jB0B59zYlQ`67UT2
+R7
+31
+R8
+!i10b 1
+R9
+Z21 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv3.vhd|
+Z22 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/andv3.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R2
+R3
+DEx4 work 5 andv3 0 22 <PaUWi;`gZ;l>;7BQQz:_3
+!i122 35
+l17
+R14
+V7d:PbbloWjHEkS>ZlCCZ81
+!s100 YH;VD30>K4?dg2o;TSF@T1
+R7
+31
+R8
+!i10b 1
+R9
+R21
+R22
+!i113 1
+R12
+R13
+Ecmp
+R1
+Z23 DPx4 work 17 param_disenyo_pkg 0 22 8Te25YoJ;_<V`[eDlKgZY3
+R2
+R3
+!i122 38
+R0
+Z24 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd
+Z25 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd
+l0
+Z26 L11 1
+VbiGGj<b1CkZOQ9M0UOlkA2
+!s100 b`j>B@;eGFaHCX_3hbbd=1
+R7
+31
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd|
+Z28 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd|
+!i113 1
+R12
+R13
+Acompor
+R23
+R2
+R3
+DEx4 work 3 cmp 0 22 biGGj<b1CkZOQ9M0UOlkA2
+!i122 38
+l20
+L17 8
+V_[?9bNJTMKlfDl@C:iP442
+!s100 fI3Fj9K]Eng>XV[lBLOFh0
+R7
+31
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Pcodificar_instrucciones_pkg
+Z29 DPx4 work 16 cte_tipos_uf_pkg 0 22 7=Pnd3F3aWW;Z6DVTMD9L3
+R23
+Z30 DPx4 work 22 riscv32_coop_funct_pkg 0 22 jW?=dRk>GS4KoTiz[hJH30
+Z31 DPx4 work 25 cte_tipos_deco_camino_pkg 0 22 nW:lN^;bmch`G9@`fzPW:1
+Z32 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+Z33 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 48
+Z34 w1667939974
+R0
+Z35 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd
+Z36 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd
+l0
+Z37 L18 1
+VzGOl9eAEADC=io:bDn_Ac3
+!s100 RXembT10zMonh?L_hc_6_1
+R7
+31
+b1
+Z38 !s110 1673379966
+!i10b 1
+Z39 !s108 1673379966.000000
+Z40 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd|
+Z41 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/codificar_instrucciones_pkg.vhd|
+!i113 1
+R12
+R13
+Bbody
+Z42 DPx4 work 27 codificar_instrucciones_pkg 0 22 zGOl9eAEADC=io:bDn_Ac3
+R29
+R23
+R30
+R31
+R32
+R33
+R2
+R3
+!i122 48
+l0
+L52 1
+V]goRkNWk7e`f<PLDcK0L43
+!s100 Q?SF66Pi9KCQX5_IEIYGo0
+R7
+31
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R12
+R13
+Pcomponentes_control_seg_c_pkg
+R33
+R31
+R23
+R2
+R3
+!i122 9
+Z43 w1673379718
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/componentes_cntl_seg_pkg/componentes_control_seg_C_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/componentes_cntl_seg_pkg/componentes_control_seg_C_pkg.vhd
+l0
+Z44 L12 1
+V7Gd`OzBNLMUjCo]=]?njI0
+!s100 NkEJQmnJDZE1`cX8>G<MQ1
+R7
+31
+Z45 !s110 1673379963
+!i10b 1
+Z46 !s108 1673379962.000000
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/componentes_cntl_seg_pkg/componentes_control_seg_C_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/componentes_cntl_seg_pkg/componentes_control_seg_C_pkg.vhd|
+!i113 1
+R12
+R13
+Pcomponentes_control_seg_pkg
+R33
+R31
+R23
+R2
+R3
+!i122 31
+R1
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd
+l0
+R44
+Vi`N?BA[nSD4;NdM1;[U>I0
+!s100 Ko<E>Z>V]<`Lgj?K]ImE=3
+R7
+31
+R8
+!i10b 1
+Z47 !s108 1673379964.000000
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd|
+!i113 1
+R12
+R13
+Pcte_tipos_deco_camino_pkg
+R33
+R2
+R3
+!i122 4
+R1
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
+l0
+R6
+VnW:lN^;bmch`G9@`fzPW:1
+!s100 cAz4o3O`2Ph8^EzYnmARo3
+R7
+31
+Z48 !s110 1673379962
+!i10b 1
+R46
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd|
+!i113 1
+R12
+R13
+Pcte_tipos_uf_pkg
+R30
+R33
+R31
+R2
+R3
+!i122 6
+R34
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd
+l0
+R44
+V7=Pnd3F3aWW;Z6DVTMD9L3
+!s100 R@^<Z8N4I:FVOFT0>=Q7^2
+R7
+31
+R48
+!i10b 1
+R46
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd|
+!i113 1
+R12
+R13
+Pdeco_inst_impri_pkg
+Z49 DPx4 work 23 imprimir_inst_ascii_pkg 0 22 D4C0Azd<D0G7]zzHj9Ke[0
+R23
+R30
+R32
+R33
+R2
+R3
+!i122 50
+R34
+R0
+Z50 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd
+Z51 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd
+l0
+R37
+VFQPf7QaO;mEz;OhO7E`O:3
+!s100 A0Pgo7gf3A1iXgPfYVQBH0
+R7
+31
+b1
+R38
+!i10b 1
+R39
+Z52 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd|
+Z53 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd|
+!i113 1
+R12
+R13
+Bbody
+Z54 DPx4 work 19 deco_inst_impri_pkg 0 22 FQPf7QaO;mEz;OhO7E`O:3
+R49
+R23
+R30
+R32
+R33
+R2
+R3
+!i122 50
+l0
+L25 1
+V^jR9<3EX<2GgYZ=gh_L_b2
+!s100 CZWiYNYM@o6bjO_J]`2j^2
+R7
+31
+R38
+!i10b 1
+R39
+R52
+R53
+!i113 1
+R12
+R13
+Edecopbropsec
+R1
+R23
+R29
+R30
+R31
+R33
+R2
+R3
+!i122 21
+R0
+Z55 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd
+Z56 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd
+l0
+Z57 L15 1
+V^6=I^?dz3PQYOhGZG71Vm2
+!s100 gd0Jz9IF]JH[hcm>7[2iS2
+R7
+31
+Z58 !s110 1673379964
+!i10b 1
+R47
+Z59 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd|
+Z60 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R23
+R29
+R30
+R31
+R33
+R2
+R3
+DEx4 work 12 decopbropsec 0 22 ^6=I^?dz3PQYOhGZG71Vm2
+!i122 21
+l29
+L21 60
+V5Ra4`@M_8[TlTfLbhi;>@0
+!s100 9]9<dnT9?QPjL:n3SAKL43
+R7
+31
+R58
+!i10b 1
+R47
+R59
+R60
+!i113 1
+R12
+R13
+Eensam_rd_c
+R43
+Z61 DPx4 work 21 retardos_cntl_seg_pkg 0 22 LHlVB3l36icZCao4V?bMR1
+Z62 DPx4 work 29 componentes_control_seg_c_pkg 0 22 7Gd`OzBNLMUjCo]=]?njI0
+Z63 DPx4 work 27 componentes_control_seg_pkg 0 22 i`N?BA[nSD4;NdM1;[U>I0
+R33
+R31
+R23
+R2
+R3
+!i122 22
+R0
+Z64 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd
+Z65 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd
+l0
+R57
+V@`0g`CI?J3bToA>NAjNNo3
+!s100 hzd;:[83:AO1M;5Ee1jdo3
+R7
+31
+R58
+!i10b 1
+R47
+Z66 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd|
+Z67 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R61
+R62
+R63
+R33
+R31
+R23
+R2
+R3
+DEx4 work 10 ensam_rd_c 0 22 @`0g`CI?J3bToA>NAjNNo3
+!i122 22
+l41
+L25 38
+VIKHH7YNBQgeS`@;1@F=0E3
+!s100 BPWLY7VR7`OzXU2i8=H_f3
+R7
+31
+R58
+!i10b 1
+R47
+R66
+R67
+!i113 1
+R12
+R13
+Eensam_rd_c_v
+R43
+R61
+R62
+R63
+R33
+R31
+R23
+R2
+R3
+!i122 45
+R0
+Z68 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD_C.vhd
+Z69 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD_C.vhd
+l0
+R57
+VMA_eznk2YAz6J6;9z3O^N2
+!s100 U4BBld_N_7dgjV3;l<[iC2
+R7
+31
+R38
+!i10b 1
+R39
+Z70 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD_C.vhd|
+Z71 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RD_C.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R61
+R62
+R63
+R33
+R31
+R23
+R2
+R3
+DEx4 work 12 ensam_rd_c_v 0 22 MA_eznk2YAz6J6;9z3O^N2
+!i122 45
+l93
+L25 90
+VCbm3n4bTZ>`Lj5@UX=h^X1
+!s100 X[EdVA<GnKmeSUlKI90PF2
+R7
+31
+R38
+!i10b 1
+R39
+R70
+R71
+!i113 1
+R12
+R13
+Eensam_rs
+R1
+R61
+R63
+R33
+R31
+R23
+R2
+R3
+!i122 27
+R0
+Z72 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd
+Z73 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd
+l0
+R57
+VaF<V5Z2^oC?5E7E1WiIfI3
+!s100 ^ENa;LGYQbe1Z2Vo2`=Ec2
+R7
+31
+R58
+!i10b 1
+R47
+Z74 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd|
+Z75 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R61
+R63
+R33
+R31
+R23
+R2
+R3
+DEx4 work 8 ensam_rs 0 22 aF<V5Z2^oC?5E7E1WiIfI3
+!i122 27
+l24
+L22 9
+V=HmA]D6e9bV6CUMeY?jQ22
+!s100 ]UOT@6TV52A<ZHWhIZzk^0
+R7
+31
+R58
+!i10b 1
+R47
+R74
+R75
+!i113 1
+R12
+R13
+Eensam_rs_v
+R43
+R61
+R63
+R33
+R31
+R23
+R2
+R3
+!i122 46
+R0
+Z76 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd
+Z77 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd
+l0
+Z78 L14 1
+V]gaVF4LEiU@IU<_FbzZ650
+!s100 iPc]M_ATead?IGA7fE4SE2
+R7
+31
+R38
+!i10b 1
+R39
+Z79 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd|
+Z80 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_ensam_RS.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R61
+R63
+R33
+R31
+R23
+R2
+R3
+DEx4 work 10 ensam_rs_v 0 22 ]gaVF4LEiU@IU<_FbzZ650
+!i122 46
+l45
+L21 31
+V9^6E@7:43Q<PK]_KG?2eL0
+!s100 kdi@RZiMmo03BTSWJ^OHU0
+R7
+31
+R38
+!i10b 1
+R39
+R79
+R80
+!i113 1
+R12
+R13
+Pimprimir_inst_ascii_pkg
+R23
+R30
+R32
+R33
+R2
+R3
+!i122 49
+R34
+R0
+Z81 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd
+Z82 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd
+l0
+Z83 L16 1
+VD4C0Azd<D0G7]zzHj9Ke[0
+!s100 gVG>O?38Cflh^FARJ^W3]3
+R7
+31
+b1
+R38
+!i10b 1
+R39
+Z84 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd|
+Z85 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd|
+!i113 1
+R12
+R13
+Bbody
+R49
+R23
+R30
+R32
+R33
+R2
+R3
+!i122 49
+l0
+L30 1
+VU=LIOMZDT8@[OlUE=k_OQ3
+!s100 aVkZ6eL^6Y:lJLJ=>0a`W0
+R7
+31
+R38
+!i10b 1
+R39
+R84
+R85
+!i113 1
+R12
+R13
+Einst_latproh
+R43
+R23
+R30
+R31
+R33
+R2
+R3
+!i122 17
+R0
+Z86 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd
+Z87 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd
+l0
+R57
+V:FZE[Z6ON2EK_@c@4?<n?0
+!s100 Ya`gY>HHET4]9UNEaORZ]2
+R7
+31
+R45
+!i10b 1
+Z88 !s108 1673379963.000000
+Z89 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd|
+Z90 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd|
+!i113 1
+R12
+R13
+Acompor
+R23
+R30
+R31
+R33
+R2
+R3
+DEx4 work 12 inst_latproh 0 22 :FZE[Z6ON2EK_@c@4?<n?0
+!i122 17
+l22
+L20 44
+VN9zXT8[@U5n0M3nm`Ak2?2
+!s100 Tj3aLmSCMc^8eDflVKMeH0
+R7
+31
+R45
+!i10b 1
+R88
+R89
+R90
+!i113 1
+R12
+R13
+Elatproh
+R43
+Z91 DPx4 work 10 regdes_pkg 0 22 [KDMkIfIeWV^j5m6BAR==2
+R23
+R33
+R2
+R3
+!i122 25
+R0
+Z92 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd
+Z93 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd
+l0
+Z94 L13 1
+Vf8lj`>EChonf@mg_m4Qh01
+!s100 7^ABDU<?C>KaLX2NZ_B[l2
+R7
+31
+R58
+!i10b 1
+R47
+Z95 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd|
+Z96 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd|
+!i113 1
+R12
+R13
+Aestruc
+R91
+R23
+R33
+R2
+R3
+DEx4 work 7 latproh 0 22 f8lj`>EChonf@mg_m4Qh01
+!i122 25
+l24
+L20 12
+V7Z[dnc[^WzI]LW]=[BEa]1
+!s100 cTUKMQgeJQze3Nc=[V<0e2
+R7
+31
+R58
+!i10b 1
+R47
+R95
+R96
+!i113 1
+R12
+R13
+Elatproh_v
+R43
+R91
+R23
+R33
+R2
+R3
+!i122 39
+R0
+Z97 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_latproh.vhd
+Z98 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_latproh.vhd
+l0
+R94
+Vd:]N3oi4[;HnNZ_f]Uo`N3
+!s100 ]`cMAQO=;BD@ebdzO>n_k1
+R7
+31
+R8
+!i10b 1
+R9
+Z99 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_latproh.vhd|
+Z100 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_latproh.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R91
+R23
+R33
+R2
+R3
+DEx4 work 9 latproh_v 0 22 d:]N3oi4[;HnNZ_f]Uo`N3
+!i122 39
+l23
+L20 25
+V?XW5JGA>gnd8DCz:ZPG<f2
+!s100 o:<jBe:OMcT=0>nG:@Dgo3
+R7
+!i119 1
+31
+R8
+!i10b 1
+R9
+R99
+R100
+!i113 1
+R12
+R13
+Eldc
+R43
+Z101 DPx4 work 23 retardos_cntl_seg_c_pkg 0 22 S=8R^cDTCdWo[NIdP_XA_1
+R91
+R23
+R2
+R3
+!i122 26
+R0
+Z102 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd
+Z103 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd
+l0
+R94
+VdGA:]nez:joh@8cFPY4<a1
+!s100 ^^R5TcBKfief52Abk1U571
+R7
+31
+R58
+!i10b 1
+R47
+Z104 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd|
+Z105 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R101
+R91
+R23
+R2
+R3
+DEx4 work 3 ldc 0 22 dGA:]nez:joh@8cFPY4<a1
+!i122 26
+l26
+L21 23
+Vc?b9JR6gE>DE[7:nXmgg>2
+!s100 e?<8zm0U920fJCNi@U6E`3
+R7
+31
+R58
+!i10b 1
+R47
+R104
+R105
+!i113 1
+R12
+R13
+Eldc_v
+R43
+R101
+R91
+R23
+R2
+R3
+!i122 40
+R0
+Z106 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDC.vhd
+Z107 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDC.vhd
+l0
+R94
+VTceR_f=dL^GRPW73D4Q]z2
+!s100 b4i@Ne8;8B:obIJon01VF3
+R7
+31
+R8
+!i10b 1
+R9
+Z108 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDC.vhd|
+Z109 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDC.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R101
+R91
+R23
+R2
+R3
+DEx4 work 5 ldc_v 0 22 TceR_f=dL^GRPW73D4Q]z2
+!i122 40
+l23
+L21 27
+V7]<m1jQOi]GI85;Lno?=F1
+!s100 dZzh4OXb>LfAbOO8mT`oU2
+R7
+!i119 1
+31
+R8
+!i10b 1
+R9
+R108
+R109
+!i113 1
+R12
+R13
+Eldd
+Z110 w1673379658
+R61
+R63
+R33
+R31
+R23
+R2
+R3
+!i122 24
+R0
+Z111 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd
+Z112 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd
+l0
+L82 1
+VzB^6o36FgeBQZbTP@4leh0
+!s100 bBFEVgFSYZMhBlzBPJ^V@1
+R7
+31
+R58
+!i10b 1
+R47
+Z113 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd|
+Z114 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R61
+R63
+R33
+R31
+R23
+R2
+R3
+DEx4 work 3 ldd 0 22 zB^6o36FgeBQZbTP@4leh0
+!i122 24
+l101
+L92 40
+V9;5l3h9kdaXb^H>Z[^MK43
+!s100 :BT<8WIFJ=A:_>`zJX98c1
+R7
+31
+R58
+!i10b 1
+R47
+R113
+R114
+!i113 1
+R12
+R13
+Eldd_v
+R43
+R61
+R63
+R33
+R31
+R23
+R2
+R3
+!i122 41
+R0
+Z115 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd
+Z116 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd
+l0
+R78
+VaU3lIzdl_7DPD`k8T3V]53
+!s100 Th:GNLPWVSW^I57[8Fhd<1
+R7
+31
+R8
+!i10b 1
+R9
+Z117 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd|
+Z118 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDD.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R61
+R63
+R33
+R31
+R23
+R2
+R3
+DEx4 work 5 ldd_v 0 22 aU3lIzdl_7DPD`k8T3V]53
+!i122 41
+l41
+L24 58
+V<A@Gca^]b0`PonhZ^o6?N1
+!s100 jTGFGQdXF82HPbO0GYEzP3
+R7
+!i119 1
+31
+R8
+!i10b 1
+R9
+R117
+R118
+!i113 1
+R12
+R13
+Eldrd_c
+R43
+R101
+R23
+R2
+R3
+!i122 18
+R0
+Z119 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd
+Z120 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd
+l0
+R44
+VfDVlKzU_G?DV1bP1T?J:M0
+!s100 Oj83Ake[kJ7QKIB34llzG3
+R7
+31
+R45
+!i10b 1
+R88
+Z121 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd|
+Z122 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R101
+R23
+R2
+R3
+DEx4 work 6 ldrd_c 0 22 fDVlKzU_G?DV1bP1T?J:M0
+!i122 18
+l22
+L21 5
+V3fTYTQ0gYcF0D=i2:EgmC3
+!s100 faSg24B]^5:YLMAKWGbC61
+R7
+31
+R45
+!i10b 1
+R88
+R121
+R122
+!i113 1
+R12
+R13
+Eldrd_c_v
+R43
+R101
+R23
+R2
+R3
+!i122 42
+R0
+Z123 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD_C.vhd
+Z124 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD_C.vhd
+l0
+R44
+V@cOBSWz[Ym;A4Y1??>9Xc2
+!s100 OUH]C?5CbilC`mB[E4RL;3
+R7
+31
+R38
+!i10b 1
+R9
+Z125 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD_C.vhd|
+Z126 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRD_C.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R101
+R23
+R2
+R3
+DEx4 work 8 ldrd_c_v 0 22 @cOBSWz[Ym;A4Y1??>9Xc2
+!i122 42
+l22
+L21 22
+V8E4XMn2<@UIV;8]9KNkB52
+!s100 `65`i^canVMBT@:]ziILM3
+R7
+!i119 1
+31
+R38
+!i10b 1
+R9
+R125
+R126
+!i113 1
+R12
+R13
+Eldrs
+R1
+R61
+R23
+R63
+R33
+R31
+R2
+R3
+!i122 29
+R0
+Z127 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd
+Z128 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd
+l0
+R94
+V[^8zDY99ZLIoCfcW8[k9O0
+!s100 Wj3^WGkiCoHc3ON>]jlK_0
+R7
+31
+R58
+!i10b 1
+R47
+Z129 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd|
+Z130 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R61
+R23
+R63
+R33
+R31
+R2
+R3
+DEx4 work 4 ldrs 0 22 [^8zDY99ZLIoCfcW8[k9O0
+!i122 29
+l21
+L19 7
+V?O5:Pb>g??g965WHgdR?[2
+!s100 i:QQ_naI8V>IPTdid80`50
+R7
+31
+R58
+!i10b 1
+R47
+R129
+R130
+!i113 1
+R12
+R13
+Eldrs_v
+R43
+R61
+R23
+R63
+R33
+R31
+R2
+R3
+!i122 43
+R0
+Z131 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd
+Z132 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd
+l0
+R94
+Vh8RUSU4Y3=@a_iYk@`0;71
+!s100 36P810[`D019z<JT`:bOH3
+R7
+31
+R38
+!i10b 1
+R39
+Z133 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd|
+Z134 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LDRS.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R61
+R23
+R63
+R33
+R31
+R2
+R3
+DEx4 work 6 ldrs_v 0 22 h8RUSU4Y3=@a_iYk@`0;71
+!i122 43
+l35
+L19 21
+VCi853;8lCnZ8A:IdK343H0
+!s100 8OOa_`I:8ecaNX=^YC<0K1
+R7
+!i119 1
+31
+R38
+!i10b 1
+R39
+R133
+R134
+!i113 1
+R12
+R13
+Elgr
+R1
+R61
+R23
+R63
+R33
+R31
+R2
+R3
+!i122 30
+R0
+Z135 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd
+Z136 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd
+l0
+R94
+V1cm?O7zHQMKT;>j6?oYEY1
+!s100 dAZ_Gi3dIco8^mQfg0h2m1
+R7
+31
+R58
+!i10b 1
+R47
+Z137 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd|
+Z138 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R61
+R23
+R63
+R33
+R31
+R2
+R3
+DEx4 work 3 lgr 0 22 1cm?O7zHQMKT;>j6?oYEY1
+!i122 30
+l21
+Z139 L19 11
+Voe_HT?>R]Qi7X=Tf5e1Q`0
+!s100 lMz;m8A3O:a?Yz3a??Mob3
+R7
+31
+R58
+!i10b 1
+R47
+R137
+R138
+!i113 1
+R12
+R13
+Elgr_v
+R43
+R61
+R23
+R63
+R33
+R31
+R2
+R3
+!i122 44
+R0
+Z140 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd
+Z141 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd
+l0
+R94
+V:=Hb8WiJ3<fc3N5@<d;eA2
+!s100 GNUbnGIbZ:JNGIj88G7XQ1
+R7
+31
+R38
+!i10b 1
+R39
+Z142 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd|
+Z143 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LGR.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R61
+R23
+R63
+R33
+R31
+R2
+R3
+DEx4 work 5 lgr_v 0 22 :=Hb8WiJ3<fc3N5@<d;eA2
+!i122 44
+l22
+L19 24
+VnAnm2eimD[WWzW7z4BaDj1
+!s100 SY1<I9@bA>6M`XeA?V3Wi2
+R7
+!i119 1
+31
+R38
+!i10b 1
+R39
+R142
+R143
+!i113 1
+R12
+R13
+Elib_c
+R43
+R61
+R62
+R63
+R33
+R31
+R23
+R2
+R3
+!i122 19
+R0
+Z144 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C.vhd
+Z145 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C.vhd
+l0
+R83
+Vd06hKG0CR^z18YICBGF]z3
+!s100 HbB8BYWWVCUi[S;]02gcM2
+R7
+31
+R45
+!i10b 1
+R88
+Z146 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C.vhd|
+Z147 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R61
+R62
+R63
+R33
+R31
+R23
+R2
+R3
+DEx4 work 5 lib_c 0 22 d06hKG0CR^z18YICBGF]z3
+!i122 19
+l33
+L25 20
+Vz:dmmE?QBI`^QD`XUna<j3
+!s100 lGDI8CcBk8`UP4aWViE`i3
+R7
+31
+R45
+!i10b 1
+R88
+R146
+R147
+!i113 1
+R12
+R13
+Elib_c_v
+R43
+R61
+R63
+R33
+R31
+R23
+R2
+R3
+!i122 47
+R0
+Z148 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB_C.vhd
+Z149 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB_C.vhd
+l0
+R78
+VXNz;ZA>jM3ge`ZE^N3N`91
+!s100 ?TLXQ=^0jKRULSl5HZGQ]3
+R7
+31
+R38
+!i10b 1
+R39
+Z150 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB_C.vhd|
+Z151 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/VHDL_P/enc_LIB_C.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R61
+R63
+R33
+R31
+R23
+R2
+R3
+DEx4 work 7 lib_c_v 0 22 XNz;ZA>jM3ge`ZE^N3N`91
+!i122 47
+l66
+L23 57
+VdlCb@3@J6WX0K4NLDgRk`0
+!s100 DXzFH[TN4aF;UG:F^5I?D1
+R7
+31
+R38
+!i10b 1
+R39
+R150
+R151
+!i113 1
+R12
+R13
+Eorv2
+R1
+R2
+R3
+!i122 36
+R0
+Z152 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orv2.vhd
+Z153 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orv2.vhd
+l0
+R6
+VlgSKe9mO]Q7<aR[d5:O_R2
+!s100 R0k`Wm294V;43W77ZEO>X1
+R7
+31
+R8
+!i10b 1
+R9
+Z154 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orv2.vhd|
+Z155 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orv2.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R2
+R3
+DEx4 work 4 orv2 0 22 lgSKe9mO]Q7<aR[d5:O_R2
+!i122 36
+l17
+R14
+VT5AzR`^zg@nKog=fmG0o]2
+!s100 I[>D[CN_KU58XP0UY97kz1
+R7
+31
+R8
+!i10b 1
+R9
+R154
+R155
+!i113 1
+R12
+R13
+Eorvn
+R1
+R2
+R3
+!i122 37
+R0
+Z156 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orvn.vhd
+Z157 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orvn.vhd
+l0
+R6
+V_`hgd>_HH8M6F[9UAOI340
+!s100 g;H8SIbMM3alNnW@GniZU1
+R7
+31
+R8
+!i10b 1
+R9
+Z158 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orvn.vhd|
+Z159 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/PUERTAS/CODIGO/orvn.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R2
+R3
+DEx4 work 4 orvn 0 22 _`hgd>_HH8M6F[9UAOI340
+!i122 37
+l17
+R14
+VfDk78;f`N2C:V]O9bOjO^2
+!s100 6ffZz3]C52bef01KOjzi`1
+R7
+31
+R8
+!i10b 1
+R9
+R158
+R159
+!i113 1
+R12
+R13
+Pparam_disenyo_pkg
+R2
+R3
+!i122 5
+R34
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd
+l0
+L9 1
+V8Te25YoJ;_<V`[eDlKgZY3
+!s100 R04kPolABXkg2:c]Cz1932
+R7
+31
+R48
+!i10b 1
+R46
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd|
+!i113 1
+R12
+R13
+Eprueba_lib_c
+R43
+R49
+R54
+R29
+R30
+R42
+R23
+R31
+R32
+R33
+R2
+R3
+!i122 51
+R0
+Z160 8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/prueba_LIB_C.vhd
+Z161 F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/prueba_LIB_C.vhd
+l0
+Z162 L17 1
+Vd^PG>AP<;T6<<S[3:gAB10
+!s100 zPCQ[P3DzHf_V3CeKiK1@2
+R7
+33
+Z163 !s110 1673379967
+!i10b 1
+R39
+Z164 !s90 -reportprogress|300|-2008|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/prueba_LIB_C.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/prueba_LIB_C.vhd|
+!i113 1
+Z165 o-2008 -work work
+R13
+Acomportamiento
+R49
+R54
+R29
+R30
+R42
+R23
+R31
+R32
+R33
+R2
+R3
+DEx4 work 12 prueba_lib_c 0 22 d^PG>AP<;T6<<S[3:gAB10
+!i122 51
+l129
+L20 336
+VQDHzU`c``>aeH?58zF6aH2
+!s100 gCo5KQbNiCj0kfLOEikhH3
+R7
+33
+R163
+!i10b 1
+R39
+R164
+Z166 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../PRUEBAS/prueba_LIB_C.vhd|
+!i113 1
+R165
+R13
+Erd_1
+R1
+Z167 DPx4 work 19 retardos_regdes_pkg 0 22 6@6QTXaf2g][;TlBQeGj80
+R23
+R2
+R3
+!i122 14
+R0
+Z168 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd
+Z169 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd
+l0
+R44
+V^LzfZCTJ1EHm^LjQk1O[31
+!s100 ci<d=]mfzi0;X[4UcR;Zc2
+R7
+31
+R45
+!i10b 1
+R88
+Z170 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd|
+Z171 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R167
+R23
+R2
+R3
+DEx4 work 4 rd_1 0 22 ^LzfZCTJ1EHm^LjQk1O[31
+!i122 14
+l19
+L18 9
+VJJbkUC8XjSom]LGU6]9<R0
+!s100 _b:AnN:WkX04]loOczDh[0
+R7
+31
+R45
+!i10b 1
+R88
+R170
+R171
+!i113 1
+R12
+R13
+Erd_n
+R1
+R167
+R23
+R2
+R3
+!i122 12
+R0
+Z172 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd
+Z173 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd
+l0
+R44
+V?jgc1WdPgA7I]XZC1Lng^1
+!s100 =9jF@PZBk2I3cG4]M@S@H1
+R7
+31
+R45
+!i10b 1
+R88
+Z174 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd|
+Z175 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R167
+R23
+R2
+R3
+DEx4 work 4 rd_n 0 22 ?jgc1WdPgA7I]XZC1Lng^1
+!i122 12
+l20
+L19 9
+V>ioKWkF][<ni^L@YDg3hf1
+!s100 0R[Bo26fVUU=SM^09`F540
+R7
+31
+R45
+!i10b 1
+R88
+R174
+R175
+!i113 1
+R12
+R13
+Erdb_n
+R1
+R167
+R23
+R2
+R3
+!i122 10
+R0
+Z176 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd
+Z177 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd
+l0
+R44
+VHH5RNKDHG?A@J@o[i>3622
+!s100 lLlaB]iKDMdn@DLhYYF>20
+R7
+31
+R45
+!i10b 1
+R88
+Z178 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd|
+Z179 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R167
+R23
+R2
+R3
+DEx4 work 5 rdb_n 0 22 HH5RNKDHG?A@J@o[i>3622
+!i122 10
+l20
+R139
+VZ2;zPO<]mcoj2@j9JfgMG0
+!s100 IoMgj6kKLF]TZYNGjG];X1
+R7
+31
+R45
+!i10b 1
+R88
+R178
+R179
+!i113 1
+R12
+R13
+Erdecopbropsec
+R1
+R91
+R63
+R23
+R31
+R33
+R2
+R3
+!i122 20
+R0
+Z180 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd
+Z181 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd
+l0
+R162
+VgnYIGiGe8<WlNlzBaO2Ao3
+!s100 h_@=B:VQicF]b0^WlCH7S1
+R7
+31
+R58
+!i10b 1
+R88
+Z182 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd|
+Z183 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R91
+R63
+R23
+R31
+R33
+R2
+R3
+DEx4 work 13 rdecopbropsec 0 22 gnYIGiGe8<WlNlzBaO2Ao3
+!i122 20
+l27
+L25 12
+V0lM3bBk?<dIg4n:BWNjnN2
+!s100 T<J]ffDR]Aj]7>gSGl_@]0
+R7
+31
+R58
+!i10b 1
+R88
+R182
+R183
+!i113 1
+R12
+R13
+Erdi_1
+R1
+R167
+R23
+R2
+R3
+!i122 13
+R0
+Z184 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd
+Z185 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd
+l0
+R44
+V9TncB2JCMCeGFB`Ad[[=l0
+!s100 ]_F4NmbUIl0dJTZ9L9KKS2
+R7
+31
+R45
+!i10b 1
+R88
+Z186 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd|
+Z187 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R167
+R23
+R2
+R3
+DEx4 work 5 rdi_1 0 22 9TncB2JCMCeGFB`Ad[[=l0
+!i122 13
+l19
+L18 13
+VMz5M9]mAdmgn]>hR]cIWc2
+!s100 Lh]<imWje1RXKbjlD4EL93
+R7
+31
+R45
+!i10b 1
+R88
+R186
+R187
+!i113 1
+R12
+R13
+Erdi_n
+R1
+R167
+R23
+R2
+R3
+!i122 11
+R0
+Z188 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd
+Z189 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd
+l0
+R44
+V1nFmH?4D8`mI[48=hBo7L2
+!s100 CNW02e^mUDd2U7WT34RZd0
+R7
+31
+R45
+!i10b 1
+R88
+Z190 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd|
+Z191 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd|
+!i113 1
+R12
+R13
+Acomportamiento
+R167
+R23
+R2
+R3
+DEx4 work 5 rdi_n 0 22 1nFmH?4D8`mI[48=hBo7L2
+!i122 11
+l20
+L19 13
+V<<?`JjG>XLR5McP[Q9:C@3
+!s100 N^[hJJPTUd0d7z?5>i;JV1
+R7
+31
+R45
+!i10b 1
+R88
+R190
+R191
+!i113 1
+R12
+R13
+Pregdes_pkg
+R23
+R2
+R3
+!i122 7
+R1
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd
+l0
+R26
+V[KDMkIfIeWV^j5m6BAR==2
+!s100 =n<LVeP4HNgjLFaF[i31D3
+R7
+31
+R48
+!i10b 1
+R46
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd|
+!i113 1
+R12
+R13
+Pretardos_cntl_seg_c_pkg
+R2
+R3
+!i122 3
+R43
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd
+l0
+L9 1
+VS=8R^cDTCdWo[NIdP_XA_1
+!s100 OoIRN:jEm`2?4^Ue>;CbR0
+R7
+31
+R48
+!i10b 1
+R46
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd|
+!i113 1
+R12
+R13
+Pretardos_cntl_seg_pkg
+R2
+R3
+!i122 32
+R1
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
+l0
+L9 1
+VLHlVB3l36icZCao4V?bMR1
+!s100 gc@7;zYHzO^Y_W>k<mngL1
+R7
+31
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/LIB/QUARTUS/../../../../../LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd|
+!i113 1
+R12
+R13
+Pretardos_regdes_pkg
+R2
+R3
+!i122 0
+R1
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
+l0
+L9 1
+V6@6QTXaf2g][;TlBQeGj80
+!s100 TRE>;HVlkd]:_U;MK18HP1
+R7
+31
+R48
+!i10b 1
+R46
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd|
+!i113 1
+R12
+R13
+Priscv32_coop_funct_pkg
+R2
+R3
+!i122 1
+R34
+R0
+8/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd
+F/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd
+l0
+L9 1
+VjW?=dRk>GS4KoTiz[hJH30
+!s100 N2gmASQLGFQga<1WaKe:80
+R7
+31
+R48
+!i10b 1
+R46
+!s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd|
+!s107 /home/jafeth/uni/ac2/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd|
+!i113 1
+R12
+R13
+Esenya_cntlrd
+R1
+R91
+R61
+R33
+R31
+R23
+R2
+R3
+!i122 23
+R0
+Z192 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd
+Z193 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd
+l0
+R57
+VdcgKMM]1m6?LJ3=eXR0j[1
+!s100 75dLD02oP`K]nW=^3`8NQ3
+R7
+31
+R58
+!i10b 1
+R47
+Z194 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd|
+Z195 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R91
+R61
+R33
+R31
+R23
+R2
+R3
+DEx4 work 12 senya_cntlrd 0 22 dcgKMM]1m6?LJ3=eXR0j[1
+!i122 23
+l28
+L24 27
+V53iPfVFG8i7CY2NR5kAo[3
+!s100 ?zP0aEKT1C8=c1c7nf0B^3
+R7
+31
+R58
+!i10b 1
+R47
+R194
+R195
+!i113 1
+R12
+R13
+Esenya_cntlrs
+R1
+R91
+R61
+R33
+R31
+R23
+R2
+R3
+!i122 28
+R0
+Z196 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd
+Z197 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd
+l0
+R78
+VzBCjfFaoo?7k>HT[L^09n3
+!s100 Qfm_?oZ0BzO7hCbOB9zM11
+R7
+31
+R58
+!i10b 1
+R47
+Z198 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd|
+Z199 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd|
+!i113 1
+R12
+R13
+Aestructural
+R91
+R61
+R33
+R31
+R23
+R2
+R3
+DEx4 work 12 senya_cntlrs 0 22 zBCjfFaoo?7k>HT[L^09n3
+!i122 28
+l22
+L21 7
+VC6>YM^cT9B4_Qjj4D8O031
+!s100 Uh:;d0=C2e3[zkDGefDa52
+R7
+31
+R58
+!i10b 1
+R47
+R198
+R199
+!i113 1
+R12
+R13
+Evalreg
+R1
+R23
+R30
+R31
+R33
+R2
+R3
+!i122 15
+R0
+Z200 8/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd
+Z201 F/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd
+l0
+R78
+V3dbd?@ESPYPdoh4H=k0<b2
+!s100 _fBne;eY^VYd7cZdUAoCd2
+R7
+31
+R45
+!i10b 1
+R88
+Z202 !s90 -reportprogress|300|-93|-work|work|/home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd|
+Z203 !s107 /home/jafeth/uni/ac2/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd|
+!i113 1
+R12
+R13
+Acompor
+R23
+R30
+R31
+R33
+R2
+R3
+DEx4 work 6 valreg 0 22 3dbd?@ESPYPdoh4H=k0<b2
+!i122 15
+l21
+L19 51
+Vhc?lT?@fgRiF;DP2F=8_43
+!s100 GD[a<@_IQodnbW1;1Hie02
+R7
+31
+R45
+!i10b 1
+R88
+R202
+R203
+!i113 1
+R12
+R13

@@ -1,0 +1,1483 @@
+Analysis & Elaboration report for Rproc_MD_MI
+Thu Jan  5 14:31:03 2023
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rdecodificador:deco|RDB_DL_N:RDL3_instr
+  5. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RFMTD:form_dat|RDB_N:RDL3_FMTD
+  6. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RDB_N:RDL3_IDL1
+  7. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RDB_N:RDL3_IDL2
+  8. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RDB_N:RDL3_IDE
+  9. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RD_N:RA4_IDE
+ 10. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RD_N:RM5_IDE
+ 11. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RD_N:R6_IDE
+ 12. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1
+ 13. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|RDB_N:RDL3_CP
+ 14. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|RD_N:RA4_CP
+ 15. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|RD_N:RA4_L1
+ 16. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|RDI_N:RA4_mL1
+ 17. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|mux3:muxRmL1
+ 18. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL2:muxL2
+ 19. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL2:muxL2|RD_N:RA4_L2
+ 20. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL2:muxL2|RD_N:RA4_FMTD
+ 21. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL2:muxL2|mux2:muxRmL2
+ 22. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|Ralu:alu_map|RDI_N:RA4_opALU
+ 23. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES
+ 24. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES|RDI_N:RA4_mES
+ 25. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES|RD_N:RM5_mES
+ 26. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES|RD_N:R6_mES
+ 27. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES|RDB_N:RDL3_CPret
+ 28. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES|mux3:muxRmES
+ 29. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|RDECS:control|RDI_N:RA4_opSEC
+ 30. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|RFMTS:formatearS|RDB_N:RDL3_FMTS
+ 31. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmuxdirec:muxrelatindex
+ 32. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmuxdirec:muxrelatindex|RDB_N:RDL3_CP
+ 33. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmuxdirec:muxrelatindex|RD_N:RA4_CP
+ 34. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmuxdirec:muxrelatindex|RD_N:RA4_L1
+ 35. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmuxdirec:muxrelatindex|muxdirec:R_mSI
+ 36. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rsum_secu:sumrelatindex|RD_N:RA4_FMTS
+ 37. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Reval:evaluar|RD_N:RA4_L1
+ 38. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Reval:evaluar|RD_N:RA4_L2
+ 39. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|RmuxmSIC:nuxSIC
+ 40. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|RmuxmSIC:nuxSIC|RDB_N:RDL3_CP4
+ 41. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|RmuxmSIC:nuxSIC|muxdirec:R_mSIC
+ 42. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmxsecseg:mxsecseg
+ 43. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmxsecseg:mxsecseg|RDI_N:RA4_opSEC
+ 44. Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmxsecseg:mxsecseg|muxdirec:R_msecseg
+ 45. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|RD_N:RA4_ent
+ 46. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|RDI_N:RA4_opMD
+ 47. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|FMTE:R_FMTE|alinearE:alinaE|mux2M:\columna:1:iter:1:filab:2:gencoluma
+ 48. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|FMTE:R_FMTE|alinearE:alinaE|mux2M:\columna:1:iter:1:filab:3:gencoluma
+ 49. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|FMTE:R_FMTE|alinearE:alinaE|mux2M:\columna:2:iter:1:filab:1:gencoluma
+ 50. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|FMTE:R_FMTE|alinearE:alinaE|mux2M:\columna:2:iter:2:filab:3:gencoluma
+ 51. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RDI_N:RA4_opMD
+ 52. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|RD_N:R6_ent
+ 53. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|RDI_N:RA4_opMD
+ 54. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|RD_N:RM5_opMD
+ 55. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|RD_N:R6_opMD
+ 56. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|RD_N:RM5_dirbyte
+ 57. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|RD_N:R6_dirbyte
+ 58. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|alinear:alina|mux2M:\columna:1:filaa:0:gencoluma
+ 59. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|alinear:alina|mux2M:\columna:1:filaa:1:gencoluma
+ 60. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|alinear:alina|mux2M:\columna:2:filaa:0:gencoluma
+ 61. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|FMTL_extsig:ext_sig|mux2M:\selec:1:muxsig
+ 62. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|FMTL_extsig:ext_sig|mux2M:\selec:2:muxsig
+ 63. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|FMTL_extsig:ext_sig|mux2M:\selec:3:muxsig
+ 64. Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|Racceso_MD:Rcompro_acc|RDI_N:RA4_opMD
+ 65. Parameter Settings for User Entity Instance: LIB:logica_LIB|RdecoPBRopSEC:R_decPBRSEC|RDB_N:RDDL3_instrucDL
+ 66. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RDI_N:RDA4_rd
+ 67. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDM5_rd
+ 68. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RD6_rd
+ 69. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDE7_rd
+ 70. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp1
+ 71. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp2
+ 72. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp1
+ 73. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp2
+ 74. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp3
+ 75. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp4
+ 76. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp5
+ 77. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp6
+ 78. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp7
+ 79. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp8
+ 80. Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RS:R_Sec|senya_cntlRS:senyales_cntl|RDI_N:RDA4_opsec
+ 81. Analysis & Elaboration Settings
+ 82. Port Connectivity Checks: "LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp2"
+ 83. Port Connectivity Checks: "LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp1"
+ 84. Port Connectivity Checks: "Rcam_MEM_DATOS:Mem_DATOS|RDI_N:RA4_opMD"
+ 85. Port Connectivity Checks: "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmxsecseg:mxsecseg|RDI_N:RA4_opSEC"
+ 86. Port Connectivity Checks: "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1"
+ 87. Port Connectivity Checks: "Rcam_MEM_INST_INY_Pcero:Mem_INST|muxIns:mux_bus"
+ 88. Port Connectivity Checks: "Rcam_MEM_INST_INY_Pcero:Mem_INST|muxIns:mux_pcero"
+ 89. Analysis & Elaboration Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                   ;
++------------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status      ; Successful - Thu Jan  5 14:31:03 2023       ;
+; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                      ; Rproc_MD_MI                                 ;
+; Top-level Entity Name              ; Rproc_MD_MI                                 ;
+; Family                             ; Cyclone IV GX                               ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total GXB Receiver Channel PCS     ; N/A until Partition Merge                   ;
+; Total GXB Receiver Channel PMA     ; N/A until Partition Merge                   ;
+; Total GXB Transmitter Channel PCS  ; N/A until Partition Merge                   ;
+; Total GXB Transmitter Channel PMA  ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 32          ;
+; Maximum allowed            ; 12          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rdecodificador:deco|RDB_DL_N:RDL3_instr ;
++----------------+-------+----------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                   ;
++----------------+-------+----------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                         ;
++----------------+-------+----------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RFMTD:form_dat|RDB_N:RDL3_FMTD ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                  ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                        ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RDB_N:RDL3_IDL1 ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                       ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                                                             ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RDB_N:RDL3_IDL2 ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                       ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                                                             ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RDB_N:RDL3_IDE ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RD_N:RA4_IDE ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                    ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                                                          ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RD_N:RM5_IDE ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                    ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                                                          ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RD_N:R6_IDE ;
++----------------+-------+--------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                   ;
++----------------+-------+--------------------------------------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                                                         ;
++----------------+-------+--------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1 ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; sel1           ; 00    ; Unsigned Binary                                                                   ;
+; sel2           ; 01    ; Unsigned Binary                                                                   ;
+; sel3           ; 10    ; Unsigned Binary                                                                   ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|RDB_N:RDL3_CP ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                            ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                  ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|RD_N:RA4_CP ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                          ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|RD_N:RA4_L1 ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                          ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|RDI_N:RA4_mL1 ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                            ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+; tam            ; 2     ; Signed Integer                                                                                  ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|mux3:muxRmL1 ;
++----------------+-------+------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------------+
+; sel1           ; 00    ; Unsigned Binary                                                                                ;
+; sel2           ; 01    ; Unsigned Binary                                                                                ;
+; sel3           ; 10    ; Unsigned Binary                                                                                ;
++----------------+-------+------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL2:muxL2 ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; sel1           ; '0'   ; Enumerated                                                                        ;
+; sel2           ; '1'   ; Enumerated                                                                        ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL2:muxL2|RD_N:RA4_L2 ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                          ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL2:muxL2|RD_N:RA4_FMTD ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                            ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                  ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL2:muxL2|mux2:muxRmL2 ;
++----------------+-------+------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------------+
+; sel1           ; '0'   ; Enumerated                                                                                     ;
+; sel2           ; '1'   ; Enumerated                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|Ralu:alu_map|RDI_N:RA4_opALU ;
++----------------+-------+-----------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                ;
++----------------+-------+-----------------------------------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES ;
++----------------+-------+------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                               ;
++----------------+-------+------------------------------------------------------------------------------------+
+; sel1           ; 00    ; Unsigned Binary                                                                    ;
+; sel2           ; 01    ; Unsigned Binary                                                                    ;
+; sel3           ; 10    ; Unsigned Binary                                                                    ;
++----------------+-------+------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES|RDI_N:RA4_mES ;
++----------------+-------+--------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                             ;
++----------------+-------+--------------------------------------------------------------------------------------------------+
+; tam            ; 2     ; Signed Integer                                                                                   ;
++----------------+-------+--------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES|RD_N:RM5_mES ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                            ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+; tam            ; 2     ; Signed Integer                                                                                  ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES|RD_N:R6_mES ;
++----------------+-------+------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------------+
+; tam            ; 2     ; Signed Integer                                                                                 ;
++----------------+-------+------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES|RDB_N:RDL3_CPret ;
++----------------+-------+-----------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                ;
++----------------+-------+-----------------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES|mux3:muxRmES ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                            ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+; sel1           ; 00    ; Unsigned Binary                                                                                 ;
+; sel2           ; 01    ; Unsigned Binary                                                                                 ;
+; sel3           ; 10    ; Unsigned Binary                                                                                 ;
++----------------+-------+-------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|RDECS:control|RDI_N:RA4_opSEC ;
++----------------+-------+------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                         ;
++----------------+-------+------------------------------------------------------------------------------+
+; tam            ; 4     ; Signed Integer                                                               ;
++----------------+-------+------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|RFMTS:formatearS|RDB_N:RDL3_FMTS ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmuxdirec:muxrelatindex ;
++----------------+-------+--------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                             ;
++----------------+-------+--------------------------------------------------------------------------------------------------+
+; sel1           ; '0'   ; Enumerated                                                                                       ;
+; sel2           ; '1'   ; Enumerated                                                                                       ;
++----------------+-------+--------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmuxdirec:muxrelatindex|RDB_N:RDL3_CP ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                           ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                                 ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmuxdirec:muxrelatindex|RD_N:RA4_CP ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                         ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                               ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmuxdirec:muxrelatindex|RD_N:RA4_L1 ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                         ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                               ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmuxdirec:muxrelatindex|muxdirec:R_mSI ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------------+
+; sel1           ; '0'   ; Enumerated                                                                                                      ;
+; sel2           ; '1'   ; Enumerated                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rsum_secu:sumrelatindex|RD_N:RA4_FMTS ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                           ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                                 ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Reval:evaluar|RD_N:RA4_L1 ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                               ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                     ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Reval:evaluar|RD_N:RA4_L2 ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                               ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                     ;
++----------------+-------+----------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|RmuxmSIC:nuxSIC ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; sel1           ; '0'   ; Enumerated                                                                               ;
+; sel2           ; '1'   ; Enumerated                                                                               ;
++----------------+-------+------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|RmuxmSIC:nuxSIC|RDB_N:RDL3_CP4 ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                    ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                                          ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|RmuxmSIC:nuxSIC|muxdirec:R_mSIC ;
++----------------+-------+----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                     ;
++----------------+-------+----------------------------------------------------------------------------------------------------------+
+; sel1           ; '0'   ; Enumerated                                                                                               ;
+; sel2           ; '1'   ; Enumerated                                                                                               ;
++----------------+-------+----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmxsecseg:mxsecseg ;
++----------------+-------+---------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                        ;
++----------------+-------+---------------------------------------------------------------------------------------------+
+; sel1           ; '0'   ; Enumerated                                                                                  ;
+; sel2           ; '1'   ; Enumerated                                                                                  ;
++----------------+-------+---------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmxsecseg:mxsecseg|RDI_N:RA4_opSEC ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                        ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------+
+; tam            ; 4     ; Signed Integer                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmxsecseg:mxsecseg|muxdirec:R_msecseg ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                           ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------+
+; sel1           ; '0'   ; Enumerated                                                                                                     ;
+; sel2           ; '1'   ; Enumerated                                                                                                     ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|RD_N:RA4_ent ;
++----------------+-------+---------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                      ;
++----------------+-------+---------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                            ;
++----------------+-------+---------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|RDI_N:RA4_opMD ;
++----------------+-------+-----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                        ;
++----------------+-------+-----------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                              ;
++----------------+-------+-----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|FMTE:R_FMTE|alinearE:alinaE|mux2M:\columna:1:iter:1:filab:2:gencoluma ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                               ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------+
+; tam_mux_datos  ; 8     ; Signed Integer                                                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|FMTE:R_FMTE|alinearE:alinaE|mux2M:\columna:1:iter:1:filab:3:gencoluma ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                               ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------+
+; tam_mux_datos  ; 8     ; Signed Integer                                                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|FMTE:R_FMTE|alinearE:alinaE|mux2M:\columna:2:iter:1:filab:1:gencoluma ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                               ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------+
+; tam_mux_datos  ; 8     ; Signed Integer                                                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|FMTE:R_FMTE|alinearE:alinaE|mux2M:\columna:2:iter:2:filab:3:gencoluma ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                               ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------+
+; tam_mux_datos  ; 8     ; Signed Integer                                                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RDI_N:RA4_opMD ;
++----------------+-------+-------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                        ;
++----------------+-------+-------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                              ;
++----------------+-------+-------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|RD_N:R6_ent ;
++----------------+-------+--------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                     ;
++----------------+-------+--------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                           ;
++----------------+-------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|RDI_N:RA4_opMD ;
++----------------+-------+-----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                        ;
++----------------+-------+-----------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                              ;
++----------------+-------+-----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|RD_N:RM5_opMD ;
++----------------+-------+----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                       ;
++----------------+-------+----------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                             ;
++----------------+-------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|RD_N:R6_opMD ;
++----------------+-------+---------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                      ;
++----------------+-------+---------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                            ;
++----------------+-------+---------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|RD_N:RM5_dirbyte ;
++----------------+-------+-------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                          ;
++----------------+-------+-------------------------------------------------------------------------------+
+; tam            ; 2     ; Signed Integer                                                                ;
++----------------+-------+-------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|RD_N:R6_dirbyte ;
++----------------+-------+------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                         ;
++----------------+-------+------------------------------------------------------------------------------+
+; tam            ; 2     ; Signed Integer                                                               ;
++----------------+-------+------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|alinear:alina|mux2M:\columna:1:filaa:0:gencoluma ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; tam_mux_datos  ; 8     ; Signed Integer                                                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|alinear:alina|mux2M:\columna:1:filaa:1:gencoluma ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; tam_mux_datos  ; 8     ; Signed Integer                                                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|alinear:alina|mux2M:\columna:2:filaa:0:gencoluma ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; tam_mux_datos  ; 8     ; Signed Integer                                                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|FMTL_extsig:ext_sig|mux2M:\selec:1:muxsig ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                               ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------+
+; tam_mux_datos  ; 8     ; Signed Integer                                                                                                     ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|FMTL_extsig:ext_sig|mux2M:\selec:2:muxsig ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                               ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------+
+; tam_mux_datos  ; 8     ; Signed Integer                                                                                                     ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|FMTL_extsig:ext_sig|mux2M:\selec:3:muxsig ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                               ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------+
+; tam_mux_datos  ; 8     ; Signed Integer                                                                                                     ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Rcam_MEM_DATOS:Mem_DATOS|Racceso_MD:Rcompro_acc|RDI_N:RA4_opMD ;
++----------------+-------+------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                               ;
++----------------+-------+------------------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|RdecoPBRopSEC:R_decPBRSEC|RDB_N:RDDL3_instrucDL ;
++----------------+-------+------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                               ;
++----------------+-------+------------------------------------------------------------------------------------+
+; tam            ; 32    ; Signed Integer                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RDI_N:RDA4_rd ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                       ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                                             ;
++----------------+-------+--------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDM5_rd ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                      ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                                            ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RD6_rd ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl|RD_N:RDE7_rd ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                      ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                                            ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp1 ;
++----------------+-------+---------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                      ;
++----------------+-------+---------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                            ;
++----------------+-------+---------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp2 ;
++----------------+-------+---------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                      ;
++----------------+-------+---------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                            ;
++----------------+-------+---------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp1 ;
++----------------+-------+-----------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                  ;
++----------------+-------+-----------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                        ;
++----------------+-------+-----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp2 ;
++----------------+-------+-----------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                  ;
++----------------+-------+-----------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                        ;
++----------------+-------+-----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp3 ;
++----------------+-------+-----------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                  ;
++----------------+-------+-----------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                        ;
++----------------+-------+-----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp4 ;
++----------------+-------+-----------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                  ;
++----------------+-------+-----------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                        ;
++----------------+-------+-----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp5 ;
++----------------+-------+-----------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                  ;
++----------------+-------+-----------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                        ;
++----------------+-------+-----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp6 ;
++----------------+-------+-----------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                  ;
++----------------+-------+-----------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                        ;
++----------------+-------+-----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp7 ;
++----------------+-------+-----------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                  ;
++----------------+-------+-----------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                        ;
++----------------+-------+-----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:comp8 ;
++----------------+-------+-----------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                  ;
++----------------+-------+-----------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                        ;
++----------------+-------+-----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LIB:logica_LIB|ensam_RS:R_Sec|senya_cntlRS:senyales_cntl|RDI_N:RDA4_opsec ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                          ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+; tam            ; 4     ; Signed Integer                                                                                ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                            ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CGX30CF23C6     ;                    ;
+; Top-level entity name                                            ; Rproc_MD_MI        ; Rproc_MD_MI        ;
+; Family name                                                      ; Cyclone IV GX      ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Port Connectivity Checks: "LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp2" ;
++------+-------+----------+---------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                 ;
++------+-------+----------+---------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                            ;
++------+-------+----------+---------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Port Connectivity Checks: "LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp1" ;
++------+-------+----------+---------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                 ;
++------+-------+----------+---------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                            ;
++------+-------+----------+---------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Rcam_MEM_DATOS:Mem_DATOS|RDI_N:RA4_opMD"                                               ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; s[2..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; s[4]    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmxsecseg:mxsecseg|RDI_N:RA4_opSEC" ;
++---------+--------+----------+---------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                               ;
++---------+--------+----------+---------------------------------------------------------------------------------------+
+; s[2..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.   ;
++---------+--------+----------+---------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1" ;
++------+-------+----------+-----------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                         ;
++------+-------+----------+-----------------------------------------------------------------+
+; d2   ; Input ; Info     ; Stuck at GND                                                    ;
++------+-------+----------+-----------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------+
+; Port Connectivity Checks: "Rcam_MEM_INST_INY_Pcero:Mem_INST|muxIns:mux_bus" ;
++-----------+-------+----------+----------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                      ;
++-----------+-------+----------+----------------------------------------------+
+; d1[1..0]  ; Input ; Info     ; Stuck at VCC                                 ;
+; d1[31..5] ; Input ; Info     ; Stuck at GND                                 ;
+; d1[3..2]  ; Input ; Info     ; Stuck at GND                                 ;
+; d1[4]     ; Input ; Info     ; Stuck at VCC                                 ;
++-----------+-------+----------+----------------------------------------------+
+
+
++-------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Rcam_MEM_INST_INY_Pcero:Mem_INST|muxIns:mux_pcero" ;
++------+-------+----------+-----------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                             ;
++------+-------+----------+-----------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                        ;
++------+-------+----------+-----------------------------------------------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Thu Jan  5 14:30:55 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Rproc_MD_MI -c Rproc_MD_MI --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
+    Info (12022): Found design unit 1: retardos_cntl_seg_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd Line: 9
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/tipos_ctes_MI_pkg/tipos_constan_memoria_I_pkg.vhd
+    Info (12022): Found design unit 1: tipos_constan_memoria_I_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/tipos_ctes_MI_pkg/tipos_constan_memoria_I_pkg.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/componentes_secuenciamiento_pkg.vhd
+    Info (12022): Found design unit 1: componentes_secuenciamiento_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/componentes_secuenciamiento_pkg.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/Rcomponentes_secuenciamiento_pkg.vhd
+    Info (12022): Found design unit 1: Rcomponentes_secuenciamiento_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/Rcomponentes_secuenciamiento_pkg.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/componentes_cam_datos_pkg.vhd
+    Info (12022): Found design unit 1: componentes_cam_datos_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/componentes_cam_datos_pkg.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/Rcomponentes_cam_datos_pkg.vhd
+    Info (12022): Found design unit 1: Rcomponentes_cam_datos_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/Rcomponentes_cam_datos_pkg.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/componentes_decodificador_pkg.vhd
+    Info (12022): Found design unit 1: componentes_decodificador_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/componentes_decodificador_pkg.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rcomponentes_decodificador_pkg.vhd
+    Info (12022): Found design unit 1: Rcomponentes_decodificador_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rcomponentes_decodificador_pkg.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/componentes_MD_pkg/componentes_MD_pkg.vhd
+    Info (12022): Found design unit 1: componentes_MD_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/componentes_MD_pkg/componentes_MD_pkg.vhd Line: 13
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/componentes_MD_pkg/Rcomponentes_MD_pkg.vhd
+    Info (12022): Found design unit 1: Rcomponentes_MD_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/componentes_MD_pkg/Rcomponentes_MD_pkg.vhd Line: 15
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd
+    Info (12022): Found design unit 1: tipos_constan_memoria_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd Line: 13
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd
+    Info (12022): Found design unit 1: riscv32_coop_funct_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd Line: 9
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd
+    Info (12022): Found design unit 1: retardos_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd Line: 9
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd
+    Info (12022): Found design unit 1: retardos_even_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd Line: 9
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
+    Info (12022): Found design unit 1: retardos_RegDes_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd Line: 9
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd
+    Info (12022): Found design unit 1: cte_tipos_UF_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/cte_tipos_UF_pkg.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
+    Info (12022): Found design unit 1: cte_tipos_deco_camino_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd Line: 10
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd
+    Info (12022): Found design unit 1: param_disenyo_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd Line: 9
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd
+    Info (12022): Found design unit 1: componentes_control_seg_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd
+    Info (12022): Found design unit 1: RegDes_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd Line: 11
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/componentes_MI_pkg/componentes_MI_pkg.vhd
+    Info (12022): Found design unit 1: componentes_MI_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/componentes_MI_pkg/componentes_MI_pkg.vhd Line: 13
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/componentes_MI_pkg/Rcomponentes_MI_pkg.vhd
+    Info (12022): Found design unit 1: Rcomponentes_MI_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/componentes_MI_pkg/Rcomponentes_MI_pkg.vhd Line: 15
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/componentes_proc_MD_MI_pkg/componentes_proc_MD_MI_pkg.vhd
+    Info (12022): Found design unit 1: componentes_proc_MD_MI_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/componentes_proc_MD_MI_pkg/componentes_proc_MD_MI_pkg.vhd Line: 14
+Info (12021): Found 1 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_pkg.vhd
+    Info (12022): Found design unit 1: Rcomponentes_proc_MD_MI_pkg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_pkg.vhd Line: 14
+Info (12021): Found 2 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd
+    Info (12022): Found design unit 1: inicializa_mem_I_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd Line: 19
+    Info (12022): Found design unit 2: inicializa_mem_I_pkg-body File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd Line: 24
+Info (12021): Found 2 design units, including 0 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd
+    Info (12022): Found design unit 1: inicializa_mem_pkg File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd Line: 18
+    Info (12022): Found design unit 2: inicializa_mem_pkg-body File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd
+    Info (12022): Found design unit 1: Rproc_MD_MI-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd Line: 22
+    Info (12023): Found entity 1: Rproc_MD_MI File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd Line: 17
+Info (12127): Elaborating entity "Rproc_MD_MI" for the top level hierarchy
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RregCP-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd Line: 19
+    Info (12023): Found entity 1: RregCP File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd Line: 13
+Info (12128): Elaborating entity "RregCP" for hierarchy "RregCP:regis_CP" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd Line: 37
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Rcam_MEM_INST_INY_Pcero-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd Line: 24
+    Info (12023): Found entity 1: Rcam_MEM_INST_INY_Pcero File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd Line: 17
+Info (12128): Elaborating entity "Rcam_MEM_INST_INY_Pcero" for hierarchy "Rcam_MEM_INST_INY_Pcero:Mem_INST" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd Line: 39
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: muxIns-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd Line: 19
+    Info (12023): Found entity 1: muxIns File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd Line: 13
+Info (12128): Elaborating entity "muxIns" for hierarchy "Rcam_MEM_INST_INY_Pcero:Mem_INST|muxIns:mux_inst" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd Line: 33
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Rcam_MEM_INST-estruc File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd Line: 23
+    Info (12023): Found entity 1: Rcam_MEM_INST File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd Line: 16
+Info (12128): Elaborating entity "Rcam_MEM_INST" for hierarchy "Rcam_MEM_INST_INY_Pcero:Mem_INST|Rcam_MEM_INST:Mem_INSTR" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd Line: 35
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RMI-rtl File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd Line: 26
+    Info (12023): Found entity 1: RMI File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd Line: 19
+Info (12128): Elaborating entity "RMI" for hierarchy "Rcam_MEM_INST_INY_Pcero:Mem_INST|Rcam_MEM_INST:Mem_INSTR|RMI:mem_inst" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd Line: 28
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RDeco_cam_dat_secu-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu.vhd Line: 33
+    Info (12023): Found entity 1: RDeco_cam_dat_secu File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu.vhd Line: 19
+Info (12128): Elaborating entity "RDeco_cam_dat_secu" for hierarchy "RDeco_cam_dat_secu:procesa" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd Line: 41
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Rdecodificador-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador.vhd Line: 33
+    Info (12023): Found entity 1: Rdecodificador File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador.vhd Line: 17
+Info (12128): Elaborating entity "Rdecodificador" for hierarchy "RDeco_cam_dat_secu:procesa|Rdecodificador:deco" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu.vhd Line: 54
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RDB_DL_N-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd Line: 19
+    Info (12023): Found entity 1: RDB_DL_N File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd Line: 12
+Info (12128): Elaborating entity "RDB_DL_N" for hierarchy "RDeco_cam_dat_secu:procesa|Rdecodificador:deco|RDB_DL_N:RDL3_instr" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador.vhd Line: 38
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: decodificador-estructural File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd Line: 32
+    Info (12023): Found entity 1: decodificador File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd Line: 17
+Info (12128): Elaborating entity "decodificador" for hierarchy "RDeco_cam_dat_secu:procesa|Rdecodificador:deco|decodificador:R_deco" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador.vhd Line: 41
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: decocamino-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino.vhd Line: 25
+    Info (12023): Found entity 1: decocamino File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino.vhd Line: 14
+Info (12128): Elaborating entity "decocamino" for hierarchy "RDeco_cam_dat_secu:procesa|Rdecodificador:deco|decodificador:R_deco|decocamino:camino" File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd Line: 49
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: decoopALU-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd Line: 20
+    Info (12023): Found entity 1: decoopALU File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd Line: 15
+Info (12128): Elaborating entity "decoopALU" for hierarchy "RDeco_cam_dat_secu:procesa|Rdecodificador:deco|decodificador:R_deco|decoopALU:ALU" File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd Line: 52
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: decoopMD-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd Line: 20
+    Info (12023): Found entity 1: decoopMD File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd Line: 15
+Info (12128): Elaborating entity "decoopMD" for hierarchy "RDeco_cam_dat_secu:procesa|Rdecodificador:deco|decodificador:R_deco|decoopMD:MEMORIA" File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd Line: 54
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: decoopSEC-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC.vhd Line: 21
+    Info (12023): Found entity 1: decoopSEC File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC.vhd Line: 16
+Info (12128): Elaborating entity "decoopSEC" for hierarchy "RDeco_cam_dat_secu:procesa|Rdecodificador:deco|decodificador:R_deco|decoopSEC:SECUEN" File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd Line: 56
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: deco_excep-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd Line: 19
+    Info (12023): Found entity 1: deco_excep File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd Line: 14
+Info (12128): Elaborating entity "deco_excep" for hierarchy "RDeco_cam_dat_secu:procesa|Rdecodificador:deco|decodificador:R_deco|deco_excep:Inst_ERR" File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador.vhd Line: 58
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Rcamino_datos-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos.vhd Line: 38
+    Info (12023): Found entity 1: Rcamino_datos File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos.vhd Line: 19
+Info (12128): Elaborating entity "Rcamino_datos" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu.vhd Line: 59
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RFMTD-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd Line: 22
+    Info (12023): Found entity 1: RFMTD File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd Line: 15
+Info (12128): Elaborating entity "RFMTD" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RFMTD:form_dat" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos.vhd Line: 53
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RDB_N-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd Line: 19
+    Info (12023): Found entity 1: RDB_N File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd Line: 12
+Info (12128): Elaborating entity "RDB_N" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RFMTD:form_dat|RDB_N:RDL3_FMTD" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd Line: 27
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: FMTD-compor File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd Line: 19
+    Info (12023): Found entity 1: FMTD File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd Line: 13
+Info (12128): Elaborating entity "FMTD" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RFMTD:form_dat|FMTD:R_FMTD" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd Line: 30
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RBR-compor File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd Line: 26
+    Info (12023): Found entity 1: RBR File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd Line: 15
+Info (12128): Elaborating entity "RBR" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos.vhd Line: 55
+Info (12128): Elaborating entity "RDB_N" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RDB_N:RDL3_IDL1" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd Line: 34
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RD_N-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd Line: 19
+    Info (12023): Found entity 1: RD_N File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd Line: 12
+Info (12128): Elaborating entity "RD_N" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RD_N:RA4_IDE" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd Line: 42
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RDI_1-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd Line: 18
+    Info (12023): Found entity 1: RDI_1 File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd Line: 12
+Info (12128): Elaborating entity "RDI_1" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RDI_1:RA4_PE" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd Line: 49
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RD_1-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd Line: 18
+    Info (12023): Found entity 1: RD_1 File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd Line: 12
+Info (12128): Elaborating entity "RD_1" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|RD_1:RM5_PE" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd Line: 50
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: BR-compor File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd Line: 24
+    Info (12023): Found entity 1: BR File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd Line: 13
+Info (12128): Elaborating entity "BR" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RBR:banco_registros|BR:R_BR" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd Line: 53
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RmL1-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1.vhd Line: 25
+    Info (12023): Found entity 1: RmL1 File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1.vhd Line: 17
+Info (12128): Elaborating entity "RmL1" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos.vhd Line: 57
+Info (12128): Elaborating entity "RD_N" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|RD_N:RA4_CP" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1.vhd Line: 34
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RDI_N-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd Line: 19
+    Info (12023): Found entity 1: RDI_N File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd Line: 12
+Info (12128): Elaborating entity "RDI_N" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|RDI_N:RA4_mL1" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1.vhd Line: 40
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mux3-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd Line: 21
+    Info (12023): Found entity 1: mux3 File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd Line: 14
+Info (12128): Elaborating entity "mux3" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL1:muxL1|mux3:muxRmL1" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1.vhd Line: 43
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RmL2-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2.vhd Line: 20
+    Info (12023): Found entity 1: RmL2 File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2.vhd Line: 12
+Info (12128): Elaborating entity "RmL2" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL2:muxL2" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos.vhd Line: 60
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mux2-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd Line: 21
+    Info (12023): Found entity 1: mux2 File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd Line: 14
+Info (12128): Elaborating entity "mux2" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmL2:muxL2|mux2:muxRmL2" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2.vhd Line: 35
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Ralu-compor File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd Line: 24
+    Info (12023): Found entity 1: Ralu File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd Line: 16
+Info (12128): Elaborating entity "Ralu" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|Ralu:alu_map" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos.vhd Line: 63
+Info (12128): Elaborating entity "RDI_N" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|Ralu:alu_map|RDI_N:RA4_opALU" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd Line: 30
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: alu-compor File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd Line: 22
+    Info (12023): Found entity 1: alu File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd Line: 15
+Info (12128): Elaborating entity "alu" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|Ralu:alu_map|alu:R_alu" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd Line: 33
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RmES-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd Line: 25
+    Info (12023): Found entity 1: RmES File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd Line: 16
+Info (12128): Elaborating entity "RmES" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos.vhd Line: 65
+Info (12128): Elaborating entity "RD_N" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES|RD_N:RM5_mES" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd Line: 34
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RD_D-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd Line: 18
+    Info (12023): Found entity 1: RD_D File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd Line: 12
+Info (12128): Elaborating entity "RD_D" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_datos:cam_datos|RmES:muxmES|RD_D:RM5_alu" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd Line: 39
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RDECS-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd Line: 24
+    Info (12023): Found entity 1: RDECS File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd Line: 17
+Info (12128): Elaborating entity "RDECS" for hierarchy "RDeco_cam_dat_secu:procesa|RDECS:control" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu.vhd Line: 63
+Info (12128): Elaborating entity "RDI_N" for hierarchy "RDeco_cam_dat_secu:procesa|RDECS:control|RDI_N:RA4_opSEC" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd Line: 29
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: DECS-comporta File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd Line: 21
+    Info (12023): Found entity 1: DECS File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd Line: 15
+Info (12128): Elaborating entity "DECS" for hierarchy "RDeco_cam_dat_secu:procesa|RDECS:control|DECS:R_DECS" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd Line: 32
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Rcamino_secuen-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd Line: 33
+    Info (12023): Found entity 1: Rcamino_secuen File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd Line: 17
+Info (12128): Elaborating entity "Rcamino_secuen" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu.vhd Line: 66
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: cuatro-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd Line: 16
+    Info (12023): Found entity 1: cuatro File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd Line: 12
+Info (12128): Elaborating entity "cuatro" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|cuatro:ctecuatro" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd Line: 44
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: sumador-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd Line: 18
+    Info (12023): Found entity 1: sumador File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd Line: 13
+Info (12128): Elaborating entity "sumador" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|sumador:sumcuatro" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd Line: 46
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RFMTS-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd Line: 22
+    Info (12023): Found entity 1: RFMTS File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd Line: 15
+Info (12128): Elaborating entity "RFMTS" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|RFMTS:formatearS" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd Line: 48
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: FMTS-compor File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd Line: 19
+    Info (12023): Found entity 1: FMTS File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd Line: 13
+Info (12128): Elaborating entity "FMTS" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|RFMTS:formatearS|FMTS:R_FMTS" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd Line: 31
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Rmuxdirec-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec.vhd Line: 24
+    Info (12023): Found entity 1: Rmuxdirec File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec.vhd Line: 16
+Info (12128): Elaborating entity "Rmuxdirec" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmuxdirec:muxrelatindex" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd Line: 50
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: muxdirec-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd Line: 21
+    Info (12023): Found entity 1: muxdirec File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd Line: 14
+Info (12128): Elaborating entity "muxdirec" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmuxdirec:muxrelatindex|muxdirec:R_mSI" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec.vhd Line: 42
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Rsum_secu-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu.vhd Line: 23
+    Info (12023): Found entity 1: Rsum_secu File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu.vhd Line: 16
+Info (12128): Elaborating entity "Rsum_secu" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rsum_secu:sumrelatindex" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd Line: 53
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_secu.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: sum_secu-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_secu.vhd Line: 20
+    Info (12023): Found entity 1: sum_secu File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_secu.vhd Line: 14
+Info (12128): Elaborating entity "sum_secu" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rsum_secu:sumrelatindex|sum_secu:R_sum_secu" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu.vhd Line: 33
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/Reval.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Reval-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/Reval.vhd Line: 22
+    Info (12023): Found entity 1: Reval File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/Reval.vhd Line: 16
+Info (12128): Elaborating entity "Reval" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Reval:evaluar" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd Line: 55
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: eval-comport File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd Line: 19
+    Info (12023): Found entity 1: eval File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd Line: 14
+Info (12128): Elaborating entity "eval" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Reval:evaluar|eval:R_eval" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/Reval.vhd Line: 34
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RmuxmSIC-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd Line: 24
+    Info (12023): Found entity 1: RmuxmSIC File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd Line: 16
+Info (12128): Elaborating entity "RmuxmSIC" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|RmuxmSIC:nuxSIC" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd Line: 57
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Rmxsecseg-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd Line: 24
+    Info (12023): Found entity 1: Rmxsecseg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd Line: 16
+Info (12128): Elaborating entity "Rmxsecseg" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|Rmxsecseg:mxsecseg" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd Line: 60
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/acceso_MI/CODIGO/acceso_MI.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: acceso_MI-comport File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/acceso_MI/CODIGO/acceso_MI.vhd Line: 21
+    Info (12023): Found entity 1: acceso_MI File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/acceso_MI/CODIGO/acceso_MI.vhd Line: 15
+Info (12128): Elaborating entity "acceso_MI" for hierarchy "RDeco_cam_dat_secu:procesa|Rcamino_secuen:cam_secuen|acceso_MI:compro_acc" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen.vhd Line: 65
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Rcam_MEM_DATOS-estruc File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS.vhd Line: 28
+    Info (12023): Found entity 1: Rcam_MEM_DATOS File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS.vhd Line: 18
+Info (12128): Elaborating entity "Rcam_MEM_DATOS" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd Line: 43
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RFMTE-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE.vhd Line: 26
+    Info (12023): Found entity 1: RFMTE File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE.vhd Line: 17
+Info (12128): Elaborating entity "RFMTE" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS.vhd Line: 38
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: FMTE-estructural File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd Line: 23
+    Info (12023): Found entity 1: FMTE File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd Line: 15
+Info (12128): Elaborating entity "FMTE" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|FMTE:R_FMTE" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE.vhd Line: 38
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: alinearE-estructura File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd Line: 21
+    Info (12023): Found entity 1: alinearE File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd Line: 15
+Info (12128): Elaborating entity "alinearE" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|FMTE:R_FMTE|alinearE:alinaE" File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd Line: 30
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "conexiones" into its bus
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mux2M-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd Line: 17
+    Info (12023): Found entity 1: mux2M File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd Line: 10
+Info (12128): Elaborating entity "mux2M" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|FMTE:R_FMTE|alinearE:alinaE|mux2M:\columna:1:iter:1:filab:2:gencoluma" File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd Line: 60
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: sel_byte-estructura File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd Line: 19
+    Info (12023): Found entity 1: sel_byte File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd Line: 13
+Info (12128): Elaborating entity "sel_byte" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|RFMTE:Rform_esc|FMTE:R_FMTE|sel_byte:selecE_byte" File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd Line: 32
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RMD-rtl File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd Line: 27
+    Info (12023): Found entity 1: RMD File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd Line: 19
+Info (12128): Elaborating entity "RMD" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|RMD:Rmem_dat" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS.vhd Line: 43
+Warning (10543): VHDL Variable Declaration warning at ini_mem_pkg.vhd(30): used default initial value for variable "temp_mem" because variable was never assigned a value or an initial value expression. Use of default initial value may introduce unintended design optimizations. File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd Line: 30
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RFMTL-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd Line: 22
+    Info (12023): Found entity 1: RFMTL File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd Line: 14
+Info (12128): Elaborating entity "RFMTL" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS.vhd Line: 45
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: FMTL-estructural File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd Line: 17
+    Info (12023): Found entity 1: FMTL File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd Line: 10
+Info (12128): Elaborating entity "FMTL" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd Line: 45
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/ALINEAR/CODIGO/alinear.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: alinear-estructural File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/ALINEAR/CODIGO/alinear.vhd Line: 20
+    Info (12023): Found entity 1: alinear File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/ALINEAR/CODIGO/alinear.vhd Line: 14
+Info (12128): Elaborating entity "alinear" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|alinear:alina" File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd Line: 26
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "conexiones" into its bus
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: FMTL_sel_signo-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd Line: 20
+    Info (12023): Found entity 1: FMTL_sel_signo File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd Line: 13
+Info (12128): Elaborating entity "FMTL_sel_signo" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|FMTL_sel_signo:sel_sig" File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd Line: 30
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: FMTL_extsig-estructural File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd Line: 21
+    Info (12023): Found entity 1: FMTL_extsig File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd Line: 14
+Info (12128): Elaborating entity "FMTL_extsig" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|RFMTL:Rform_lec|FMTL:R_FMTL|FMTL_extsig:ext_sig" File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd Line: 32
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: Racceso_MD-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd Line: 26
+    Info (12023): Found entity 1: Racceso_MD File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd Line: 18
+Info (12128): Elaborating entity "Racceso_MD" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|Racceso_MD:Rcompro_acc" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS.vhd Line: 47
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ACCESO/CODIGO/acceso_MD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: acceso_MD-comport File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ACCESO/CODIGO/acceso_MD.vhd Line: 22
+    Info (12023): Found entity 1: acceso_MD File: /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ACCESO/CODIGO/acceso_MD.vhd Line: 15
+Info (12128): Elaborating entity "acceso_MD" for hierarchy "Rcam_MEM_DATOS:Mem_DATOS|Racceso_MD:Rcompro_acc|acceso_MD:R_acceso" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd Line: 33
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: LIB-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 21
+    Info (12023): Found entity 1: LIB File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 15
+Info (12128): Elaborating entity "LIB" for hierarchy "LIB:logica_LIB" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/ENSAMBLADO/CODIGO/Rproc_MD_MI.vhd Line: 45
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RdecoPBRopSEC-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd Line: 25
+    Info (12023): Found entity 1: RdecoPBRopSEC File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd Line: 17
+Info (12128): Elaborating entity "RdecoPBRopSEC" for hierarchy "LIB:logica_LIB|RdecoPBRopSEC:R_decPBRSEC" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 30
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: decoPBRopSEC-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd Line: 21
+    Info (12023): Found entity 1: decoPBRopSEC File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC.vhd Line: 15
+Info (12128): Elaborating entity "decoPBRopSEC" for hierarchy "LIB:logica_LIB|RdecoPBRopSEC:R_decPBRSEC|decoPBRopSEC:decPBRSEC" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC.vhd Line: 32
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: ensam_RD-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd Line: 23
+    Info (12023): Found entity 1: ensam_RD File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd Line: 15
+Info (12128): Elaborating entity "ensam_RD" for hierarchy "LIB:logica_LIB|ensam_RD:R_dat" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 33
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: senya_cntlRD-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd Line: 24
+    Info (12023): Found entity 1: senya_cntlRD File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd Line: 15
+Info (12128): Elaborating entity "senya_cntlRD" for hierarchy "LIB:logica_LIB|ensam_RD:R_dat|senya_cntlRD:senyales_cntl" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd Line: 39
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: valreg-compor File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd Line: 19
+    Info (12023): Found entity 1: valreg File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd Line: 14
+Info (12128): Elaborating entity "valreg" for hierarchy "LIB:logica_LIB|ensam_RD:R_dat|valreg:genvalreg" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd Line: 42
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: LDD-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd Line: 92
+    Info (12023): Found entity 1: LDD File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd Line: 82
+Info (12128): Elaborating entity "LDD" for hierarchy "LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd Line: 44
+Warning (10540): VHDL Signal Declaration warning at LDD.vhd(95): used explicit default value for signal "cero" because signal was never assigned a value File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd Line: 95
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: cmp-compor File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd Line: 17
+    Info (12023): Found entity 1: cmp File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd Line: 11
+Info (12128): Elaborating entity "cmp" for hierarchy "LIB:logica_LIB|ensam_RD:R_dat|LDD:LDDat|cmp:not_comp1" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd Line: 103
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/LDRD.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: LDRD-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/LDRD.vhd Line: 20
+    Info (12023): Found entity 1: LDRD File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRD/CODIGO/LDRD.vhd Line: 13
+Info (12128): Elaborating entity "LDRD" for hierarchy "LIB:logica_LIB|ensam_RD:R_dat|LDRD:R_dat" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD.vhd Line: 48
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: ensam_RS-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd Line: 22
+    Info (12023): Found entity 1: ensam_RS File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd Line: 15
+Info (12128): Elaborating entity "ensam_RS" for hierarchy "LIB:logica_LIB|ensam_RS:R_Sec" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 35
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: senya_cntlRS-estructural File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd Line: 21
+    Info (12023): Found entity 1: senya_cntlRS File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd Line: 14
+Info (12128): Elaborating entity "senya_cntlRS" for hierarchy "LIB:logica_LIB|ensam_RS:R_Sec|senya_cntlRS:senyales_cntl" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd Line: 26
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: LDRS-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd Line: 19
+    Info (12023): Found entity 1: LDRS File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS.vhd Line: 13
+Info (12128): Elaborating entity "LDRS" for hierarchy "LIB:logica_LIB|ensam_RS:R_Sec|LDRS:R_sec" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS.vhd Line: 28
+Warning (12125): Using design file /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: LGR-comportamiento File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd Line: 19
+    Info (12023): Found entity 1: LGR File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd Line: 13
+Info (12128): Elaborating entity "LGR" for hierarchy "LIB:logica_LIB|LGR:R_lgr" File: /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/LIB/CODIGO/LIB.vhd Line: 37
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 78 warnings
+    Info: Peak virtual memory: 822 megabytes
+    Info: Processing ended: Thu Jan  5 14:31:03 2023
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:20
+
+
