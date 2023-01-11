@@ -40,18 +40,18 @@ instruc[28] => RdecoPBRopSEC:R_decPBRSEC.instruc[28]
 instruc[29] => RdecoPBRopSEC:R_decPBRSEC.instruc[29]
 instruc[30] => RdecoPBRopSEC:R_decPBRSEC.instruc[30]
 instruc[31] => RdecoPBRopSEC:R_decPBRSEC.instruc[31]
-C1L1 << ensam_RD_C:R_dat.C1L1
-C2L1 << ensam_RD_C:R_dat.C2L1
-C3L1 << ensam_RD_C:R_dat.C3L1
-C4L1 << ensam_RD_C:R_dat.C4L1
-C1L2 << ensam_RD_C:R_dat.C1L2
-C2L2 << ensam_RD_C:R_dat.C2L2
-C3L2 << ensam_RD_C:R_dat.C3L2
-C4L2 << ensam_RD_C:R_dat.C4L2
-bloqCP << LGR:R_lgr.bloqCP
-bloqBDL << LGR:R_lgr.bloqBDL
-inyecBDL << LGR:R_lgr.inyecBDL
-inyecDLA << LGR:R_lgr.inyecDLA
+C1L1 <= ensam_RD_C:R_dat.C1L1
+C2L1 <= ensam_RD_C:R_dat.C2L1
+C3L1 <= ensam_RD_C:R_dat.C3L1
+C4L1 <= ensam_RD_C:R_dat.C4L1
+C1L2 <= ensam_RD_C:R_dat.C1L2
+C2L2 <= ensam_RD_C:R_dat.C2L2
+C3L2 <= ensam_RD_C:R_dat.C3L2
+C4L2 <= ensam_RD_C:R_dat.C4L2
+bloqCP <= LGR:R_lgr.bloqCP
+bloqBDL <= LGR:R_lgr.bloqBDL
+inyecBDL <= LGR:R_lgr.inyecBDL
+inyecDLA <= LGR:R_lgr.inyecDLA
 
 
 |LIB_C|RdecoPBRopSEC:R_decPBRSEC

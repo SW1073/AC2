@@ -132,15 +132,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "opALU[3]",
-					"strict" : false
-				},
-				{
 					"name" : "opALU[4]",
-					"strict" : false
-				},
-				{
-					"name" : "opALU[2]",
 					"strict" : false
 				},
 				{
@@ -149,6 +141,14 @@
 				},
 				{
 					"name" : "opALU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "opALU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "opALU[3]",
 					"strict" : false
 				},
 				{
