@@ -27,8 +27,8 @@ entity prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu is
     generic (periodo_reloj: time := 80 ns;
 			pasoapaso: boolean := false; --false;
 			imprimir_traza: boolean:= true;
-			imprimir_MD: boolean:= true;
-			imprimir_MI: boolean:= true;
+			imprimir_MD: boolean:= false;
+			imprimir_MI: boolean:= false;
 			imprimir_BR: boolean:= true);
 
 end prueba_Rproc_MD_MI_C_ModSecu_relI_PreSecu;
@@ -51,6 +51,21 @@ signal reloj: std_logic;
 signal ciclo: integer:= 0;
 
 shared variable final : boolean := false;
+
+-- ====================== AREA PARA VARIABLES "GLOBALES" ====================== --
+signal n_instr: integer := 0;
+signal ciclos_perdidos_RD: integer := 0;
+signal ciclos_perdidos_RS: integer := 0;
+
+signal current_RD_seguits: integer := 0;
+signal DD_1_cicle: integer := 0;
+signal DD_2_cicle: integer := 0;
+signal DD_3_cicle: integer := 0;
+signal DD_4_cicle: integer := 0;
+
+signal fallos_prediccion: integer := 0;
+
+-- ============================================================================ --
 
 signal s_cp1: tipo_direc_inst;
 signal s_proxCP: tam_dat_camino;
@@ -356,6 +371,39 @@ begin
 		write (l, string("Fichero resultados: " & string(fichero)));
 		writeline (output, l);
 	end if;
+	
+	-- ================================ OUTPUT DELS RESULTATS ================================ --
+	write (l, string("INSTRUCCIONES EJECUTADAS : " & integer'image(n_instr)));
+	writeline (output, l);
+	
+	write (l, string("CICLOS TOTALES DE LA EJECUCION: " & integer'image(ciclo)));
+	writeline (output, l);
+	
+	write (l, string("CICLOS PERDIDOS POR RIESGO DE DATOS: " & integer'image(ciclos_perdidos_RD)));
+	writeline (output, l);
+	
+	write (l, string("CICLOS PERDIDOS POR RIESGO DE SECUENCIAMIENTO: " & integer'image(ciclos_perdidos_RS)));
+	writeline (output, l);
+	
+	write (l, string("CPI ( /1000 ): " & integer'image((ciclo * 1000) / n_instr))); -- No es float, pero casi.
+	writeline (output, l);
+	
+	write (l, string("DEPENNDENCIAS DE DATOS CON 1 CICLO DE BLOQUEO: " & integer'image(DD_1_cicle)));
+	writeline (output, l);
+	
+	write (l, string("DEPENNDENCIAS DE DATOS CON 2 CICLOS DE BLOQUEO: " & integer'image(DD_2_cicle)));
+	writeline (output, l);
+	
+	write (l, string("DEPENNDENCIAS DE DATOS CON 3 CICLOS DE BLOQUEO: " & integer'image(DD_3_cicle)));
+	writeline (output, l);
+	
+	write (l, string("DEPENNDENCIAS DE DATOS CON 4 CICLOS DE BLOQUEO: " & integer'image(DD_4_cicle)));
+	writeline (output, l);
+	
+	write (l, string("FALLOS DE PREDICCION: " & integer'image(fallos_prediccion)));
+	writeline (output, l);
+	-- ======================================================================================== --
+	
 end process;
 
 relojeje: process  is
@@ -375,5 +423,139 @@ begin
 end process relojeje;
 
 
-end;
+-- Proceso calculo
+-----------------------------------------------
 
+calculainstrucc: process(reloj) is
+
+variable v_opSECd: st_opSEC;
+variable v_cp1: tipo_direc_inst;
+variable v_proxCP: tam_dat_camino;
+
+variable v_instruc_B, v_instruc_DL: tam_dat_camino_MI;
+
+variable v_PBR_DL: st_PBR;
+variable v_PBR_A: st_PBR;
+variable v_PBR_M: st_PBR;
+variable v_PBR_6: st_PBR;
+
+variable v_opALU_DL: st_opALU;
+variable v_opMD_DL: st_opMD;
+variable v_opSEC_DL: st_opSEC;
+
+variable v_opALU_A: st_opALU;
+variable v_opMD_A: st_opMD;
+variable v_opSEC_A: st_opSEC;
+
+variable v_opMD_M: st_opMD;
+
+variable v_opMD_6: st_opMD;
+
+variable v_RS, v_RID: std_logic;
+variable l: line;
+variable total: integer := 0;
+variable total_ls: integer := 0;
+variable n_rd: integer := 0;
+variable n_rd_t: integer := 0;
+variable n_rd_1: integer := 0;
+variable n_rd_2: integer := 0;
+variable n_rd_3: integer := 0;
+variable n_rd_4: integer := 0;
+variable n_rs: integer := 0;
+
+
+variable nsecin: integer := 0;
+variable nseccond: integer := 0;
+
+begin
+if reloj'event and reloj ='1' then
+		if ciclo >= 2 then
+			v_cp1:= s_cp1'delayed(0 fs);
+		    v_proxCP:= s_proxCP'delayed(0 fs);
+
+		    v_instruc_B:= s_instruc_B'delayed(0 fs);
+		    v_instruc_DL:= s_instruc_DL'delayed(0 fs);
+
+		    v_PBR_DL:= s_PBR_DL'delayed(0 fs);
+		    v_PBR_A:= s_PBR_A'delayed(0 fs);
+		    v_PBR_M:= s_PBR_M'delayed(0 fs);
+		    v_PBR_6:= s_PBR_6'delayed(0 fs);
+
+		    v_opALU_DL:= s_opALU_DL'delayed(0 fs);
+		    v_opMD_DL:= s_opMD_DL'delayed(0 fs);
+		    v_opSEC_DL:= s_opSEC_DL'delayed(0 fs);
+
+		    v_opALU_A:= s_opALU_A'delayed(0 fs);
+		    v_opMD_A:= s_opMD_A'delayed(0 fs);
+		    v_opSEC_A:= s_opSEC_A'delayed(0 fs);
+
+		    v_opMD_M:= s_opMD_M'delayed(0 fs);
+
+		    v_opMD_6:= s_opMD_6'delayed(0 fs);
+
+		    v_RS:= s_RS'delayed(0 fs);
+		    v_RID:= s_RID'delayed(0 fs);
+			
+			total_ls := total;
+			if opMD_E(num_opMD-1) = '1' then
+			    total := total + 1;
+		    elsif PBR_E = '1' then 
+			    if RS_8 = '1' then
+				    n_rs := n_rs + 1;
+			    else
+				   total := total + 1;
+			    end if;
+		    else
+			    if RS_E = '1' then
+				    total := total + 1;
+			    else
+				    n_rd := n_rd + 1;
+				    n_rd_t := n_rd_t + 1;
+			    end if;
+		    end if;
+			write (l, string("Fin de ejecucion:"&LF));
+	writeline (output, l);
+	write (l, string("Inst totals: " & integer'image(total -1) &"\n"&	
+	" Total RS: "&integer'image(n_rs)));
+	writeline (output, l);
+			
+		end if;
+
+	
+end if;
+end process calculainstrucc;
+----------------------------------
+-- ========================================NUESTRO PROCESS======================================== --
+relojaja: process is
+begin
+	wait until reloj'event and reloj = '1';
+	if s_RID = '0' then
+		if s_RS = '0' then -- Cicles sense bloquejos, per tant on comencem una nova instruccio en aquestos.
+			n_instr <= n_instr + 1;
+		else -- risc de sequenciament
+			ciclos_perdidos_RS <= ciclos_perdidos_RS + 1;
+		end if;
+	end if;
+	
+	-- risc de dades
+	if s_RID = '1' then
+		ciclos_perdidos_RD <= ciclos_perdidos_RD + 1;
+		current_RD_seguits <= current_RD_seguits + 1;
+	else
+		current_RD_seguits <= 0;
+		case current_RD_seguits is
+			when 1 => DD_1_cicle <= DD_1_cicle + 1;
+			when 2 => DD_2_cicle <= DD_2_cicle + 1;
+			when 3 => DD_3_cicle <= DD_3_cicle + 1;
+			when 4 => DD_4_cicle <= DD_4_cicle + 1;
+			when others => report "Sense riscos de dades (?)";
+		end case;
+	end if;
+	
+	if s_ErPre then
+		fallos_prediccion <=  fallos_prediccion + 1;
+	end if;
+	
+end process relojaja;
+
+end;

@@ -13245,6 +13245,8 @@ s[3] <= s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 |Rproc_MD_MI_C_ModSecu_relI_PreSecu|RDeco_cam_dat_secu_C_ModSecu_relI_PreSecu:procesa|Rcamino_secuen_C_ModSecu_relI_PreSecu:cam_secuen|RErsec:R_Ersec|Ersec:R_Ersec
 opSEC[0] => op_JMP.IN0
+opSEC[0] => op_JMP.IN0
+opSEC[1] => op_JMP.IN1
 opSEC[1] => op_JMP.IN1
 opSEC[2] => op_JMP.IN1
 opSEC[3] => op_SEC.IN1
@@ -16671,7 +16673,7 @@ opsecDL[3] => RS.IN0
 opsecA[0] => ~NO_FANOUT~
 opsecA[1] => ~NO_FANOUT~
 opsecA[2] => ~NO_FANOUT~
-opsecA[3] => RS.IN1
+opsecA[3] => RS.IN0
 SInCond => RS.IN1
 SCond => RS.IN1
 SCondA => RS.IN1
@@ -16679,15 +16681,17 @@ RS <= RS.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Rproc_MD_MI_C_ModSecu_relI_PreSecu|LIB_C_ModSecu_relI_PreSecu:logica_LIB|LGR_PreSecu:LGR_Pred
+RID => bloqCP.IN0
+RID => bloqBDL.IN0
 RID => inyecDLA.IN0
 RID => inyecBDL.IN0
-RID => bloqCP.DATAIN
-RID => bloqBDL.DATAIN
 RS => inyecBDL.IN1
 ErPre => inyecDLA.IN1
 ErPre => inyecBDL.IN1
-bloqCP <= RID.DB_MAX_OUTPUT_PORT_TYPE
-bloqBDL <= RID.DB_MAX_OUTPUT_PORT_TYPE
+ErPre => bloqCP.IN1
+ErPre => bloqBDL.IN1
+bloqCP <= bloqCP.DB_MAX_OUTPUT_PORT_TYPE
+bloqBDL <= bloqBDL.DB_MAX_OUTPUT_PORT_TYPE
 inyecBDL <= inyecBDL.DB_MAX_OUTPUT_PORT_TYPE
 inyecDLA <= inyecDLA.DB_MAX_OUTPUT_PORT_TYPE
 

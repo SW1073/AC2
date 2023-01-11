@@ -22,13 +22,7 @@ signal op_SEC: std_logic;
 signal op_JMP: std_logic;
 
 begin
-	-- opSEC == 1011 -> estamos en un JALx
-	-- opSEC == 1xxx -> estamos
-
-	-- ErPre AND (BR or JALR) [and not JAL]
-	
-	-- op_SEC <= opSEC(3) and (not opSEC(2)) and opSEC(1) and opSEC(0);
-	op_JMP <= (not opsec(2)) and (opsec(1) or opsec(0));
+	op_JMP <= (not opsec(2)) and ((opsec(1) and not opsec(0)) or ((opsec(1) and opsec(0))));
 	op_SEC <= opsec(3) and op_JMP;
 	msecuseg <= op_SEC or ErPre;
 end;

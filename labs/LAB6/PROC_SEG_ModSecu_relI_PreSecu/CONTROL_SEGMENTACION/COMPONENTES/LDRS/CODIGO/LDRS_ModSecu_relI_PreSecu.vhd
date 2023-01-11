@@ -17,12 +17,8 @@ entity LDRS_ModSecu_relI_PreSecu is
 		RS: out std_logic);
 end LDRS_ModSecu_relI_PreSecu;
 
-
 architecture comportamiento of LDRS_ModSecu_relI_PreSecu is
 
 begin
-
-	RS <= opsecA(3) or opsecDL(3) or SInCond or SCond or SCondA after retLDRS;
-	-- RS <= '0' after retLDRS;
-	
+	RS <= SInCond or (opsecDL(3) and not SCond) or (opsecA(3) and not SCondA) after retLDRS;
 end comportamiento;

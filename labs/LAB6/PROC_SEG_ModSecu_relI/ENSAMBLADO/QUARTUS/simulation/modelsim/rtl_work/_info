@@ -27,9 +27,9 @@ VgU=Bn74kS1bW@7ZMH>g]]1
 !s100 B30O_7I`DFcGY]=[l1eMR0
 Z11 OV;C;2020.1;71
 31
-Z12 !s110 1673106900
+Z12 !s110 1673466000
 !i10b 1
-Z13 !s108 1673106900.000000
+Z13 !s108 1673466000.000000
 Z14 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ACCESO/CODIGO/acceso_MD.vhd|
 Z15 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ACCESO/CODIGO/acceso_MD.vhd|
 !i113 1
@@ -127,9 +127,9 @@ VGR8:TT85CkzjLFLZMjcFE0
 !s100 0OPZi:Ja8oO@XTPToJ=V80
 R11
 31
-Z28 !s110 1673106904
+Z28 !s110 1673466005
 !i10b 1
-Z29 !s108 1673106904.000000
+Z29 !s108 1673466004.000000
 Z30 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/ALINEAR/CODIGO/alinear.vhd|
 Z31 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/ALINEAR/CODIGO/alinear.vhd|
 !i113 1
@@ -180,11 +180,11 @@ V[E`WLalPQUHS1Rj_Z8X8l3
 !s100 7i35BOTZL<SZBUVc:>VAO0
 R11
 31
-R28
+Z34 !s110 1673466004
 !i10b 1
 R29
-Z34 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd|
-Z35 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd|
+Z35 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd|
+Z36 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/ALINEARE/CODIGO/alinearE.vhd|
 !i113 1
 R16
 R17
@@ -205,19 +205,19 @@ VBj3>@IB34i?^C:JIn5gXI0
 !s100 WXiGSPjACj_^iJjP8Vog31
 R11
 31
-R28
+R34
 !i10b 1
 R29
-R34
 R35
+R36
 !i113 1
 R16
 R17
 Ealu
 R1
-Z36 DPx4 work 12 retardos_pkg 0 22 UAzXTYeJ[BaT_LMOoNB7l1
-Z37 DPx4 work 22 riscv32_coop_funct_pkg 0 22 jW?=dRk>GS4KoTiz[hJH30
-Z38 DPx4 work 16 cte_tipos_uf_pkg 0 22 7=Pnd3F3aWW;Z6DVTMD9L3
+Z37 DPx4 work 12 retardos_pkg 0 22 UAzXTYeJ[BaT_LMOoNB7l1
+Z38 DPx4 work 22 riscv32_coop_funct_pkg 0 22 jW?=dRk>GS4KoTiz[hJH30
+Z39 DPx4 work 16 cte_tipos_uf_pkg 0 22 7=Pnd3F3aWW;Z6DVTMD9L3
 R4
 R3
 R5
@@ -225,26 +225,26 @@ R6
 R7
 !i122 83
 R0
-Z39 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd
-Z40 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd
+Z40 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd
+Z41 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd
 l0
 R10
 VEY9A>7]lbiT_60kIf3DMf2
 !s100 <=AU4=TF4e9F^`_WjJHVU0
 R11
 31
-Z41 !s110 1673106902
+Z42 !s110 1673466002
 !i10b 1
-Z42 !s108 1673106902.000000
-Z43 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd|
-Z44 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd|
+Z43 !s108 1673466002.000000
+Z44 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd|
+Z45 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/alu.vhd|
 !i113 1
 R16
 R17
 Acompor
-R36
 R37
 R38
+R39
 R4
 R3
 R5
@@ -258,41 +258,41 @@ VF41:^R3Pl0=9;El5R:=ee1
 !s100 D3AO=A3n_l79M9LSfX8eW3
 R11
 31
-R41
-!i10b 1
 R42
+!i10b 1
 R43
 R44
+R45
 !i113 1
 R16
 R17
 Ebr
 R1
-R36
+R37
 R4
 R5
 R6
 R7
 !i122 44
 R0
-Z45 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd
-Z46 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd
+Z46 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd
+Z47 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd
 l0
-Z47 L13 1
+Z48 L13 1
 V019lNclnJb;lhFe:=FUR81
 !s100 ;D2`iUI3PHXX8njA45YYF3
 R11
 31
-Z48 !s110 1673106899
+R12
 !i10b 1
-Z49 !s108 1673106899.000000
-Z50 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd|
-Z51 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd|
+R13
+Z49 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd|
+Z50 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/BR.vhd|
 !i113 1
 R16
 R17
 Acompor
-R36
+R37
 R4
 R5
 R6
@@ -305,30 +305,30 @@ VfXzbEF=SY:>dc3]>[L>^N3
 !s100 <FF34N?^leS]S@A?@]0`b1
 R11
 31
-R48
+R12
 !i10b 1
+R13
 R49
 R50
-R51
 !i113 1
 R16
 R17
 Ecmp
-Z52 w1670948078
+Z51 w1670948078
 R4
 R6
 R7
 !i122 57
 R0
-Z53 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd
-Z54 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd
+Z52 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd
+Z53 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd
 l0
-Z55 L11 1
+Z54 L11 1
 VbiGGj<b1CkZOQ9M0UOlkA2
 !s100 b`j>B@;eGFaHCX_3hbbd=1
 R11
 31
-R12
+Z55 !s110 1673466001
 !i10b 1
 R13
 Z56 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/COMPARADOR/CODIGO/cmp.vhd|
@@ -348,7 +348,7 @@ V_[?9bNJTMKlfDl@C:iP442
 !s100 fI3Fj9K]Eng>XV[lBLOFh0
 R11
 31
-R12
+R55
 !i10b 1
 R13
 R56
@@ -373,9 +373,9 @@ VZi0]Ok`mP_@0RfG2Pd7Wf2
 !s100 e;ZOT0lUB:;`zZQC@3<Zo0
 R11
 31
-Z59 !s110 1673106898
+Z59 !s110 1673465998
 !i10b 1
-Z60 !s108 1673106898.000000
+Z60 !s108 1673465998.000000
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/componentes_cam_datos_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/componentes_cam_datos_pkg.vhd|
 !i113 1
@@ -398,9 +398,9 @@ V]ZbEE=3bWGifoRgNWzh>@1
 !s100 3f1iTi@@gbSLj]O<RHN<X3
 R11
 31
-R59
+Z62 !s110 1673465999
 !i10b 1
-R60
+Z63 !s108 1673465999.000000
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEG_CORTOS/componentes_cntl_seg_pkg/componentes_control_seg_C_ModSecu_relI_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEG_CORTOS/componentes_cntl_seg_pkg/componentes_control_seg_C_ModSecu_relI_pkg.vhd|
 !i113 1
@@ -423,9 +423,9 @@ V7Gd`OzBNLMUjCo]=]?njI0
 !s100 NkEJQmnJDZE1`cX8>G<MQ1
 R11
 31
-R59
+R62
 !i10b 1
-R60
+R63
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/componentes_cntl_seg_pkg/componentes_control_seg_C_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/componentes_cntl_seg_pkg/componentes_control_seg_C_pkg.vhd|
 !i113 1
@@ -434,7 +434,7 @@ R17
 Pcomponentes_control_seg_modsecu_reli_pkg
 R3
 R5
-Z62 DPx4 work 38 cte_tipos_deco_camino_modsecu_reli_pkg 0 22 =3M^KZc5HLDni3:[J5zkF2
+Z64 DPx4 work 38 cte_tipos_deco_camino_modsecu_reli_pkg 0 22 =3M^KZc5HLDni3:[J5zkF2
 R4
 R6
 R7
@@ -444,14 +444,14 @@ R0
 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_ModSecu_relI_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_ModSecu_relI_pkg.vhd
 l0
-R47
+R48
 VFXcPz=YQGjFo1f<PffzXJ1
 !s100 ?mI@0=;[HlNP3WJ=HC>]I3
 R11
 31
-R59
+R62
 !i10b 1
-R60
+R63
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_ModSecu_relI_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_ModSecu_relI_pkg.vhd|
 !i113 1
@@ -464,7 +464,7 @@ R4
 R6
 R7
 !i122 25
-R52
+R51
 R0
 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd
@@ -474,9 +474,9 @@ Vi`N?BA[nSD4;NdM1;[U>I0
 !s100 Ko<E>Z>V]<`Lgj?K]ImE=3
 R11
 31
-R59
+R62
 !i10b 1
-R60
+R63
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/componentes_cntl_seg_pkg/componentes_control_seg_pkg.vhd|
 !i113 1
@@ -499,16 +499,16 @@ Va4T]^VEIJaW[2cPI=5__B3
 !s100 :m@`iln]86IAc^_TCTm:>3
 R11
 31
-R48
+R62
 !i10b 1
-R49
+R63
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/componentes_cortos_pkg/componentes_cortos_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/componentes_cortos_pkg/componentes_cortos_pkg.vhd|
 !i113 1
 R16
 R17
 Pcomponentes_decodificador_modsecu_reli_pkg
-R62
+R64
 R5
 R3
 R4
@@ -520,7 +520,7 @@ R0
 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/componentes_decodificador_ModSecu_relI_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/componentes_decodificador_ModSecu_relI_pkg.vhd
 l0
-R47
+R48
 V6CSZRX]^`T2lz0dGkD3fk2
 !s100 <BW_L><J^H8N?I[`eTnKh3
 R11
@@ -572,14 +572,14 @@ R0
 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/componentes_MD_pkg/componentes_MD_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/componentes_MD_pkg/componentes_MD_pkg.vhd
 l0
-R47
+R48
 VG]?z]]S:Og>CR>67m7J?=2
 !s100 74z>oUFzLZKe4LHKhW2IK1
 R11
 31
-R12
+R55
 !i10b 1
-R13
+Z65 !s108 1673466001.000000
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/componentes_MD_pkg/componentes_MD_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/componentes_MD_pkg/componentes_MD_pkg.vhd|
 !i113 1
@@ -604,7 +604,7 @@ R11
 31
 R59
 !i10b 1
-Z63 !s108 1673106897.000000
+R60
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/componentes_secuenciamiento_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/componentes_secuenciamiento_pkg.vhd|
 !i113 1
@@ -613,24 +613,24 @@ R17
 Ecortos
 R61
 R3
-Z64 DPx4 work 25 componentes_cam_datos_pkg 0 22 Zi0]Ok`mP_@0RfG2Pd7Wf2
+Z66 DPx4 work 25 componentes_cam_datos_pkg 0 22 Zi0]Ok`mP_@0RfG2Pd7Wf2
 R4
 R5
 R6
 R7
 !i122 78
 R0
-Z65 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/cortos.vhd
-Z66 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/cortos.vhd
+Z67 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/cortos.vhd
+Z68 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/cortos.vhd
 l0
 R27
 V:N_[D;X?Y]odezInQ:8W]3
 !s100 @SkPeVVTaN2XYS:M@BJ=L1
 R11
 31
-Z67 !s110 1673106901
+R42
 !i10b 1
-Z68 !s108 1673106901.000000
+R43
 Z69 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/cortos.vhd|
 Z70 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/cortos.vhd|
 !i113 1
@@ -638,7 +638,7 @@ R16
 R17
 Aestructural
 R3
-R64
+R66
 R4
 R5
 R6
@@ -651,9 +651,9 @@ Vn^TlaYFGKFY@nF9YYCYVJ3
 !s100 Pa:H`liW@a`oMnSVV2EWS0
 R11
 31
-R67
+R42
 !i10b 1
-R68
+R43
 R69
 R70
 !i113 1
@@ -670,12 +670,12 @@ R0
 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/tipos_constantes_pkg/cte_tipos_deco_camino_ModSecu_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/tipos_constantes_pkg/cte_tipos_deco_camino_ModSecu_pkg.vhd
 l0
-R55
+R54
 VHn@>6QJ:1HmRa@NF3LX^d2
 !s100 jl?b[T9?H_ahIG_li?mgP0
 R11
 31
-R59
+R62
 !i10b 1
 R60
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/tipos_constantes_pkg/cte_tipos_deco_camino_ModSecu_pkg.vhd|
@@ -698,9 +698,9 @@ V=3M^KZc5HLDni3:[J5zkF2
 !s100 P2H8<SbNzRneb74U[?`[X3
 R11
 31
-Z72 !s110 1673106897
+Z72 !s110 1673465997
 !i10b 1
-R63
+Z73 !s108 1673465997.000000
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/tipos_constantes_pkg/cte_tipos_deco_camino_ModSecu_relI_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/tipos_constantes_pkg/cte_tipos_deco_camino_ModSecu_relI_pkg.vhd|
 !i113 1
@@ -711,7 +711,7 @@ R5
 R6
 R7
 !i122 6
-R52
+R51
 R0
 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd
@@ -723,14 +723,14 @@ R11
 31
 R72
 !i10b 1
-R63
+R73
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/cte_tipos_deco_camino_pkg.vhd|
 !i113 1
 R16
 R17
 Pcte_tipos_uf_pkg
-R37
+R38
 R5
 R3
 R6
@@ -762,8 +762,8 @@ R6
 R7
 !i122 49
 R0
-Z73 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd
-Z74 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd
+Z74 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd
+Z75 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd
 l0
 R58
 V5O`Kg^VbEP4BGLc>J6U_G2
@@ -773,8 +773,8 @@ R11
 R12
 !i10b 1
 R13
-Z75 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd|
-Z76 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd|
+Z76 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd|
+Z77 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/CUATRO/CODIGO/cuatro.vhd|
 !i113 1
 R16
 R17
@@ -794,14 +794,14 @@ R11
 R12
 !i10b 1
 R13
-R75
 R76
+R77
 !i113 1
 R16
 R17
 Edeco_excep
 R1
-R37
+R38
 R3
 R4
 R5
@@ -809,24 +809,24 @@ R6
 R7
 !i122 38
 R0
-Z77 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd
-Z78 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd
+Z78 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd
+Z79 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd
 l0
 R27
 VH<5T@6Uo6JDQh<J`DA3VO2
 !s100 dVWL4jOGZY@MTXW]4kdMV0
 R11
 31
-R48
+R62
 !i10b 1
-R49
-Z79 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd|
-Z80 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd|
+R63
+Z80 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd|
+Z81 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/deco_excep.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R37
+R38
 R3
 R4
 R5
@@ -840,29 +840,29 @@ VKe<acM[>[hKhgM<Y9L?TA2
 !s100 UAQ?n@U6=X:P`WFSW@PZV2
 R11
 31
-R48
+R62
 !i10b 1
-R49
-R79
+R63
 R80
+R81
 !i113 1
 R16
 R17
 Pdeco_inst_impri_pkg
-Z81 DPx4 work 23 imprimir_inst_ascii_pkg 0 22 D4C0Azd<D0G7]zzHj9Ke[0
+Z82 DPx4 work 23 imprimir_inst_ascii_pkg 0 22 D4C0Azd<D0G7]zzHj9Ke[0
 R4
-R37
-Z82 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R38
+Z83 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
 R5
 R6
 R7
 !i122 123
 R1
 R0
-Z83 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd
-Z84 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd
+Z84 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd
+Z85 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd
 l0
-Z85 L18 1
+Z86 L18 1
 VFQPf7QaO;mEz;OhO7E`O:3
 !s100 A0Pgo7gf3A1iXgPfYVQBH0
 R11
@@ -870,67 +870,67 @@ R11
 b1
 R28
 !i10b 1
-R29
-Z86 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd|
-Z87 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd|
+Z87 !s108 1673466005.000000
+Z88 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd|
+Z89 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_instruc_pkg/deco_Inst_impri_pkg.vhd|
 !i113 1
 R16
 R17
 Bbody
-Z88 DPx4 work 19 deco_inst_impri_pkg 0 22 FQPf7QaO;mEz;OhO7E`O:3
-R81
-R4
-R37
+Z90 DPx4 work 19 deco_inst_impri_pkg 0 22 FQPf7QaO;mEz;OhO7E`O:3
 R82
+R4
+R38
+R83
 R5
 R6
 R7
 !i122 123
 l0
-Z89 L25 1
+Z91 L25 1
 V^jR9<3EX<2GgYZ=gh_L_b2
 !s100 CZWiYNYM@o6bjO_J]`2j^2
 R11
 31
 R28
 !i10b 1
-R29
-R86
 R87
+R88
+R89
 !i113 1
 R16
 R17
 Edecocamino_modsecu_reli
 R61
-R37
-R62
-Z90 DPx4 work 33 cte_tipos_deco_camino_modsecu_pkg 0 22 Hn@>6QJ:1HmRa@NF3LX^d2
+R38
+R64
+Z92 DPx4 work 33 cte_tipos_deco_camino_modsecu_pkg 0 22 Hn@>6QJ:1HmRa@NF3LX^d2
 R3
 R5
 R6
 R7
 !i122 72
 R0
-Z91 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino_ModSecu_relI.vhd
-Z92 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino_ModSecu_relI.vhd
+Z93 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino_ModSecu_relI.vhd
+Z94 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino_ModSecu_relI.vhd
 l0
-Z93 L16 1
+Z95 L16 1
 V`Uo`dN:C@W;n78zU2X<nU2
 !s100 Ok`@Z=hEc48VRH4m7RGn<2
 R11
 31
-R67
+R42
 !i10b 1
-R68
-Z94 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino_ModSecu_relI.vhd|
-Z95 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino_ModSecu_relI.vhd|
+R65
+Z96 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino_ModSecu_relI.vhd|
+Z97 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decocamino_ModSecu_relI.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R37
-R62
-R90
+R38
+R64
+R92
 R3
 R5
 R6
@@ -943,49 +943,49 @@ VaBT1?BJ3Fa?J<f]5JjRVC3
 !s100 aJ10mMJ>P]mggz]P^Q1092
 R11
 31
-R67
+R42
 !i10b 1
-R68
-R94
-R95
+R65
+R96
+R97
 !i113 1
 R16
 R17
 Edecodificador_modsecu_reli
 R61
-Z96 DPx4 work 42 componentes_decodificador_modsecu_reli_pkg 0 22 6CSZRX]^`T2lz0dGkD3fk2
-Z97 DPx4 work 29 componentes_decodificador_pkg 0 22 Ja@e2BM2b5X@=50^:M7S=2
-R36
+Z98 DPx4 work 42 componentes_decodificador_modsecu_reli_pkg 0 22 6CSZRX]^`T2lz0dGkD3fk2
+Z99 DPx4 work 29 componentes_decodificador_pkg 0 22 Ja@e2BM2b5X@=50^:M7S=2
+R37
 R4
-R62
+R64
 R3
 R5
 R6
 R7
 !i122 71
 R0
-Z98 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador_ModSecu_relI.vhd
-Z99 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador_ModSecu_relI.vhd
+Z100 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador_ModSecu_relI.vhd
+Z101 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador_ModSecu_relI.vhd
 l0
-Z100 L17 1
+Z102 L17 1
 VZ32OeVZ[?c>C_E;4DJ89C1
 !s100 RSTVf9<VJRefbd?13:T9]3
 R11
 31
-R67
+R55
 !i10b 1
-R68
-Z101 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador_ModSecu_relI.vhd|
-Z102 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador_ModSecu_relI.vhd|
+R65
+Z103 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador_ModSecu_relI.vhd|
+Z104 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decodificador_ModSecu_relI.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R96
-R97
-R36
+R98
+R99
+R37
 R4
-R62
+R64
 R3
 R5
 R6
@@ -998,43 +998,43 @@ VXa09zoR@c?gI=1D_a9oo^2
 !s100 O8QzeB59Ao7GX0NC?>hLS1
 R11
 31
-R67
+R55
 !i10b 1
-R68
-R101
-R102
+R65
+R103
+R104
 !i113 1
 R16
 R17
 Edecoopalu
 R1
 R4
-R37
+R38
 R3
 R5
 R6
 R7
 !i122 36
 R0
-Z103 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd
-Z104 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd
+Z105 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd
+Z106 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd
 l0
 R10
 VnMgi=[8;PhLk_2od6Jh251
 !s100 KGIaB87Go7Y1:F5HL_laH0
 R11
 31
-R48
+R62
 !i10b 1
-R49
-Z105 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd|
-Z106 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd|
+R63
+Z107 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd|
+Z108 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopALU.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
 R4
-R37
+R38
 R3
 R5
 R6
@@ -1047,43 +1047,43 @@ Vj[gWXEI`;AHJ_KIObS0c80
 !s100 MUTXGZG8W?Ajd2P;C@VK22
 R11
 31
-R48
+R62
 !i10b 1
-R49
-R105
-R106
+R63
+R107
+R108
 !i113 1
 R16
 R17
 Edecoopmd
 R1
 R4
-R37
+R38
 R3
 R5
 R6
 R7
 !i122 37
 R0
-Z107 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd
-Z108 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd
+Z109 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd
+Z110 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd
 l0
 R10
 V7GGiNnh4Ua3II]a73X:5Y1
 !s100 `EFHj?bZ>gcWMO>6^BPPd0
 R11
 31
-R48
+R62
 !i10b 1
-R49
-Z109 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd|
-Z110 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd|
+R63
+Z111 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd|
+Z112 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopMD.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
 R4
-R37
+R38
 R3
 R5
 R6
@@ -1096,45 +1096,45 @@ VFgz^9lM<8?8EUmFnJZ^fK2
 !s100 d>jg_k7@Ga0R7>okALBQM2
 R11
 31
-R48
+R62
 !i10b 1
-R49
-R109
-R110
+R63
+R111
+R112
 !i113 1
 R16
 R17
 Edecoopsec_reli
 R61
 R4
+R39
 R38
-R37
 R3
 R5
 R6
 R7
 !i122 73
 R0
-Z111 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC_relI.vhd
-Z112 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC_relI.vhd
+Z113 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC_relI.vhd
+Z114 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC_relI.vhd
 l0
-R93
+R95
 Vdaik?a4SZ<Zjcd]VZiHS82
 !s100 i?[kQl=``d@;nVZXN]BPg2
 R11
 31
-R67
+R42
 !i10b 1
-R68
-Z113 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC_relI.vhd|
-Z114 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC_relI.vhd|
+R43
+Z115 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC_relI.vhd|
+Z116 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/decoopSEC_relI.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
 R4
+R39
 R38
-R37
 R3
 R5
 R6
@@ -1147,47 +1147,47 @@ V3W`oa^<;E?XHb3CeO?c6l2
 !s100 QkkNIXSHg7Hh75YO][IJU1
 R11
 31
-R67
+R42
 !i10b 1
-R68
-R113
-R114
+R43
+R115
+R116
 !i113 1
 R16
 R17
 Edecopbropsec_modsecu_reli
 R61
 R4
+R39
 R38
-R37
-R62
+R64
 R3
 R5
 R6
 R7
 !i122 99
 R0
-Z115 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC_ModSecu_relI.vhd
-Z116 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC_ModSecu_relI.vhd
+Z117 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC_ModSecu_relI.vhd
+Z118 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC_ModSecu_relI.vhd
 l0
-R93
+R95
 VV8c=aCfeLDQWbGORj9IDe2
 !s100 9NKdW[W]nJ_4gh^=1OLjO3
 R11
 31
-Z117 !s110 1673106903
+Z119 !s110 1673466003
 !i10b 1
-Z118 !s108 1673106903.000000
-Z119 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC_ModSecu_relI.vhd|
-Z120 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC_ModSecu_relI.vhd|
+Z120 !s108 1673466003.000000
+Z121 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC_ModSecu_relI.vhd|
+Z122 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/decoPBRopSEC_ModSecu_relI.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
 R4
+R39
 R38
-R37
-R62
+R64
 R3
 R5
 R6
@@ -1200,46 +1200,46 @@ VaGUmSbPdEa861Gc3iOH>e3
 !s100 Tod?zY24mAd@B?FoU>0Fj2
 R11
 31
-R117
-!i10b 1
-R118
 R119
+!i10b 1
 R120
+R121
+R122
 !i113 1
 R16
 R17
 Edecs
 R1
-R36
-R3
-R38
 R37
+R3
+R39
+R38
 R5
 R6
 R7
 !i122 86
 R0
-Z121 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd
-Z122 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd
+Z123 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd
+Z124 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd
 l0
 R10
 Vh?BiQeYH0TeSAD1>;cGdg0
 !s100 1X1Nz;;b<mRX5PfcdPL;43
 R11
 31
-R41
-!i10b 1
 R42
-Z123 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd|
-Z124 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd|
+!i10b 1
+R43
+Z125 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd|
+Z126 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/DECS.vhd|
 !i113 1
 R16
 R17
 Acomporta
-R36
-R3
-R38
 R37
+R3
+R39
+R38
 R5
 R6
 R7
@@ -1251,19 +1251,19 @@ VJ?ISO3Bg[8[0O86]]_2E60
 !s100 ;eG728FQ^>m`PPcdkD>]01
 R11
 31
-R41
-!i10b 1
 R42
-R123
-R124
+!i10b 1
+R43
+R125
+R126
 !i113 1
 R16
 R17
 Eensam_rd_c
 R61
-Z125 DPx4 work 21 retardos_cntl_seg_pkg 0 22 LHlVB3l36icZCao4V?bMR1
-Z126 DPx4 work 29 componentes_control_seg_c_pkg 0 22 7Gd`OzBNLMUjCo]=]?njI0
-Z127 DPx4 work 27 componentes_control_seg_pkg 0 22 i`N?BA[nSD4;NdM1;[U>I0
+Z127 DPx4 work 21 retardos_cntl_seg_pkg 0 22 LHlVB3l36icZCao4V?bMR1
+Z128 DPx4 work 29 componentes_control_seg_c_pkg 0 22 7Gd`OzBNLMUjCo]=]?njI0
+Z129 DPx4 work 27 componentes_control_seg_pkg 0 22 i`N?BA[nSD4;NdM1;[U>I0
 R5
 R3
 R4
@@ -1271,26 +1271,26 @@ R6
 R7
 !i122 100
 R0
-Z128 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd
-Z129 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd
+Z130 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd
+Z131 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd
 l0
 R10
 V@`0g`CI?J3bToA>NAjNNo3
 !s100 hzd;:[83:AO1M;5Ee1jdo3
 R11
 31
-R117
+R119
 !i10b 1
-R118
-Z130 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd|
-Z131 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd|
+R120
+Z132 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd|
+Z133 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/ENSAM_RD/CODIGO/ensam_RD_C.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R125
-R126
 R127
+R128
+R129
 R5
 R3
 R4
@@ -1304,20 +1304,20 @@ VIKHH7YNBQgeS`@;1@F=0E3
 !s100 BPWLY7VR7`OzXU2i8=H_f3
 R11
 31
-R117
+R119
 !i10b 1
-R118
-R130
-R131
+R120
+R132
+R133
 !i113 1
 R16
 R17
 Eensam_rs_modsecu_reli
 R61
-R125
-Z132 DPx4 work 40 componentes_control_seg_modsecu_reli_pkg 0 22 FXcPz=YQGjFo1f<PffzXJ1
 R127
-R62
+Z134 DPx4 work 40 componentes_control_seg_modsecu_reli_pkg 0 22 FXcPz=YQGjFo1f<PffzXJ1
+R129
+R64
 R5
 R3
 R4
@@ -1325,27 +1325,27 @@ R6
 R7
 !i122 105
 R0
-Z133 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS_ModSecu_relI.vhd
-Z134 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS_ModSecu_relI.vhd
+Z135 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS_ModSecu_relI.vhd
+Z136 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS_ModSecu_relI.vhd
 l0
-R93
+R95
 VUKml:T0^Am0dZiUOc>aG@2
 !s100 Eof@099eUS;CJ`kmEgRNX1
 R11
 31
-R117
+R34
 !i10b 1
-R118
-Z135 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS_ModSecu_relI.vhd|
-Z136 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS_ModSecu_relI.vhd|
+R29
+Z137 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS_ModSecu_relI.vhd|
+Z138 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/ENSAM_RS/CODIGO/ensam_RS_ModSecu_relI.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R125
-R132
 R127
-R62
+R134
+R129
+R64
 R5
 R3
 R4
@@ -1359,47 +1359,47 @@ V?PIZ;^RGdaLIGTnC2JlGi3
 !s100 _9`IHRRQF0HheAOJJKY9O3
 R11
 31
-R117
+R34
 !i10b 1
-R118
-R135
-R136
+R29
+R137
+R138
 !i113 1
 R16
 R17
 Eeval
 R1
-R36
 R37
-R3
 R38
+R3
+R39
 R4
 R5
 R6
 R7
 !i122 92
 R0
-Z137 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd
-Z138 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd
+Z139 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd
+Z140 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd
 l0
 R27
 Vo;:0V@?0D7zAmjQ3QnL]e2
 !s100 _35F6LcU6ce4Hg_e6L2QA1
 R11
 31
-R41
+R119
 !i10b 1
-R42
-Z139 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd|
-Z140 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd|
+R120
+Z141 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd|
+Z142 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/EVALUACION/CODIGO/eval.vhd|
 !i113 1
 R16
 R17
 Acomport
-R36
 R37
-R3
 R38
+R3
+R39
 R4
 R5
 R6
@@ -1407,22 +1407,22 @@ R7
 DEx4 work 4 eval 0 22 o;:0V@?0D7zAmjQ3QnL]e2
 !i122 92
 l20
-Z141 L19 7
+Z143 L19 7
 VhE=ng=Znn4b[Ogl42kXW`0
 !s100 oLZ0_5oX:gnfXMX[WEX3>1
 R11
 31
-R41
+R119
 !i10b 1
-R42
-R139
-R140
+R120
+R141
+R142
 !i113 1
 R16
 R17
 Efmtd
 R1
-R36
+R37
 R5
 R3
 R4
@@ -1430,24 +1430,24 @@ R6
 R7
 !i122 40
 R0
-Z142 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd
-Z143 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd
+Z144 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd
+Z145 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd
 l0
-R47
+R48
 VgMVbB80WbnEQl?T@lBDTK1
 !s100 l=WAmQ]gE3VH`Fm:FeUE01
 R11
 31
-R48
+R12
 !i10b 1
-R49
-Z144 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd|
-Z145 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd|
+R63
+Z146 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd|
+Z147 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/FMTD.vhd|
 !i113 1
 R16
 R17
 Acompor
-R36
+R37
 R5
 R3
 R4
@@ -1461,18 +1461,18 @@ VZ2f2i6gE@<C9Z0c9YTMTV2
 !s100 FgncX3dVgiL_AcVbGbQ1P3
 R11
 31
-R48
+R12
 !i10b 1
-R49
-R144
-R145
+R63
+R146
+R147
 !i113 1
 R16
 R17
 Efmte
 R1
 R22
-R36
+R37
 R4
 R23
 R24
@@ -1482,25 +1482,25 @@ R6
 R7
 !i122 114
 R0
-Z146 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd
-Z147 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd
+Z148 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd
+Z149 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd
 l0
 R10
 V[JB^PI=f36h2fdUjKRTfl0
 !s100 1Sg>b@VlK>O@XjTT_EizM2
 R11
 31
-R28
+R34
 !i10b 1
 R29
-Z148 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd|
-Z149 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd|
+Z150 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd|
+Z151 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/FMTE.vhd|
 !i113 1
 R16
 R17
 Aestructural
 R22
-R36
+R37
 R4
 R23
 R24
@@ -1516,18 +1516,18 @@ V7MzgP7@ec5K5K8eiRig<<3
 !s100 EHTOAH`Kk6<?g5N?fd7mD0
 R11
 31
-R28
+R34
 !i10b 1
 R29
-R148
-R149
+R150
+R151
 !i113 1
 R16
 R17
 Efmtl
 R1
 R22
-R36
+R37
 R4
 R23
 R24
@@ -1537,25 +1537,25 @@ R6
 R7
 !i122 118
 R0
-Z150 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd
-Z151 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd
+Z152 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd
+Z153 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd
 l0
 R71
 VAk[zILRFNAd@O0AdOZQ]X3
 !s100 fKJAFc0Yl9cjK6LUgIj;Q1
 R11
 31
-R28
+R34
 !i10b 1
 R29
-Z152 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd|
-Z153 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd|
+Z154 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd|
+Z155 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/FMTL.vhd|
 !i113 1
 R16
 R17
 Aestructural
 R22
-R36
+R37
 R4
 R23
 R24
@@ -1571,11 +1571,11 @@ VoFG1XDNa]IiOF40eMi@:L2
 !s100 0K:Uzmij;i=1=M=RYL70z1
 R11
 31
-R28
+R34
 !i10b 1
 R29
-R152
-R153
+R154
+R155
 !i113 1
 R16
 R17
@@ -1591,8 +1591,8 @@ R6
 R7
 !i122 120
 R0
-Z154 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd
-Z155 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd
+Z156 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd
+Z157 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd
 l0
 R27
 Vd`9lk;lbejBO5aa@g<ZU61
@@ -1601,9 +1601,9 @@ R11
 31
 R28
 !i10b 1
-R29
-Z156 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd|
-Z157 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd|
+R87
+Z158 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd|
+Z159 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/EXTSIG/CODIGO/FMTL_extsig.vhd|
 !i113 1
 R16
 R17
@@ -1626,9 +1626,9 @@ R11
 31
 R28
 !i10b 1
-R29
-R156
-R157
+R87
+R158
+R159
 !i113 1
 R16
 R17
@@ -1643,19 +1643,19 @@ R6
 R7
 !i122 96
 R0
-Z158 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd
-Z159 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd
+Z160 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd
+Z161 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd
 l0
-R47
+R48
 VbVgM9GehK`B0PS^d8VfLR1
 !s100 n6;PNZIU8_VJ=6Nc36jEz0
 R11
 31
-R117
+R119
 !i10b 1
-R42
-Z160 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd|
-Z161 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd|
+R120
+Z162 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd|
+Z163 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTL/COMPONENTES/SEL_SIGNO/CODIGO/FMTL_sel_signo.vhd|
 !i113 1
 R16
 R17
@@ -1675,17 +1675,17 @@ V7KA;A88_j7>j:6GU4:V[o0
 !s100 F;LNjhMIm`HzAMQ`WPomG3
 R11
 31
-R117
+R119
 !i10b 1
-R42
-R160
-R161
+R120
+R162
+R163
 !i113 1
 R16
 R17
 Efmts
 R1
-R36
+R37
 R5
 R3
 R4
@@ -1693,10 +1693,10 @@ R6
 R7
 !i122 51
 R0
-Z162 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd
-Z163 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd
+Z164 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd
+Z165 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd
 l0
-R47
+R48
 Va5[ha1TE@8gdkIYTc=UKz3
 !s100 LNN4M=G6N7]Nhn_C;ne[Z0
 R11
@@ -1704,13 +1704,13 @@ R11
 R12
 !i10b 1
 R13
-Z164 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd|
-Z165 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd|
+Z166 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd|
+Z167 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/FMTS.vhd|
 !i113 1
 R16
 R17
 Acompor
-R36
+R37
 R5
 R3
 R4
@@ -1727,14 +1727,14 @@ R11
 R12
 !i10b 1
 R13
-R164
-R165
+R166
+R167
 !i113 1
 R16
 R17
 Pimpri_br_pkg
 R4
-R82
+R83
 R23
 R5
 R6
@@ -1742,10 +1742,10 @@ R7
 !i122 125
 R1
 R0
-Z166 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd
-Z167 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd
+Z168 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd
+Z169 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd
 l0
-R93
+R95
 V=5g]DY2LLo0_B^g7Wi_Sf3
 !s100 _bGd0FBlnio1jDI?8PE8]0
 R11
@@ -1753,16 +1753,16 @@ R11
 b1
 R28
 !i10b 1
-R29
-Z168 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd|
-Z169 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd|
+R87
+Z170 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd|
+Z171 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_BR_pkg.vhd|
 !i113 1
-Z170 o-2008 -work work
+Z172 o-2008 -work work
 R17
 Bbody
-Z171 DPx4 work 12 impri_br_pkg 0 22 =5g]DY2LLo0_B^g7Wi_Sf3
+Z173 DPx4 work 12 impri_br_pkg 0 22 =5g]DY2LLo0_B^g7Wi_Sf3
 R4
-R82
+R83
 R23
 R5
 R6
@@ -1776,16 +1776,16 @@ R11
 33
 R28
 !i10b 1
-R29
-R168
-R169
-!i113 1
+R87
 R170
+R171
+!i113 1
+R172
 R17
 Pimpri_memoria_d_pkg
 R24
 R4
-R82
+R83
 R23
 R5
 R6
@@ -1793,10 +1793,10 @@ R7
 !i122 126
 R1
 R0
-Z172 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd
-Z173 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd
+Z174 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd
+Z175 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd
 l0
-R100
+R102
 Vg?z2dofHnePg1CLE@?6zG3
 !s100 DoeWm@@N0H44N8=GfAE0Y3
 R11
@@ -1804,43 +1804,43 @@ R11
 b1
 R28
 !i10b 1
-R29
-Z174 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd|
-Z175 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd|
+R87
+Z176 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd|
+Z177 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MD_pkg.vhd|
 !i113 1
-R170
+R172
 R17
 Bbody
-Z176 DPx4 work 19 impri_memoria_d_pkg 0 22 g?z2dofHnePg1CLE@?6zG3
+Z178 DPx4 work 19 impri_memoria_d_pkg 0 22 g?z2dofHnePg1CLE@?6zG3
 R24
 R4
-R82
+R83
 R23
 R5
 R6
 R7
 !i122 126
 l0
-R89
+R91
 Vh<H?nePkcNFNL_TABhQJ40
 !s100 IbSBSeQ3J=nDPa>E3^bY83
 R11
 33
 R28
 !i10b 1
-R29
-R174
-R175
+R87
+R176
+R177
 !i113 1
-R170
+R172
 R17
 Pimpri_memoria_i_pkg
-R81
-R37
-R88
-Z177 DPx4 work 27 tipos_constan_memoria_i_pkg 0 22 <ScGSocn1NMKB6ATCeSRP2
-R4
 R82
+R38
+R90
+Z179 DPx4 work 27 tipos_constan_memoria_i_pkg 0 22 <ScGSocn1NMKB6ATCeSRP2
+R4
+R83
 R23
 R5
 R6
@@ -1848,10 +1848,10 @@ R7
 !i122 127
 R1
 R0
-Z178 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd
-Z179 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd
+Z180 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd
+Z181 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd
 l0
-R85
+R86
 V=oG98`BjDRXEa8=;6EH^42
 !s100 NEf?Kk`V?2L^QkF2hQHFi3
 R11
@@ -1859,53 +1859,53 @@ R11
 b1
 R28
 !i10b 1
-R29
-Z180 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd|
-Z181 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd|
+R87
+Z182 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd|
+Z183 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/impri_BR_memoria_pkg/impri_MI_pkg.vhd|
 !i113 1
-R170
+R172
 R17
 Bbody
-Z182 DPx4 work 19 impri_memoria_i_pkg 0 22 =oG98`BjDRXEa8=;6EH^42
-R81
-R37
-R88
-R177
-R4
+Z184 DPx4 work 19 impri_memoria_i_pkg 0 22 =oG98`BjDRXEa8=;6EH^42
 R82
+R38
+R90
+R179
+R4
+R83
 R23
 R5
 R6
 R7
 !i122 127
 l0
-Z183 L26 1
+Z185 L26 1
 V;SgG3mLRU3e;^m@;Rd_SK2
 !s100 9d]U8ZKUB1]lMdRZfjfKD1
 R11
 33
 R28
 !i10b 1
-R29
-R180
-R181
+R87
+R182
+R183
 !i113 1
-R170
+R172
 R17
 Pimprimir_inst_ascii_pkg
 R4
-R37
-R82
+R38
+R83
 R5
 R6
 R7
 !i122 122
 R1
 R0
-Z184 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd
-Z185 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd
+Z186 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd
+Z187 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd
 l0
-R93
+R95
 VD4C0Azd<D0G7]zzHj9Ke[0
 !s100 gVG>O?38Cflh^FARJ^W3]3
 R11
@@ -1913,17 +1913,17 @@ R11
 b1
 R28
 !i10b 1
-R29
-Z186 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd|
-Z187 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd|
+R87
+Z188 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd|
+Z189 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../../../LAB4/PROC_SERIE/UTILIDADES_pkg/generar_impri_instruc_pkg/imprimir_inst_ascii_pkg.vhd|
 !i113 1
 R16
 R17
 Bbody
-R81
-R4
-R37
 R82
+R4
+R38
+R83
 R5
 R6
 R7
@@ -1936,51 +1936,51 @@ R11
 31
 R28
 !i10b 1
-R29
-R186
-R187
+R87
+R188
+R189
 !i113 1
 R16
 R17
 Pinicializa_mem_i_pkg
 R23
-R177
+R179
 R4
-R82
+R83
 R5
-Z188 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z189 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z190 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z191 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R6
 R7
 !i122 67
 R1
 R0
-Z190 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd
-Z191 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd
+Z192 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd
+Z193 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd
 l0
-Z192 L19 1
+Z194 L19 1
 VlY8LMl57[Fn:ga<aeedT23
 !s100 =7f:L6`Y_QH>Za_MVKk`82
 R11
 31
 b1
-R67
+R55
 !i10b 1
-R68
-Z193 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd|
-Z194 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd|
+R65
+Z195 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd|
+Z196 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/memoria_MI/CODIGO/ini_mem_I_pkg.vhd|
 !i113 1
 R16
 R17
 Bbody
-Z195 DPx4 work 20 inicializa_mem_i_pkg 0 22 lY8LMl57[Fn:ga<aeedT23
+Z197 DPx4 work 20 inicializa_mem_i_pkg 0 22 lY8LMl57[Fn:ga<aeedT23
 R23
-R177
+R179
 R4
-R82
+R83
 R5
-R188
-R189
+R190
+R191
 R6
 R7
 !i122 67
@@ -1990,11 +1990,11 @@ V4m?aoTgCKSNG<8HNakQ_?3
 !s100 _71ZIGgHDYzDf^FmHLX5H1
 R11
 31
-R67
+R55
 !i10b 1
-R68
-R193
-R194
+R65
+R195
+R196
 !i113 1
 R16
 R17
@@ -2002,41 +2002,41 @@ Pinicializa_mem_pkg
 R4
 R23
 R24
-R82
+R83
 R5
-R188
-R189
+R190
+R191
 R6
 R7
 !i122 68
 R1
 R0
-Z196 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd
-Z197 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd
+Z198 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd
+Z199 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd
 l0
-R85
+R86
 VVSUKdL3344C4o:EmHmAzh2
 !s100 ajn=j:fGngMH1L`H<je<z0
 R11
 31
 b1
-R67
+R55
 !i10b 1
-R68
-Z198 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd|
-Z199 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd|
+R65
+Z200 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd|
+Z201 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/memoria_ram/CODIGO/ini_mem_pkg.vhd|
 !i113 1
 R16
 R17
 Bbody
-Z200 DPx4 work 18 inicializa_mem_pkg 0 22 VSUKdL3344C4o:EmHmAzh2
+Z202 DPx4 work 18 inicializa_mem_pkg 0 22 VSUKdL3344C4o:EmHmAzh2
 R4
 R23
 R24
-R82
+R83
 R5
-R188
-R189
+R190
+R191
 R6
 R7
 !i122 68
@@ -2046,43 +2046,43 @@ V9]`:mOV`fQe3^D1[F>[`m2
 !s100 G=]a>F1g5W2lO4LIK]RY72
 R11
 31
-R67
+R55
 !i10b 1
-R68
-R198
-R199
+R65
+R200
+R201
 !i113 1
 R16
 R17
 Einst_latproh
 R61
 R4
-R37
+R38
 R3
 R5
 R6
 R7
 !i122 58
 R0
-Z201 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd
-Z202 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd
+Z203 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd
+Z204 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd
 l0
 R10
 V:FZE[Z6ON2EK_@c@4?<n?0
 !s100 Ya`gY>HHET4]9UNEaORZ]2
 R11
 31
-R12
+R55
 !i10b 1
-R13
-Z203 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd|
-Z204 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd|
+R65
+Z205 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd|
+Z206 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/inst_latproh.vhd|
 !i113 1
 R16
 R17
 Acompor
 R4
-R37
+R38
 R3
 R5
 R6
@@ -2095,41 +2095,41 @@ VN9zXT8[@U5n0M3nm`Ak2?2
 !s100 Tj3aLmSCMc^8eDflVKMeH0
 R11
 31
-R12
+R55
 !i10b 1
-R13
-R203
-R204
+R65
+R205
+R206
 !i113 1
 R16
 R17
 Elatproh
-Z205 w1672776429
-Z206 DPx4 work 10 regdes_pkg 0 22 [KDMkIfIeWV^j5m6BAR==2
+Z207 w1672776429
+Z208 DPx4 work 10 regdes_pkg 0 22 [KDMkIfIeWV^j5m6BAR==2
 R4
 R5
 R6
 R7
 !i122 103
 R0
-Z207 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd
-Z208 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd
+Z209 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd
+Z210 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd
 l0
-R47
+R48
 Vf8lj`>EChonf@mg_m4Qh01
 !s100 7^ABDU<?C>KaLX2NZ_B[l2
 R11
 31
-R117
+R34
 !i10b 1
-R118
-Z209 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd|
-Z210 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd|
+R120
+Z211 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd|
+Z212 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LATPROH/CODIGO/latproh.vhd|
 !i113 1
 R16
 R17
 Aestruc
-R206
+R208
 R4
 R5
 R6
@@ -2142,42 +2142,42 @@ V7Z[dnc[^WzI]LW]=[BEa]1
 !s100 cTUKMQgeJQze3Nc=[V<0e2
 R11
 31
-R117
+R34
 !i10b 1
-R118
-R209
-R210
+R120
+R211
+R212
 !i113 1
 R16
 R17
 Eldc
-Z211 w1672776496
-Z212 DPx4 work 23 retardos_cntl_seg_c_pkg 0 22 S=8R^cDTCdWo[NIdP_XA_1
-R206
+Z213 w1672776496
+Z214 DPx4 work 23 retardos_cntl_seg_c_pkg 0 22 S=8R^cDTCdWo[NIdP_XA_1
+R208
 R4
 R6
 R7
 !i122 104
 R0
-Z213 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd
-Z214 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd
+Z215 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd
+Z216 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd
 l0
-R47
+R48
 VdGA:]nez:joh@8cFPY4<a1
 !s100 ^^R5TcBKfief52Abk1U571
 R11
 31
-R117
+R34
 !i10b 1
-R118
-Z215 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd|
-Z216 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd|
+R29
+Z217 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd|
+Z218 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDC/CODIGO/LDC.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R212
-R206
+R214
+R208
 R4
 R6
 R7
@@ -2189,18 +2189,18 @@ Vc?b9JR6gE>DE[7:nXmgg>2
 !s100 e?<8zm0U920fJCNi@U6E`3
 R11
 31
-R117
+R34
 !i10b 1
-R118
-R215
-R216
+R29
+R217
+R218
 !i113 1
 R16
 R17
 Eldd
-Z217 w1670954609
-R125
+Z219 w1670954609
 R127
+R129
 R5
 R3
 R4
@@ -2208,25 +2208,25 @@ R6
 R7
 !i122 102
 R0
-Z218 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd
-Z219 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd
+Z220 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd
+Z221 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd
 l0
 L82 1
 VzB^6o36FgeBQZbTP@4leh0
 !s100 bBFEVgFSYZMhBlzBPJ^V@1
 R11
 31
-R117
+R119
 !i10b 1
-R118
-Z220 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd|
-Z221 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd|
+R120
+Z222 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd|
+Z223 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LDD/CODIGO/LDD.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R125
 R127
+R129
 R5
 R3
 R4
@@ -2240,40 +2240,40 @@ V9;5l3h9kdaXb^H>Z[^MK43
 !s100 :BT<8WIFJ=A:_>`zJX98c1
 R11
 31
-R117
+R119
 !i10b 1
-R118
-R220
-R221
+R120
+R222
+R223
 !i113 1
 R16
 R17
 Eldrd_c
-Z222 w1672779194
-R212
+Z224 w1672779194
+R214
 R4
 R6
 R7
 !i122 59
 R0
-Z223 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd
-Z224 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd
+Z225 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd
+Z226 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd
 l0
 R58
 VfDVlKzU_G?DV1bP1T?J:M0
 !s100 Oj83Ake[kJ7QKIB34llzG3
 R11
 31
-R12
+R55
 !i10b 1
-R13
-Z225 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd|
-Z226 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd|
+R65
+Z227 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd|
+Z228 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CONTROL_SEG_CORTOS/COMPONENTES/LDRD/CODIGO/LDRD_C.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R212
+R214
 R4
 R6
 R7
@@ -2285,43 +2285,43 @@ V3fTYTQ0gYcF0D=i2:EgmC3
 !s100 faSg24B]^5:YLMAKWGbC61
 R11
 31
-R12
+R55
 !i10b 1
-R13
-R225
-R226
+R65
+R227
+R228
 !i113 1
 R16
 R17
 Eldrs_modsecu_reli
-Z227 w1673101072
-R125
-R62
+Z229 w1673101072
+R127
+R64
 R5
 R3
 R6
 R7
 !i122 60
 R0
-Z228 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS_ModSecu_relI.vhd
-Z229 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS_ModSecu_relI.vhd
+Z230 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS_ModSecu_relI.vhd
+Z231 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS_ModSecu_relI.vhd
 l0
-R47
+R48
 VGGS0=_?78iKl_JZRdPP0Y0
 !s100 Zz78oW7UYFoKY1z96eG?P0
 R11
 31
-R12
+R55
 !i10b 1
-R13
-Z230 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS_ModSecu_relI.vhd|
-Z231 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS_ModSecu_relI.vhd|
+R65
+Z232 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS_ModSecu_relI.vhd|
+Z233 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/LDRS/CODIGO/LDRS_ModSecu_relI.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R125
-R62
+R127
+R64
 R5
 R3
 R6
@@ -2334,45 +2334,45 @@ VHmOMf@[DfBQ^Sk=S95iEo0
 !s100 F6kSjeEZP_aioQ6A;jMS61
 R11
 31
-R12
+R55
 !i10b 1
-R13
-R230
-R231
+R65
+R232
+R233
 !i113 1
 R16
 R17
 Elgr
-Z232 w1670956186
-R125
-R4
+Z234 w1670956186
 R127
+R4
+R129
 R5
 R3
 R6
 R7
 !i122 107
 R0
-Z233 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd
-Z234 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd
+Z235 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd
+Z236 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd
 l0
-R47
+R48
 V1cm?O7zHQMKT;>j6?oYEY1
 !s100 dAZ_Gi3dIco8^mQfg0h2m1
 R11
 31
-R117
+R34
 !i10b 1
-R118
-Z235 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd|
-Z236 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd|
+R29
+Z237 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd|
+Z238 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/LGR/CODIGO/LGR.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R125
-R4
 R127
+R4
+R129
 R5
 R3
 R6
@@ -2380,26 +2380,26 @@ R7
 DEx4 work 3 lgr 0 22 1cm?O7zHQMKT;>j6?oYEY1
 !i122 107
 l21
-Z237 L19 11
+Z239 L19 11
 Voe_HT?>R]Qi7X=Tf5e1Q`0
 !s100 lMz;m8A3O:a?Yz3a??Mob3
 R11
 31
-R117
+R34
 !i10b 1
-R118
-R235
-R236
+R29
+R237
+R238
 !i113 1
 R16
 R17
 Elib_c_modsecu_reli
 R61
-R125
-R132
-R126
 R127
-R62
+R134
+R128
+R129
+R64
 R5
 R3
 R4
@@ -2407,28 +2407,28 @@ R6
 R7
 !i122 97
 R0
-Z238 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C_ModSecu_relI.vhd
-Z239 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C_ModSecu_relI.vhd
+Z240 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C_ModSecu_relI.vhd
+Z241 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C_ModSecu_relI.vhd
 l0
-R100
+R102
 V<9f4e5G`H:0RUz>cEG1Bh2
 !s100 U5@36KEzI;DC[ghBlg9?62
 R11
 31
-R117
+R119
 !i10b 1
-R118
-Z240 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C_ModSecu_relI.vhd|
-Z241 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C_ModSecu_relI.vhd|
+R120
+Z242 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C_ModSecu_relI.vhd|
+Z243 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEG_CORTOS/LIB/CODIGO/LIB_C_ModSecu_relI.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R125
-R132
-R126
 R127
-R62
+R134
+R128
+R129
+R64
 R5
 R3
 R4
@@ -2442,11 +2442,11 @@ VkjIe]aLEEXOCGZT8o=z9b3
 !s100 gLU1EamUokzKjIAN<;]JX2
 R11
 31
-R117
+R119
 !i10b 1
-R118
-R240
-R241
+R120
+R242
+R243
 !i113 1
 R16
 R17
@@ -2454,48 +2454,48 @@ Emux2
 R1
 R3
 R4
-R36
+R37
 R5
 R6
 R7
 !i122 45
 R0
-Z242 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd
-Z243 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd
+Z244 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd
+Z245 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd
 l0
 R27
 V;dTJLBZdfe6QiM3Eb7A131
 !s100 zUGG><0FdnC^`M5[A[XKe1
 R11
 31
-R48
+R12
 !i10b 1
-R49
-Z244 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd|
-Z245 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd|
+R13
+Z246 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd|
+Z247 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux2.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
 R3
 R4
-R36
+R37
 R5
 R6
 R7
 DEx4 work 4 mux2 0 22 ;dTJLBZdfe6QiM3Eb7A131
 !i122 45
 l22
-Z246 L21 7
+Z248 L21 7
 VzhI6WTG25ez;0kGR7bBl=3
 !s100 C6dg1JgCAT<[TR?WF3Gkf1
 R11
 31
-R48
+R12
 !i10b 1
-R49
-R244
-R245
+R13
+R246
+R247
 !i113 1
 R16
 R17
@@ -2506,19 +2506,19 @@ R6
 R7
 !i122 9
 R0
-Z247 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd
-Z248 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd
+Z249 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd
+Z250 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd
 l0
 R71
 V`QA2Ho8njfBiT@SaUXVUA1
 !s100 iFe1X<Zo`KODPY;i_i8G^0
 R11
 31
-R72
+R59
 !i10b 1
-R63
-Z249 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd|
-Z250 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd|
+R60
+Z251 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd|
+Z252 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/ELEMENTOS/mux2M.vhd|
 !i113 1
 R16
 R17
@@ -2534,11 +2534,11 @@ V>3Dgckl[JzDUkl1zCz8J[2
 !s100 gf<JhWbo^]H?m8fljeVg71
 R11
 31
-R72
+R59
 !i10b 1
-R63
-R249
-R250
+R60
+R251
+R252
 !i113 1
 R16
 R17
@@ -2546,32 +2546,32 @@ Emux3
 R1
 R3
 R4
-R36
+R37
 R5
 R6
 R7
 !i122 47
 R0
-Z251 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd
-Z252 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd
+Z253 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd
+Z254 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd
 l0
 R27
 Va:mIeji:VS1NP0G0lGoj32
 !s100 ?82@ggaWT9`U:bL5B4=h10
 R11
 31
-R48
+R12
 !i10b 1
-R49
-Z253 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd|
-Z254 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd|
+R13
+Z255 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd|
+Z256 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/mux3.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
 R3
 R4
-R36
+R37
 R5
 R6
 R7
@@ -2583,11 +2583,11 @@ VjHVbin93`30:J^S[f]G?U3
 !s100 D7]aK^SA?:nMabWFc=m;k3
 R11
 31
-R48
+R12
 !i10b 1
-R49
-R253
-R254
+R13
+R255
+R256
 !i113 1
 R16
 R17
@@ -2595,14 +2595,14 @@ Emuxdirec
 R1
 R3
 R4
-R36
+R37
 R5
 R6
 R7
 !i122 53
 R0
-Z255 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd
-Z256 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd
+Z257 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd
+Z258 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd
 l0
 R27
 VOdid0cjJ2a6OJS?[CeTI72
@@ -2612,22 +2612,22 @@ R11
 R12
 !i10b 1
 R13
-Z257 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd|
-Z258 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd|
+Z259 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd|
+Z260 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/muxdirec.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
 R3
 R4
-R36
+R37
 R5
 R6
 R7
 DEx4 work 8 muxdirec 0 22 Odid0cjJ2a6OJS?[CeTI72
 !i122 53
 l22
-R246
+R248
 V<DeML`8_S1Lok1Q2DFJN83
 !s100 LMMKFf9YZUD8j02k@zYD92
 R11
@@ -2635,55 +2635,55 @@ R11
 R12
 !i10b 1
 R13
-R257
-R258
+R259
+R260
 !i113 1
 R16
 R17
 Emuxins
-R52
+R51
 R4
-R36
+R37
 R5
 R6
 R7
 !i122 34
 R0
-Z259 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd
-Z260 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd
+Z261 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd
+Z262 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd
 l0
-R47
+R48
 VP;g2]>TE7hUlfS9VN?:HD0
 !s100 AP[^5;;A`94zkk;:Dk`7X2
 R11
 31
-R48
+R62
 !i10b 1
-R49
-Z261 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd|
-Z262 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd|
+R63
+Z263 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd|
+Z264 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/muxIns.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
 R4
-R36
+R37
 R5
 R6
 R7
 DEx4 work 6 muxins 0 22 P;g2]>TE7hUlfS9VN?:HD0
 !i122 34
 l20
-R141
+R143
 VS`mm0_K^JkVleh=GI]NTP3
 !s100 7HXgH5BW@57A@UI[K];Wf1
 R11
 31
-R48
+R62
 !i10b 1
-R49
-R261
-R262
+R63
+R263
+R264
 !i113 1
 R16
 R17
@@ -2701,68 +2701,68 @@ V8Te25YoJ;_<V`[eDlKgZY3
 !s100 R04kPolABXkg2:c]Cz1932
 R11
 31
-R72
+R59
 !i10b 1
-R63
+R73
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/param_disenyo_pkg.vhd|
 !i113 1
 R16
 R17
 Eprueba_rproc_md_mi_c_modsecu_reli
-Z263 w1673106760
-Z264 DPx4 work 18 rimpri_traza_c_pkg 0 22 ?gZEFBO`83EDbK8bn@Z7@0
-R171
-R81
-R88
-R182
-R176
-R177
+Z265 w1673106760
+Z266 DPx4 work 18 rimpri_traza_c_pkg 0 22 ?gZEFBO`83EDbK8bn@Z7@0
+R173
+R82
+R90
+R184
+R178
+R179
 R23
 R24
-R37
-R62
+R38
+R64
 R3
 R4
-Z265 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
-R82
+Z267 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R83
 R5
 R6
 R7
 !i122 128
 R0
-Z266 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI_C_ModSecu_relI.vhd
-Z267 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI_C_ModSecu_relI.vhd
+Z268 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI_C_ModSecu_relI.vhd
+Z269 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI_C_ModSecu_relI.vhd
 l0
-R183
+R185
 VWz<n@kFoGln?`dVi^7l[02
 !s100 AjN?<h@RVYDNO5Vc5E[dY0
 R11
 33
 R28
 !i10b 1
-R29
-Z268 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI_C_ModSecu_relI.vhd|
+R87
+Z270 !s90 -reportprogress|300|-2008|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI_C_ModSecu_relI.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI_C_ModSecu_relI.vhd|
 !i113 1
-R170
+R172
 R17
 Acomportamiento
-R264
-R171
-R81
-R88
-R182
-R176
-R177
+R266
+R173
+R82
+R90
+R184
+R178
+R179
 R23
 R24
-R37
-R62
+R38
+R64
 R3
 R4
-R265
-R82
+R267
+R83
 R5
 R6
 R7
@@ -2776,15 +2776,15 @@ R11
 33
 R28
 !i10b 1
-R29
-R268
-Z269 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI_C_ModSecu_relI.vhd|
+R87
+R270
+Z271 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_Rproc_MD_MI_C_ModSecu_relI.vhd|
 !i113 1
-R170
+R172
 R17
 Eracceso_md
-R52
-R206
+R51
+R208
 R23
 R24
 R22
@@ -2796,24 +2796,24 @@ R6
 R7
 !i122 121
 R0
-Z270 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd
-Z271 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd
+Z272 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd
+Z273 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd
 l0
-R85
+R86
 VMEno2g7AIzLGQhW23C:EU2
 !s100 ]j;aBXR@HnN?9PGgoG25R3
 R11
 31
 R28
 !i10b 1
-R29
-Z272 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd|
-Z273 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd|
+R87
+Z274 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd|
+Z275 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/ACCESO/CODIGO/Racceso_MD.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
+R208
 R23
 R24
 R22
@@ -2833,16 +2833,16 @@ R11
 31
 R28
 !i10b 1
-R29
-R272
-R273
+R87
+R274
+R275
 !i113 1
 R16
 R17
 Eralu
-R52
-R206
-R64
+R51
+R208
+R66
 R4
 R3
 R5
@@ -2850,25 +2850,25 @@ R6
 R7
 !i122 82
 R0
-Z274 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd
-Z275 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd
+Z276 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd
+Z277 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd
 l0
-R93
+R95
 VMl9aFkHCZ6Rcn;Z?7La5i0
 !s100 =R;FN@4bz=KC5T9X3ISPm2
 R11
 31
-R41
-!i10b 1
 R42
-Z276 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd|
-Z277 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd|
+!i10b 1
+R43
+Z278 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd|
+Z279 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/ALU/CODIGO/Ralu.vhd|
 !i113 1
 R16
 R17
 Acompor
-R206
-R64
+R208
+R66
 R4
 R3
 R5
@@ -2877,50 +2877,50 @@ R7
 DEx4 work 4 ralu 0 22 Ml9aFkHCZ6Rcn;Z?7La5i0
 !i122 82
 l28
-Z278 L24 12
+Z280 L24 12
 V`[<0i>Z`O`T8o:HiR3aG_3
 !s100 RJkCX5jKM1M>=@hDb`n<J3
 R11
 31
-R41
-!i10b 1
 R42
-R276
-R277
+!i10b 1
+R43
+R278
+R279
 !i113 1
 R16
 R17
 Erbr
-R52
-R206
+R51
+R208
 R3
-R64
+R66
 R4
 R5
 R6
 R7
 !i122 76
 R0
-Z279 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd
-Z280 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd
+Z281 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd
+Z282 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd
 l0
 R10
 VOYgWM[Jd7jBCLQnnGLD@:1
 !s100 6f4mam04?P<E<ZSlM`mSL0
 R11
 31
-R67
+R42
 !i10b 1
-R68
-Z281 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd|
-Z282 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd|
+R43
+Z283 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd|
+Z284 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/BR/CODIGO/RBR.vhd|
 !i113 1
 R16
 R17
 Acompor
-R206
+R208
 R3
-R64
+R66
 R4
 R5
 R6
@@ -2933,20 +2933,20 @@ VPNn@dKm6DUO2b7f?dS:`A3
 !s100 a5dn2Z2[S`m:c26bUYl861
 R11
 31
-R67
+R42
 !i10b 1
-R68
-R281
-R282
+R43
+R283
+R284
 !i113 1
 R16
 R17
 Ercam_mem_datos_c
 R61
-R206
-Z283 DPx4 work 21 rcomponentes_md_c_pkg 0 22 ^o93dh476Da?DOFGZfMAJ0
-Z284 DPx4 work 19 rcomponentes_md_pkg 0 22 _0az<6X<IlGT8Ka4IUUA13
-R36
+R208
+Z285 DPx4 work 21 rcomponentes_md_c_pkg 0 22 ^o93dh476Da?DOFGZfMAJ0
+Z286 DPx4 work 19 rcomponentes_md_pkg 0 22 _0az<6X<IlGT8Ka4IUUA13
+R37
 R23
 R24
 R3
@@ -2956,27 +2956,27 @@ R6
 R7
 !i122 112
 R0
-Z285 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS_C.vhd
-Z286 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS_C.vhd
+Z287 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS_C.vhd
+Z288 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS_C.vhd
 l0
-R85
+R86
 VTTn^E8AX0P5Rj]8n]HY6U1
 !s100 a=5OY3KzBH3`=B]^HPbCG3
 R11
 31
-R117
+R34
 !i10b 1
-R118
-Z287 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS_C.vhd|
-Z288 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS_C.vhd|
+R29
+Z289 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS_C.vhd|
+Z290 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/ENSAMBLADO_compontes_memoria/CODIGO/Rcam_MEM_DATOS_C.vhd|
 !i113 1
 R16
 R17
 Aestruc
-R206
-R283
-R284
-R36
+R208
+R285
+R286
+R37
 R23
 R24
 R3
@@ -2992,20 +2992,20 @@ V_U6hdn_m@SDnT_hkD2@dW3
 !s100 Q=_7^fLm`oe>bI^3TMEZX0
 R11
 31
-R117
+R34
 !i10b 1
-R118
-R287
-R288
+R29
+R289
+R290
 !i113 1
 R16
 R17
 Ercam_mem_inst
-R52
-Z289 DPx4 work 19 rcomponentes_mi_pkg 0 22 z8@YhFnzim2ZWHVEzbW4o3
-R36
+R51
+Z291 DPx4 work 19 rcomponentes_mi_pkg 0 22 z8@YhFnzim2ZWHVEzbW4o3
+R37
 R23
-R177
+R179
 R3
 R4
 R5
@@ -3013,27 +3013,27 @@ R6
 R7
 !i122 110
 R0
-Z290 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd
-Z291 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd
+Z292 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd
+Z293 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd
 l0
-R93
+R95
 VL1IRSbKXeO5H<e:VH;;=T3
 !s100 f2l9SG4^GI<J?b8d7YQTN1
 R11
 31
-R117
+R34
 !i10b 1
-R118
-Z292 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd|
-Z293 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd|
+R29
+Z294 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd|
+Z295 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST.vhd|
 !i113 1
 R16
 R17
 Aestruc
-R289
-R36
+R291
+R37
 R23
-R177
+R179
 R3
 R4
 R5
@@ -3047,18 +3047,18 @@ VcPSOhHfnif^j_?bFz^0DJ0
 !s100 K?eM^FDCQmT=Jl:9A1SW;0
 R11
 31
-R117
+R34
 !i10b 1
-R118
-R292
-R293
+R29
+R294
+R295
 !i113 1
 R16
 R17
 Ercam_mem_inst_iny_pcero
-R52
-R177
-R289
+R51
+R179
+R291
 R23
 R24
 R3
@@ -3068,25 +3068,25 @@ R6
 R7
 !i122 109
 R0
-Z294 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd
-Z295 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd
+Z296 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd
+Z297 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd
 l0
-R100
+R102
 V<k5[jLNOP[<F[a[@PE@O00
 !s100 DMfiN773hERNHUJ03J[>z1
 R11
 31
-R117
+R34
 !i10b 1
-R118
-Z296 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd|
-Z297 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd|
+R29
+Z298 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd|
+Z299 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/ENSAMBLADO_componentes_MI/CODIGO/Rcam_MEM_INST_INY_Pcero.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R177
-R289
+R179
+R291
 R23
 R24
 R3
@@ -3102,56 +3102,56 @@ VBcBCXZLo`Q6Sk[U?<D0Ec1
 !s100 8e;o0ICQDOLd`iVM^knG43
 R11
 31
-R117
+R34
 !i10b 1
-R118
-R296
-R297
+R29
+R298
+R299
 !i113 1
 R16
 R17
 Ercamino_datos_c
 R61
-Z298 DPx4 work 23 rcomponentes_cortos_pkg 0 22 F2zBg5`hao:Qb`I??1jUT0
-Z299 DPx4 work 28 rcomponentes_cam_datos_c_pkg 0 22 6fcn=XD7Q9:]2:OU`[MYR2
-Z300 DPx4 work 26 rcomponentes_cam_datos_pkg 0 22 `@lI]HAo9VzG@i`hH=]<W3
-R64
-R37
-R3
+Z300 DPx4 work 23 rcomponentes_cortos_pkg 0 22 F2zBg5`hao:Qb`I??1jUT0
+Z301 DPx4 work 28 rcomponentes_cam_datos_c_pkg 0 22 6fcn=XD7Q9:]2:OU`[MYR2
+Z302 DPx4 work 26 rcomponentes_cam_datos_pkg 0 22 `@lI]HAo9VzG@i`hH=]<W3
+R66
 R38
+R3
+R39
 R4
-R36
+R37
 R5
 R6
 R7
 !i122 74
 R0
-Z301 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos_C.vhd
-Z302 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos_C.vhd
+Z303 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos_C.vhd
+Z304 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos_C.vhd
 l0
-Z303 L21 1
+Z305 L21 1
 V7I6iI9Ab<iGGJX2MDGMFe3
 !s100 =PiH^Rhd4o_:Q<^VP99iF0
 R11
 31
-R67
+R42
 !i10b 1
-R68
-Z304 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos_C.vhd|
-Z305 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos_C.vhd|
+R43
+Z306 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos_C.vhd|
+Z307 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/ENSAMBLADO_UC/CODIGO/Rcamino_datos_C.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R298
-R299
 R300
-R64
-R37
-R3
+R301
+R302
+R66
 R38
+R3
+R39
 R4
-R36
+R37
 R5
 R6
 R7
@@ -3163,23 +3163,23 @@ V1UN0YW^nC6S]W;6SX:W7O0
 !s100 zoAU15<L4>]G4R?=7hgkc1
 R11
 31
-R67
+R42
 !i10b 1
-R68
-R304
-R305
+R43
+R306
+R307
 !i113 1
 R16
 R17
 Ercamino_secuen_c_modsecu_reli
 R61
-R206
-Z306 DPx4 work 47 rcomponentes_secuenciamiento_c_modsecu_reli_pkg 0 22 TMD1QzGgRhJ8`ZNF6n;k63
-Z307 DPx4 work 42 rcomponentes_secuenciamiento_c_modsecu_pkg 0 22 7EgaB6_PTAo=H3nB]mzjL3
-Z308 DPx4 work 34 rcomponentes_secuenciamiento_c_pkg 0 22 YzIF85@m^OJfh]>J09IFc0
-Z309 DPx4 work 32 rcomponentes_secuenciamiento_pkg 0 22 VZ?TI?dk5FKkmMPoKCz8]1
-Z310 DPx4 work 31 componentes_secuenciamiento_pkg 0 22 F>mHGlPL8EB>[>7iNkloH3
-R62
+R208
+Z308 DPx4 work 47 rcomponentes_secuenciamiento_c_modsecu_reli_pkg 0 22 TMD1QzGgRhJ8`ZNF6n;k63
+Z309 DPx4 work 42 rcomponentes_secuenciamiento_c_modsecu_pkg 0 22 7EgaB6_PTAo=H3nB]mzjL3
+Z310 DPx4 work 34 rcomponentes_secuenciamiento_c_pkg 0 22 YzIF85@m^OJfh]>J09IFc0
+Z311 DPx4 work 32 rcomponentes_secuenciamiento_pkg 0 22 VZ?TI?dk5FKkmMPoKCz8]1
+Z312 DPx4 work 31 componentes_secuenciamiento_pkg 0 22 F>mHGlPL8EB>[>7iNkloH3
+R64
 R3
 R4
 R5
@@ -3187,30 +3187,30 @@ R6
 R7
 !i122 87
 R0
-Z311 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen_C_ModSecu_relI.vhd
-Z312 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen_C_ModSecu_relI.vhd
+Z313 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen_C_ModSecu_relI.vhd
+Z314 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen_C_ModSecu_relI.vhd
 l0
-R303
+R305
 VdK?Ui_]]<RX[SzQhMkZhI3
 !s100 ]^eFn5a;^_EVL>UZ]iSzB3
 R11
 31
-R41
-!i10b 1
 R42
-Z313 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen_C_ModSecu_relI.vhd|
-Z314 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen_C_ModSecu_relI.vhd|
+!i10b 1
+R43
+Z315 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen_C_ModSecu_relI.vhd|
+Z316 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/CAMINO_DATOS/USecuen/ENSAMBLADO_US/CODIGO/Rcamino_secuen_C_ModSecu_relI.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R306
-R307
+R208
 R308
 R309
 R310
-R62
+R311
+R312
+R64
 R3
 R4
 R5
@@ -3224,11 +3224,11 @@ VG=UYYm011S[eDMTd4SN830
 !s100 H]ciZMPW<NR_X[amWkfYP3
 R11
 31
-R41
-!i10b 1
 R42
-R313
-R314
+!i10b 1
+R43
+R315
+R316
 !i113 1
 R16
 R17
@@ -3264,7 +3264,7 @@ R4
 R6
 R7
 !i122 17
-R52
+R51
 R0
 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/Rcomponentes_cam_datos_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/componentes_cam_datos_pkg/Rcomponentes_cam_datos_pkg.vhd
@@ -3299,16 +3299,16 @@ VF2zBg5`hao:Qb`I??1jUT0
 !s100 aH[ifZCB;CIVo=X6RXd2n2
 R11
 31
-R48
+R62
 !i10b 1
-R49
+R63
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/componentes_cortos_pkg/Rcomponentes_cortos_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/componentes_cortos_pkg/Rcomponentes_cortos_pkg.vhd|
 !i113 1
 R16
 R17
 Prcomponentes_decodificador_modsecu_reli_pkg
-R62
+R64
 R5
 R3
 R4
@@ -3320,7 +3320,7 @@ R0
 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rcomponentes_decodificador_ModSecu_relI_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rcomponentes_decodificador_ModSecu_relI_pkg.vhd
 l0
-R47
+R48
 VW]lFK[2Rh2k?1Da93@FQ61
 !s100 _D8QRl;<[m:6ikmFj:Jz`1
 R11
@@ -3352,9 +3352,9 @@ V^o93dh476Da?DOFGZfMAJ0
 !s100 ;C]B>:f9nlR`9<BTd7]mF1
 R11
 31
-R12
+R55
 !i10b 1
-R13
+R65
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/componentes_MD_pkg/Rcomponentes_MD_C_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/componentes_MD_pkg/Rcomponentes_MD_C_pkg.vhd|
 !i113 1
@@ -3369,7 +3369,7 @@ R5
 R6
 R7
 !i122 62
-R52
+R51
 R0
 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/componentes_MD_pkg/Rcomponentes_MD_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/componentes_MD_pkg/Rcomponentes_MD_pkg.vhd
@@ -3379,16 +3379,16 @@ V_0az<6X<IlGT8Ka4IUUA13
 !s100 @:LI7b?3Pi;]V0obAR73o1
 R11
 31
-R12
+R55
 !i10b 1
-R13
+R65
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/componentes_MD_pkg/Rcomponentes_MD_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/componentes_MD_pkg/Rcomponentes_MD_pkg.vhd|
 !i113 1
 R16
 R17
 Prcomponentes_mi_pkg
-R177
+R179
 R3
 R4
 R23
@@ -3396,7 +3396,7 @@ R5
 R6
 R7
 !i122 64
-R52
+R51
 R0
 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/componentes_MI_pkg/Rcomponentes_MI_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/componentes_MI_pkg/Rcomponentes_MI_pkg.vhd
@@ -3406,9 +3406,9 @@ Vz8@YhFnzim2ZWHVEzbW4o3
 !s100 @P_Z=N?=kmeh]P9VOCAg:3
 R11
 31
-R12
+R55
 !i10b 1
-R13
+R65
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/componentes_MI_pkg/Rcomponentes_MI_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/componentes_MI_pkg/Rcomponentes_MI_pkg.vhd|
 !i113 1
@@ -3431,16 +3431,16 @@ VEb=`h9N12F2GB]oL`]^Kb1
 !s100 JnHBP[GN3CI@zB]1X9BNW1
 R11
 31
-R48
+R62
 !i10b 1
-R49
+R63
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_C_ModSecu_relI_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_C_ModSecu_relI_pkg.vhd|
 !i113 1
 R16
 R17
 Prcomponentes_proc_md_mi_c_pkg
-R177
+R179
 R23
 R24
 R5
@@ -3459,16 +3459,16 @@ VCVK@DHRnK4WYY]`4HX]bd2
 !s100 ibmLT];QTE2;48lUIhW^22
 R11
 31
-R67
+R55
 !i10b 1
-R68
+R65
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_C_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_C_pkg.vhd|
 !i113 1
 R16
 R17
 Prcomponentes_proc_md_mi_pkg
-R177
+R179
 R23
 R24
 R5
@@ -3477,7 +3477,7 @@ R4
 R6
 R7
 !i122 65
-R52
+R51
 R0
 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_pkg.vhd
@@ -3487,9 +3487,9 @@ Vm6S5N?aEOXzBB;RY]?MJM0
 !s100 8MjlNQQ88W?@;i_^4KScH3
 R11
 31
-R67
+R55
 !i10b 1
-R13
+R65
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/componentes_proc_MD_MI_pkg/Rcomponentes_proc_MD_MI_pkg.vhd|
 !i113 1
@@ -3521,7 +3521,7 @@ R60
 R16
 R17
 Prcomponentes_secuenciamiento_c_modsecu_reli_pkg
-R62
+R64
 R5
 R3
 R4
@@ -3533,7 +3533,7 @@ R0
 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/Rcomponentes_secuenciamiento_C_ModSecu_relI_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/Rcomponentes_secuenciamiento_C_ModSecu_relI_pkg.vhd
 l0
-R47
+R48
 VTMD1QzGgRhJ8`ZNF6n;k63
 !s100 Um;o3dKB[magPh`HY?2UI0
 R11
@@ -3578,7 +3578,7 @@ R4
 R6
 R7
 !i122 12
-R52
+R51
 R0
 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/Rcomponentes_secuenciamiento_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/componentes_secuenciamiento_pkg/Rcomponentes_secuenciamiento_pkg.vhd
@@ -3598,35 +3598,35 @@ R16
 R17
 Ercortosalu
 R61
-R206
+R208
 R3
-Z315 DPx4 work 22 componentes_cortos_pkg 0 22 a4T]^VEIJaW[2cPI=5__B3
+Z317 DPx4 work 22 componentes_cortos_pkg 0 22 a4T]^VEIJaW[2cPI=5__B3
 R4
 R5
 R6
 R7
 !i122 79
 R0
-Z316 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosALU.vhd
-Z317 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosALU.vhd
+Z318 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosALU.vhd
+Z319 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosALU.vhd
 l0
 R10
 VTKO8NH58R<>TPa@DWek[n0
 !s100 C@@3g<^bijP^[]5`[77Yk3
 R11
 31
-R67
+R42
 !i10b 1
-R68
-Z318 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosALU.vhd|
-Z319 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosALU.vhd|
+R43
+Z320 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosALU.vhd|
+Z321 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosALU.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
+R208
 R3
-R315
+R317
 R4
 R5
 R6
@@ -3639,45 +3639,45 @@ V0zUE7A@]oVL[VhRHJNzon3
 !s100 MK6ARR34Xh0BMMDEeISEn2
 R11
 31
-R67
+R42
 !i10b 1
-R68
-R318
-R319
+R43
+R320
+R321
 !i113 1
 R16
 R17
 Ercortosdl
 R61
-R206
+R208
 R3
-R315
+R317
 R4
 R5
 R6
 R7
 !i122 77
 R0
-Z320 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosDL.vhd
-Z321 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosDL.vhd
+Z322 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosDL.vhd
+Z323 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosDL.vhd
 l0
 R10
 VW_aTL0XBDAWJH2GC4cn<f0
 !s100 Jo1F;cjXF<E`TQio[?OL;3
 R11
 31
-R67
+R42
 !i10b 1
-R68
-Z322 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosDL.vhd|
-Z323 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosDL.vhd|
+R43
+Z324 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosDL.vhd|
+Z325 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/CORTOCIRCUITOS/CODIGO/RcortosDL.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
+R208
 R3
-R315
+R317
 R4
 R5
 R6
@@ -3690,40 +3690,40 @@ V[5eShcifMbSUR4D0l3H[[3
 !s100 nV<3n^X_ihN=I8DLjXN0e2
 R11
 31
-R67
+R42
 !i10b 1
-R68
-R322
-R323
+R43
+R324
+R325
 !i113 1
 R16
 R17
 Erd_1
-R52
-Z324 DPx4 work 19 retardos_regdes_pkg 0 22 6@6QTXaf2g][;TlBQeGj80
+R51
+Z326 DPx4 work 19 retardos_regdes_pkg 0 22 6@6QTXaf2g][;TlBQeGj80
 R4
 R6
 R7
 !i122 43
 R0
-Z325 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd
-Z326 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd
+Z327 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd
+Z328 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd
 l0
 R58
 V^LzfZCTJ1EHm^LjQk1O[31
 !s100 ci<d=]mfzi0;X[4UcR;Zc2
 R11
 31
-R48
+R12
 !i10b 1
-R49
-Z327 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd|
-Z328 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd|
+R13
+Z329 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd|
+Z330 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_1.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R324
+R326
 R4
 R6
 R7
@@ -3735,24 +3735,24 @@ VJJbkUC8XjSom]LGU6]9<R0
 !s100 _b:AnN:WkX04]loOczDh[0
 R11
 31
-R48
+R12
 !i10b 1
-R49
-R327
-R328
+R13
+R329
+R330
 !i113 1
 R16
 R17
 Erd_d
-R52
-R324
+R51
+R326
 R4
 R6
 R7
 !i122 48
 R0
-Z329 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd
-Z330 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd
+Z331 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd
+Z332 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd
 l0
 R58
 VjzAa9niii^8@7UzK=?j3[3
@@ -3761,14 +3761,14 @@ R11
 31
 R12
 !i10b 1
-R49
-Z331 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd|
-Z332 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd|
+R13
+Z333 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd|
+Z334 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_D.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R324
+R326
 R4
 R6
 R7
@@ -3782,38 +3782,38 @@ R11
 31
 R12
 !i10b 1
-R49
-R331
-R332
+R13
+R333
+R334
 !i113 1
 R16
 R17
 Erd_n
-R52
-R324
+R51
+R326
 R4
 R6
 R7
 !i122 41
 R0
-Z333 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd
-Z334 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd
+Z335 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd
+Z336 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd
 l0
 R58
 V?jgc1WdPgA7I]XZC1Lng^1
 !s100 =9jF@PZBk2I3cG4]M@S@H1
 R11
 31
-R48
+R12
 !i10b 1
-R49
-Z335 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd|
-Z336 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd|
+R13
+Z337 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd|
+Z338 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RD_N.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R324
+R326
 R4
 R6
 R7
@@ -3825,149 +3825,149 @@ V>ioKWkF][<ni^L@YDg3hf1
 !s100 0R[Bo26fVUU=SM^09`F540
 R11
 31
-R48
+R12
 !i10b 1
-R49
-R335
-R336
+R13
+R337
+R338
 !i113 1
 R16
 R17
 Erdb_dl_n
-R52
-R324
+R51
+R326
 R4
 R6
 R7
 !i122 35
 R0
-Z337 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd
-Z338 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd
+Z339 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd
+Z340 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd
 l0
 R58
 VlH<YaY?Rz@JCYM8TmjOLO1
 !s100 Im61n_6U:9zcFlBeYSzhh2
 R11
 31
-R48
+R62
 !i10b 1
-R49
-Z339 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd|
-Z340 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd|
+R63
+Z341 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd|
+Z342 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_DL_N.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R324
+R326
 R4
 R6
 R7
 DEx4 work 8 rdb_dl_n 0 22 lH<YaY?Rz@JCYM8TmjOLO1
 !i122 35
 l20
-R237
+R239
 V5Z95nI>U30n70fAWekhMc1
 !s100 EVEzd5oMgikMc;[d7hSaS0
 R11
 31
-R48
+R62
 !i10b 1
-R49
-R339
-R340
+R63
+R341
+R342
 !i113 1
 R16
 R17
 Erdb_n
-R52
-R324
+R51
+R326
 R4
 R6
 R7
 !i122 39
 R0
-Z341 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd
-Z342 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd
+Z343 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd
+Z344 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd
 l0
 R58
 VHH5RNKDHG?A@J@o[i>3622
 !s100 lLlaB]iKDMdn@DLhYYF>20
 R11
 31
-R48
+R62
 !i10b 1
-R49
-Z343 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd|
-Z344 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd|
+R63
+Z345 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd|
+Z346 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDB_N.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R324
+R326
 R4
 R6
 R7
 DEx4 work 5 rdb_n 0 22 HH5RNKDHG?A@J@o[i>3622
 !i122 39
 l20
-R237
+R239
 VZ2;zPO<]mcoj2@j9JfgMG0
 !s100 IoMgj6kKLF]TZYNGjG];X1
 R11
 31
-R48
+R62
 !i10b 1
-R49
-R343
-R344
+R63
+R345
+R346
 !i113 1
 R16
 R17
 Erdeco_cam_dat_secu_c_modsecu_reli
 R61
-R306
 R308
-R309
-Z345 DPx4 work 43 rcomponentes_decodificador_modsecu_reli_pkg 0 22 W]lFK[2Rh2k?1Da93@FQ61
-R299
-R300
-R62
-R37
-R3
+R310
+R311
+Z347 DPx4 work 43 rcomponentes_decodificador_modsecu_reli_pkg 0 22 W]lFK[2Rh2k?1Da93@FQ61
+R301
+R302
+R64
 R38
+R3
+R39
 R4
 R5
 R6
 R7
 !i122 69
 R0
-Z346 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu_C_ModSecu_relI.vhd
-Z347 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu_C_ModSecu_relI.vhd
+Z348 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu_C_ModSecu_relI.vhd
+Z349 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu_C_ModSecu_relI.vhd
 l0
 L22 1
 VC=d]:h1LSCjXkiOmV[6o=3
 !s100 W`:Dkd07P=OeV=79MVdHm3
 R11
 31
-R67
+R55
 !i10b 1
-R68
-Z348 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu_C_ModSecu_relI.vhd|
-Z349 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu_C_ModSecu_relI.vhd|
+R65
+Z350 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu_C_ModSecu_relI.vhd|
+Z351 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/ENSAMBLADO_DECO_UC_US/CODIGO/RDeco_cam_dat_secu_C_ModSecu_relI.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R306
 R308
-R309
-R345
-R299
-R300
-R62
-R37
-R3
+R310
+R311
+R347
+R301
+R302
+R64
 R38
+R3
+R39
 R4
 R5
 R6
@@ -3980,47 +3980,47 @@ VmnTC>JWIIa34cFfTC<0@?3
 !s100 550H@2>NFAMAZ7n8EYU9d3
 R11
 31
-R67
+R55
 !i10b 1
-R68
-R348
-R349
+R65
+R350
+R351
 !i113 1
 R16
 R17
 Erdecodificador_modsecu_reli
 R61
-R206
-R96
+R208
+R98
 R4
-R62
+R64
 R3
 R5
 R6
 R7
 !i122 70
 R0
-Z350 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador_ModSecu_relI.vhd
-Z351 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador_ModSecu_relI.vhd
+Z352 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador_ModSecu_relI.vhd
+Z353 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador_ModSecu_relI.vhd
 l0
-R85
+R86
 VdXgnM[QYi[hc8dl?SaFC_2
 !s100 zPTPiR7P8PVd1]zTDcRYI0
 R11
 31
-R67
+R55
 !i10b 1
-R68
-Z352 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador_ModSecu_relI.vhd|
-Z353 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador_ModSecu_relI.vhd|
+R65
+Z354 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador_ModSecu_relI.vhd|
+Z355 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/PROCESADOR/AUTO_CONTROL/DECODIFICADOR/CODIGO/Rdecodificador_ModSecu_relI.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R96
+R208
+R98
 R4
-R62
+R64
 R3
 R5
 R6
@@ -4033,47 +4033,47 @@ V[CEV@O<b]3O=LZ=T8zEe40
 !s100 UZ6ZVXaMP:4CmPeP_8YnG2
 R11
 31
-R67
+R55
 !i10b 1
-R68
-R352
-R353
+R65
+R354
+R355
 !i113 1
 R16
 R17
 Erdecopbropsec_modsecu_reli
 R61
-R206
-R132
+R208
+R134
 R4
-R62
+R64
 R3
 R5
 R6
 R7
 !i122 98
 R0
-Z354 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC_ModSecu_relI.vhd
-Z355 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC_ModSecu_relI.vhd
+Z356 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC_ModSecu_relI.vhd
+Z357 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC_ModSecu_relI.vhd
 l0
-R100
+R102
 VRYl6zgQcCg6UzPDNTN<]T2
 !s100 KKe?M9i14K2i9B83Y<d^R2
 R11
 31
-R117
+R119
 !i10b 1
-R118
-Z356 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC_ModSecu_relI.vhd|
-Z357 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC_ModSecu_relI.vhd|
+R120
+Z358 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC_ModSecu_relI.vhd|
+Z359 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/CONTROL_SEGMENTACION/COMPONENTES/DECO_PBR_opSEC/CODIGO/RdecoPBRopSEC_ModSecu_relI.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R132
+R208
+R134
 R4
-R62
+R64
 R3
 R5
 R6
@@ -4086,50 +4086,50 @@ V3?V;K=XGOkDfg^iD;b1V12
 !s100 25]CH>aVgkAd;KJg^A<J73
 R11
 31
-R117
+R119
 !i10b 1
-R118
-R356
-R357
+R120
+R358
+R359
 !i113 1
 R16
 R17
 Erdecs
-R52
-R206
+R51
+R208
 R4
-R310
+R312
 R3
+R39
 R38
-R37
 R5
 R6
 R7
 !i122 85
 R0
-Z358 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd
-Z359 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd
+Z360 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd
+Z361 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd
 l0
-R100
+R102
 V[oRja8oLGUDFkhjHQzghm3
 !s100 LYz2N]mIL9ca>06VKEBk83
 R11
 31
-R41
-!i10b 1
 R42
-Z360 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd|
-Z361 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd|
+!i10b 1
+R43
+Z362 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd|
+Z363 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/DECS/CODIGO/RDECS.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
+R208
 R4
-R310
+R312
 R3
+R39
 R38
-R37
 R5
 R6
 R7
@@ -4141,40 +4141,40 @@ V]nWza<nKoRG=C20Ob83Xn3
 !s100 ?<f[h3ImK?`CinX59N51R3
 R11
 31
-R41
-!i10b 1
 R42
-R360
-R361
+!i10b 1
+R43
+R362
+R363
 !i113 1
 R16
 R17
 Erdi_1
-R52
-R324
+R51
+R326
 R4
 R6
 R7
 !i122 42
 R0
-Z362 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd
-Z363 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd
+Z364 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd
+Z365 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd
 l0
 R58
 V9TncB2JCMCeGFB`Ad[[=l0
 !s100 ]_F4NmbUIl0dJTZ9L9KKS2
 R11
 31
-R48
+R12
 !i10b 1
-R49
-Z364 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd|
-Z365 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd|
+R13
+Z366 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd|
+Z367 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_1.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R324
+R326
 R4
 R6
 R7
@@ -4186,40 +4186,40 @@ VMz5M9]mAdmgn]>hR]cIWc2
 !s100 Lh]<imWje1RXKbjlD4EL93
 R11
 31
-R48
+R12
 !i10b 1
-R49
-R364
-R365
+R13
+R366
+R367
 !i113 1
 R16
 R17
 Erdi_n
-R52
-R324
+R51
+R326
 R4
 R6
 R7
 !i122 46
 R0
-Z366 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd
-Z367 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd
+Z368 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd
+Z369 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd
 l0
 R58
 V1nFmH?4D8`mI[48=hBo7L2
 !s100 CNW02e^mUDd2U7WT34RZd0
 R11
 31
-R48
+R12
 !i10b 1
-R49
-Z368 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd|
-Z369 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd|
+R13
+Z370 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd|
+Z371 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/CODIGO/RDI_N.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R324
+R326
 R4
 R6
 R7
@@ -4231,11 +4231,11 @@ V<<?`JjG>XLR5McP[Q9:C@3
 !s100 N^[hJJPTUd0d7z?5>i;JV1
 R11
 31
-R48
+R12
 !i10b 1
-R49
-R368
-R369
+R13
+R370
+R371
 !i113 1
 R16
 R17
@@ -4244,19 +4244,19 @@ R4
 R6
 R7
 !i122 29
-R52
+R51
 R0
 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd
 l0
-R55
+R54
 V[KDMkIfIeWV^j5m6BAR==2
 !s100 =n<LVeP4HNgjLFaF[i31D3
 R11
 31
-R48
+R62
 !i10b 1
-R60
+R63
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/REGISTRO_DESACOPLO/RegDes_pkg/RegDes_pkg.vhd|
 !i113 1
@@ -4278,7 +4278,7 @@ R11
 31
 R72
 !i10b 1
-R63
+R73
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/tipos_constantes_pkg/retardos_cntl_seg_C_pkg.vhd|
 !i113 1
@@ -4288,7 +4288,7 @@ Pretardos_cntl_seg_pkg
 R6
 R7
 !i122 0
-R52
+R51
 R0
 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd
@@ -4300,7 +4300,7 @@ R11
 31
 R72
 !i10b 1
-R63
+R73
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_cntl_seg_pkg.vhd|
 !i113 1
@@ -4322,7 +4322,7 @@ R11
 31
 R72
 !i10b 1
-R63
+R73
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_even_pkg.vhd|
 !i113 1
@@ -4344,7 +4344,7 @@ R11
 31
 R72
 !i10b 1
-R63
+R73
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/retardos_pkg.vhd|
 !i113 1
@@ -4354,7 +4354,7 @@ Pretardos_regdes_pkg
 R6
 R7
 !i122 5
-R52
+R51
 R0
 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
@@ -4366,16 +4366,16 @@ R11
 31
 R72
 !i10b 1
-R63
+R73
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/tipos_constantes_pkg/retardos_RegDes_pkg.vhd|
 !i113 1
 R16
 R17
 Erfmtd
-R52
-R206
-R64
+R51
+R208
+R66
 R5
 R3
 R4
@@ -4383,25 +4383,25 @@ R6
 R7
 !i122 75
 R0
-Z370 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd
-Z371 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd
+Z372 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd
+Z373 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd
 l0
 R10
 Vl==bbCmDSE2i7`G@:`Z1K2
 !s100 TJ]>fO7Uk]oc5Fi9U`7Y;1
 R11
 31
-R67
+R42
 !i10b 1
-R68
-Z372 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd|
-Z373 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd|
+R43
+Z374 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd|
+Z375 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/FMTD/CODIGO/RFMTD.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R64
+R208
+R66
 R5
 R3
 R4
@@ -4415,17 +4415,17 @@ V_WMiR:hP=1IXZZ21lI;=61
 !s100 I2RDYd]M[oCGXjoJj0U7d3
 R11
 31
-R67
+R42
 !i10b 1
-R68
-R372
-R373
+R43
+R374
+R375
 !i113 1
 R16
 R17
 Erfmte_c
 R61
-R206
+R208
 R22
 R23
 R24
@@ -4436,24 +4436,24 @@ R6
 R7
 !i122 113
 R0
-Z374 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE_C.vhd
-Z375 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE_C.vhd
+Z376 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE_C.vhd
+Z377 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE_C.vhd
 l0
-R93
+R95
 V^JSiefGoQZY>;f^=W8kcn0
 !s100 NEH;NAPPb5JzYQnHk`38U0
 R11
 31
-R117
+R34
 !i10b 1
-R118
-Z376 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE_C.vhd|
-Z377 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE_C.vhd|
+R29
+Z378 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE_C.vhd|
+Z379 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/MD/COMPONENTES/FMTE/ENSAMBLADO_FMTE/CODIGO/RFMTE_C.vhd|
 !i113 1
 R16
 R17
 Aestructura
-R206
+R208
 R22
 R23
 R24
@@ -4470,17 +4470,17 @@ VDZ=Xz:?z;0XRZ;NaaY2FP2
 !s100 R_mGS^8GPSJ3Q]J9lH9=V2
 R11
 31
-R117
+R34
 !i10b 1
-R118
-R376
-R377
+R29
+R378
+R379
 !i113 1
 R16
 R17
 Erfmtl
-R52
-R206
+R51
+R208
 R22
 R24
 R3
@@ -4491,24 +4491,24 @@ R6
 R7
 !i122 117
 R0
-Z378 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd
-Z379 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd
+Z380 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd
+Z381 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd
 l0
 R27
 V;=>DfzGh@kYTfY<:^mM]k3
 !s100 mK@9I`bY<4G<W17[KMkoJ2
 R11
 31
-R28
+R34
 !i10b 1
 R29
-Z380 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd|
-Z381 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd|
+Z382 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd|
+Z383 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/COMPONENTES/FMTL/ENSAMBLADO_FMTL/CODIGO/RFMTL.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
+R208
 R22
 R24
 R3
@@ -4525,18 +4525,18 @@ V1c;eWUU23fhPBkC>36Kg62
 !s100 K`_]]cSY2MmOG:7U3ECdk2
 R11
 31
-R28
+R34
 !i10b 1
 R29
-R380
-R381
+R382
+R383
 !i113 1
 R16
 R17
 Erfmts
-R52
-R206
-R310
+R51
+R208
+R312
 R5
 R3
 R4
@@ -4544,25 +4544,25 @@ R6
 R7
 !i122 88
 R0
-Z382 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd
-Z383 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd
+Z384 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd
+Z385 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd
 l0
 R10
 VXj4cZz1BIBTO9Iz`ZDkB>3
 !s100 fzH`PRdGl4dHCW9:KcYN13
 R11
 31
-R41
+R119
 !i10b 1
-R42
-Z384 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd|
-Z385 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd|
+R43
+Z386 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd|
+Z387 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/FMTS/CODIGO/RFMTS.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R310
+R208
+R312
 R5
 R3
 R4
@@ -4576,36 +4576,36 @@ V0jNdS:oIf;aS9iBaaaHB@1
 !s100 Uaffjk_OZAK_bMaOSzU[60
 R11
 31
-R41
+R119
 !i10b 1
-R42
-R384
-R385
+R43
+R386
+R387
 !i113 1
 R16
 R17
 Primpri_traza_c_pkg
-R81
-R88
-R177
+R82
+R90
+R179
 R23
 R24
-R37
-R62
+R38
+R64
 R3
 R4
-R265
-R82
+R267
+R83
 R5
 R6
 R7
 !i122 124
 R61
 R0
-Z386 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/Rimpri_traza_C_ModSecu_relI_pkg.vhd
-Z387 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/Rimpri_traza_C_ModSecu_relI_pkg.vhd
+Z388 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/Rimpri_traza_C_ModSecu_relI_pkg.vhd
+Z389 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/Rimpri_traza_C_ModSecu_relI_pkg.vhd
 l0
-R303
+R305
 V?gZEFBO`83EDbK8bn@Z7@0
 !s100 0Re8XkCNAR=Jz=BZUj4EI3
 R11
@@ -4613,25 +4613,25 @@ R11
 b1
 R28
 !i10b 1
-R29
-Z388 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/Rimpri_traza_C_ModSecu_relI_pkg.vhd|
-Z389 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/Rimpri_traza_C_ModSecu_relI_pkg.vhd|
+R87
+Z390 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/Rimpri_traza_C_ModSecu_relI_pkg.vhd|
+Z391 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/Rimpri_traza_C_ModSecu_relI_pkg.vhd|
 !i113 1
 R16
 R17
 Bbody
-R264
-R81
-R88
-R177
+R266
+R82
+R90
+R179
 R23
 R24
-R37
-R62
+R38
+R64
 R3
 R4
-R265
-R82
+R267
+R83
 R5
 R6
 R7
@@ -4644,9 +4644,9 @@ R11
 31
 R28
 !i10b 1
-R29
-R388
-R389
+R87
+R390
+R391
 !i113 1
 R16
 R17
@@ -4666,19 +4666,19 @@ R11
 31
 R72
 !i10b 1
-R63
+R73
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/tipos_constantes_pkg/riscv32_coop_funct_pkg.vhd|
 !i113 1
 R16
 R17
 Ermd
-R52
-R82
-R188
-R189
-R200
-R36
+R51
+R83
+R190
+R191
+R202
+R37
 R4
 R23
 R24
@@ -4687,28 +4687,28 @@ R6
 R7
 !i122 116
 R0
-Z390 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd
-Z391 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd
+Z392 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd
+Z393 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd
 l0
-R192
+R194
 Vb?^4OoK8abT3H_f[MW_Qa3
 !s100 6n6:imRJS9_IJ@HJZQ66C2
 R11
 31
-R28
+R34
 !i10b 1
 R29
-Z392 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd|
-Z393 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd|
+Z394 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd|
+Z395 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MD/memoria_ram/CODIGO/RMD.vhd|
 !i113 1
 R16
 R17
 Artl
-R82
-R188
-R189
-R200
-R36
+R83
+R190
+R191
+R202
+R37
 R4
 R23
 R24
@@ -4723,48 +4723,48 @@ VLnBZJAfe<8nI5fBoD@KeH3
 !s100 D<T[<a12G7^MKhR^@kI1G0
 R11
 31
-R28
+R34
 !i10b 1
 R29
-R392
-R393
+R394
+R395
 !i113 1
 R16
 R17
 Ermes
-R52
-R64
-R206
+R51
+R66
+R208
 R3
 R4
-R36
+R37
 R5
 R6
 R7
 !i122 84
 R0
-Z394 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd
-Z395 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd
+Z396 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd
+Z397 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd
 l0
-R93
+R95
 V8eRfD]Z@<b1MQ8c3hi^Nl1
 !s100 gz:ZRlRU=^_dg6Y2CaOQA2
 R11
 31
-R41
-!i10b 1
 R42
-Z396 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd|
-Z397 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd|
+!i10b 1
+R43
+Z398 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd|
+Z399 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmES.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R64
-R206
+R66
+R208
 R3
 R4
-R36
+R37
 R5
 R6
 R7
@@ -4776,53 +4776,53 @@ VNIGbGbdmQEdiFEU<;dWmK0
 !s100 4a@3=;@R=6d5jNldbA0k=0
 R11
 31
-R41
-!i10b 1
 R42
-R396
-R397
+!i10b 1
+R43
+R398
+R399
 !i113 1
 R16
 R17
 Ermi
-R52
-R82
-R188
-R189
-R195
-R36
+R51
+R83
+R190
+R191
+R197
+R37
 R23
-R177
+R179
 R4
 R5
 R6
 R7
 !i122 111
 R0
-Z398 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd
-Z399 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd
+Z400 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd
+Z401 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd
 l0
-R192
+R194
 VzjNkJWVd7S5aX0U;oCO;;3
 !s100 ^lcAS;5cWYWQHR`lf@i;H1
 R11
 31
-R117
+R34
 !i10b 1
-R118
-Z400 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd|
-Z401 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd|
+R29
+Z402 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd|
+Z403 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/MI/memoria_MI/CODIGO/RMI.vhd|
 !i113 1
 R16
 R17
 Artl
-R82
-R188
-R189
-R195
-R36
+R83
+R190
+R191
+R197
+R37
 R23
-R177
+R179
 R4
 R5
 R6
@@ -4835,18 +4835,18 @@ VEAAz=KA>k]8K00SZV8PM;0
 !s100 J`[[MKn?29zY=BcjXhO8g2
 R11
 31
-R117
+R34
 !i10b 1
-R118
-R400
-R401
+R29
+R402
+R403
 !i113 1
 R16
 R17
 Erml1_c
 R61
-R206
-R64
+R208
+R66
 R3
 R4
 R5
@@ -4854,25 +4854,25 @@ R6
 R7
 !i122 80
 R0
-Z402 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1_C.vhd
-Z403 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1_C.vhd
+Z404 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1_C.vhd
+Z405 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1_C.vhd
 l0
 R10
 Vl8BQMYF_7Rbd^Q6XMDC]83
 !s100 >A?ko=L9Vc_Q_Q7kYTXEl1
 R11
 31
-R67
+R42
 !i10b 1
-R68
-Z404 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1_C.vhd|
-Z405 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1_C.vhd|
+R43
+Z406 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1_C.vhd|
+Z407 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL1_C.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R64
+R208
+R66
 R3
 R4
 R5
@@ -4886,18 +4886,18 @@ VWdDg0E4e67>J2FX=^cm3D0
 !s100 Z9[[U?C4CMo3U;iMEXgDn0
 R11
 31
-R67
+R42
 !i10b 1
-R68
-R404
-R405
+R43
+R406
+R407
 !i113 1
 R16
 R17
 Erml2_c
 R61
-R206
-R64
+R208
+R66
 R3
 R4
 R5
@@ -4905,25 +4905,25 @@ R6
 R7
 !i122 81
 R0
-Z406 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2_C.vhd
-Z407 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2_C.vhd
+Z408 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2_C.vhd
+Z409 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2_C.vhd
 l0
 R10
 V1k`lKI6F1^c^i]BVe^HbP3
 !s100 IhaTCTA6WJAcUX:gB:<d61
 R11
 31
-R41
+R42
 !i10b 1
-R68
-Z408 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2_C.vhd|
-Z409 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2_C.vhd|
+R43
+Z410 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2_C.vhd|
+Z411 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_CORTOS/PROCESADOR/CAMINO_DATOS/UCalculo/COMPONENTES/MULTIPLEXORES/CODIGO/RmL2_C.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R64
+R208
+R66
 R3
 R4
 R5
@@ -4937,18 +4937,18 @@ VD^hKd:^DdmDVIhIdZhiRA1
 !s100 H4TgkoD29TkIdeB9Cln^G3
 R11
 31
-R41
+R42
 !i10b 1
-R68
-R408
-R409
+R43
+R410
+R411
 !i113 1
 R16
 R17
 Ermuxdirec_c_modsecu
 R61
-R206
-R310
+R208
+R312
 R3
 R4
 R5
@@ -4956,25 +4956,25 @@ R6
 R7
 !i122 91
 R0
-Z410 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec_C_ModSecu.vhd
-Z411 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec_C_ModSecu.vhd
+Z412 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec_C_ModSecu.vhd
+Z413 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec_C_ModSecu.vhd
 l0
 R71
 Vg2;2E<Wk=V53<m>ih<TUI2
 !s100 K>B`<:SN7XC6P9<^GeVJV1
 R11
 31
-R41
+R119
 !i10b 1
-R42
-Z412 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec_C_ModSecu.vhd|
-Z413 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec_C_ModSecu.vhd|
+R120
+Z414 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec_C_ModSecu.vhd|
+Z415 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmuxdirec_C_ModSecu.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R206
-R310
+R208
+R312
 R3
 R4
 R5
@@ -4988,18 +4988,18 @@ VZ>1L7YQY12ADSZm4Qbe]T2
 !s100 K:4giG1XQ?C3GXMQSX@cj0
 R11
 31
-R41
+R119
 !i10b 1
-R42
-R412
-R413
+R120
+R414
+R415
 !i113 1
 R16
 R17
 Ermuxmsic
-R52
-R206
-R310
+R51
+R208
+R312
 R3
 R4
 R5
@@ -5007,25 +5007,25 @@ R6
 R7
 !i122 93
 R0
-Z414 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd
-Z415 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd
+Z416 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd
+Z417 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd
 l0
-R93
+R95
 VNj5bd[NRSje9A2>Nad<DA2
 !s100 JW;n5>:<_9h0n347HF_oh0
 R11
 31
-R41
+R119
 !i10b 1
-R42
-Z416 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd|
-Z417 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd|
+R120
+Z418 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd|
+Z419 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/RmuxmSIC.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R310
+R208
+R312
 R3
 R4
 R5
@@ -5039,18 +5039,18 @@ V_?8[jZfg2IZ=oB<nS79QL0
 !s100 ll1DCA11Z2I:I;3h=]1P[0
 R11
 31
-R41
+R119
 !i10b 1
-R42
-R416
-R417
+R120
+R418
+R419
 !i113 1
 R16
 R17
 Ermxsecseg
-R52
-R206
-R310
+R51
+R208
+R312
 R3
 R4
 R5
@@ -5058,25 +5058,25 @@ R6
 R7
 !i122 94
 R0
-Z418 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd
-Z419 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd
+Z420 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd
+Z421 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd
 l0
-R93
+R95
 VR>CBMkj^j>G:^eWd17LbT3
 !s100 8P9I0Xi>9EIU`C=8NIEk63
 R11
 31
-R41
+R119
 !i10b 1
-R42
-Z420 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd|
-Z421 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd|
+R120
+Z422 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd|
+Z423 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/MULTIPLEXORES/CODIGO/Rmxsecseg.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R310
+R208
+R312
 R3
 R4
 R5
@@ -5085,26 +5085,26 @@ R7
 DEx4 work 9 rmxsecseg 0 22 R>CBMkj^j>G:^eWd17LbT3
 !i122 94
 l27
-R278
+R280
 V`1n^zW4KWZOZEBcdi6aTK0
 !s100 XzV[zUi3c`M:P;lb]XOS;1
 R11
 31
-R41
+R119
 !i10b 1
-R42
-R420
-R421
+R120
+R422
+R423
 !i113 1
 R16
 R17
 Erproc_md_mi_c_modsecu_reli
 R61
-Z422 DPx4 work 42 componentes_control_seg_c_modsecu_reli_pkg 0 22 ]ZbEE=3bWGifoRgNWzh>@1
-Z423 DPx4 work 42 rcomponentes_proc_md_mi_c_modsecu_reli_pkg 0 22 Eb=`h9N12F2GB]oL`]^Kb1
-Z424 DPx4 work 29 rcomponentes_proc_md_mi_c_pkg 0 22 CVK@DHRnK4WYY]`4HX]bd2
-R177
-Z425 DPx4 work 27 rcomponentes_proc_md_mi_pkg 0 22 m6S5N?aEOXzBB;RY]?MJM0
+Z424 DPx4 work 42 componentes_control_seg_c_modsecu_reli_pkg 0 22 ]ZbEE=3bWGifoRgNWzh>@1
+Z425 DPx4 work 42 rcomponentes_proc_md_mi_c_modsecu_reli_pkg 0 22 Eb=`h9N12F2GB]oL`]^Kb1
+Z426 DPx4 work 29 rcomponentes_proc_md_mi_c_pkg 0 22 CVK@DHRnK4WYY]`4HX]bd2
+R179
+Z427 DPx4 work 27 rcomponentes_proc_md_mi_pkg 0 22 m6S5N?aEOXzBB;RY]?MJM0
 R23
 R24
 R3
@@ -5114,28 +5114,28 @@ R6
 R7
 !i122 108
 R0
-Z426 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/CODIGO/Rproc_MD_MI_C_ModSecu_relI.vhd
-Z427 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/CODIGO/Rproc_MD_MI_C_ModSecu_relI.vhd
+Z428 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/CODIGO/Rproc_MD_MI_C_ModSecu_relI.vhd
+Z429 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/CODIGO/Rproc_MD_MI_C_ModSecu_relI.vhd
 l0
-R192
+R194
 V[?5=YKcR0FnlO_[^_BJ3H3
 !s100 h@8K5j@7ZY83Ddj^g2ibR3
 R11
 31
-R117
+R34
 !i10b 1
-R118
-Z428 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/CODIGO/Rproc_MD_MI_C_ModSecu_relI.vhd|
-Z429 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/CODIGO/Rproc_MD_MI_C_ModSecu_relI.vhd|
+R29
+Z430 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/CODIGO/Rproc_MD_MI_C_ModSecu_relI.vhd|
+Z431 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu_relI/ENSAMBLADO/CODIGO/Rproc_MD_MI_C_ModSecu_relI.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R422
-R423
 R424
-R177
 R425
+R426
+R179
+R427
 R23
 R24
 R3
@@ -5151,41 +5151,41 @@ Vh>DFYa98[SONH1?5hh0g20
 !s100 2HVASmzNWR8^adM5RYIOL0
 R11
 31
-R117
+R34
 !i10b 1
-R118
-R428
-R429
+R29
+R430
+R431
 !i113 1
 R16
 R17
 Erregcp
-R52
-R36
+R51
+R37
 R4
 R5
 R6
 R7
 !i122 33
 R0
-Z430 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd
-Z431 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd
+Z432 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd
+Z433 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd
 l0
-R47
+R48
 VB?L93=DlPhKl];P?oY2VV0
 !s100 3X8nTlD[>]YkEOA7V1jJh2
 R11
 31
-R48
+R62
 !i10b 1
-R49
-Z432 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd|
-Z433 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd|
+R63
+Z434 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd|
+Z435 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/PROCESADOR/CP/CODIGO/RregCP.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R36
+R37
 R4
 R5
 R6
@@ -5193,23 +5193,23 @@ R7
 DEx4 work 6 rregcp 0 22 B?L93=DlPhKl];P?oY2VV0
 !i122 33
 l20
-R237
+R239
 Vj60P;cfe]Q:UfHKl^YW9M3
 !s100 KiUPg=8PXjR`VLC8NzOYb3
 R11
 31
-R48
+R62
 !i10b 1
-R49
-R432
-R433
+R63
+R434
+R435
 !i113 1
 R16
 R17
 Ersum_secu_index
 R61
-R206
-R307
+R208
+R309
 R3
 R4
 R5
@@ -5217,25 +5217,25 @@ R6
 R7
 !i122 90
 R0
-Z434 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_index.vhd
-Z435 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_index.vhd
+Z436 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_index.vhd
+Z437 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_index.vhd
 l0
 R10
 VHc2A14m4I_kVkd:h>0:LY2
 !s100 d3Ti@Cef]K5?6SnQZPSj30
 R11
 31
-R41
+R119
 !i10b 1
-R42
-Z436 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_index.vhd|
-Z437 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_index.vhd|
+R120
+Z438 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_index.vhd|
+Z439 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_index.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R307
+R208
+R309
 R3
 R4
 R5
@@ -5244,23 +5244,23 @@ R7
 DEx4 work 15 rsum_secu_index 0 22 Hc2A14m4I_kVkd:h>0:LY2
 !i122 90
 l24
-Z438 L21 10
+Z440 L21 10
 VE;U7K?:ToJnP96cHfXcAP1
 !s100 J4TNMdZmcBOgS2MZ:FZRB3
 R11
 31
-R41
+R119
 !i10b 1
-R42
-R436
-R437
+R120
+R438
+R439
 !i113 1
 R16
 R17
 Ersum_secu_rel
 R61
-R206
-R310
+R208
+R312
 R3
 R4
 R5
@@ -5268,25 +5268,25 @@ R6
 R7
 !i122 89
 R0
-Z439 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_rel.vhd
-Z440 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_rel.vhd
+Z441 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_rel.vhd
+Z442 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_rel.vhd
 l0
 R10
 VS5DP>zDcDAl]Nnj8kJEL72
 !s100 DP>H^0AWfjGSoDC;J<U=i2
 R11
 31
-R41
+R119
 !i10b 1
-R42
-Z441 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_rel.vhd|
-Z442 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_rel.vhd|
+R120
+Z443 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_rel.vhd|
+Z444 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/Rsum_secu_rel.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R310
+R208
+R312
 R3
 R4
 R5
@@ -5295,16 +5295,16 @@ R7
 DEx4 work 13 rsum_secu_rel 0 22 S5DP>zDcDAl]Nnj8kJEL72
 !i122 89
 l24
-R438
+R440
 Vd[IE`9cOAcF5e[_F@G`;B1
 !s100 aLL9XIB?8LQ9cakoNDn323
 R11
 31
-R41
+R119
 !i10b 1
-R42
-R441
-R442
+R120
+R443
+R444
 !i113 1
 R16
 R17
@@ -5319,19 +5319,19 @@ R6
 R7
 !i122 95
 R0
-Z443 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd
-Z444 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd
+Z445 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd
+Z446 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd
 l0
-R47
+R48
 VnCV`NF:Q;N3CmF_J@PMEO3
 !s100 e0n;[VKn4:MVf:[e=4=j_0
 R11
 31
-R41
+R119
 !i10b 1
-R42
-Z445 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd|
-Z446 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd|
+R120
+Z447 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd|
+Z448 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/COMPONENTES/FMTE/COMPONENTES/SELEC_BYTE/CODIGO/sel_byte.vhd|
 !i113 1
 R16
 R17
@@ -5351,18 +5351,18 @@ V@T;NzYi05lm=VO`UmmjoO0
 !s100 j:86dO<Nf^O`Q_^glTVd41
 R11
 31
-R41
+R119
 !i10b 1
-R42
-R445
-R446
+R120
+R447
+R448
 !i113 1
 R16
 R17
 Esenya_cntlrd
-R52
-R206
-R125
+R51
+R208
+R127
 R5
 R3
 R4
@@ -5370,25 +5370,25 @@ R6
 R7
 !i122 101
 R0
-Z447 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd
-Z448 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd
+Z449 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd
+Z450 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd
 l0
 R10
 VdcgKMM]1m6?LJ3=eXR0j[1
 !s100 75dLD02oP`K]nW=^3`8NQ3
 R11
 31
-R117
+R119
 !i10b 1
-R118
-Z449 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd|
-Z450 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd|
+R120
+Z451 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd|
+Z452 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRD.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R125
+R208
+R127
 R5
 R3
 R4
@@ -5402,18 +5402,18 @@ V53iPfVFG8i7CY2NR5kAo[3
 !s100 ?zP0aEKT1C8=c1c7nf0B^3
 R11
 31
-R117
+R119
 !i10b 1
-R118
-R449
-R450
+R120
+R451
+R452
 !i113 1
 R16
 R17
 Esenya_cntlrs
-R52
-R206
-R125
+R51
+R208
+R127
 R5
 R3
 R4
@@ -5421,25 +5421,25 @@ R6
 R7
 !i122 106
 R0
-Z451 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd
-Z452 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd
+Z453 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd
+Z454 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd
 l0
 R27
 VzBCjfFaoo?7k>HT[L^09n3
 !s100 Qfm_?oZ0BzO7hCbOB9zM11
 R11
 31
-R117
+R34
 !i10b 1
-R118
-Z453 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd|
-Z454 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd|
+R29
+Z455 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd|
+Z456 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/SENYALES_CNTL/CODIGO/senya_cntlRS.vhd|
 !i113 1
 R16
 R17
 Aestructural
-R206
-R125
+R208
+R127
 R5
 R3
 R4
@@ -5448,22 +5448,22 @@ R7
 DEx4 work 12 senya_cntlrs 0 22 zBCjfFaoo?7k>HT[L^09n3
 !i122 106
 l22
-R246
+R248
 VC6>YM^cT9B4_Qjj4D8O031
 !s100 Uh:;d0=C2e3[zkDGefDa52
 R11
 31
-R117
+R34
 !i10b 1
-R118
-R453
-R454
+R29
+R455
+R456
 !i113 1
 R16
 R17
 Esum_index
 R61
-R36
+R37
 R3
 R4
 R5
@@ -5471,8 +5471,8 @@ R6
 R7
 !i122 52
 R0
-Z455 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_index.vhd
-Z456 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_index.vhd
+Z457 8/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_index.vhd
+Z458 F/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_index.vhd
 l0
 R27
 Vf9541Pa6HF^81GZ;4^eS@1
@@ -5482,13 +5482,13 @@ R11
 R12
 !i10b 1
 R13
-Z457 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_index.vhd|
-Z458 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_index.vhd|
+Z459 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_index.vhd|
+Z460 !s107 /home/eloi/uni/q5/AC2/labs/LAB6/PROC_SEG_ModSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sum_index.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R36
+R37
 R3
 R4
 R5
@@ -5505,24 +5505,24 @@ R11
 R12
 !i10b 1
 R13
-R457
-R458
+R459
+R460
 !i113 1
 R16
 R17
 Esumador
 R1
-R36
+R37
 R4
 R5
 R6
 R7
 !i122 50
 R0
-Z459 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd
-Z460 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd
+Z461 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd
+Z462 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd
 l0
-R47
+R48
 VMU1h:4XT;SWjS8j9d3Ojh1
 !s100 3e?P0K_YALQMY>nM4c4Pm3
 R11
@@ -5530,13 +5530,13 @@ R11
 R12
 !i10b 1
 R13
-Z461 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd|
-Z462 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd|
+Z463 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd|
+Z464 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/SUMADOR/CODIGO/sumador.vhd|
 !i113 1
 R16
 R17
 Acomportamiento
-R36
+R37
 R4
 R5
 R6
@@ -5552,8 +5552,8 @@ R11
 R12
 !i10b 1
 R13
-R461
-R462
+R463
+R464
 !i113 1
 R16
 R17
@@ -5573,9 +5573,9 @@ V<ScGSocn1NMKB6ATCeSRP2
 !s100 b2gU9[W9PaAJ8XU4PRage3
 R11
 31
-R72
+R59
 !i10b 1
-R63
+R60
 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/tipos_ctes_MI_pkg/tipos_constan_memoria_I_pkg.vhd|
 !s107 /home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MI/tipos_ctes_MI_pkg/tipos_constan_memoria_I_pkg.vhd|
 !i113 1
@@ -5593,7 +5593,7 @@ R0
 8/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd
 F/home/eloi/uni/q5/AC2/labs/LAB4/PROC_SERIE/MD/tipos_ctes_MD_pkg/tipos_constan_memoria_pkg.vhd
 l0
-R47
+R48
 VNO1WZ1C0^jalMSBdlTHlM3
 !s100 cc7c3?P?=5E`B9MF7d3G42
 R11
@@ -5607,17 +5607,17 @@ R60
 R16
 R17
 Evalreg
-R52
+R51
 R4
-R37
+R38
 R3
 R5
 R6
 R7
 !i122 56
 R0
-Z463 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd
-Z464 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd
+Z465 8/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd
+Z466 F/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd
 l0
 R27
 V3dbd?@ESPYPdoh4H=k0<b2
@@ -5627,14 +5627,14 @@ R11
 R12
 !i10b 1
 R13
-Z465 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd|
-Z466 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd|
+Z467 !s90 -reportprogress|300|-93|-work|work|/home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd|
+Z468 !s107 /home/eloi/uni/q5/AC2/labs/LAB5/PROC_SEGMENTADO/CONTROL_SEGMENTACION/COMPONENTES/VALIDACION/CODIGO/valreg.vhd|
 !i113 1
 R16
 R17
 Acompor
 R4
-R37
+R38
 R3
 R5
 R6
@@ -5650,8 +5650,8 @@ R11
 R12
 !i10b 1
 R13
-R465
-R466
+R467
+R468
 !i113 1
 R16
 R17
